@@ -15,13 +15,13 @@ function collate(array) {
 }
 
 function getPokemonList(data) {
-  return collate(data.map(team => team.map(set => set.species)).flat());
+  return collate(data.map(team => team.team.map(set => set.species)).flat());
 }
 
 function query(data, {species, item, ability, teraType, moves, teammates}) {
   const sets = [];
   data.forEach(team => {
-    team.forEach(set => {
+    team.team.forEach(set => {
       if(species && species !== set.species) {
         return;
       }

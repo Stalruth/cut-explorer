@@ -6,12 +6,21 @@ export let query = [];
 export let total = 1;
 
 $: queryItems = [query].flat();
+$: sortedItems = items.sort((a, b) => {
+  if(queryItems.includes(a.name) === queryItems.includes(b.name)) {
+    return 0
+  }
+  if(queryItems.includes(a.name)) {
+    return -1;
+  }
+  return 1;
+});
 </script>
 
 <div>
   <h3>{title}</h3>
   <ul>
-    {#each items as item (item.name)}
+    {#each sortedItems as item (item.name)}
       <li>
         <label>
           <input
@@ -30,5 +39,6 @@ $: queryItems = [query].flat();
 <style>
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 </style>

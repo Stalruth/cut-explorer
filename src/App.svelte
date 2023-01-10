@@ -3,7 +3,7 @@ import PokemonSelector from './components/PokemonSelector.svelte';
 import ReportView from './components/ReportView.svelte';
 
 import * as stats from './lib/stats.js';
-import teamList from './lib/sanDiegoTeams.json';
+import teamList from './lib/2023-san-diego-regional-championships.json';
 
 function mergeQuery(species, partial) {
   if(species === partial.species) {
