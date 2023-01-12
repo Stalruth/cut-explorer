@@ -16,13 +16,13 @@ let pokemon = '';
 let partialQuery = {};
 
 $: query = mergeQuery(pokemon, partialQuery);
-$: results = stats.report(teamList, query);
+$: results = stats.report(teamList.teams, query);
 </script>
 
 <main>
   <h1>San Diego Top Cut Explorer</h1>
   <PokemonSelector
-    pokemonList={stats.getPokemonList(teamList)}
+    pokemonList={stats.getPokemonList(teamList.teams)}
     bind:pokemon={pokemon}
   />
   {#if pokemon}
