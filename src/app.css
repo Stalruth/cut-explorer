@@ -60,11 +60,17 @@ select {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
   .flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .flex-container > * {
+    flex-grow: 1;
+    flex-basis: 30%;
   }
 }
 

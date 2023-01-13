@@ -31,10 +31,10 @@ export let results = {};
 
 <div class="flex-container">
   <Detail
-    title="Items"
-    changeHandler={getCheckHandler('item')}
-    items={results.item}
-    query={query.item}
+    title="Tera Types"
+    changeHandler={getCheckHandler('teraType')}
+    items={results.teraType}
+    query={query.teraType}
     total={results.total}
   />
 
@@ -47,15 +47,13 @@ export let results = {};
   />
 
   <Detail
-    title="Tera Types"
-    changeHandler={getCheckHandler('teraType')}
-    items={results.teraType}
-    query={query.teraType}
+    title="Items"
+    changeHandler={getCheckHandler('item')}
+    items={results.item}
+    query={query.item}
     total={results.total}
   />
-</div>
 
-<div class="flex-container">
   <Detail
     title="Moves"
     changeHandler={getCheckHandler('moves')}
