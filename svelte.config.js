@@ -9,6 +9,7 @@ const config = {
         entries: [
           '/',
           '/regionals-san-diego',
+          '/nino-sv-ff-62',
         ],
       },
     }),
