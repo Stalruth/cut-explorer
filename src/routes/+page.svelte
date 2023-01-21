@@ -6,7 +6,7 @@
 </svelte:head>
 
 <h1>Top Cut Explorer</h1>
-<details open>
+<details>
   <summary>Series 1 (1-Jan to 28-Feb-2023)</summary>
   <ul>
     <li>
@@ -17,6 +17,9 @@
 <details open>
   <summary>Series 2 (1-Feb to 31-Mar-2023)</summary>
   <ul>
+    <li>
+      <a href="beani-brawl-rumble-ww-1">Beanie Brawl Rumble: Wooper Wednesdays 1</a>
+    </li>
     <li>
       <a href="nino-sv-ff-62">Nino Scarlet/Violet FF #62</a>
     </li>

@@ -1,0 +1,97 @@
+{
+  "name": "Beanie Brawl Rumble: Wooper Wednesdays 1",
+  "dates": {
+    "start": {
+      "day": 13,
+      "month": 1,
+      "year": 2023
+    },
+    "end": {
+      "day": 13,
+      "month": 1,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "Hobbit",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/Hobbit",
+      "swiss": {
+        "wins": 6,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 1
+    },
+    {
+      "name": "ScarletSkil",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/ScarletSkil",
+      "swiss": {
+        "wins": 6,
+        "losses": 0,
+        "place": 2
+      },
+      "top": 4
+    },
+    {
+      "name": "PipLup175",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/PipLup175",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 8
+    },
+    {
+      "name": "yotam",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/yotam",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "SableyeVGC",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/SableyeVGC",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "ZapVGC",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/ZapVGC",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 6
+      },
+      "top": 2
+    },
+    {
+      "name": "Kaneoji",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/Kaneoji",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 7
+      },
+      "top": 8
+    },
+    {
+      "name": "JoeUX9",
+      "pasteFile": "listings/beani-brawl-rumble-ww-1/JoeUX9",
+      "swiss": {
+        "wins": 5,
+        "losses": 1,
+        "place": 8
+      },
+      "top": 8
+    }
+  ]
+}
