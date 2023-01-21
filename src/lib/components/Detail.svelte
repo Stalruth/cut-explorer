@@ -17,24 +17,22 @@ $: sortedItems = items.sort((a, b) => {
 });
 </script>
 
-<div>
-  <h3>{title}</h3>
-  <ul>
-    {#each sortedItems as item (item.name)}
-      <li>
-        <label>
-          <input
-            type="checkbox"
-            value={item.name}
-            on:change={changeHandler}
-            checked={queryItems.includes(item.name)}
-          >
-          {item.name} ({item.count}/{total})
-        </label>
-      </li>
-    {/each}
-  </ul>
-</div>
+<h3>{title}</h3>
+<ul>
+  {#each sortedItems as item (item.name)}
+    <li>
+      <label>
+        <input
+          type="checkbox"
+          value={item.name}
+          on:change={changeHandler}
+          checked={queryItems.includes(item.name)}
+        >
+        {item.name} ({item.count}/{total})
+      </label>
+    </li>
+  {/each}
+</ul>
 
 <style>
 ul {
