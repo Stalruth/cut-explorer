@@ -12,5 +12,8 @@
     <li>
       <a href="regional-san-diego">2023 San Diego Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-liverpool">2023 Liverpool Regional Championships</a>
+    </li>
   </ul>
 </details>
