@@ -1,0 +1,347 @@
+{
+  "name": "Nino PokéBros Scarlet/Violet FF #63",
+  "dates": {
+    "start": {
+      "day": 22,
+      "month": 1,
+      "year": 2023
+    },
+    "end": {
+      "day": 22,
+      "month": 1,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "YTPPSR",
+      "pasteFile": "listings/nino-sv-ff-63/1",
+      "swiss": {
+        "wins": 9,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 32
+    },
+    {
+      "name": "Erikbound",
+      "pasteFile": "listings/nino-sv-ff-63/2",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 2
+      },
+      "top": 16
+    },
+    {
+      "name": "yotam",
+      "pasteFile": "listings/nino-sv-ff-63/3",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 32
+    },
+    {
+      "name": "45mice",
+      "pasteFile": "listings/nino-sv-ff-63/4",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 4
+      },
+      "top": 32
+    },
+    {
+      "name": "Yuzu",
+      "pasteFile": "listings/nino-sv-ff-63/5",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "animus",
+      "pasteFile": "listings/nino-sv-ff-63/6",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 6
+      },
+      "top": 16
+    },
+    {
+      "name": "Arath",
+      "pasteFile": "listings/nino-sv-ff-63/7",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 7
+      },
+      "top": 16
+    },
+    {
+      "name": "TiggelWiggel",
+      "pasteFile": "listings/nino-sv-ff-63/8",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 8
+      },
+      "top": 16
+    },
+    {
+      "name": "Palo",
+      "pasteFile": "listings/nino-sv-ff-63/9",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 9
+      },
+      "top": 8
+    },
+    {
+      "name": "LuckySama",
+      "pasteFile": "listings/nino-sv-ff-63/10",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 10
+      },
+      "top": 32
+    },
+    {
+      "name": "Halestorm",
+      "pasteFile": "listings/nino-sv-ff-63/11",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 11
+      },
+      "top": 32
+    },
+    {
+      "name": "Liakos",
+      "pasteFile": "listings/nino-sv-ff-63/12",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 12
+      },
+      "top": 16
+    },
+    {
+      "name": "AzazeLTheGod",
+      "pasteFile": "listings/nino-sv-ff-63/13",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 13
+      },
+      "top": 32
+    },
+    {
+      "name": "kiuru",
+      "pasteFile": "listings/nino-sv-ff-63/14",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 14
+      },
+      "top": 8
+    },
+    {
+      "name": "Guacamou",
+      "pasteFile": "listings/nino-sv-ff-63/15",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 15
+      },
+      "top": 32
+    },
+    {
+      "name": "Aminko",
+      "pasteFile": "listings/nino-sv-ff-63/16",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 16
+      },
+      "top": 32
+    },
+    {
+      "name": "kendi",
+      "pasteFile": "listings/nino-sv-ff-63/17",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 17
+      },
+      "top": 4
+    },
+    {
+      "name": "Watrr",
+      "pasteFile": "listings/nino-sv-ff-63/18",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 18
+      },
+      "top": 2
+    },
+    {
+      "name": "Breaker999",
+      "pasteFile": "listings/nino-sv-ff-63/19",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 19
+      },
+      "top": 32
+    },
+    {
+      "name": "Ally",
+      "pasteFile": "listings/nino-sv-ff-63/20",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 20
+      },
+      "top": 1
+    },
+    {
+      "name": "z0mog",
+      "pasteFile": "listings/nino-sv-ff-63/21",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 21
+      },
+      "top": 32
+    },
+    {
+      "name": "rotomorz",
+      "pasteFile": "listings/nino-sv-ff-63/22",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 22
+      },
+      "top": 4
+    },
+    {
+      "name": "Angel B",
+      "pasteFile": "listings/nino-sv-ff-63/23",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 23
+      },
+      "top": 8
+    },
+    {
+      "name": "AntATK",
+      "pasteFile": "listings/nino-sv-ff-63/24",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 24
+      },
+      "top": 32
+    },
+    {
+      "name": "MichaelderBeste",
+      "pasteFile": "listings/nino-sv-ff-63/25",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 25
+      },
+      "top": 32
+    },
+    {
+      "name": "GrandmasCookin",
+      "pasteFile": "listings/nino-sv-ff-63/26",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 26
+      },
+      "top": 32
+    },
+    {
+      "name": "vaangs",
+      "pasteFile": "listings/nino-sv-ff-63/27",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 27
+      },
+      "top": 32
+    },
+    {
+      "name": "Lorenzo",
+      "pasteFile": "listings/nino-sv-ff-63/28",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 28
+      },
+      "top": 32
+    },
+    {
+      "name": "Nestfloh",
+      "pasteFile": "listings/nino-sv-ff-63/29",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 29
+      },
+      "top": 16
+    },
+    {
+      "name": "SnoSan",
+      "pasteFile": "listings/nino-sv-ff-63/30",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 30
+      },
+      "top": 16
+    },
+    {
+      "name": "OmegaAlpha01",
+      "pasteFile": "listings/nino-sv-ff-63/31",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 31
+      },
+      "top": 32
+    },
+    {
+      "name": "PhantomEvil61",
+      "pasteFile": "listings/nino-sv-ff-63/32",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 32
+      },
+      "top": 16
+    },
+    {
+      "name": "Randy C",
+      "pasteFile": "listings/nino-sv-ff-63/33",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 33
+      },
+      "top": 64
+    }
+  ]
+}
