@@ -30,6 +30,9 @@
       <a href="beani-brawl-rumble-ww-2">Beanie Brawl Rumble: Wooper Wednesdays 2</a>
     </li>
     <li>
+      <a href="wide-league-saturday-night-rumble-2">The Wide League Saturday Night Rumble #2</a>
+    </li>
+    <li>
       <a href="nino-sv-ff-63">Nino Scarlet/Violet FF #63</a>
     </li>
   </ul>

@@ -1,0 +1,247 @@
+{
+  "name": "The Wide League Saturday Night Rumble #2",
+  "dates": {
+    "start": {
+      "day": 21,
+      "month": 1,
+      "year": 2023
+    },
+    "end": {
+      "day": 21,
+      "month": 1,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "Pedrovgc21",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/1",
+      "swiss": {
+        "wins": 7,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 4
+    },
+    {
+      "name": "konflicted",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/2",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 2
+      },
+      "top": 16
+    },
+    {
+      "name": "Angel V",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/3",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 8
+    },
+    {
+      "name": "nar9le",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/4",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 8
+    },
+    {
+      "name": "Winterknight87",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/5",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 16
+    },
+    {
+      "name": "Andrew Gouck",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/6",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 16
+    },
+    {
+      "name": "ezfeeder",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/7",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 7
+      },
+      "top": 8
+    },
+    {
+      "name": "RamuzVGC",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/8",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 8
+      },
+      "top": 16
+    },
+    {
+      "name": "Ando",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/9",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 9
+      },
+      "top": 8
+    },
+    {
+      "name": "ZanzibarVGC",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/10",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 10
+      },
+      "top": 32
+    },
+    {
+      "name": "OldSweepy",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/11",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 11
+      },
+      "top": 32
+    },
+    {
+      "name": "Edalmi",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/12",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 12
+      },
+      "top": 2
+    },
+    {
+      "name": "kairoshi",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/13",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 13
+      },
+      "top": 32
+    },
+    {
+      "name": "CrypticCreative",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/14",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 14
+      },
+      "top": 16
+    },
+    {
+      "name": "sheik",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/15",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 15
+      },
+      "top": 1
+    },
+    {
+      "name": "NemoflyMT",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/16",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 16
+      },
+      "top": 16
+    },
+    {
+      "name": "QuickDartVGC",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/17",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 17
+      },
+      "top": 32
+    },
+    {
+      "name": "Riczi",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/18",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 18
+      },
+      "top": 32
+    },
+    {
+      "name": "truewiltank",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/19",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 19
+      },
+      "top": 32
+    },
+    {
+      "name": "Jaden R",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/20",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 20
+      },
+      "top": 16
+    },
+    {
+      "name": "DeeBo",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/21",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 21
+      },
+      "top": 32
+    },
+    {
+      "name": "ScotchTapeVGC",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/22",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 22
+      },
+      "top": 4
+    },
+    {
+      "name": "LittleBigGuy",
+      "pasteFile": "listings/wide-league-saturday-night-rumble-2/23",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 23
+      },
+      "top": 16
+    }
+  ]
+}
