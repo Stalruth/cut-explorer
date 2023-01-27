@@ -35,5 +35,8 @@
     <li>
       <a href="nino-sv-ff-63">Nino Scarlet/Violet FF #63</a>
     </li>
+    <li>
+      <a href="beani-brawl-rumble-ww-3">Beanie Brawl Rumble: Wooper Wednesdays 3</a>
+    </li>
   </ul>
 </details>

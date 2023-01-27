@@ -1,0 +1,97 @@
+{
+  "name": "Beanie Brawl Rumble: Wooper Wednesdays 3",
+  "dates": {
+    "start": {
+      "day": 26,
+      "month": 1,
+      "year": 2023
+    },
+    "end": {
+      "day": 26,
+      "month": 1,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "Kosta K",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/1",
+      "swiss": {
+        "wins": 8,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 1
+    },
+    {
+      "name": "Alchem1st",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/2",
+      "swiss": {
+        "wins": 7,
+        "losses": 1,
+        "place": 2
+      },
+      "top": 4
+    },
+    {
+      "name": "Papito",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/3",
+      "swiss": {
+        "wins": 7,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 8
+    },
+    {
+      "name": "Galo O",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/4",
+      "swiss": {
+        "wins": 7,
+        "losses": 1,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "Wavvvy",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/5",
+      "swiss": {
+        "wins": 7,
+        "losses": 1,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "RyanTwGoodra",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/6",
+      "swiss": {
+        "wins": 6,
+        "losses": 2,
+        "place": 6
+      },
+      "top": 2
+    },
+    {
+      "name": "Peters",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/7",
+      "swiss": {
+        "wins": 6,
+        "losses": 2,
+        "place": 7
+      },
+      "top": 8
+    },
+    {
+      "name": "Kirky014",
+      "pasteFile": "listings/beani-brawl-rumble-ww-3/8",
+      "swiss": {
+        "wins": 6,
+        "losses": 2,
+        "place": 8
+      },
+      "top": 8
+    }
+  ]
+}
