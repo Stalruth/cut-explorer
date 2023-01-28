@@ -24,7 +24,7 @@
       <a href="beani-brawl-rumble-ww-1">Beanie Brawl Rumble: Wooper Wednesdays 1</a>
     </li>
     <li>
-      <a href="nino-sv-ff-62">Nino Scarlet/Violet FF #62</a>
+      <a href="nino-sv-ff-62">Nino PokéBros Scarlet/Violet FF #62</a>
     </li>
     <li>
       <a href="beani-brawl-rumble-ww-2">Beanie Brawl Rumble: Wooper Wednesdays 2</a>
@@ -33,10 +33,13 @@
       <a href="wide-league-saturday-night-rumble-2">The Wide League Saturday Night Rumble #2</a>
     </li>
     <li>
-      <a href="nino-sv-ff-63">Nino Scarlet/Violet FF #63</a>
+      <a href="nino-sv-ff-63">Nino PokéBros Scarlet/Violet FF #63</a>
     </li>
     <li>
       <a href="beani-brawl-rumble-ww-3">Beanie Brawl Rumble: Wooper Wednesdays 3</a>
+    </li>
+    <li>
+      <a href="nino-sv-ff-64">Nino PokéBros Scarlet/Violet FF #64</a>
     </li>
   </ul>
 </details>
