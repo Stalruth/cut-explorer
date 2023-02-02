@@ -21,7 +21,7 @@
         "losses": 0,
         "place": 1
       },
-      "top": 16
+      "top": 4
     },
     {
       "name": "MeLuCa",
@@ -31,7 +31,7 @@
         "losses": 1,
         "place": 2
       },
-      "top": 32
+      "top": 16
     },
     {
       "name": "RIC",
@@ -41,7 +41,7 @@
         "losses": 1,
         "place": 3
       },
-      "top": 32
+      "top": 4
     },
     {
       "name": "ThatManDenis",
@@ -51,7 +51,7 @@
         "losses": 1,
         "place": 4
       },
-      "top": 32
+      "top": 16
     },
     {
       "name": "ZeldaVox",
@@ -81,7 +81,7 @@
         "losses": 1,
         "place": 7
       },
-      "top": 8
+      "top": 2
     },
     {
       "name": "leleBK",
@@ -101,7 +101,7 @@
         "losses": 1,
         "place": 9
       },
-      "top": 32
+      "top": 8
     },
     {
       "name": "Pokebeys",
@@ -191,7 +191,7 @@
         "losses": 2,
         "place": 18
       },
-      "top": 16
+      "top": 8
     },
     {
       "name": "marimari",
@@ -211,7 +211,7 @@
         "losses": 2,
         "place": 20
       },
-      "top": 16
+      "top": 8
       
     },
     {
@@ -222,7 +222,7 @@
         "losses": 2,
         "place": 21
       },
-      "top": 16
+      "top": 1
     },
     {
       "name": "420IQ",
@@ -282,7 +282,7 @@
         "losses": 2,
         "place": 27
       },
-      "top": 64
+      "top": 8
     },
     {
       "name": "JenkinsVGC",
@@ -322,7 +322,7 @@
         "losses": 2,
         "place": 31
       },
-      "top": 64
+      "top": 32
     },
     {
       "name": "Resu",
@@ -362,7 +362,7 @@
         "losses": 2,
         "place": 35
       },
-      "top": 64
+      "top": 32
     },
     {
       "name": "ezfeeder",
@@ -382,7 +382,7 @@
         "losses": 2,
         "place": 37
       },
-      "top": 64
+      "top": 16
     },
     {
       "name": "Derith96",
