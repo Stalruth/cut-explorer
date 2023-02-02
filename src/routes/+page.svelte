@@ -41,5 +41,8 @@
     <li>
       <a href="nino-sv-ff-64">Nino PokéBros Scarlet/Violet FF #64</a>
     </li>
+    <li>
+      <a href="beani-brawl-order-up-orlando">Beanie Brawl: Order Up Orlando</a>
+    </li>
   </ul>
 </details>

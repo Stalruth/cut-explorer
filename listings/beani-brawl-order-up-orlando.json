@@ -1,0 +1,177 @@
+{
+  "name": "Beanie Brawl: Order Up Orlando",
+  "dates": {
+    "start": {
+      "day": 26,
+      "month": 1,
+      "year": 2023
+    },
+    "end": {
+      "day": 26,
+      "month": 1,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "FedeCampoVGC",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/1",
+      "swiss": {
+        "wins": 9,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 8
+    },
+    {
+      "name": "RufflesBag",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/2",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 2
+      },
+      "top": 16
+    },
+    {
+      "name": "Pengy",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/3",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 16
+    },
+    {
+      "name": "marcofiero",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/4",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "yotam",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/5",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "arsalp",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/6",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 6
+      },
+      "top": 8
+    },
+    {
+      "name": "Giulio Tarlao",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/7",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 7
+      },
+      "top": 4
+    },
+    {
+      "name": "Samuel P",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/8",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 8
+      },
+      "top": 2
+    },
+    {
+      "name": "Derith96",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/9",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 9
+      },
+      "top": 16
+    },
+    {
+      "name": "Ghiso",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/10",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 10
+      },
+      "top": 16
+    },
+    {
+      "name": "Lauri Halonen",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/11",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 11
+      },
+      "top": 16
+    },
+    {
+      "name": "OnlyAlfo",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/12",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 12
+      },
+      "top": 16
+    },
+    {
+      "name": "LuckySama",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/13",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 13
+      },
+      "top": 16
+    },
+    {
+      "name": "JMOdri",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/14",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 14
+      },
+      "top": 1
+    },
+    {
+      "name": "JuanmaEl32",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/15",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 15
+      },
+      "top": 8
+    },
+    {
+      "name": "Kimo N",
+      "pasteFile": "listings/beani-brawl-order-up-orlando/16",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 16
+      },
+      "top": 16
+    }
+  ]
+}
