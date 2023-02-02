@@ -44,5 +44,8 @@
     <li>
       <a href="beani-brawl-order-up-orlando">Beanie Brawl: Order Up Orlando</a>
     </li>
+    <li>
+      <a href="beani-brawl-rumble-ww-4">Beanie Brawl Rumble: Wooper Wednesdays 4</a>
+    </li>
   </ul>
 </details>
