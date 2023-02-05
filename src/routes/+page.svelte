@@ -6,7 +6,7 @@
 </svelte:head>
 
 <h1>Top Cut Explorer</h1>
-<details open>
+<details>
   <summary>Series 1 (1-Jan to 28-Feb-2023)</summary>
   <ul>
     <li>
@@ -14,6 +14,14 @@
     </li>
     <li>
       <a href="regional-liverpool">2023 Liverpool Regional Championships</a>
+    </li>
+  </ul>
+</details>
+<details open>
+  <summary>Series 2 (1-Feb to 31-Mar-2023)</summary>
+  <ul>
+    <li>
+      <a href="regional-orlando">2023 Orlando Regional Championships</a>
     </li>
   </ul>
 </details>
