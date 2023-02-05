@@ -20,6 +20,10 @@ let partialQuery = {};
 $: query = mergeQuery(pokemon, partialQuery);
 $: setResults = stats.report(data.teams, query);
 $: playerResults = stats.queryPlayers(data.teams, query);
+
+function clearScreen(e) {
+  pokemon = '';
+}
 </script>
 
 <svelte:head>
@@ -34,10 +38,17 @@ $: playerResults = stats.queryPlayers(data.teams, query);
 </nav>
 
 <h1>{data.name} Top Cut Explorer</h1>
-<PokemonSelector
-  pokemonList={stats.getPokemonList(data.teams)}
-  bind:pokemon={pokemon}
-/>
+<div class="controlbar">
+  <PokemonSelector
+    pokemonList={stats.getPokemonList(data.teams)}
+    bind:pokemon={pokemon}
+  />
+  <button
+    on:click={clearScreen}
+  >
+    Clear Pokémon
+  </button>
+</div>
 {#if pokemon}
   <ReportView
     bind:query={query}
@@ -50,6 +61,16 @@ $: playerResults = stats.queryPlayers(data.teams, query);
 />
 
 <style>
+button {
+  padding: 0.4rem 0.8rem;
+  margin: 0 0 1rem 0;
+}
+
+div.controlbar {
+  display: flex;
+  gap: 1rem;
+}
+
 nav a::before {
   content: '← ';
 }
