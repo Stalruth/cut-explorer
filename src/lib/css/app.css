@@ -4,10 +4,6 @@
   font-size: 18px;
 }
 
-a {
-  text-decoration: underline;
-}
-
 blockquote {
   font-size: large;
   margin: 0.5rem auto;
@@ -34,6 +30,10 @@ header {
 
 main {
   flex-grow: 1;
+}
+
+nav {
+  margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -18,36 +18,43 @@ function getPokemonList(data) {
   return collate(data.map(team => team.team.map(set => set.species)).flat());
 }
 
-function query(data, {species, item, ability, teraType, moves, teammates}) {
+function matchSet(set, {species, item, ability, teraType, moves, teammates}) {
+  if(species && species !== set.species) {
+    return false;
+  }
+  if(item && item !== set.item) {
+    return false;
+  }
+  if(ability && ability !== set.ability) {
+    return false;
+  }
+  if(teraType && teraType !== set.teraType) {
+    return false;
+  }
+  if(moves && !moves.map(move=>set.moves.includes(move)).reduce((a,c)=>a&&c, true)) {
+    return false;
+  }
+  if(teammates && !teammates.map(move=>set.teammates.includes(move)).reduce((a,c)=>a&&c, true)) {
+    return false;
+  }
+
+  return true;
+}
+
+function querySets(data, parameters) {
   const sets = [];
-  data.forEach(team => {
-    team.team.forEach(set => {
-      if(species && species !== set.species) {
-        return;
+  data.forEach(player => {
+    player.team.forEach(set => {
+      if(matchSet(set, parameters)) {
+        sets.push(set);
       }
-      if(item && item !== set.item) {
-        return;
-      }
-      if(ability && ability !== set.ability) {
-        return;
-      }
-      if(teraType && teraType !== set.teraType) {
-        return;
-      }
-      if(moves && !moves.map(move=>set.moves.includes(move)).reduce((a,c)=>a&&c, true)) {
-        return;
-      }
-      if(teammates && !teammates.map(move=>set.teammates.includes(move)).reduce((a,c)=>a&&c, true)) {
-        return;
-      }
-      sets.push(set);
     });
   });
   return sets;
 }
 
 function report(data, queryArgs) {
-  const result = query(data, queryArgs);
+  const result = querySets(data, queryArgs);
   const report = {
     total: result.length,
   };
@@ -57,5 +64,15 @@ function report(data, queryArgs) {
   return report;
 }
 
-export { getPokemonList, query, report }
+function queryPlayers(data, query) {
+  const players = [];
+  data.forEach(player => {
+    if(player.team.map(set => matchSet(set, query)).includes(true)) {
+      players.push(player);
+    }
+  });
+  return players;
+}
+
+export { getPokemonList, querySets, report, queryPlayers }
 
