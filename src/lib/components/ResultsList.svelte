@@ -24,7 +24,7 @@ export let players = {};
     <p>
       {#each player.team as set}
         <span
-          style={Icons.getPokemon(set.species).style}
+          style={Icons.getPokemon(set.species, {scheme: "https", domain: "cut-explorer.stalruth.dev"}).style}
         >
         </span>
       {/each}
