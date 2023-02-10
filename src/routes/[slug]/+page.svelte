@@ -44,11 +44,13 @@ function clearScreen(e) {
     pokemonList={stats.getPokemonList(data.teams)}
     bind:pokemon={pokemon}
   />
-  <button
-    on:click={clearScreen}
-  >
-    Clear Pokémon
-  </button>
+  {#if pokemon}
+    <button
+      on:click={clearScreen}
+    >
+      Clear Pokémon
+    </button>
+  {/if}
 </div>
 {#if pokemon}
   <ReportView
@@ -65,6 +67,7 @@ function clearScreen(e) {
 button {
   padding: 0.4rem 0.8rem;
   margin: 0 0 1rem 0;
+  border: 0;
 }
 
 div.controlbar {
