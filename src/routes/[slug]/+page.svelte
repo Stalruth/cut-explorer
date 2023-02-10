@@ -35,7 +35,7 @@ function clearScreen(e) {
 </svelte:head>
 
 <nav>
-  <a href="/">Back</a>
+  <a href="/">Index</a>
 </nav>
 
 <h1>{data.name} Top Cut Explorer</h1>
