@@ -18,8 +18,7 @@ let pokemon = '';
 let partialQuery = {};
 
 $: query = mergeQuery(pokemon, partialQuery);
-$: setResults = stats.report(data.teams, query);
-$: playerResults = stats.queryPlayers(data.teams, query);
+$: results = stats.report(data.teams, query);
 
 function clearScreen(e) {
   pokemon = '';
@@ -55,12 +54,12 @@ function clearScreen(e) {
 {#if pokemon}
   <ReportView
     bind:query={query}
-    results={setResults}
+    results={results.sets}
   />
 {/if}
 
 <ResultsList
-  players={playerResults}
+  players={results.players}
 />
 
 <style>

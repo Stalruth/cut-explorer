@@ -15,7 +15,7 @@ function collate(array) {
 }
 
 function getPokemonList(data) {
-  return collate(data.map(team => team.team.map(set => set.species)).flat());
+  return collate(data.map(({ team }) => team.map(set => set.species)).flat());
 }
 
 function matchSet(set, {species, item, ability, teraType, moves, teammates}) {
@@ -41,38 +41,31 @@ function matchSet(set, {species, item, ability, teraType, moves, teammates}) {
   return true;
 }
 
-function querySets(data, parameters) {
+function query(data, parameters) {
   const sets = [];
-  data.forEach(player => {
-    player.team.forEach(set => {
-      if(matchSet(set, parameters)) {
-        sets.push(set);
-      }
-    });
-  });
-  return sets;
-}
-
-function report(data, queryArgs) {
-  const result = querySets(data, queryArgs);
-  const report = {
-    total: result.length,
-  };
-  ['species','item','ability','teraType', 'moves', 'teammates'].forEach(field => {
-    report[field] = collate(result.map(set => set[field]).flat());
-  });
-  return report;
-}
-
-function queryPlayers(data, query) {
   const players = [];
   data.forEach(player => {
-    if(player.team.map(set => matchSet(set, query)).includes(true)) {
+    const matches = player.team.filter(set => {
+      return matchSet(set, parameters);
+    });
+    if(matches.length) {
+      sets.push(...matches);
       players.push(player);
     }
   });
-  return players;
+  return {sets, players};
 }
 
-export { getPokemonList, querySets, report, queryPlayers }
+function report(data, queryArgs) {
+  const result = query(data, queryArgs);
+  const sets = {
+    total: result.sets.length,
+  };
+  ['species','item','ability','teraType', 'moves', 'teammates'].forEach(field => {
+    sets[field] = collate(result.sets.map(set => set[field]).flat());
+  });
+  return { sets, players: result.players };
+}
+
+export { getPokemonList, query, report }
 
