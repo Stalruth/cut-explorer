@@ -74,15 +74,6 @@
       "top": 8
     },
     {
-      "name": "Víctor Medina",
-      "paste": "https://pokepast.es/a42899f82b49c070",
-      "swiss": {
-        "wins": 9,
-        "losses": 0,
-        "place": 1
-      }
-    },
-    {
       "name": "Giovanni Piscitelli",
       "paste": "https://pokepast.es/61eee02acfcf5ba2",
       "swiss": {
@@ -181,6 +172,16 @@
         "place": 32
       },
       "top": 16
+    },
+    {
+      "name": "Víctor Medina",
+      "paste": "https://pokepast.es/a42899f82b49c070",
+      "swiss": {
+        "wins": 9,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 32
     },
     {
       "name": "Adam Cherfaoui",

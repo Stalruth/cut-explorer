@@ -82,7 +82,7 @@ export let results = {};
 </div>
 
 <style>
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 30rem) {
   .report {
     display: flex;
     flex-direction: row;
