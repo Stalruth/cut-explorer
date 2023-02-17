@@ -24,5 +24,8 @@
     <li>
       <a href="regional-orlando">2023 Orlando Regional Championships</a>
     </li>
+    <li>
+      <a href="international-oceania">2023 Oceania International Championships</a>
+    </li>
   </ul>
 </details>
