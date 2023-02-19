@@ -27,5 +27,8 @@
     <li>
       <a href="international-oceania">2023 Oceania International Championships</a>
     </li>
+    <li>
+      <a href="international-oceania-top8">2023 Oceania International Championships (Top 8)</a>
+    </li>
   </ul>
 </details>
