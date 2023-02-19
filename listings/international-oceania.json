@@ -20,7 +20,8 @@
         "wins": 11,
         "losses": 3,
         "place": 4
-      }
+      },
+      "top": 1
     },
     {
       "name": "Alberto Lara",
@@ -29,7 +30,8 @@
         "wins": 11,
         "losses": 3,
         "place": 7
-      }
+      },
+      "top": 2
     },
     {
       "name": "Yuya Tada",
