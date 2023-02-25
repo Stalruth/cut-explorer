@@ -6,3 +6,8 @@ import '$lib/css/app.css';
 <main>
 <slot></slot>
 </main>
+<footer>
+  <p>
+    Site by <a href="https://stalruth.dev">Stuart Rutherford</a>.
+  </p>
+</footer>

@@ -1,35 +1,26 @@
 :root {
   --color-link: #2222ff;
-  --color-accent: #9211ee15;
+  --color-accent: #9211ee4f;
   font-size: 18px;
 }
 
-blockquote {
-  font-size: large;
-  margin: 0.5rem auto;
-  padding: 1rem;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr auto;
   height: 100vh;
 }
 
 footer {
-  display: flex;
+  padding-top: 0;
+  border-top: 2px solid var(--color-accent);
 }
 
 footer, header, main {
-  width: calc(100% - 2rem);
+  width: min(var(--width-content), calc(100% - 2rem));
 }
 
 header {
   text-align: var(--justify-normal);
-}
-
-main {
-  flex-grow: 1;
 }
 
 nav {
