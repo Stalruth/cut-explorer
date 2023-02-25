@@ -6,7 +6,7 @@
   <meta name="description" content="Fine grained analytical tool for VGC Top Cut teams." />
 </svelte:head>
 
-<h1>Top Cut Explorer</h1>
+<h1>VGC Day 2 and Top Cut Explorer</h1>
 <details>
   <summary>Series 1 (1-Jan to 28-Feb-2023)</summary>
   <ul>
