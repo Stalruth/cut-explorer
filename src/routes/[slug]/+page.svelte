@@ -42,11 +42,14 @@ function clearScreen(e) {
   </div>
   <div>
     {#if data.explorers}
-      <select bind:value={explorer}>
-        {#each data.explorers as explorer}
-          <option value={explorer.count ?? data.teams.length}>{explorer.name}</option>
-        {/each}
-      </select>
+      <label>
+        Tournament Stage:
+        <select bind:value={explorer}>
+          {#each data.explorers as explorer}
+            <option value={explorer.count ?? data.teams.length}>{explorer.name}</option>
+          {/each}
+        </select>
+      </label>
     {/if}
   </div>
 </nav>
@@ -90,5 +93,9 @@ div.controlbar {
 
 nav a::before {
   content: '← ';
+}
+
+nav select {
+  display: inline;
 }
 </style>
