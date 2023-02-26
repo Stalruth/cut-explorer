@@ -6,7 +6,7 @@
   <meta name="description" content="Fine grained analytical tool for VGC Top Cut teams." />
 </svelte:head>
 
-<h1>VGC Day 2 and Top Cut Explorer</h1>
+<h1>VGC Top Cut Explorer</h1>
 <details>
   <summary>Series 1 (1-Jan to 28-Feb-2023)</summary>
   <ul>
@@ -26,9 +26,6 @@
     </li>
     <li>
       <a href="international-oceania">2023 Oceania International Championships</a>
-    </li>
-    <li>
-      <a href="international-oceania-top8">2023 Oceania International Championships (Top 8)</a>
     </li>
     <li>
       <a href="regional-bochum">2023 Bochum Regional Championships</a>

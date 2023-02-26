@@ -16,9 +16,12 @@ function mergeQuery(species, partial) {
 
 let pokemon = '';
 let partialQuery = {};
+let explorer = data.teams.length;
 
 $: query = mergeQuery(pokemon, partialQuery);
-$: results = stats.report(data.teams, query);
+$: teamList = data.teams.slice(0, explorer);
+$: results = stats.report(teamList, query);
+$: pokemonList = stats.getPokemonList(teamList);
 
 function clearScreen(e) {
   pokemon = '';
@@ -26,21 +29,32 @@ function clearScreen(e) {
 </script>
 
 <svelte:head>
-  <title>{data.explorer_name ?? 'Top Cut'} Explorer: {data.name}</title>
-  <meta property="og:title" content="{data.explorer_name ?? 'Top Cut'} Explorer: {data.name}" />
+  <title>Top Cut Explorer: {data.name}</title>
+  <meta property="og:title" content="Top Cut Explorer: {data.name}" />
   <meta property="og:url" content="https://cut-explorer.stalruth.dev/" />
-  <meta property="og:description" content="Fine grained analytical tool for the {data.name} {data.explorer_name ?? 'Top Cut'} teams." />
-  <meta name="description" content="Fine grained analytical tool for the {data.name} {data.explorer_name ?? 'Top Cut'} teams." />
+  <meta property="og:description" content="Fine grained analytical tool for the {data.name} Top Cut teams." />
+  <meta name="description" content="Fine grained analytical tool for the {data.name} Top Cut teams." />
 </svelte:head>
 
 <nav>
-  <a href="/">Index</a>
+  <div>
+    <a href="/">Index</a>
+  </div>
+  <div>
+    {#if data.explorers}
+      <select bind:value={explorer}>
+        {#each data.explorers as explorer}
+          <option value={explorer.count ?? data.teams.length}>{explorer.name}</option>
+        {/each}
+      </select>
+    {/if}
+  </div>
 </nav>
 
-<h1>{data.name} {data.explorer_name ?? 'Top Cut'} Explorer</h1>
+<h1>{data.name} Top Cut Explorer</h1>
 <div class="controlbar">
   <PokemonSelector
-    pokemonList={stats.getPokemonList(data.teams)}
+    pokemonList={pokemonList}
     bind:pokemon={pokemon}
   />
   {#if pokemon}

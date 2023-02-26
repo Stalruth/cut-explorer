@@ -1,6 +1,14 @@
 {
   "name": "2023 Oceania International Championships",
-  "explorer_name": "Day 2",
+  "explorers": [
+    {
+      "name": "Day 2"
+    },
+    {
+      "name": "Top 8",
+      "count": 8
+    }
+  ],
   "dates": {
     "start": {
       "day": 17,
