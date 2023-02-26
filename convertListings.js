@@ -5,7 +5,7 @@ const { default: tourInfo } = await import(`./listings/${process.argv[2]}.json`,
 
 const teams = {
   name: tourInfo.name,
-  explorers: tourInfo.explorers,
+  stages: tourInfo.stages,
   dates: tourInfo.dates,
   teams: await Promise.all(tourInfo.players.map(async (player) => {
     const teamData = (await (await fetch(`${player.paste}/json`)).json()).paste;

@@ -16,10 +16,10 @@ function mergeQuery(species, partial) {
 
 let pokemon = '';
 let partialQuery = {};
-let explorer = data.teams.length;
+let stage = data.teams.length;
 
 $: query = mergeQuery(pokemon, partialQuery);
-$: teamList = data.teams.slice(0, explorer);
+$: teamList = data.teams.slice(0, stage);
 $: results = stats.report(teamList, query);
 $: pokemonList = stats.getPokemonList(teamList);
 
@@ -41,12 +41,12 @@ function clearScreen(e) {
     <a href="/">Index</a>
   </div>
   <div>
-    {#if data.explorers}
+    {#if data.stages}
       <label>
         Tournament Stage:
-        <select bind:value={explorer}>
-          {#each data.explorers as explorer}
-            <option value={explorer.count ?? data.teams.length}>{explorer.name}</option>
+        <select bind:value={stage}>
+          {#each data.stages as stage}
+            <option value={stage.count ?? data.teams.length}>{stage.name}</option>
           {/each}
         </select>
       </label>
