@@ -30,5 +30,8 @@
     <li>
       <a href="international-oceania-top8">2023 Oceania International Championships (Top 8)</a>
     </li>
+    <li>
+      <a href="regional-bochum">2023 Bochum Regional Championships</a>
+    </li>
   </ul>
 </details>
