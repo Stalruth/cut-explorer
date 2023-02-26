@@ -33,5 +33,8 @@
     <li>
       <a href="regional-bochum">2023 Bochum Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-knoxville">2023 Knoxville Regional Championships</a>
+    </li>
   </ul>
 </details>
