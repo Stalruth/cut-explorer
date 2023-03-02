@@ -31,7 +31,15 @@ const teams = {
 };
 
 await writeFile(`static/data/${process.argv[2]}.json`, JSON.stringify(teams, (key, value)=>{
-  if(['gender','level'].includes(key)) {
+  if(key === "team") {
+    return value.map(el => ({
+      ...el,
+      gender: undefined,
+      level: undefined,
+      name: undefined,
+    }));
+  }
+  if(key === "dates") {
     return undefined;
   }
   if(value === "") {
