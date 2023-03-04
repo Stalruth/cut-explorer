@@ -8,7 +8,7 @@
 
 <h1>VGC Top Cut Explorer</h1>
 <details>
-  <summary>Series 1 (1-Jan to 28-Feb-2023)</summary>
+  <summary>Regulation A (1-Jan to 28-Feb-2023)</summary>
   <ul>
     <li>
       <a href="regional-san-diego">2023 San Diego Regional Championships</a>
@@ -19,7 +19,7 @@
   </ul>
 </details>
 <details open>
-  <summary>Series 2 (1-Feb to 31-Mar-2023)</summary>
+  <summary>Regulation B (1-Feb to 31-Mar-2023)</summary>
   <ul>
     <li>
       <a href="regional-orlando">2023 Orlando Regional Championships</a>
