@@ -33,5 +33,8 @@
     <li>
       <a href="regional-knoxville">2023 Knoxville Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-perth">2023 Perth Regional Championships</a>
+    </li>
   </ul>
 </details>

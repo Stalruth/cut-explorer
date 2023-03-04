@@ -1,0 +1,89 @@
+{
+  "name": "2023 Perth Regional Championships",
+  "dates": {
+    "start": {
+      "day": 4,
+      "month": 3,
+      "year": 2023
+    },
+    "end": {
+      "day": 5,
+      "month": 3,
+      "year": 2023
+    }
+  },
+  "players": [
+    {
+      "name": "Alister Sandover",
+      "paste": "https://pokepast.es/601d1973705c05e4",
+      "swiss": {
+        "wins": 7,
+        "losses": 0,
+        "place": 1
+      }
+    },
+    {
+      "name": "Mitch Kendrick",
+      "paste": "https://pokepast.es/a870e7276da9baea",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 2
+      }
+    },
+    {
+      "name": "Taran Birdee",
+      "paste": "https://pokepast.es/f8c4637d375224b8",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 3
+      }
+    },
+    {
+      "name": "Sam Pandelis",
+      "paste": "https://pokepast.es/a15a80af7b498557",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 4
+      }
+    },
+    {
+      "name": "Diego Ferreira",
+      "paste": "https://pokepast.es/18ece77c2a32aa81",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 5
+      }
+    },
+    {
+      "name": "Owen Buttigieg",
+      "paste": "https://pokepast.es/6f80ae7a9b0b42bf",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 6
+      }
+    },
+    {
+      "name": "Philippe Breig",
+      "paste": "https://pokepast.es/d970cdbcdbb7f871",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 7
+      }
+    },
+    {
+      "name": "Kiran Singh",
+      "paste": "https://pokepast.es/113c132edf1bbab4",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 8
+      }
+    }
+  ]
+}
