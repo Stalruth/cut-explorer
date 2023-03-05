@@ -1,7 +1,13 @@
 <script>
+import { onMount } from 'svelte';
 import {Icons} from '@pkmn/img';
 
+export let protocol = '';
+export let hostname = '';
+export let port = '';
 export let players = {};
+
+const domain = port ? `${hostname}:${port}` : hostname;
 </script>
 
 <h2>Teams</h2>
@@ -24,7 +30,7 @@ export let players = {};
     <p>
       {#each player.team as set}
         <span
-          style={Icons.getPokemon(set.species, {scheme: "https", domain: "cut-explorer.stalruth.dev"}).style}
+          style={Icons.getPokemon(set.species, {protocol: protocol, domain: domain}).style}
         >
         </span>
       {/each}

@@ -14,13 +14,24 @@
   },
   "players": [
     {
+      "name": "Taran Birdee",
+      "paste": "https://pokepast.es/f8c4637d375224b8",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 1
+    },
+    {
       "name": "Alister Sandover",
       "paste": "https://pokepast.es/601d1973705c05e4",
       "swiss": {
         "wins": 7,
         "losses": 0,
         "place": 1
-      }
+      },
+      "top": 2
     },
     {
       "name": "Mitch Kendrick",
@@ -29,16 +40,8 @@
         "wins": 6,
         "losses": 1,
         "place": 2
-      }
-    },
-    {
-      "name": "Taran Birdee",
-      "paste": "https://pokepast.es/f8c4637d375224b8",
-      "swiss": {
-        "wins": 6,
-        "losses": 1,
-        "place": 3
-      }
+      },
+      "top": 4
     },
     {
       "name": "Sam Pandelis",
@@ -47,7 +50,8 @@
         "wins": 6,
         "losses": 1,
         "place": 4
-      }
+      },
+      "top": 4
     },
     {
       "name": "Diego Ferreira",
@@ -56,7 +60,8 @@
         "wins": 6,
         "losses": 1,
         "place": 5
-      }
+      },
+      "top": 8
     },
     {
       "name": "Owen Buttigieg",
@@ -65,7 +70,8 @@
         "wins": 6,
         "losses": 1,
         "place": 6
-      }
+      },
+      "top": 8
     },
     {
       "name": "Philippe Breig",
@@ -74,7 +80,8 @@
         "wins": 6,
         "losses": 1,
         "place": 7
-      }
+      },
+      "top": 8
     },
     {
       "name": "Kiran Singh",
@@ -83,7 +90,8 @@
         "wins": 6,
         "losses": 1,
         "place": 8
-      }
+      },
+      "top": 8
     }
   ]
 }
