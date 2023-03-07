@@ -45,7 +45,7 @@ function clearScreen(e) {
     {#if tournament.stages}
       <label>
         Tournament Stage:
-        <select bind:value={stage}>
+        <select bind:value={stage} on:change={clearScreen}>
           {#each tournament.stages as stage}
             <option value={stage.count ?? tournament.teams.length}>{stage.name}</option>
           {/each}
