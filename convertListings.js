@@ -19,13 +19,9 @@ const teams = {
       }
       return set;
     });
-    const teammates = team.map(el=>el.species);
     return {
       ...player,
-      team: team.map(el=>{
-        el.teammates = teammates.filter(i=>(i != el.species));
-        return el;
-      }),
+      team,
     };
   })),
 };
