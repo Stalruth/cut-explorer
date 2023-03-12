@@ -1,16 +1,8 @@
 {
   "name": "2023 Liverpool Regional Championships",
   "dates": {
-    "start": {
-      "day": 21,
-      "month": 1,
-      "year": 2023
-    },
-    "end": {
-      "day": 22,
-      "month": 1,
-      "year": 2023
-    }
+    "start": "2023-01-21",
+    "end": "2023-01-22"
   },
   "players": [
     {

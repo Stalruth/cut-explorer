@@ -1,16 +1,8 @@
 {
   "name": "2023 Orlando Regional Championships",
   "dates": {
-    "start": {
-      "day": 4,
-      "month": 2,
-      "year": 2023
-    },
-    "end": {
-      "day": 5,
-      "month": 2,
-      "year": 2023
-    }
+    "start": "2023-02-04",
+    "end": "2023-02-05"
   },
   "players": [
     {

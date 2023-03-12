@@ -1,16 +1,8 @@
 {
   "name": "2023 San Diego Regional Championships",
   "dates": {
-    "start": {
-      "day": 7,
-      "month": 1,
-      "year": 2023
-    },
-    "end": {
-      "day": 8,
-      "month": 1,
-      "year": 2023
-    }
+    "start": "2023-01-07",
+    "end": "2023-01-08"
   },
   "players": [
     {

@@ -1,16 +1,8 @@
 {
   "name": "2023 Perth Regional Championships",
   "dates": {
-    "start": {
-      "day": 4,
-      "month": 3,
-      "year": 2023
-    },
-    "end": {
-      "day": 5,
-      "month": 3,
-      "year": 2023
-    }
+    "start": "2023-03-04",
+    "end": "2023-03-05"
   },
   "players": [
     {

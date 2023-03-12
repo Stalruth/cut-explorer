@@ -10,16 +10,8 @@
     }
   ],
   "dates": {
-    "start": {
-      "day": 25,
-      "month": 2,
-      "year": 2023
-    },
-    "end": {
-      "day": 26,
-      "month": 2,
-      "year": 2023
-    }
+    "start": "2023-02-25",
+    "end": "2023-02-26"
   },
   "players": [
     {
