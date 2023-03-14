@@ -1,5 +1,14 @@
 {
   "name": "2023 Vancouver Regional Championships",
+  "stages": [
+    {
+      "name": "Day 2"
+    },
+    {
+      "name": "Top 8",
+      "count": 8
+    }
+  ],
   "dates": {
     "start": "2023-03-11",
     "end": "2023-03-12"
