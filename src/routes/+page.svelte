@@ -37,6 +37,9 @@
       <a href="regional-perth">2023 Perth Regional Championships</a>
     </li>
     <li>
+      <a href="regional-natal">2023 Natal Regional Championships</a>
+    </li>
+    <li>
       <a href="regional-vancouver">2023 Vancouver Regional Championships</a>
     </li>
   </ul>

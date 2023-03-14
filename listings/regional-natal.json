@@ -1,0 +1,88 @@
+{
+  "name": "2023 Natal Regional Championships",
+  "dates": {
+    "start": "2023-03-11",
+    "end": "2023-03-12"
+  },
+  "players": [
+    {
+      "name": "Gabriel Agati Madeira",
+      "paste": "https://pokepast.es/6072062c43df9046",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 5
+      },
+      "top": 1
+    },
+    {
+      "name": "Juan Salerno",
+      "paste": "https://pokepast.es/99a9004eb183211c",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 2
+      }
+    },
+    {
+      "name": "João Gonçalves",
+      "paste": "https://pokepast.es/fc8d386caf1c6795",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 3
+      },
+      "top": 4
+    },
+    {
+      "name": "Jefferson Camelo",
+      "paste": "https://pokepast.es/6856b5e880c52df2",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 8
+      },
+      "top": 4
+    },
+    {
+      "name": "André Fumis",
+      "paste": "https://pokepast.es/6b261f3e018f8cc9",
+      "swiss": {
+        "wins": 7,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 8
+    },
+    {
+      "name": "Luciano Begot",
+      "paste": "https://pokepast.es/d35bceab6fdb5879",
+      "swiss": {
+        "wins": 6,
+        "losses": 1,
+        "place": 4
+      },
+      "top": 8
+    },
+    {
+      "name": "Matías Díaz",
+      "paste": "https://pokepast.es/57d250de3dd2c96a",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 6
+      },
+      "top": 8
+    },
+    {
+      "name": "Tiago Correia",
+      "paste": "https://pokepast.es/39e84449d3941a7a",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 7
+      },
+      "top": 8
+    }
+  ]
+}
