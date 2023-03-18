@@ -1,0 +1,423 @@
+{
+  "name": "2023 Utrecht Special Event",
+  "dates": {
+    "start": "2023-03-18",
+    "end": "2023-03-19"
+  },
+  "players": [
+    {
+      "name": "Eric Rios",
+      "paste": "https://pokepast.es/da1128ac0a25cfa4",
+      "swiss": {
+        "wins": 9,
+        "losses": 0,
+        "place": 1
+      }
+    },
+    {
+      "name": "Alex Gómez Berna",
+      "paste": "https://pokepast.es/ab9154861a41c8f4",
+      "swiss": {
+        "wins": 9,
+        "losses": 0,
+        "place": 2
+      }
+    },
+    {
+      "name": "Iker Rodrigo",
+      "paste": "https://pokepast.es/6077c2d5dcf4a616",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 3
+      }
+    },
+    {
+      "name": "Federico Camporesi",
+      "paste": "https://pokepast.es/913a30a0bb50dd33",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 4
+      }
+    },
+    {
+      "name": "Thomas Gravouille",
+      "paste": "https://pokepast.es/5a91015526c78b09",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 5
+      }
+    },
+    {
+      "name": "Nico Davide Cognetta",
+      "paste": "https://pokepast.es/8a7dd1f151c32df4",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 6
+      }
+    },
+    {
+      "name": "Maurice Uteg",
+      "paste": "https://pokepast.es/44e62a3759625d39",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 7
+      }
+    },
+    {
+      "name": "Juan Manuel Odriozola",
+      "paste": "https://pokepast.es/aaa0228d921e3bbe",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 8
+      }
+    },
+    {
+      "name": "Giovanni Panarello",
+      "paste": "https://pokepast.es/091fe44b3e30c893",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 9
+      }
+    },
+    {
+      "name": "Giulio Tarlao",
+      "paste": "https://pokepast.es/ba83707a8df9ab8f",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 10
+      }
+    },
+    {
+      "name": "Oliver Eskolin",
+      "paste": "https://pokepast.es/06926b61c6ac341a",
+      "swiss": {
+        "wins": 8,
+        "losses": 1,
+        "place": 11
+      }
+    },
+    {
+      "name": "Alexandre Lissardy",
+      "paste": "https://pokepast.es/de66e39411ef0022",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 12
+      }
+    },
+    {
+      "name": "Sam Bentham",
+      "paste": "https://pokepast.es/a365fe05372be148",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 13
+      }
+    },
+    {
+      "name": "Eduardo Cunha",
+      "paste": "https://pokepast.es/c522ed1870e0d8c1",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 14
+      }
+    },
+    {
+      "name": "Nils Dunlop",
+      "paste": "https://pokepast.es/2c2391689b6d4612",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 15
+      }
+    },
+    {
+      "name": "Michael Kelsch",
+      "paste": "https://pokepast.es/e24d874bdbfd7ee2",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 16
+      }
+    },
+    {
+      "name": "Fabian Kuhl",
+      "paste": "https://pokepast.es/07930167fe509578",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 17
+      }
+    },
+    {
+      "name": "Kevin Salvetto",
+      "paste": "https://pokepast.es/46e56026b12b37f7",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 18
+      }
+    },
+    {
+      "name": "Giovanni Piscitelli",
+      "paste": "https://pokepast.es/9c9607d10bbd12b4",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 19
+      }
+    },
+    {
+      "name": "Nate Wright",
+      "paste": "https://pokepast.es/540c14c0f3dedfef",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 20
+      }
+    },
+    {
+      "name": "Ben Markham",
+      "paste": "https://pokepast.es/71e71b354bd7e3f2",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 21
+      }
+    },
+    {
+      "name": "Andres Escobosa",
+      "paste": "https://pokepast.es/3acd92e8d368336d",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 22
+      }
+    },
+    {
+      "name": "Xabier Arauzo",
+      "paste": "https://pokepast.es/b2b8ed30a105f786",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 23
+      }
+    },
+    {
+      "name": "Julian Piñeiro Fernandez",
+      "paste": "https://pokepast.es/39e12392e0f3a0c4",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 24
+      }
+    },
+    {
+      "name": "Roberto Parente",
+      "paste": "https://pokepast.es/18f2746cee5bda26",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 25
+      }
+    },
+    {
+      "name": "Jost Malczewski",
+      "paste": "https://pokepast.es/8c15f44af8c4241d",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 26
+      }
+    },
+    {
+      "name": "Marco Hemantha Kaludura Silva",
+      "paste": "https://pokepast.es/b8df2ea66c51cb79",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 27
+      }
+    },
+    {
+      "name": "Leonardo Bonanomi",
+      "paste": "https://pokepast.es/c023da26aa99fc14",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 28
+      }
+    },
+    {
+      "name": "Víctor Medina",
+      "paste": "https://pokepast.es/9a9450d49564f7cd",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 29
+      }
+    },
+    {
+      "name": "Christian Smiljanić",
+      "paste": "https://pokepast.es/614a7d77b656ff43",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 30
+      }
+    },
+    {
+      "name": "Lorenzo Marcelli",
+      "paste": "https://pokepast.es/588b3ffa284e3277",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 31
+      }
+    },
+    {
+      "name": "Davide Carrer",
+      "paste": "https://pokepast.es/dd54d86371640637",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 32
+      }
+    },
+    {
+      "name": "Bas van der Heijden",
+      "paste": "https://pokepast.es/f9b74ac6cec37a5d",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 33
+      }
+    },
+    {
+      "name": "Joan Garcia",
+      "paste": "https://pokepast.es/654693d25690cb65",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 34
+      }
+    },
+    {
+      "name": "Christopher Dilley",
+      "paste": "https://pokepast.es/8618a1da1713fa0d",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 35
+      }
+    },
+    {
+      "name": "Jaime González Bustos",
+      "paste": "https://pokepast.es/946fee803d3a7003",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 36
+      }
+    },
+    {
+      "name": "Rob Akershoek",
+      "paste": "https://pokepast.es/ac7db7e4244772b7",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 37
+      }
+    },
+    {
+      "name": "Jesús Montero",
+      "paste": "https://pokepast.es/b5cac6aceb0e4a36",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 38
+      }
+    },
+    {
+      "name": "Flavio Del Pidio",
+      "paste": "https://pokepast.es/fdbb1517ef0f6377",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 39
+      }
+    },
+    {
+      "name": "Moritz Weidner",
+      "paste": "https://pokepast.es/9dc4f4f3e7d0dc06",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 40
+      }
+    },
+    {
+      "name": "Abtin Ghaad Amini",
+      "paste": "https://pokepast.es/1d15f50a95766811",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 41
+      }
+    },
+    {
+      "name": "Lorenzo Colombo",
+      "paste": "https://pokepast.es/e5d2910e3485ec14",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 42
+      }
+    },
+    {
+      "name": "Aurélien Soula",
+      "paste": "https://pokepast.es/873b3f914d758325",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 43
+      }
+    },
+    {
+      "name": "Steven Markhardt",
+      "paste": "https://pokepast.es/171f44f09dac25f3",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 44
+      }
+    },
+    {
+      "name": "Boris Hamm",
+      "paste": "https://pokepast.es/bc59b1d6ead32b76",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 45
+      }
+    },
+    {
+      "name": "Antonio Jesús Sánchez Cerván",
+      "paste": "https://pokepast.es/7792e24be6bacffc",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 46
+      }
+    }
+  ]
+}

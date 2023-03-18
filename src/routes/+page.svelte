@@ -42,5 +42,8 @@
     <li>
       <a href="regional-vancouver">2023 Vancouver Regional Championships</a>
     </li>
+    <li>
+      <a href="special-utrecht">2023 Utrecht Special Event</a>
+    </li>
   </ul>
 </details>
