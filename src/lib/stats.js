@@ -1,3 +1,9 @@
+function collationSorter(a, b) {
+  if (a.count < b.count) { return 1; }
+  if (b.count < a.count) { return -1; }
+  return 0;
+}
+
 function collate(array) {
   const set = new Set(array);
   const results = []
@@ -7,11 +13,23 @@ function collate(array) {
       count: array.filter(el => el === item).length,
     })
   }
-  return results.sort((a,b) => {
-    if (a.count < b.count) { return 1; }
-    if (b.count < a.count) { return -1; }
-    return 0;
-  });
+  return results.sort(collationSorter);
+}
+
+function subtractCollations(a, b) {
+  const result = new Map();
+  for(const item of a) {
+    result.set(item.name, item.count);
+  }
+  for(const item of b) {
+    const newCount = (result.get(item.name) ?? 0) - item.count;
+    if(newCount) {
+      result.set(item.name, newCount);
+    } else {
+      result.delete(item.name);
+    }
+  }
+  return [...result].map(([k, v]) => ({"name": k, "count": v})).sort(collationSorter);
 }
 
 function getPokemonList(data) {
@@ -73,15 +91,12 @@ function report(data, queryArgs) {
     sets[field] = collate(result.sets.map(set => set[field]).flat());
   });
 
-  let count = 0;
-  sets['teammates'] = collate(
+  sets['teammates'] = subtractCollations(collate(
     result.players
     .map(player =>
-      player.team
-      .map(mon => mon.species)
+      player.team.map(mon => mon.species)
     ).flat()
-    .filter(el => el !== queryArgs['species'] || count++ >= sets.total)
-  );
+  ), sets['species']);
   return { sets, players: result.players };
 }
 
