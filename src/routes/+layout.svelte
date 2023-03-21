@@ -7,7 +7,20 @@ import '$lib/css/app.css';
 <slot></slot>
 </main>
 <footer>
-  <p>
-    Site by <a href="https://stalruth.dev">Stuart Rutherford</a>.  Team exports and standings provided by <a href="https://rk9.gg/">RK9 Labs</a> via <a href="https://twitter.com/VGCPastes">VGC Pastes</a> and <a href="https://pokedata.ovh/">PokeData</a>.  Special thanks to <a href="https://github.com/pkmn/ps">pkmn/ps</a> and apologies to <a href="https://pokepast.es/">PokePaste</a>.
-  </p>
+  <details>
+    <summary>Credits</summary>
+    <dl>
+      <dt>Programming and Design</dt>
+      <dd><a href="https://stalruth.dev">Stuart Rutherford</a></dd>
+      <dt>Team exports</dt>
+      <dd><a href="https://twitter.com/VGCPastes">VGC Pastes</a></dd>
+      <dt>Standings</dt>
+      <dd><a href="https://pokedata.ovh/">PokeData</a></dd>
+      <dt>Pokémon Set Parsing and Sprites</dt>
+      <dd><a href="https://github.com/pkmn/ps">pkmn/ps</a></dd>
+      <dd><a href="https://play.pokemonshowdown.com">Pokémon Showdown</a></dd>
+      <dt>Teamlist Hosting</dt>
+      <dd><a href="https://pokepast.es/">PokePaste</a></dd>
+    </dl>
+  </details>
 </footer>
