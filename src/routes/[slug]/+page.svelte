@@ -65,7 +65,7 @@ function clearScreen(e) {
     <button
       on:click={clearScreen}
     >
-      Clear Pokémon
+      Clear
     </button>
   {/if}
 </div>
