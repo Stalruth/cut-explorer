@@ -45,5 +45,8 @@
     <li>
       <a href="special-utrecht">2023 Utrecht Special Event</a>
     </li>
+    <li>
+      <a href="regional-charlotte">2023 Charlotte Regional Championships</a>
+    </li>
   </ul>
 </details>
