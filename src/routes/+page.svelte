@@ -54,7 +54,7 @@
   <summary>Regulation C (1-Apr to 30-Jun)</summary>
   <ul>
     <li>
-      <a href="regional-ft-wayne">2023 Ft. Wayne Regional Championships</a>
+      <a href="regional-fort-wayne">2023 Fort Wayne Regional Championships</a>
     </li>
   </ul>
 </details>
