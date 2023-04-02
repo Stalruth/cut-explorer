@@ -30,6 +30,7 @@ const domain = port ? `${hostname}:${port}` : hostname;
     <p>
       {#each player.team as set}
         <span
+          title={set.species}
           style={Icons.getPokemon(set.species, {protocol: protocol, domain: domain}).style}
         >
         </span>
