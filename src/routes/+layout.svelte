@@ -21,6 +21,8 @@ import '$lib/css/app.css';
       <dd><a href="https://play.pokemonshowdown.com">Pokémon Showdown</a></dd>
       <dt>Teamlist Hosting</dt>
       <dd><a href="https://pokepast.es/">PokePaste</a></dd>
+      <dt>Favicon</dt>
+      <dd><a href="https://github.com/twitter/twemoji">Twemoji by Twitter</a></dd>
     </dl>
   </details>
 </footer>
