@@ -1,6 +1,8 @@
 function collationSorter(a, b) {
   if (a.count < b.count) { return 1; }
   if (b.count < a.count) { return -1; }
+  if (a.name < b.name) { return -1; }
+  if (b.name < a.name) { return 1; }
   return 0;
 }
 
