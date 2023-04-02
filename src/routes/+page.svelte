@@ -18,7 +18,7 @@
     </li>
   </ul>
 </details>
-<details open>
+<details>
   <summary>Regulation B (1-Feb to 31-Mar-2023)</summary>
   <ul>
     <li>
@@ -47,6 +47,14 @@
     </li>
     <li>
       <a href="regional-charlotte">2023 Charlotte Regional Championships</a>
+    </li>
+  </ul>
+</details>
+<details open>
+  <summary>Regulation C (1-Apr to 30-Jun)</summary>
+  <ul>
+    <li>
+      <a href="regional-ft-wayne">2023 Ft. Wayne Regional Championships</a>
     </li>
   </ul>
 </details>
