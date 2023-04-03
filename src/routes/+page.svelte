@@ -8,7 +8,7 @@
 
 <h1>VGC Top Cut Explorer</h1>
 <details>
-  <summary>Regulation A (1-Jan to 28-Feb-2023)</summary>
+  <summary>Regulation A (1-Jan to 31-Jan-2023)</summary>
   <ul>
     <li>
       <a href="regional-san-diego">2023 San Diego Regional Championships</a>
