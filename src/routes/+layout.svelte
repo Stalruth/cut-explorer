@@ -11,7 +11,7 @@ import '$lib/css/app.css';
     <summary>Credits</summary>
     <dl>
       <dt>Programming and Design</dt>
-      <dd><a href="https://stalruth.dev">Stuart Rutherford</a></dd>
+      <dd><a href="https://stalruth.dev">Stuart Rutherford</a> (<a href="https://github.com/Stalruth/cut-explorer/">GitHub</a>)</dd>
       <dt>Team exports</dt>
       <dd><a href="https://twitter.com/VGCPastes">VGC Pastes</a></dd>
       <dt>Standings</dt>
