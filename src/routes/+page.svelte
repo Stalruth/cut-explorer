@@ -54,6 +54,9 @@
   <summary>Regulation C (1-Apr to 30-Jun-2023)</summary>
   <ul>
     <li>
+      <a href="regional-sydney">2023 Sydney Regional Championships</a>
+    </li>
+    <li>
       <a href="regional-fort-wayne">2023 Fort Wayne Regional Championships</a>
     </li>
   </ul>

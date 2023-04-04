@@ -1,0 +1,89 @@
+{
+  "name": "2023 Sydney Regional Championships",
+  "dates": {
+    "start": "2023-04-01",
+    "end": "2023-04-02"
+  },
+  "players": [
+    {
+      "name": "Liam Gilbert",
+      "paste": "https://pokepast.es/facfd05a708158c0",
+      "swiss": {
+        "wins": 11,
+        "losses": 0,
+        "place": 1
+      },
+      "top": 1
+    },
+    {
+      "name": "Sam Pandelis",
+      "paste": "https://pokepast.es/1254bc63d00bcf68",
+      "swiss": {
+        "wins": 9,
+        "losses": 2,
+        "place": 2
+      },
+      "top": 2
+    },
+    {
+      "name": "Galvin Hui",
+      "paste": "https://pokepast.es/a35666ee60397fb4",
+      "swiss": {
+        "wins": 8,
+        "losses": 2,
+        "place": 3
+      },
+      "top": 4
+    },
+    {
+      "name": "Chris Giagozoglou",
+      "paste": "https://pokepast.es/937d699bb8ef8f81",
+      "swiss": {
+        "wins": 8,
+        "losses": 2,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "Ryan Hercus",
+      "paste": "https://pokepast.es/e224ba1e376242ec",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "Meaghan Rattle",
+      "paste": "https://pokepast.es/9dd1e5176dda06ae",
+      "swiss": {
+        "wins": 7,
+        "losses": 2,
+        "place": 6
+      },
+      "top": 8
+    },
+    {
+      "name": "Nicholas Kan",
+      "paste": "https://pokepast.es/51b54fc3c9c4e4a1",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 7
+      },
+      "top": 8
+    },
+    {
+      "name": "Alister Sandover",
+      "paste": "https://pokepast.es/8a0a2619c3cda129",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 8
+      },
+      "top": 8
+    }
+  ]
+}
