@@ -8,12 +8,19 @@ export let port = '';
 export let players = {};
 
 const domain = port ? `${hostname}:${port}` : hostname;
+let isExpanded = false;
+
+$: isExpandable = !isExpanded && players.length > 16;
+
+function expandResults(e) {
+  isExpanded = true;
+}
 </script>
 
 <h2>Teams</h2>
 
 <div class="teamlist">
-  {#each players as player (player.swiss.place)}
+  {#each (isExpanded ? players : players.slice(0, 16)) as player (player.swiss.place)}
     <p>
       <a href={player.paste}>
         {#if player.top === 1}
@@ -39,7 +46,16 @@ const domain = port ? `${hostname}:${port}` : hostname;
   {/each}
 </div>
 
+{#if isExpandable}
+  <button on:click={expandResults}>Show all teams</button>
+{/if}
+
 <style>
+button {
+  margin: 0 auto;
+  display: block;
+}
+
 div.teamlist {
   display: grid;
   justify-content: space-around;

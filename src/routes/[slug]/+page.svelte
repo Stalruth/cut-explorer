@@ -84,12 +84,6 @@ function clearScreen(e) {
 />
 
 <style>
-button {
-  padding: 0.4rem 0.8rem;
-  margin: 0 0 1rem 0;
-  border: 0;
-}
-
 div.controlbar {
   display: flex;
   gap: 1rem;
@@ -100,6 +94,6 @@ nav a::before {
 }
 
 nav select {
-  display: inline;
+  display: inline-block;
 }
 </style>
