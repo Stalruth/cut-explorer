@@ -4,6 +4,15 @@
     "start": "2023-03-11",
     "end": "2023-03-12"
   },
+  "stages": [
+    {
+      "name": "All CP Teams"
+    },
+    {
+      "name": "Top 8",
+      "count": 8
+    }
+  ],
   "players": [
     {
       "name": "Gabriel Agati Madeira",
@@ -83,6 +92,86 @@
         "place": 7
       },
       "top": 8
+    },
+    {
+      "name": "Thiago Lattanzi",
+      "paste": "https://pokepast.es/c5d7effe04610093",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 9
+      },
+      "top": 16
+    },
+    {
+      "name": "Yuri Bastos",
+      "paste": "https://pokepast.es/10753d30d2065e44",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 10
+      },
+      "top": 16
+    },
+    {
+      "name": "Guilherme de Oliveira Queiroz",
+      "paste": "https://pokepast.es/1584d552188739d5",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 11
+      },
+      "top": 16
+    },
+    {
+      "name": "Hugo Nascimento Vilela dos Santos",
+      "paste": "https://pokepast.es/4c87dbb559e42942",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 12
+      },
+      "top": 16
+    },
+    {
+      "name": "Luciano Muñoz Placencia",
+      "paste": "https://pokepast.es/77608eacca3b9f4e",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 13
+      },
+      "top": 16
+    },
+    {
+      "name": "Gabriel Bispo",
+      "paste": "https://pokepast.es/ec3d2a8938eee5af",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 14
+      },
+      "top": 16
+    },
+    {
+      "name": "Weslei Henrique Almeida Silva",
+      "paste": "https://pokepast.es/117652da273e6286",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 15
+      },
+      "top": 16
+    },
+    {
+      "name": "Omar Acuña Acevedo",
+      "paste": "https://pokepast.es/e294c9f18b48718d",
+      "swiss": {
+        "wins": 5,
+        "losses": 2,
+        "place": 16
+      },
+      "top": 16
     }
   ]
 }

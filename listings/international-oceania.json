@@ -2,7 +2,11 @@
   "name": "2023 Oceania International Championships",
   "stages": [
     {
-      "name": "Day 2"
+      "name": "All CP Teams"
+    },
+    {
+      "name": "Day 2",
+      "count": 32
     },
     {
       "name": "Top 8",
@@ -333,6 +337,326 @@
         "place": 32
       },
       "top": 32
+    },
+    {
+      "name": "Michael Navas",
+      "paste": "https://pokepast.es/7a0b9eddaefe6602",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 33
+      },
+      "top": 64
+    },
+    {
+      "name": "James Baek",
+      "paste": "https://pokepast.es/4fe40c8616a817e4",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 34
+      },
+      "top": 64
+    },
+    {
+      "name": "Vivek Arunagiri",
+      "paste": "https://pokepast.es/fbd39d2ee592c089",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 35
+      },
+      "top": 64
+    },
+    {
+      "name": "Long Nguyen",
+      "paste": "https://pokepast.es/7df8364a0f859322",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 36
+      },
+      "top": 64
+    },
+    {
+      "name": "Thomas Dowling",
+      "paste": "https://pokepast.es/92b36b11f7890848",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 37
+      },
+      "top": 64
+    },
+    {
+      "name": "Hoang Đạt Lương",
+      "paste": "https://pokepast.es/82f04e6de40ac6c1",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 38
+      },
+      "top": 64
+    },
+    {
+      "name": "James Evans",
+      "paste": "https://pokepast.es/e1caa6b4cca67036",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 39
+      },
+      "top": 64
+    },
+    {
+      "name": "Andy Brophy",
+      "paste": "https://pokepast.es/729b727d99d4aba0",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 40
+      },
+      "top": 64
+    },
+    {
+      "name": "Lochiel Cameron",
+      "paste": "https://pokepast.es/df1f663427ba39fe",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 41
+      },
+      "top": 64
+    },
+    {
+      "name": "Kiyoshiro Arai",
+      "paste": "https://pokepast.es/79f10ed3055403b9",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 42
+      },
+      "top": 64
+    },
+    {
+      "name": "Justin Burns",
+      "paste": "https://pokepast.es/8a466dacca2e46d0",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 43
+      },
+      "top": 64
+    },
+    {
+      "name": "Liu Genting",
+      "paste": "https://pokepast.es/f81b654c0cc34325",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 44
+      },
+      "top": 64
+    },
+    {
+      "name": "Joji Kaieda",
+      "paste": "https://pokepast.es/a7817f3242f2e932",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 45
+      },
+      "top": 64
+    },
+    {
+      "name": "Pan Si Ming",
+      "paste": "https://pokepast.es/45242a4402af1c99",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 46
+      },
+      "top": 64
+    },
+    {
+      "name": "Liam Shorter",
+      "paste": "https://pokepast.es/560571a4aef35bf1",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 47
+      },
+      "top": 64
+    },
+    {
+      "name": "Takehiro Nakata",
+      "paste": "https://pokepast.es/36a9662bd96ecf29",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 48
+      },
+      "top": 64
+    },
+    {
+      "name": "Jessica Bradley",
+      "paste": "https://pokepast.es/5f545224d6ad4111",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 49
+      },
+      "top": 64
+    },
+    {
+      "name": "Brady Worley",
+      "paste": "https://pokepast.es/b505d3d5f2309594",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 50
+      },
+      "top": 64
+    },
+    {
+      "name": "Luke Curtale",
+      "paste": "https://pokepast.es/a8f6046d695dac83",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 51
+      },
+      "top": 64
+    },
+    {
+      "name": "Ryosuke Hamasato",
+      "paste": "https://pokepast.es/72a677c62c9b535c",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 52
+      },
+      "top": 64
+    },
+    {
+      "name": "Scott Sellers",
+      "paste": "https://pokepast.es/bd701ed66f671bf3",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 53
+      },
+      "top": 64
+    },
+    {
+      "name": "Tony Nguyen",
+      "paste": "https://pokepast.es/d4c95dd8a2f3680f",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 54
+      },
+      "top": 64
+    },
+    {
+      "name": "Gabriel Agati Madeira",
+      "paste": "https://pokepast.es/a5e5e2cae30057f1",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 55
+      },
+      "top": 64
+    },
+    {
+      "name": "Thomas Chen",
+      "paste": "https://pokepast.es/83100fdda06c12e0",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 56
+      },
+      "top": 64
+    },
+    {
+      "name": "Liam Gilbert",
+      "paste": "https://pokepast.es/07d73c78ca1404aa",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 57
+      },
+      "top": 64
+    },
+    {
+      "name": "Galvin Hui",
+      "paste": "https://pokepast.es/1540e2ef4f0f6288",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 58
+      },
+      "top": 64
+    },
+    {
+      "name": "Richard Ashby",
+      "paste": "https://pokepast.es/49502abd5abc10a3",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 59
+      },
+      "top": 64
+    },
+    {
+      "name": "Carlton Dobie",
+      "paste": "https://pokepast.es/503fad7954f5166f",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 60
+      },
+      "top": 64
+    },
+    {
+      "name": "Lewis Tan",
+      "paste": "https://pokepast.es/081504ed0eee9494",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 61
+      },
+      "top": 64
+    },
+    {
+      "name": "James Sullivan",
+      "paste": "https://pokepast.es/b20d173fe7e97e95",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 62
+      },
+      "top": 64
+    },
+    {
+      "name": "James Katsaros",
+      "paste": "https://pokepast.es/b002f2f173bf0394",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 63
+      },
+      "top": 64
+    },
+    {
+      "name": "Christopher Egan",
+      "paste": "https://pokepast.es/d64329deea9bf0ef",
+      "swiss": {
+        "wins": 6,
+        "losses": 3,
+        "place": 64
+      },
+      "top": 64
     }
   ]
 }
