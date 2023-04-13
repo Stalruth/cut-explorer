@@ -4,6 +4,15 @@
     "start": "2023-02-04",
     "end": "2023-02-05"
   },
+  "stages": [
+    {
+      "name": "All CP Teams"
+    },
+    {
+      "name": "Top 32",
+      "count": 32
+    }
+  ],
   "players": [
     {
       "name": "Wolfe Glick",
