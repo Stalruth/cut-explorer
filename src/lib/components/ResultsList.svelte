@@ -47,7 +47,7 @@ function expandResults(e) {
 </div>
 
 {#if isExpandable}
-  <button on:click={expandResults}>Show all teams</button>
+  <button on:click={expandResults} class="secondary">Show all teams</button>
 {/if}
 
 <style>

@@ -64,6 +64,7 @@ function clearScreen(e) {
   {#if pokemon}
     <button
       on:click={clearScreen}
+      class="secondary"
     >
       Clear
     </button>
