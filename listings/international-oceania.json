@@ -1,15 +1,12 @@
 {
   "name": "2023 Oceania International Championships",
   "stages": [
-    {
-      "name": "All CP Teams"
-    },
+    {},
     {
       "name": "Day 2",
       "count": 32
     },
     {
-      "name": "Top 8",
       "count": 8
     }
   ],

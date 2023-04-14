@@ -67,7 +67,7 @@ function clearScreen(e) {
         Filter:
         <select bind:value={stage} on:change={clearScreen}>
           {#each tournament.stages as stage}
-            <option value={stage.count ?? tournament.teams.length}>{stage.name}</option>
+            <option value={stage.count ?? tournament.teams.length}>{stage.name ? `${stage.name} (${stage.count} teams)` : `Top ${stage.count ?? tournament.teams.length}`}</option>
           {/each}
         </select>
       </label>

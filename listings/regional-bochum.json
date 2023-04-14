@@ -1,15 +1,12 @@
 {
   "name": "2023 Bochum Regional Championships",
   "stages": [
-    {
-      "name": "All CP Teams"
-    },
+    {},
     {
       "name": "Day 2",
       "count": 52
     },
     {
-      "name": "Top 8",
       "count": 8
     }
   ],
@@ -1298,6 +1295,5 @@
       },
       "top": 128
     }
-  
   ]
 }

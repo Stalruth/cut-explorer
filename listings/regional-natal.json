@@ -5,11 +5,8 @@
     "end": "2023-03-12"
   },
   "stages": [
+    {},
     {
-      "name": "All CP Teams"
-    },
-    {
-      "name": "Top 8",
       "count": 8
     }
   ],
