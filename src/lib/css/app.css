@@ -53,6 +53,10 @@ select {
   color: var(--color-text);
 }
 
+.controlbar select {
+  display: inline-block;
+}
+
 @media(prefers-color-scheme: dark) {
   :root {
     --color-accent: #9300fc4f;

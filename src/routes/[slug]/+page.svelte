@@ -41,10 +41,30 @@ function clearScreen(e) {
   <div>
     <a href="/">Index</a>
   </div>
+</nav>
+
+<h1>{tournament.name} Top Cut Explorer</h1>
+<div class="controlbar">
+  <div class="pokemon-select">
+    <label>
+      <PokemonSelector
+        pokemonList={pokemonList}
+        bind:pokemon={pokemon}
+    />
+    </label>
+    {#if pokemon}
+      <button
+        on:click={clearScreen}
+        class="secondary"
+      >
+        Clear
+      </button>
+    {/if}
+  </div>
   <div>
     {#if tournament.stages}
       <label>
-        Stage:
+        Filter:
         <select bind:value={stage} on:change={clearScreen}>
           {#each tournament.stages as stage}
             <option value={stage.count ?? tournament.teams.length}>{stage.name}</option>
@@ -53,22 +73,6 @@ function clearScreen(e) {
       </label>
     {/if}
   </div>
-</nav>
-
-<h1>{tournament.name} Top Cut Explorer</h1>
-<div class="controlbar">
-  <PokemonSelector
-    pokemonList={pokemonList}
-    bind:pokemon={pokemon}
-  />
-  {#if pokemon}
-    <button
-      on:click={clearScreen}
-      class="secondary"
-    >
-      Clear
-    </button>
-  {/if}
 </div>
 {#if pokemon}
   <ReportView
@@ -87,14 +91,16 @@ function clearScreen(e) {
 <style>
 div.controlbar {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div.pokemon-select {
+  display: flex;
   gap: 1rem;
 }
 
 nav a::before {
   content: '← ';
-}
-
-nav select {
-  display: inline-block;
 }
 </style>
