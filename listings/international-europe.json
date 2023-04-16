@@ -16,22 +16,24 @@
   },
   "players": [
     {
-      "name": "Gabriel Agati Madeira",
-      "paste": "https://pokepast.es/406fa444afbac667",
-      "swiss": {
-        "wins": 13,
-        "losses": 1,
-        "place": 1
-      }
-    },
-    {
       "name": "Paul Chua",
       "paste": "https://pokepast.es/d9c40330ed5c766b",
       "swiss": {
         "wins": 13,
         "losses": 1,
         "place": 2
-      }
+      },
+      "top": 1
+    },
+    {
+      "name": "Gabriel Agati Madeira",
+      "paste": "https://pokepast.es/406fa444afbac667",
+      "swiss": {
+        "wins": 13,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 2
     },
     {
       "name": "Alexander D'Andrea",
