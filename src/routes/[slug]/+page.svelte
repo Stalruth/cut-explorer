@@ -61,8 +61,8 @@ function clearScreen(e) {
       </button>
     {/if}
   </div>
-  <div>
-    {#if tournament.stages}
+  {#if tournament.stages}
+    <div>
       <label>
         Filter:
         <select bind:value={stage} on:change={clearScreen}>
@@ -71,8 +71,8 @@ function clearScreen(e) {
           {/each}
         </select>
       </label>
-    {/if}
-  </div>
+    </div>
+  {/if}
 </div>
 {#if pokemon}
   <ReportView
