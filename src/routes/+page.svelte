@@ -11,10 +11,10 @@
   <summary>Regulation A (1-Jan to 31-Jan-2023)</summary>
   <ul>
     <li>
-      <a href="regional-san-diego">2023 San Diego Regional Championships</a>
+      <a href="regional-san-diego">San Diego Regional Championships</a>
     </li>
     <li>
-      <a href="regional-liverpool">2023 Liverpool Regional Championships</a>
+      <a href="regional-liverpool">Liverpool Regional Championships</a>
     </li>
   </ul>
 </details>
@@ -22,31 +22,31 @@
   <summary>Regulation B (1-Feb to 31-Mar-2023)</summary>
   <ul>
     <li>
-      <a href="regional-orlando">2023 Orlando Regional Championships</a>
+      <a href="regional-orlando">Orlando Regional Championships</a>
     </li>
     <li>
-      <a href="international-oceania">2023 Oceania International Championships</a>
+      <a href="international-oceania">Oceania International Championships</a>
     </li>
     <li>
-      <a href="regional-bochum">2023 Bochum Regional Championships</a>
+      <a href="regional-bochum">Bochum Regional Championships</a>
     </li>
     <li>
-      <a href="regional-knoxville">2023 Knoxville Regional Championships</a>
+      <a href="regional-knoxville">Knoxville Regional Championships</a>
     </li>
     <li>
-      <a href="regional-perth">2023 Perth Regional Championships</a>
+      <a href="regional-perth">Perth Regional Championships</a>
     </li>
     <li>
-      <a href="regional-natal">2023 Natal Regional Championships</a>
+      <a href="regional-natal">Natal Regional Championships</a>
     </li>
     <li>
-      <a href="regional-vancouver">2023 Vancouver Regional Championships</a>
+      <a href="regional-vancouver">Vancouver Regional Championships</a>
     </li>
     <li>
-      <a href="special-utrecht">2023 Utrecht Special Event</a>
+      <a href="special-utrecht">Utrecht Special Event</a>
     </li>
     <li>
-      <a href="regional-charlotte">2023 Charlotte Regional Championships</a>
+      <a href="regional-charlotte">Charlotte Regional Championships</a>
     </li>
   </ul>
 </details>
@@ -54,13 +54,13 @@
   <summary>Regulation C (1-Apr to 30-Jun-2023)</summary>
   <ul>
     <li>
-      <a href="regional-sydney">2023 Sydney Regional Championships</a>
+      <a href="regional-sydney">Sydney Regional Championships</a>
     </li>
     <li>
-      <a href="regional-fort-wayne">2023 Fort Wayne Regional Championships</a>
+      <a href="regional-fort-wayne">Fort Wayne Regional Championships</a>
     </li>
     <li>
-      <a href="international-europe">2023 Europe International Championships</a>
+      <a href="international-europe">Europe International Championships</a>
     </li>
   </ul>
 </details>
