@@ -59,5 +59,8 @@
     <li>
       <a href="regional-fort-wayne">2023 Fort Wayne Regional Championships</a>
     </li>
+    <li>
+      <a href="international-europe">2023 Europe International Championships</a>
+    </li>
   </ul>
 </details>
