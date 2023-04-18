@@ -14,19 +14,29 @@ function mergeQuery(species, partial) {
   return { species };
 }
 
-let { protocol, hostname, port, tournament } = data;
-let pokemon = '';
-let partialQuery = {};
-let stage = tournament.teams.length;
-
-$: query = mergeQuery(pokemon, partialQuery);
-$: teamList = tournament.teams.slice(0, stage);
-$: results = stats.report(teamList, query);
-$: pokemonList = stats.getPokemonList(teamList);
+function changeScope(e) {
+  const newList = tournament.teams.slice(0, stage);
+  if(!stats.report(newList, query).players.length) {
+    if(!stats.report(newList, {species: pokemon}).players.length) {
+      pokemon = '';
+    }
+    query = {species: pokemon};
+  }
+}
 
 function clearScreen(e) {
   pokemon = '';
 }
+
+let { protocol, hostname, port, tournament } = data;
+let pokemon = '';
+let stage = tournament.teams.length;
+
+$: teamList = tournament.teams.slice(0, stage);
+$: pokemonList = stats.getPokemonList(teamList);
+$: query = mergeQuery(pokemon, {});
+$: results = stats.report(teamList, query);
+$: results, console.log('results');
 </script>
 
 <svelte:head>
@@ -65,7 +75,7 @@ function clearScreen(e) {
     <div>
       <label>
         Filter:
-        <select bind:value={stage} on:change={clearScreen}>
+        <select bind:value={stage} on:change={changeScope}>
           {#each tournament.stages as stage}
             <option value={stage.count ?? tournament.teams.length}>{stage.name ? `${stage.name} (${stage.count} teams)` : `Top ${stage.count ?? tournament.teams.length}`}</option>
           {/each}
