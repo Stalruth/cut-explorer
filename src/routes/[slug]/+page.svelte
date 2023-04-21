@@ -29,7 +29,6 @@ $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList);
 $: query = { species: pokemon };
 $: results = stats.report(teamList, query);
-$: results, console.log('results');
 </script>
 
 <svelte:head>
@@ -58,7 +57,7 @@ $: results, console.log('results');
         on:click={clearScreen}
         class="secondary"
       >
-        Clear
+        Reset
       </button>
     {/if}
   </div>
