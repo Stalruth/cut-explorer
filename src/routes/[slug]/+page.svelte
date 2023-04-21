@@ -7,13 +7,6 @@ import * as stats from '$lib/stats.js';
 
 export let data;
 
-function mergeQuery(species, partial) {
-  if(species === partial.species) {
-    return partial;
-  }
-  return { species };
-}
-
 function changeScope(e) {
   const newList = tournament.teams.slice(0, stage);
   if(!stats.report(newList, query).players.length) {
@@ -34,7 +27,7 @@ let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList);
-$: query = mergeQuery(pokemon, {});
+$: query = { species: pokemon };
 $: results = stats.report(teamList, query);
 $: results, console.log('results');
 </script>
@@ -56,12 +49,10 @@ $: results, console.log('results');
 <h1>{tournament.name} Top Cut Explorer</h1>
 <div class="controlbar">
   <div class="pokemon-select">
-    <label>
       <PokemonSelector
         pokemonList={pokemonList}
         bind:pokemon={pokemon}
     />
-    </label>
     {#if pokemon}
       <button
         on:click={clearScreen}
