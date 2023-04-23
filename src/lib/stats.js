@@ -35,7 +35,7 @@ function subtractCollations(a, b) {
 }
 
 function getPokemonList(data) {
-  return collate(data.map(({ team }) => team.map(set => set.species)).flat());
+  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat());
 }
 
 function matchSet(set, team, {species, item, ability, teraType, moves, teammates}) {

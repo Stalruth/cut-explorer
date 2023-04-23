@@ -15,6 +15,36 @@ $: isExpandable = !isExpanded && players.length > 16;
 function expandResults(e) {
   isExpanded = true;
 }
+
+function getListingName(player) {
+  let title = '';
+  if(player.top === 1) {
+    title = '1st';
+  } else if (player.top === 2) {
+    title = '2nd';
+  } else {
+    title = `Top ${player.top}`;
+  }
+  return `${title} ${player.name} (${player.swiss.wins}-${player.swiss.losses})`;
+}
+
+function getTeamDisplay(team) {
+  if(team?.length === 6) {
+    return team;
+  }
+  const display = [
+    { species: 'No data' },
+    { species: 'No data' },
+    { species: 'No data' },
+    { species: 'No data' },
+    { species: 'No data' },
+    { species: 'No data' }
+  ];
+  (team ?? []).forEach((el, i) => {
+    display[i] = el;
+  });
+  return display;
+}
 </script>
 
 <h2>Teams</h2>
@@ -22,20 +52,14 @@ function expandResults(e) {
 <div class="teamlist">
   {#each (isExpanded ? players : players.slice(0, 16)) as player (player.swiss.place)}
     <p>
-      <a href={player.paste}>
-        {#if player.top === 1}
-          1st
-        {:else if player.top === 2}
-          2nd
-        {:else if player.top}
-          Top {player.top}
-        {/if}
-        {player.name}
-        ({player.swiss.wins}-{player.swiss.losses})
-      </a>
+      {#if player.paste}
+        <a href={player.paste}>{getListingName(player)}</a>
+      {:else}
+        <b>{getListingName(player)}</b>
+      {/if}
     </p>
     <p>
-      {#each player.team as set}
+      {#each getTeamDisplay(player.team) as set}
         <span
           title={set.species}
           style={Icons.getPokemon(set.species, {protocol: protocol, domain: domain}).style}

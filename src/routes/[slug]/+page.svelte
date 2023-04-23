@@ -28,7 +28,7 @@ let stage = tournament.teams.length;
 $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList);
 $: query = { species: pokemon };
-$: results = stats.report(teamList, query);
+$: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
 </script>
 
 <svelte:head>

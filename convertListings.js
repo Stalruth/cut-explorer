@@ -8,6 +8,9 @@ const teams = {
   stages: tourInfo.stages,
   dates: tourInfo.dates,
   teams: await Promise.all(tourInfo.players.map(async (player) => {
+    if (!player.paste) {
+      return player;
+    }
     const teamData = (await (await fetch(`${player.paste}/json`)).json()).paste;
     const team = Team.import(teamData).team.map(set=>{
       if(set.species === 'Tauros-Paldea-Water') {
@@ -16,6 +19,8 @@ const teams = {
         set.species = 'Tauros-Paldea-Blaze';
       } else if(set.species === 'Tatsugiri-Curly') {
         set.species = 'Tatsugiri';
+      } else if(set.species === 'Maushold-Three') {
+        set.species = 'Maushold';
       }
       return set;
     });
