@@ -32,14 +32,7 @@ function getTeamDisplay(team) {
   if(team?.length === 6) {
     return team;
   }
-  const display = [
-    { species: 'No data' },
-    { species: 'No data' },
-    { species: 'No data' },
-    { species: 'No data' },
-    { species: 'No data' },
-    { species: 'No data' }
-  ];
+  const display = [{}, {}, {}, {}, {}, {}];
   (team ?? []).forEach((el, i) => {
     display[i] = el;
   });
@@ -61,8 +54,8 @@ function getTeamDisplay(team) {
     <p>
       {#each getTeamDisplay(player.team) as set}
         <span
-          title={set.species}
-          style={Icons.getPokemon(set.species, {protocol: protocol, domain: domain}).style}
+          title={set.species ?? 'No Data'}
+          style={Icons.getPokemon(set.species ?? 'No Data', {protocol: protocol, domain: domain}).style}
         >
         </span>
       {/each}
