@@ -73,6 +73,9 @@ function query(data, parameters) {
   const sets = [];
   const players = [];
   data.forEach(player => {
+    if(!player.team) {
+      return;
+    }
     const matches = player.team.filter(set => {
       return matchSet(set, player.team, parameters);
     });
