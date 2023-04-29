@@ -92,5 +92,6 @@ export let results = {};
 .report > div {
   flex-grow: 1;
   flex-basis: 30%;
+  min-width: max-content;
 }
 </style>
