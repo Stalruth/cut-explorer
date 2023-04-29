@@ -97,7 +97,9 @@ div.controlbar {
 
 div.pokemon-select {
   display: flex;
-  gap: 1rem;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav a::before {
