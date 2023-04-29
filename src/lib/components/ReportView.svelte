@@ -82,17 +82,15 @@ export let results = {};
 </div>
 
 <style>
-@media screen and (min-width: 30rem) {
-  .report {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px;
-  }
+.report {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 
-  .report > div {
-    flex-grow: 1;
-    flex-basis: 30%;
-  }
+.report > div {
+  flex-grow: 1;
+  flex-basis: 30%;
 }
 </style>
