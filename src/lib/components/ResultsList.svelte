@@ -80,7 +80,8 @@ div.teamlist {
 
 p {
   margin: 0;
-  width: max-content;
+  width: fit-content;
+  text-align: center;
   justify-self: center;
 }
 
