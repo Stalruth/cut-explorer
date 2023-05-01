@@ -85,7 +85,7 @@ p {
   justify-self: center;
 }
 
-@media(min-width: 40rem) {
+@media(min-width: 45rem) {
   div.teamlist {
     grid-template-columns: repeat(2, max-content);
   }
