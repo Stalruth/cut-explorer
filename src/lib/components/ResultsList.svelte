@@ -22,7 +22,7 @@ function getListingName(player) {
     title = '1st';
   } else if (player.top === 2) {
     title = '2nd';
-  } else {
+  } else if (player.top) {
     title = `Top ${player.top}`;
   }
   return `${title} ${player.name} (${player.swiss.wins}-${player.swiss.losses})`;

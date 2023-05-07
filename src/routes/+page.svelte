@@ -62,5 +62,8 @@
     <li>
       <a href="international-europe">Europe International Championships</a>
     </li>
+    <li>
+      <a href="regional-portland">Portland Regional Championships</a>
+    </li>
   </ul>
 </details>
