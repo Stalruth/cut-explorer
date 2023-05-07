@@ -16,22 +16,14 @@
   },
   "players": [
     {
-      "name": "Ofomezie Emelle",
-      "paste": "https://pokepast.es/948be4c3a0b3ab54",
+      "name": "Joseph Ugarte",
+      "paste": "https://pokepast.es/3de66d419bad1c29",
       "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 1
-      }
-    },
-    {
-      "name": "Nick Navarre",
-      "paste": "https://pokepast.es/9a906f0657f9e77b",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 2
-      }
+        "wins": 11,
+        "losses": 3,
+        "place": 5
+      },
+      "top": 1
     },
     {
       "name": "Zishuo Ding",
@@ -40,7 +32,28 @@
         "wins": 12,
         "losses": 2,
         "place": 3
-      }
+      },
+      "top": 2
+    },
+    {
+      "name": "Ofomezie Emelle",
+      "paste": "https://pokepast.es/948be4c3a0b3ab54",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 1
+      },
+      "top": 4
+    },
+    {
+      "name": "Nick Navarre",
+      "paste": "https://pokepast.es/9a906f0657f9e77b",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 2
+      },
+      "top": 4
     },
     {
       "name": "Navjit Joshi",
@@ -49,16 +62,8 @@
         "wins": 12,
         "losses": 2,
         "place": 4
-      }
-    },
-    {
-      "name": "Joseph Ugarte",
-      "paste": "https://pokepast.es/3de66d419bad1c29",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 5
-      }
+      },
+      "top": 8
     },
     {
       "name": "Len Deuel",
@@ -67,7 +72,8 @@
         "wins": 11,
         "losses": 3,
         "place": 6
-      }
+      },
+      "top": 8
     },
     {
       "name": "Raphael Bagara",
@@ -76,7 +82,8 @@
         "wins": 11,
         "losses": 3,
         "place": 7
-      }
+      },
+      "top": 8
     },
     {
       "name": "Caleb Ryor",
@@ -85,7 +92,8 @@
         "wins": 11,
         "losses": 3,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Cedric Bernier",
