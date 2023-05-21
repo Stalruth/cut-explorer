@@ -65,5 +65,8 @@
     <li>
       <a href="regional-portland">Portland Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-malmö">Malmö Regional Championships</a>
+    </li>
   </ul>
 </details>
