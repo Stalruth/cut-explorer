@@ -39,29 +39,42 @@ function getPokemonList(data) {
 }
 
 function matchSet(set, team, {species, item, ability, teraType, moves, teammates}) {
-  function isSuperset(lhs, rhs) {
-    return !lhs.map(item => rhs.includes(item))
-        .reduce((acc, cur) => acc && cur, true)
+  function matchOne(queryValues, setValue) {
+    for(const [key, value] of queryValues) {
+      if((setValue === key) !== value) {
+        return false;
+      }
+    }
+    return true;
   }
 
-  if(species && species !== set.species) {
+  function matchAll(queryValues, setValues) {
+    for(const [key, value] of queryValues) {
+      if(setValues.includes(key) !== value) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  if(species && !matchOne(species, set.species)) {
     return false;
   }
-  if(item && item !== set.item) {
+  if(item && !matchOne(item, set.item)) {
     return false;
   }
-  if(ability && ability !== set.ability) {
+  if(ability && !matchOne(ability, set.ability)) {
     return false;
   }
-  if(teraType && teraType !== set.teraType) {
+  if(teraType && !matchOne(teraType, set.teraType)) {
     return false;
   }
-  if(moves && isSuperset(moves, set.moves))
+  if(moves && !matchAll(moves, set.moves))
   {
     return false;
   }
   const setTeammates = team.filter(el => el !== set).map(el => el.species);
-  if(teammates && isSuperset(teammates, setTeammates))
+  if(teammates && !matchAll(teammates, setTeammates))
   {
     return false;
   }

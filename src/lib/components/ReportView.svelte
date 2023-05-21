@@ -3,22 +3,14 @@ import Detail from './Detail.svelte';
 
 function getCheckHandler(queryType) {
   return e => {
-    if(['item','ability','teraType'].includes(queryType)) {
-      if(e.target.checked) {
-        query[queryType] = e.target.value;
-      } else {
-        query[queryType] = undefined;
-      }
+    if(!query[queryType]) {
+      query[queryType] = new Map();
     }
-
-    if(['moves','teammates'].includes(queryType)) {
-      if(e.target.checked) {
-        query[queryType] = [...(new Set(query[queryType])), e.target.value];
-      } else {
-        const newQuery = new Set(query[queryType]);
-        newQuery.delete(e.target.value);
-        query[queryType] = [...newQuery];
-      }
+    if(e.target.checked) {
+      query[queryType] = query[queryType].set(e.target.value, true);
+    } else {
+      query[queryType].delete(e.target.value);
+      query[queryType] = query[queryType];
     }
   }
 }

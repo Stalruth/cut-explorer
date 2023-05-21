@@ -27,7 +27,7 @@ let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList);
-$: query = { species: pokemon };
+$: query = { species: pokemon ? new Map([[pokemon, true]]) : undefined };
 $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
 </script>
 
