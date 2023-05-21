@@ -16,22 +16,24 @@
   },
   "players": [
     {
-      "name": "Marco Hemantha Kaludura Silva",
-      "paste": "https://pokepast.es/df6886ae8ac18e3d",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 1
-      }
-    },
-    {
       "name": "Mattie Morgan",
       "paste": "https://pokepast.es/99bce5ca7cd0825f",
       "swiss": {
         "wins": 11,
         "losses": 3,
         "place": 2
-      }
+      },
+      "top": 1
+    },
+    {
+      "name": "Marco Hemantha Kaludura Silva",
+      "paste": "https://pokepast.es/df6886ae8ac18e3d",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 1
+      },
+      "top": 2
     },
     {
       "name": "Maurice Uteg",
