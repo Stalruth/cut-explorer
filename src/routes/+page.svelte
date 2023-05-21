@@ -68,5 +68,8 @@
     <li>
       <a href="regional-malmö">Malmö Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-hartford">Hartford Regional Championships</a>
+    </li>
   </ul>
 </details>
