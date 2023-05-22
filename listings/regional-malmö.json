@@ -326,14 +326,24 @@
       "top": 32
     },
     {
+      "name": "Nicolas Carvalho",
+      "paste": "https://pokepast.es/159416ea63aa8e82",
+      "swiss": {
+        "wins": 6,
+        "losses": 5,
+        "place": 32
+      },
+      "top": 64
+    },
+    {
       "name": "Thomas Dowling",
       "paste": "https://pokepast.es/386ce1f3fb2b3ddf",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 32
+        "place": 33
       },
-      "top": 32
+      "top": 64
     },
     {
       "name": "Timo van der Vliet",
@@ -341,7 +351,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 33
+        "place": 34
       },
       "top": 64
     },
@@ -351,7 +361,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 34
+        "place": 35
       },
       "top": 64
     },
@@ -361,7 +371,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 35
+        "place": 36
       },
       "top": 64
     },
@@ -371,7 +381,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 36
+        "place": 37
       },
       "top": 64
     },
@@ -381,7 +391,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 37
+        "place": 38
       },
       "top": 64
     },
@@ -391,7 +401,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 38
+        "place": 39
       },
       "top": 64
     },
@@ -401,7 +411,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 39
+        "place": 40
       },
       "top": 64
     },
@@ -411,17 +421,17 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 40
+        "place": 41
       },
       "top": 64
     },
     {
-      "name": "Alex Soto",
+      "name": "Álex Soto",
       "paste": "https://pokepast.es/96978b44826cc0c3",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 41
+        "place": 42
       },
       "top": 64
     },
@@ -431,7 +441,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 42
+        "place": 43
       },
       "top": 64
     },
@@ -441,7 +451,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 43
+        "place": 44
       },
       "top": 64
     },
@@ -451,7 +461,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 44
+        "place": 45
       },
       "top": 64
     },
@@ -461,7 +471,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 45
+        "place": 46
       },
       "top": 64
     },
@@ -471,7 +481,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 46
+        "place": 47
       },
       "top": 64
     },
@@ -481,17 +491,17 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 47
+        "place": 48
       },
       "top": 64
     },
     {
-      "name": "Shengyu Wang",
+      "name": "Wang Shengyu",
       "paste": "https://pokepast.es/e26848d6ea10497f",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 48
+        "place": 49
       },
       "top": 64
     },
@@ -501,7 +511,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 49
+        "place": 50
       },
       "top": 64
     },
@@ -511,7 +521,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 50
+        "place": 51
       },
       "top": 64
     },
@@ -521,7 +531,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 51
+        "place": 52
       },
       "top": 64
     },
@@ -531,7 +541,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 52
+        "place": 53
       },
       "top": 64
     },
@@ -541,17 +551,17 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 53
+        "place": 54
       },
       "top": 64
     },
     {
-      "name": "Victor Jimenez Coll",
+      "name": "Víctor Jiménez Coll",
       "paste": "https://pokepast.es/86495fc3fc1271a1",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 54
+        "place": 55
       },
       "top": 64
     },
@@ -561,7 +571,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 55
+        "place": 56
       },
       "top": 64
     },
@@ -571,7 +581,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 56
+        "place": 57
       },
       "top": 64
     },
@@ -581,7 +591,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 57
+        "place": 58
       },
       "top": 64
     },
@@ -591,7 +601,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 58
+        "place": 59
       },
       "top": 64
     },
@@ -601,7 +611,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 59
+        "place": 60
       },
       "top": 64
     },
@@ -611,7 +621,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 60
+        "place": 61
       },
       "top": 64
     },
@@ -621,7 +631,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 61
+        "place": 62
       },
       "top": 64
     },
@@ -631,16 +641,6 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 62
-      },
-      "top": 64
-    },
-    {
-      "name": "Nicolas Carvalho",
-      "paste": "https://pokepast.es/159416ea63aa8e82",
-      "swiss": {
-        "wins": 6,
-        "losses": 5,
         "place": 63
       },
       "top": 64
