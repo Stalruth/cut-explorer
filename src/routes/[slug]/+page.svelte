@@ -86,6 +86,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
   hostname={hostname}
   protocol={protocol}
   port={port}
+  query={query}
 />
 
 <style>

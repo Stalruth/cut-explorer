@@ -6,14 +6,30 @@ export let protocol = '';
 export let hostname = '';
 export let port = '';
 export let players = {};
+export let query = {};
 
 const domain = port ? `${hostname}:${port}` : hostname;
 let isExpanded = false;
 
 $: isExpandable = !isExpanded && players.length > 16;
+$: species = getPresentItems(query.species)[0] ?? undefined;
+$: teammates = getPresentItems(query.teammates).reverse();
 
 function expandResults(e) {
   isExpanded = true;
+}
+
+function getPresentItems(queryMap) {
+  if (!queryMap) {
+    return [];
+  }
+  const results = [];
+  for(let [item, present] of queryMap.entries()) {
+    if (present) {
+      results.push(item);
+    }
+  }
+  return results.sort();
 }
 
 function getListingName(player) {
@@ -28,13 +44,27 @@ function getListingName(player) {
   return `${title} ${player.name} (${player.swiss.wins}-${player.swiss.losses})`;
 }
 
-function getTeamDisplay(team) {
-  if(team?.length === 6) {
-    return team;
-  }
+function getTeamDisplay(team, query) {
   const display = [{}, {}, {}, {}, {}, {}];
   (team ?? []).forEach((el, i) => {
     display[i] = el;
+  });
+  display.sort((a,b) => {
+    if (!a.species) {
+      return 1;
+    }
+    if (!b.species) {
+      return -1;
+    }
+
+    if (a.species === species) {
+      return -1;
+    }
+    if (b.species === species) {
+      return 1;
+    }
+
+    return teammates.indexOf(b.species) - teammates.indexOf(a.species);
   });
   return display;
 }
@@ -52,7 +82,7 @@ function getTeamDisplay(team) {
       {/if}
     </p>
     <p>
-      {#each getTeamDisplay(player.team) as set}
+      {#each getTeamDisplay(player.team, query) as set}
         <span
           title={set.species ?? 'No Data'}
           style={Icons.getPokemon(set.species ?? 'No Data', {protocol: protocol, domain: domain}).style}
