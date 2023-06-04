@@ -15,16 +15,6 @@
     "end": "2023-06-04"
   },
   "players": [
-
-    {
-      "name": "Andrea Piasso",
-      "paste": "https://pokepast.es/601360da691c3071",
-      "swiss": {
-        "wins": 13,
-        "losses": 1,
-        "place": 1
-      }
-    },
     {
       "name": "Nico Davide Cognetta",
       "paste": "https://pokepast.es/9e00230c48050549",
@@ -32,16 +22,8 @@
         "wins": 12,
         "losses": 2,
         "place": 2
-      }
-    },
-    {
-      "name": "Luca Ceribelli",
-      "paste": "https://pokepast.es/1094c1b8186ac4b4",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 3
-      }
+      },
+      "top": 1
     },
     {
       "name": "Simone Sanvito",
@@ -50,16 +32,8 @@
         "wins": 11,
         "losses": 3,
         "place": 4
-      }
-    },
-    {
-      "name": "Adam Cherfaoui",
-      "paste": "https://pokepast.es/2b56dbcd78d08792",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 5
-      }
+      },
+      "top": 2
     },
     {
       "name": "Roberto Porretti",
@@ -68,16 +42,8 @@
         "wins": 11,
         "losses": 3,
         "place": 6
-      }
-    },
-    {
-      "name": "Hengyue Zhang",
-      "paste": "https://pokepast.es/3778f4950da26d09",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 7
-      }
+      },
+      "top": 4
     },
     {
       "name": "Alessio Fuscà",
@@ -86,7 +52,48 @@
         "wins": 11,
         "losses": 3,
         "place": 8
-      }
+      },
+      "top": 4
+    },
+    {
+      "name": "Andrea Piasso",
+      "paste": "https://pokepast.es/601360da691c3071",
+      "swiss": {
+        "wins": 13,
+        "losses": 1,
+        "place": 1
+      },
+      "top": 8
+    },
+    {
+      "name": "Luca Ceribelli",
+      "paste": "https://pokepast.es/1094c1b8186ac4b4",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 3
+      },
+      "top": 8
+    },
+    {
+      "name": "Adam Cherfaoui",
+      "paste": "https://pokepast.es/2b56dbcd78d08792",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "Hengyue Zhang",
+      "paste": "https://pokepast.es/3778f4950da26d09",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 7
+      },
+      "top": 8
     },
     {
       "name": "Giovanni Panarello",
