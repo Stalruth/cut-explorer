@@ -71,5 +71,8 @@
     <li>
       <a href="regional-hartford">Hartford Regional Championships</a>
     </li>
+    <li>
+      <a href="special-torino">Torino Special Event</a>
+    </li>
   </ul>
 </details>
