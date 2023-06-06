@@ -74,5 +74,8 @@
     <li>
       <a href="special-torino">Torino Special Event</a>
     </li>
+    <li>
+      <a href="regional-milwaukee">Milwaukee Regional Championships</a>
+    </li>
   </ul>
 </details>
