@@ -94,34 +94,5 @@ function getTeamDisplay(team, query) {
 </div>
 
 {#if isExpandable}
-  <button on:click={expandResults} class="secondary">Show all teams</button>
+  <button on:click={expandResults} class="secondary show-all">Show all teams</button>
 {/if}
-
-<style>
-button {
-  margin: 0 auto;
-  display: block;
-}
-
-div.teamlist {
-  display: grid;
-  justify-content: space-around;
-}
-
-p {
-  margin: 0;
-  width: fit-content;
-  text-align: center;
-  justify-self: center;
-}
-
-@media(min-width: 45rem) {
-  div.teamlist {
-    grid-template-columns: repeat(2, max-content);
-  }
-
-  p {
-    justify-self: start;
-  }
-}
-</style>

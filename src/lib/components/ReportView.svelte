@@ -72,18 +72,3 @@ export let results = {};
     />
   </div>
 </div>
-
-<style>
-.report {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 50px;
-}
-
-.report > div {
-  flex-grow: 1;
-  flex-basis: 30%;
-  min-width: max-content;
-}
-</style>

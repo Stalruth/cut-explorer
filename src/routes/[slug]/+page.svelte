@@ -88,22 +88,3 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
   port={port}
   query={query}
 />
-
-<style>
-div.controlbar {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-div.pokemon-select {
-  display: flex;
-  column-gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-nav a::before {
-  content: '← ';
-}
-</style>

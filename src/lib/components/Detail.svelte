@@ -18,7 +18,7 @@ $: sortedItems = items.sort((a, b) => {
 </script>
 
 <h3>{title}</h3>
-<ul>
+<ul class="checklist">
   {#each sortedItems as item (item.name)}
     <li>
       <label>
@@ -33,10 +33,3 @@ $: sortedItems = items.sort((a, b) => {
     </li>
   {/each}
 </ul>
-
-<style>
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-</style>
