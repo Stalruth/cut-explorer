@@ -22,52 +22,8 @@
         "wins": 13,
         "losses": 1,
         "place": 1
-      }
-    },
-    {
-      "name": "Chuppa Cross",
-      "paste": "https://pokepast.es/8d11a5746ffe48f1",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 2
-      }
-    },
-    {
-      "name": "Caelan Brown",
-      "paste": "https://pokepast.es/8162297637fdf1ee",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 3
-      }
-    },
-    {
-      "name": "Zackary Thornberg",
-      "paste": "https://pokepast.es/3fb61ae459a885a1",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 4
-      }
-    },
-    {
-      "name": "Alberto Lara",
-      "paste": "https://pokepast.es/12814dc01b0ad48f",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 5
-      }
-    },
-    {
-      "name": "Riley Factura",
-      "paste": "https://pokepast.es/c5a6db3cabfeb46f",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 6
-      }
+      },
+      "top": 1
     },
     {
       "name": "Gavin Michaels",
@@ -76,7 +32,58 @@
         "wins": 11,
         "losses": 3,
         "place": 7
-      }
+      },
+      "top": 2
+    },
+    {
+      "name": "Zackary Thornberg",
+      "paste": "https://pokepast.es/3fb61ae459a885a1",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "Riley Factura",
+      "paste": "https://pokepast.es/c5a6db3cabfeb46f",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 6
+      },
+      "top": 4
+    },
+    {
+      "name": "Chuppa Cross",
+      "paste": "https://pokepast.es/8d11a5746ffe48f1",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 2
+      },
+      "top": 8
+    },
+    {
+      "name": "Caelan Brown",
+      "paste": "https://pokepast.es/8162297637fdf1ee",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 3
+      },
+      "top": 8
+    },
+    {
+      "name": "Alberto Lara",
+      "paste": "https://pokepast.es/12814dc01b0ad48f",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 5
+      },
+      "top": 8
     },
     {
       "name": "Len Deuel",
@@ -85,7 +92,8 @@
         "wins": 10,
         "losses": 4,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Jimmy Friedle",
