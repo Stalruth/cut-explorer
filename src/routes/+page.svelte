@@ -77,5 +77,8 @@
     <li>
       <a href="regional-milwaukee">Milwaukee Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-fresno">Fresno Regional Championships</a>
+    </li>
   </ul>
 </details>
