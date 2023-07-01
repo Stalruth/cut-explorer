@@ -80,5 +80,8 @@
     <li>
       <a href="regional-fresno">Fresno Regional Championships</a>
     </li>
+    <li>
+      <a href="international-north-america">North America International Championships</a>
+    </li>
   </ul>
 </details>
