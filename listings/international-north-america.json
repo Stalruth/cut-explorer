@@ -21,8 +21,9 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 1
-      }
+        "place": 7
+      },
+      "top": 1
     },
     {
       "name": "Raghav Malaviya",
@@ -30,8 +31,9 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 2
-      }
+        "place": 8
+      },
+      "top": 2
     },
     {
       "name": "Víctor Medina",
@@ -49,7 +51,7 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 4
+        "place": 5
       },
       "top": 4
     },
@@ -59,7 +61,7 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 5
+        "place": 1
       },
       "top": 8
     },
@@ -69,7 +71,7 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 6
+        "place": 2
       },
       "top": 8
     },
@@ -79,7 +81,7 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 7
+        "place": 4
       },
       "top": 8
     },
@@ -89,7 +91,7 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 8
+        "place": 6
       },
       "top": 8
     },
