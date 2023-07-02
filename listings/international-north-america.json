@@ -16,20 +16,20 @@
   },
   "players": [
     {
-      "name": "Marco Hemantha Kaludura Silva",
-      "paste": "https://pokepast.es/7e50c7737f12b78a",
+      "name": "Alex Gómez Berna",
+      "paste": "https://pokepast.es/400f459dc2202a5f",
       "swiss": {
-        "wins": 12,
-        "losses": 2,
+        "wins": 11,
+        "losses": 3,
         "place": 1
       }
     },
     {
-      "name": "Chuppa Cross IV",
-      "paste": "https://pokepast.es/40e1affcd6d3b446",
+      "name": "Raghav Malaviya",
+      "paste": "https://pokepast.es/3582ddf7c102ece5",
       "swiss": {
-        "wins": 12,
-        "losses": 2,
+        "wins": 11,
+        "losses": 3,
         "place": 2
       }
     },
@@ -40,16 +40,8 @@
         "wins": 12,
         "losses": 2,
         "place": 3
-      }
-    },
-    {
-      "name": "Jeudy Azzarelli",
-      "paste": "https://pokepast.es/cf6bfdd644dd6241",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 4
-      }
+      },
+      "top": 4
     },
     {
       "name": "Joseph Ugarte",
@@ -57,8 +49,39 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "Marco Hemantha Kaludura Silva",
+      "paste": "https://pokepast.es/7e50c7737f12b78a",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
         "place": 5
-      }
+      },
+      "top": 8
+    },
+    {
+      "name": "Chuppa Cross IV",
+      "paste": "https://pokepast.es/40e1affcd6d3b446",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 6
+      },
+      "top": 8
+    },
+    {
+      "name": "Jeudy Azzarelli",
+      "paste": "https://pokepast.es/cf6bfdd644dd6241",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 7
+      },
+      "top": 8
     },
     {
       "name": "Justin Knox",
@@ -66,26 +89,9 @@
       "swiss": {
         "wins": 12,
         "losses": 2,
-        "place": 6
-      }
-    },
-    {
-      "name": "Alex Gómez Berna",
-      "paste": "https://pokepast.es/400f459dc2202a5f",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 7
-      }
-    },
-    {
-      "name": "Raghav Malaviya",
-      "paste": "https://pokepast.es/3582ddf7c102ece5",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Zackary Thornberg",
