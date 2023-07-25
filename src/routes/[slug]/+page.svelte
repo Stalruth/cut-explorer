@@ -67,7 +67,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
         Filter:
         <select bind:value={stage} on:change={changeScope}>
           {#each tournament.stages as stage}
-            <option value={stage.count ?? tournament.teams.length}>{stage.name ? `${stage.name} (${stage.count} teams)` : `Top ${stage.count ?? tournament.teams.length}`}</option>
+            <option value={stage.count ?? tournament.teams.length}>{stage.name ? `${stage.name} (${stage.count || tournament.teams.length} teams)` : `Top ${stage.count ?? tournament.teams.length}`}</option>
           {/each}
         </select>
       </label>
