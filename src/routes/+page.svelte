@@ -50,7 +50,7 @@
     </li>
   </ul>
 </details>
-<details open>
+<details>
   <summary>Regulation C (1-Apr to 30-Jun-2023)</summary>
   <ul>
     <li>
@@ -82,6 +82,17 @@
     </li>
     <li>
       <a href="international-north-america">North America International Championships</a>
+    </li>
+  </ul>
+</details>
+<details open>
+  <summary>Regulation D (1-Jul to 30-Sep-2023)</summary>
+  <ul>
+    <li>
+      <a href="worlds-day1">2023 Pokémon World Championships (Day 1)</a>
+    </li>
+    <li>
+      <a href="worlds">2023 Pokémon World Championships</a>
     </li>
   </ul>
 </details>
