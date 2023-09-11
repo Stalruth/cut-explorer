@@ -2,10 +2,10 @@
 export let title = '';
 export let changeHandler = ()=>{};
 export let items = {};
-export let query = [];
+export let query = new Map();
 export let total = 1;
 
-$: queryItems = [query].flat();
+$: queryItems = [...query].filter(el => el[1]).map(el => el[0]);
 $: sortedItems = items.sort((a, b) => {
   if(queryItems.includes(a.name) === queryItems.includes(b.name)) {
     return 0

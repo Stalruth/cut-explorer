@@ -1,7 +1,7 @@
 <script>
-import PokemonSelector from '$lib/components/PokemonSelector.svelte';
-import ReportView from '$lib/components/ReportView.svelte';
-import ResultsList from '$lib/components/ResultsList.svelte';
+import PokemonSelector from './PokemonSelector.svelte';
+import ReportView from './ReportView.svelte';
+import ResultsList from './ResultsList.svelte';
 
 import * as stats from '$lib/stats.js';
 
@@ -27,7 +27,14 @@ let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList);
-$: query = { species: pokemon ? new Map([[pokemon, true]]) : undefined };
+$: query = {
+  species: pokemon ? new Map([[pokemon, true]]) : undefined,
+  teraType: new Map(),
+  ability: new Map(),
+  item: new Map(),
+  moves: new Map(),
+  teammates: new Map()
+};
 $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
 </script>
 
@@ -74,6 +81,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
     </div>
   {/if}
 </div>
+
 {#if pokemon}
   <ReportView
     bind:query={query}
