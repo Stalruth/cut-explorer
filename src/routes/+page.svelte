@@ -10,5 +10,8 @@
 <details open>
   <summary>Regulation D (1-Jul to 30-Sep-2023)</summary>
   <ul>
+    <li>
+      <a href="regional-pittsburgh">Pittsburgh Regional Championships</a>
+    </li>
   </ul>
 </details>
