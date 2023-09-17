@@ -13,5 +13,8 @@
     <li>
       <a href="regional-pittsburgh">Pittsburgh Regional Championships</a>
     </li>
+    <li>
+      <a href="special-barcelona">Barcelona Special Event</a>
+    </li>
   </ul>
 </details>
