@@ -16,13 +16,24 @@
   ],
   "players": [
     {
+      "name": "Eduardo Cunha",
+      "paste": "https://pokepast.es/f7f1078bee5a147d",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 6
+      },
+      "top": 1
+    },
+    {
       "name": "Marco Marras",
       "paste": "https://pokepast.es/629eb78db8e83c51",
       "swiss": {
         "wins": 12,
         "losses": 2,
         "place": 1
-      }
+      },
+      "top": 2
     },
     {
       "name": "Giuseppe Musicco",
@@ -31,16 +42,8 @@
         "wins": 12,
         "losses": 2,
         "place": 2
-      }
-    },
-    {
-      "name": "Simone Sanvito",
-      "paste": "https://pokepast.es/b015e6dfea488ab5",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 3
-      }
+      },
+      "top": 4
     },
     {
       "name": "Matteo Ballini",
@@ -49,7 +52,18 @@
         "wins": 11,
         "losses": 3,
         "place": 4
-      }
+      },
+      "top": 4
+    },
+    {
+      "name": "Simone Sanvito",
+      "paste": "https://pokepast.es/b015e6dfea488ab5",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 3
+      },
+      "top": 8
     },
     {
       "name": "Alex Gómez Berna",
@@ -58,16 +72,8 @@
         "wins": 11,
         "losses": 3,
         "place": 5
-      }
-    },
-    {
-      "name": "Eduardo Cunha",
-      "paste": "https://pokepast.es/f7f1078bee5a147d",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 6
-      }
+      },
+      "top": 8
     },
     {
       "name": "Salvatore Rega",
@@ -76,7 +82,8 @@
         "wins": 11,
         "losses": 3,
         "place": 7
-      }
+      },
+      "top": 8
     },
     {
       "name": "Alessio Fuscà",
@@ -85,7 +92,8 @@
         "wins": 10,
         "losses": 4,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Alex Soto",
