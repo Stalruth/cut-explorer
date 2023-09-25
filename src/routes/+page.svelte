@@ -16,5 +16,8 @@
     <li>
       <a href="special-barcelona">Barcelona Special Event</a>
     </li>
+    <li>
+      <a href="regional-curitiba">Curitiba Regional Championships</a>
+    </li>
   </ul>
 </details>
