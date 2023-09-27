@@ -7,6 +7,7 @@
 </svelte:head>
 
 <h1>VGC Top Cut Explorer</h1>
+<p><a href="https://2023.cut-explorer.stalruth.dev">2023 Cut Explorer</a></p>
 <details open>
   <summary>Regulation D (1-Jul to 30-Sep-2023)</summary>
   <ul>
