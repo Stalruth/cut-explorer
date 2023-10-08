@@ -139,7 +139,7 @@ button.show-all {
   :root {
     --color-accent: #9300fc4f;
     --color-bg: #222;
-    --color-bg-secondary: #555;
+    --color-bg-secondary: #ccc;
     --color-link: #aaaaff;
     --color-secondary: #e20de9;
     --color-secondary-accent: #e20de94f;
@@ -147,7 +147,6 @@ button.show-all {
     --color-table: #0097fc;
     --color-text: #f7f7f7;
     --color-text-secondary: #333;
-    --color-bg-secondary: #ccc;
   }
 }
 
