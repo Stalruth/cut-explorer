@@ -22,7 +22,8 @@
         "wins": 13,
         "losses": 1,
         "place": 1
-      }
+      },
+      "top": 1
     },
     {
       "name": "Luka Trejgut",
@@ -31,7 +32,8 @@
         "wins": 12,
         "losses": 2,
         "place": 2
-      }
+      },
+      "top": 2
     },
     {
       "name": "Shiliang Tang",
@@ -40,7 +42,8 @@
         "wins": 12,
         "losses": 2,
         "place": 3
-      }
+      },
+      "top": 4
     },
     {
       "name": "Jeremy Parson",
@@ -49,7 +52,8 @@
         "wins": 11,
         "losses": 3,
         "place": 4
-      }
+      },
+      "top": 4
     },
     {
       "name": "Justin Knox",
@@ -58,7 +62,8 @@
         "wins": 11,
         "losses": 3,
         "place": 5
-      }
+      },
+      "top": 8
     },
     {
       "name": "Junxi Zhu",
@@ -67,7 +72,8 @@
         "wins": 11,
         "losses": 3,
         "place": 6
-      }
+      },
+      "top": 8
     },
     {
       "name": "Riley Factura",
@@ -76,7 +82,8 @@
         "wins": 11,
         "losses": 3,
         "place": 7
-      }
+      },
+      "top": 8
     },
     {
       "name": "Leonard Craft III",
@@ -85,7 +92,8 @@
         "wins": 11,
         "losses": 3,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Paul Chua",
@@ -449,7 +457,7 @@
     },
     {
       "name": "Joshua Lorcy",
-      "paste": "https://pokepast.es/e227e0f18e9c2e07",
+      "paste": "https://pokepast.es/d1e14bb6726f169c",
       "swiss": {
         "wins": 6,
         "losses": 3,
@@ -628,7 +636,7 @@
       "top": 64
     },
     {
-      "name": "christopher ferguson",
+      "name": "Christopher Ferguson",
       "paste": "https://pokepast.es/0676534383b348bf",
       "swiss": {
         "wins": 6,
@@ -858,7 +866,7 @@
       "top": 128
     },
     {
-      "name": "kyle ayala",
+      "name": "Kyle Ayala",
       "paste": "https://pokepast.es/b4e80420b1f6236a",
       "swiss": {
         "wins": 6,
