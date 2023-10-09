@@ -18,7 +18,8 @@
         "wins": 7,
         "losses": 0,
         "place": 1
-      }
+      },
+      "top": 1
     },
     {
       "name": "Victor Vieira",
@@ -27,7 +28,8 @@
         "wins": 6,
         "losses": 1,
         "place": 2
-      }
+      },
+      "top": 2
     },
     {
       "name": "Rafael Cassemiro Tezzotto",
@@ -36,7 +38,8 @@
         "wins": 6,
         "losses": 1,
         "place": 3
-      }
+      },
+      "top": 4
     },
     {
       "name": "Diego Gutierrez",
@@ -45,7 +48,8 @@
         "wins": 6,
         "losses": 1,
         "place": 5
-      }
+      },
+      "top": 4
     },
     {
       "name": "Renzo Navarro",
@@ -54,7 +58,8 @@
         "wins": 6,
         "losses": 1,
         "place": 4
-      }
+      },
+      "top": 8
     },
     {
       "name": "Thiago Lattanzi",
@@ -63,7 +68,8 @@
         "wins": 6,
         "losses": 1,
         "place": 6
-      }
+      },
+      "top": 8
     },
     {
       "name": "David Assato",
@@ -72,7 +78,8 @@
         "wins": 5,
         "losses": 2,
         "place": 7
-      }
+      },
+      "top": 8
     },
     {
       "name": "Paul Ruiz",
@@ -81,7 +88,8 @@
         "wins": 5,
         "losses": 2,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Pedro Henrique Rubini Cini",
