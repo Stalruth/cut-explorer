@@ -1,9 +1,9 @@
 <script>
 export let title = '';
 export let changeHandler = ()=>{};
-export let items = {};
+export let items = [];
 export let query = new Map();
-export let total = 1;
+export let total = 0;
 
 $: queryItems = [...query].filter(el => el[1]).map(el => el[0]);
 $: sortedItems = items.sort((a, b) => {
@@ -26,7 +26,8 @@ $: sortedItems = items.sort((a, b) => {
           type="checkbox"
           value={item.name}
           on:change={changeHandler}
-          checked={queryItems.includes(item.name)}
+          checked={queryItems.includes(item.name) || item.count === total}
+          disabled={!queryItems.includes(item.name) && item.count === total}
         >
         {item.name} ({item.count}/{total})
       </label>

@@ -53,6 +53,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
 </nav>
 
 <h1>{tournament.name} Top Cut Explorer</h1>
+
 <div class="controlbar">
   <div class="pokemon-select">
       <PokemonSelector
@@ -91,8 +92,9 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
 
 <ResultsList
   players={results.players}
+  query={query}
+  teammates={results?.sets?.teammates ?? []}
   hostname={hostname}
   protocol={protocol}
   port={port}
-  query={query}
 />
