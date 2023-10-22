@@ -31,5 +31,8 @@
     <li>
       <a href="regional-sacramento">Sacramento Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-lille">Lille Regional Championships</a>
+    </li>
   </ul>
 </details>
