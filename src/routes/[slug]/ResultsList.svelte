@@ -40,14 +40,18 @@ function getPresentItems(queryMap) {
 
 function getListingName(player) {
   let title = '';
-  if(player.top === 1) {
+  if (player.top === 1) {
     title = '1st';
   } else if (player.top === 2) {
     title = '2nd';
   } else if (player.top) {
     title = `Top ${player.top}`;
   }
-  return `${title} ${player.name} (${player.swiss.wins}-${player.swiss.losses})`;
+  let record = `${player.swiss.wins}-${player.swiss.losses}`;
+  if (player.swiss.ties) {
+    record = `${record}-${player.swiss.ties}`;
+  }
+  return `${title} ${player.name} (${record})`;
 }
 
 function getTeamDisplay(team, query) {
