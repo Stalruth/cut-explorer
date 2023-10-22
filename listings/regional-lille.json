@@ -70,8 +70,8 @@
       }
     },
     {
-      "name": "Simone Sanvito",
-      "paste": "https://pokepast.es/12412c7b154c9a76",
+      "name": "Maxime Le Brun",
+      "paste": "https://pokepast.es/eb9e0c410db882db",
       "swiss": {
         "wins": 11,
         "losses": 3,
@@ -79,8 +79,8 @@
       }
     },
     {
-      "name": "Maxime Le Brun",
-      "paste": "https://pokepast.es/eb9e0c410db882db",
+      "name": "Simone Sanvito",
+      "paste": "https://pokepast.es/12412c7b154c9a76",
       "swiss": {
         "wins": 11,
         "losses": 3,
@@ -88,12 +88,22 @@
       }
     },
     {
+      "name": "Giulio Tarlao",
+      "paste": "https://pokepast.es/98a8f16304b6f1d3",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 9
+      },
+      "top": 16
+    },
+    {
       "name": "Eric Rios",
       "paste": "https://pokepast.es/cd39b8537628983d",
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 9
+        "place": 10
       },
       "top": 16
     },
@@ -103,7 +113,7 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 10
+        "place": 11
       },
       "top": 16
     },
@@ -113,7 +123,7 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 11
+        "place": 12
       },
       "top": 16
     },
@@ -123,7 +133,7 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 12
+        "place": 13
       },
       "top": 16
     },
@@ -133,7 +143,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 13
+        "place": 14
       },
       "top": 16
     },
@@ -143,7 +153,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 14
+        "place": 15
       },
       "top": 16
     },
@@ -152,8 +162,8 @@
       "paste": "https://pokepast.es/1052f35450368747",
       "swiss": {
         "wins": 10,
-        "losses": 3,
-        "place": 15
+        "losses": 4,
+        "place": 16
       },
       "top": 16
     },
@@ -163,9 +173,9 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 16
+        "place": 17
       },
-      "top": 16
+      "top": 32
     },
     {
       "name": "Baptiste Candau",
@@ -173,7 +183,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 17
+        "place": 18
       },
       "top": 32
     },
@@ -183,16 +193,6 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 18
-      },
-      "top": 32
-    },
-    {
-      "name": "Giulio Tarlao",
-      "paste": "https://pokepast.es/98a8f16304b6f1d3",
-      "swiss": {
-        "wins": 10,
-        "losses": 3,
         "place": 19
       },
       "top": 32
@@ -218,8 +218,8 @@
       "top": 32
     },
     {
-      "name": "Pablo Gallardo Hiraldo",
-      "paste": "https://pokepast.es/0f8811ffbae0a717",
+      "name": "Yuki Zaninovich",
+      "paste": "https://pokepast.es/b9265b6ceaaaf116",
       "swiss": {
         "wins": 10,
         "losses": 4,
@@ -228,8 +228,8 @@
       "top": 32
     },
     {
-      "name": "Yuki Zaninovich",
-      "paste": "https://pokepast.es/b9265b6ceaaaf116",
+      "name": "Pablo Gallardo Hiraldo",
+      "paste": "https://pokepast.es/0f8811ffbae0a717",
       "swiss": {
         "wins": 10,
         "losses": 4,
@@ -309,22 +309,12 @@
       "top": 32
     },
     {
-      "name": "Theotime MASSAUT",
-      "paste": "https://pokepast.es/b7246c1744de6813",
-      "swiss": {
-        "wins": 9,
-        "losses": 5,
-        "place": 31
-      },
-      "top": 32
-    },
-    {
       "name": "Fabian Kuhl",
       "paste": "https://pokepast.es/740e69b36877d316",
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 32
+        "place": 31
       },
       "top": 32
     },
@@ -334,27 +324,17 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
+        "place": 32
+      },
+      "top": 32
+    },
+    {
+      "name": "Theotime MASSAUT",
+      "paste": "https://pokepast.es/b7246c1744de6813",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
         "place": 33
-      },
-      "top": 64
-    },
-    {
-      "name": "Rhys Johnson",
-      "paste": "https://pokepast.es/83df41b515802244",
-      "swiss": {
-        "wins": 9,
-        "losses": 5,
-        "place": 34
-      },
-      "top": 64
-    },
-    {
-      "name": "Oliver Eskolin",
-      "paste": "https://pokepast.es/7b317244c48931a6",
-      "swiss": {
-        "wins": 9,
-        "losses": 5,
-        "place": 35
       },
       "top": 64
     },
@@ -364,13 +344,33 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
+        "place": 34
+      },
+      "top": 64
+    },
+    {
+      "name": "Rhys Johnson",
+      "paste": "https://pokepast.es/83df41b515802244",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 35
+      },
+      "top": 64
+    },
+    {
+      "name": "Oliver Eskolin",
+      "paste": "https://pokepast.es/7b317244c48931a6",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
         "place": 36
       },
       "top": 64
     },
     {
-      "name": "Juan Manuel Odriozola",
-      "paste": "https://pokepast.es/07d024da39b74b6d",
+      "name": "Daniel Daertni",
+      "paste": "https://pokepast.es/b91038e9163035d3",
       "swiss": {
         "wins": 9,
         "losses": 5,
@@ -379,8 +379,8 @@
       "top": 64
     },
     {
-      "name": "Daniel Daertni",
-      "paste": "https://pokepast.es/b91038e9163035d3",
+      "name": "Juan Manuel Odriozola",
+      "paste": "https://pokepast.es/07d024da39b74b6d",
       "swiss": {
         "wins": 9,
         "losses": 5,
