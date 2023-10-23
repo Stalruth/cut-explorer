@@ -16,13 +16,14 @@
   ],
   "players": [
     {
-      "name": "Maurice Uteg",
-      "paste": "https://pokepast.es/3b2512657ad92c81",
+      "name": "Simone Sanvito",
+      "paste": "https://pokepast.es/12412c7b154c9a76",
       "swiss": {
-        "wins": 12,
-        "losses": 2,
+        "wins": 11,
+        "losses": 3,
         "place": 1
-      }
+      },
+      "top": 1
     },
     {
       "name": "Aurélien Soula",
@@ -31,25 +32,8 @@
         "wins": 12,
         "losses": 2,
         "place": 2
-      }
-    },
-    {
-      "name": "Marco Hemantha Kaludura Silva",
-      "paste": "https://pokepast.es/c58a62af2397a70c",
-      "swiss": {
-        "wins": 12,
-        "losses": 2,
-        "place": 3
-      }
-    },
-    {
-      "name": "Miguel Paquete",
-      "paste": "https://pokepast.es/72438ce6b7d1c77e",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 4
-      }
+      },
+      "top": 2
     },
     {
       "name": "Taran Birdee",
@@ -57,8 +41,9 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 5
-      }
+        "place": 3
+      },
+      "top": 4
     },
     {
       "name": "Miguel Martí de la Torre",
@@ -66,8 +51,39 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
+        "place": 4
+      },
+      "top": 4
+    },
+    {
+      "name": "Maurice Uteg",
+      "paste": "https://pokepast.es/3b2512657ad92c81",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
+        "place": 5
+      },
+      "top": 8
+    },
+    {
+      "name": "Marco Hemantha Kaludura Silva",
+      "paste": "https://pokepast.es/c58a62af2397a70c",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
         "place": 6
-      }
+      },
+      "top": 8
+    },
+    {
+      "name": "Miguel Paquete",
+      "paste": "https://pokepast.es/72438ce6b7d1c77e",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 7
+      },
+      "top": 8
     },
     {
       "name": "Maxime Le Brun",
@@ -75,17 +91,9 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 7
-      }
-    },
-    {
-      "name": "Simone Sanvito",
-      "paste": "https://pokepast.es/12412c7b154c9a76",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
         "place": 8
-      }
+      },
+      "top": 8
     },
     {
       "name": "Giulio Tarlao",
@@ -158,7 +166,7 @@
       "top": 16
     },
     {
-      "name": "Baris “BillaVGC” Akcos",
+      "name": "Baris Akcos",
       "paste": "https://pokepast.es/1052f35450368747",
       "swiss": {
         "wins": 10,
@@ -329,7 +337,7 @@
       "top": 32
     },
     {
-      "name": "Theotime MASSAUT",
+      "name": "Theotime Massaut",
       "paste": "https://pokepast.es/b7246c1744de6813",
       "swiss": {
         "wins": 9,
@@ -459,7 +467,7 @@
       "top": 64
     },
     {
-      "name": "Quentin CLÉMENT",
+      "name": "Quentin Clément",
       "paste": "https://pokepast.es/f3bc070d82973ef4",
       "swiss": {
         "wins": 8,
@@ -479,7 +487,7 @@
       "top": 64
     },
     {
-      "name": "christophe willems",
+      "name": "Christophe Willems",
       "paste": "https://pokepast.es/1c8ca9a049cf7a21",
       "swiss": {
         "wins": 7,
@@ -509,7 +517,7 @@
       "top": 64
     },
     {
-      "name": "Rayan GUEZI",
+      "name": "Rayan Guezi",
       "paste": "https://pokepast.es/b8c26b28cd8719f6",
       "swiss": {
         "wins": 6,
@@ -529,7 +537,7 @@
       "top": 64
     },
     {
-      "name": "Martinet bryan",
+      "name": "Martinet Bryan",
       "paste": "https://pokepast.es/511c89a61bf7c591",
       "swiss": {
         "wins": 6,
@@ -679,7 +687,7 @@
       "top": 128
     },
     {
-      "name": "Simone Di felici",
+      "name": "Simone Di Felici",
       "paste": "https://pokepast.es/a9ebb278fd8b16ab",
       "swiss": {
         "wins": 6,
@@ -809,7 +817,7 @@
       "top": 128
     },
     {
-      "name": "Nicolas PAQUOT",
+      "name": "Nicolas Paquot",
       "paste": "https://pokepast.es/134a8056e1e8a714",
       "swiss": {
         "wins": 6,
@@ -1079,7 +1087,7 @@
       "top": 128
     },
     {
-      "name": "Gustavo MOREIRA VIDAL PEREIRA",
+      "name": "Gustavo Moreirs Vidal Pereira",
       "paste": "https://pokepast.es/eef26dcf68a51242",
       "swiss": {
         "wins": 6,
@@ -1269,7 +1277,7 @@
       "top": 128
     },
     {
-      "name": "Raydevy MPENA MENGO",
+      "name": "Raydevy Mpena Mengo",
       "paste": "https://pokepast.es/406237b20ba4a160",
       "swiss": {
         "wins": 6,
@@ -1450,7 +1458,7 @@
       "top": 256
     },
     {
-      "name": "zoe james",
+      "name": "Zoe James",
       "paste": "https://pokepast.es/a0e75eb0a23ecc36",
       "swiss": {
         "wins": 5,
@@ -1490,7 +1498,7 @@
       "top": 256
     },
     {
-      "name": "Vincent VILLIERS",
+      "name": "Vincent Villiers",
       "paste": "https://pokepast.es/62e2c1ce25bd586f",
       "swiss": {
         "wins": 5,
@@ -1670,7 +1678,7 @@
       "top": 256
     },
     {
-      "name": "dimitri lavignon",
+      "name": "Dimitri Lavignon",
       "paste": "https://pokepast.es/2a4502cd3e5d025f",
       "swiss": {
         "wins": 5,
@@ -1711,7 +1719,7 @@
     },
     {
       "name": "Rémi Quaire",
-      "paste": "https://pokepast.es/5b80bbebaf498c77",
+      "paste": "https://pokepast.es/1c8eac86fb0a90d1",
       "swiss": {
         "wins": 5,
         "losses": 4,
@@ -1770,7 +1778,7 @@
       "top": 256
     },
     {
-      "name": "Romain MONTEIRO",
+      "name": "Romain Monteiro",
       "paste": "https://pokepast.es/760a775a55af6fae",
       "swiss": {
         "wins": 5,
@@ -1910,7 +1918,7 @@
       "top": 256
     },
     {
-      "name": "Orlando CANDELARESI",
+      "name": "Orlando Candelaresi",
       "paste": "https://pokepast.es/dfc1f45d146ddecb",
       "swiss": {
         "wins": 5,
@@ -2370,7 +2378,7 @@
       "top": 256
     },
     {
-      "name": "Romaric ABDI",
+      "name": "Romaric Abdi",
       "paste": "https://pokepast.es/79ee76ee7105556c",
       "swiss": {
         "wins": 5,
@@ -2540,7 +2548,7 @@
       "top": 256
     },
     {
-      "name": "Helmy BEN MESSAOUD",
+      "name": "Helmy Ben Messaoud",
       "paste": "https://pokepast.es/d7f91a9a37b264d5",
       "swiss": {
         "wins": 4,
