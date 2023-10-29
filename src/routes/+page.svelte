@@ -34,5 +34,8 @@
     <li>
       <a href="regional-lille">Lille Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-toronto">Toronto Regional Championships</a>
+    </li>
   </ul>
 </details>
