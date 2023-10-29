@@ -6259,7 +6259,7 @@
     },
     {
       "name": "Braden Clemens",
-      "paste": "https://pokepast.es/88d04eb21b21c95c",
+      "paste": "https://pokepast.es/8908a8942195a716",
       "swiss": {
         "wins": 6,
         "losses": 3,
@@ -6306,9 +6306,9 @@
           "item": "Focus Sash"
         },
         {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
+          "species": "Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
           "moves": [
             "Ivy Cudgel",
             "Wood Hammer",
@@ -6316,7 +6316,7 @@
             "Spiky Shield"
           ],
           "name": "Rumi",
-          "item": "Hearthflame Mask"
+          "item": "Wellspring Mask"
         },
         {
           "species": "Dragonite",
