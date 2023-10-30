@@ -13,11 +13,95 @@
   ],
   "players": [
     {
-      "name": "Paul Chua",
-      "paste": "https://pokepast.es/3d59cf10273f52a4",
+      "name": "Chuppa Cross IV",
+      "paste": "https://pokepast.es//5108bc046c66943e",
       "swiss": {
-        "wins": 9,
-        "losses": 0,
+        "wins": 12,
+        "losses": 2,
+        "place": 2
+      },
+      "team": [
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Sucker Punch",
+            "Icicle Crash",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Wood Hammer",
+            "Grassy Glide",
+            "U-turn",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Normal",
+          "moves": [
+            "Flare Blitz",
+            "Head Smash",
+            "Rock Slide",
+            "Extreme Speed"
+          ],
+          "item": "Choice Band"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Aqua Jet",
+            "Close Combat",
+            "Protect"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Bleakwind Storm",
+            "Taunt",
+            "Tailwind",
+            "Rain Dance"
+          ],
+          "item": "Rocky Helmet"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Shadow Ball",
+            "Moonblast",
+            "Dazzling Gleam",
+            "Protect"
+          ],
+          "item": "Booster Energy"
+        }
+      ],
+      "top": 1
+    },
+    {
+      "name": "Paul Chua",
+      "paste": "https://pokepast.es//3d59cf10273f52a4",
+      "swiss": {
+        "wins": 12,
+        "losses": 2,
         "place": 1
       },
       "team": [
@@ -93,696 +177,16 @@
           ],
           "item": "Choice Scarf"
         }
-      ]
-    },
-    {
-      "name": "Jamie Boyt",
-      "paste": "https://pokepast.es/ee913488e2d96dab",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 2
-      },
-      "team": [
-        {
-          "species": "Roaring Moon",
-          "ability": "Protosynthesis",
-          "teraType": "Poison",
-          "moves": [
-            "Knock Off",
-            "Breaking Swipe",
-            "Tailwind",
-            "Protect"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Ogerpon",
-          "ability": "Defiant",
-          "teraType": "Grass",
-          "moves": [
-            "Ivy Cudgel",
-            "Stomping Tantrum",
-            "Swords Dance",
-            "Spiky Shield"
-          ],
-          "item": "Razor Claw"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed",
-            "Tera Blast"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Substitute",
-            "Detect"
-          ],
-          "item": "Splash Plate"
-        },
-        {
-          "species": "Thundurus-Therian",
-          "ability": "Volt Absorb",
-          "teraType": "Flying",
-          "moves": [
-            "Thunderbolt",
-            "Tera Blast",
-            "Grass Knot",
-            "Wildbolt Storm"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Steel",
-          "moves": [
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot",
-            "Protect"
-          ],
-          "item": "Life Orb"
-        }
-      ]
-    },
-    {
-      "name": "Justin Tang",
-      "paste": "https://pokepast.es/7f565bcaee8ec9b4",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 3
-      },
-      "team": [
-        {
-          "species": "Salamence",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Draco Meteor",
-            "Hurricane",
-            "Air Slash",
-            "Tailwind"
-          ],
-          "name": "bird?",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam"
-          ],
-          "name": "Big Bro",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Nasty Plot",
-            "Make It Rain",
-            "Shadow Ball",
-            "Protect"
-          ],
-          "name": "AGENCY",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Icy Wind",
-            "Freeze-Dry",
-            "Hydro Pump",
-            "Protect"
-          ],
-          "name": "Lil Bro",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Water",
-          "moves": [
-            "Spore",
-            "Rage Powder",
-            "Pollen Puff",
-            "Protect"
-          ],
-          "name": "never forget",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Pelipper",
-          "ability": "Drizzle",
-          "teraType": "Flying",
-          "moves": [
-            "Hurricane",
-            "Weather Ball",
-            "Wide Guard",
-            "Protect"
-          ],
-          "name": "the biggest",
-          "item": "Focus Sash"
-        }
-      ]
-    },
-    {
-      "name": "Andrew Krug",
-      "paste": "https://pokepast.es/5537b5d112b597be",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 4
-      },
-      "team": [
-        {
-          "species": "Dusclops",
-          "ability": "Pressure",
-          "teraType": "Dark",
-          "moves": [
-            "Night Shade",
-            "Will-O-Wisp",
-            "Pain Split",
-            "Trick Room"
-          ],
-          "item": "Eviolite"
-        },
-        {
-          "species": "Ogerpon-Cornerstone",
-          "ability": "Sturdy",
-          "teraType": "Rock",
-          "moves": [
-            "Spiky Shield",
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Follow Me"
-          ],
-          "item": "Cornerstone Mask"
-        },
-        {
-          "species": "Chi-Yu",
-          "ability": "Beads of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Dark Pulse",
-            "Snarl",
-            "Overheat"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Fire",
-          "moves": [
-            "Drain Punch",
-            "Wild Charge",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "U-turn",
-            "Stomping Tantrum",
-            "Rock Slide",
-            "Tera Blast"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Ursaluna-Bloodmoon",
-          "ability": "Mind’s Eye",
-          "teraType": "Normal",
-          "moves": [
-            "Protect",
-            "Earth Power",
-            "Blood Moon",
-            "Hyper Voice"
-          ],
-          "item": "Life Orb"
-        }
-      ]
-    },
-    {
-      "name": "Ollie Zilkha",
-      "paste": "https://pokepast.es/c1f67f52f4a5e65b",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 5
-      },
-      "team": [
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Rock Slide",
-            "Stomping Tantrum",
-            "Tera Blast",
-            "U-turn"
-          ],
-          "name": "Boi’s Night",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Baxcalibur",
-          "ability": "Ice Body",
-          "teraType": "Poison",
-          "moves": [
-            "Icicle Spear",
-            "Protect",
-            "Swords Dance",
-            "Scale Shot"
-          ],
-          "item": "Loaded Dice"
-        },
-        {
-          "species": "Ninetales-Alola",
-          "ability": "Snow Warning",
-          "teraType": "Fire",
-          "moves": [
-            "Aurora Veil",
-            "Moonblast",
-            "Icy Wind",
-            "Protect"
-          ],
-          "name": ":)",
-          "item": "Light Clay"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Magma Storm",
-            "Earth Power",
-            "Flash Cannon"
-          ],
-          "name": ":):):)",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Fake Out",
-            "Grassy Glide",
-            "Wood Hammer",
-            "U-turn"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Follow Me",
-            "Ivy Cudgel",
-            "Power Whip",
-            "Spiky Shield"
-          ],
-          "name": "Darlene",
-          "item": "Wellspring Mask"
-        }
-      ]
-    },
-    {
-      "name": "Eric Bartlett",
-      "paste": "https://pokepast.es/f4905a1bb18dcf92",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 6
-      },
-      "team": [
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Spiky Shield",
-            "Ivy Cudgel",
-            "Grassy Glide",
-            "Swords Dance"
-          ],
-          "name": "WW Pluto Do",
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Grassy Glide",
-            "Wood Hammer",
-            "U-turn",
-            "Fake Out"
-          ],
-          "name": "FPS",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Drain Punch",
-            "Wild Charge",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "name": "Daylight",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Heat Wave",
-            "Flash Cannon",
-            "Earth Power"
-          ],
-          "name": "8AMCHARLOTTE",
-          "item": "Life Orb"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Freeze-Dry",
-            "Icy Wind",
-            "Hydro Pump"
-          ],
-          "name": "7969 Santa",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Rock Slide",
-            "Tera Blast",
-            "U-turn"
-          ],
-          "name": "VA Beach",
-          "item": "Choice Scarf"
-        }
-      ]
-    },
-    {
-      "name": "Riley Factura",
-      "paste": "https://pokepast.es/f0dc156a08a4cccf",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 7
-      },
-      "team": [
-        {
-          "species": "Kingambit",
-          "ability": "Defiant",
-          "teraType": "Fairy",
-          "moves": [
-            "Sucker Punch",
-            "Tera Blast",
-            "Kowtow Cleave",
-            "Protect"
-          ],
-          "item": "Black Glasses"
-        },
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Water",
-          "moves": [
-            "Spore",
-            "Pollen Puff",
-            "Grass Knot",
-            "Rage Powder"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Poison",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
-          "moves": [
-            "Extreme Speed",
-            "Aerial Ace",
-            "Stomping Tantrum",
-            "Thunder Punch"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Ice Spinner",
-            "Sacred Sword",
-            "Protect",
-            "Sucker Punch"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Spiky Shield",
-            "Horn Leech",
-            "Follow Me"
-          ],
-          "item": "Hearthflame Mask"
-        }
-      ]
-    },
-    {
-      "name": "Chuppa Cross IV",
-      "paste": "https://pokepast.es/5108bc046c66943e",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 8
-      },
-      "team": [
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Sucker Punch",
-            "Icicle Crash",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Wood Hammer",
-            "Grassy Glide",
-            "U-turn",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Normal",
-          "moves": [
-            "Flare Blitz",
-            "Head Smash",
-            "Rock Slide",
-            "Extreme Speed"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Aqua Jet",
-            "Close Combat",
-            "Protect"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Bleakwind Storm",
-            "Taunt",
-            "Tailwind",
-            "Rain Dance"
-          ],
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Shadow Ball",
-            "Moonblast",
-            "Dazzling Gleam",
-            "Protect"
-          ],
-          "item": "Booster Energy"
-        }
-      ]
-    },
-    {
-      "name": "Grant Weldon",
-      "paste": "https://pokepast.es/265d854b50acb3e8",
-      "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 9
-      },
-      "team": [
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Sunny Day",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Water",
-          "moves": [
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Substitute",
-            "Protect"
-          ],
-          "name": "Flotte-Mèche",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Farigiraf",
-          "ability": "Armor Tail",
-          "teraType": "Fairy",
-          "moves": [
-            "Psychic",
-            "Dazzling Gleam",
-            "Trick Room",
-            "Imprison"
-          ],
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Flash Cannon",
-            "Earth Power",
-            "Protect"
-          ],
-          "item": "Life Orb"
-        },
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
-          "moves": [
-            "Wicked Blow",
-            "Sucker Punch",
-            "Close Combat",
-            "Iron Head"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Regidrago",
-          "ability": "Dragon's Maw",
-          "teraType": "Poison",
-          "moves": [
-            "Dragon Energy",
-            "Draco Meteor",
-            "Earth Power",
-            "Protect"
-          ],
-          "item": "Dragon Fang"
-        }
-      ]
+      ],
+      "top": 2
     },
     {
       "name": "Raghav Malaviya",
-      "paste": "https://pokepast.es/46614ee89663d0de",
+      "paste": "https://pokepast.es//46614ee89663d0de",
       "swiss": {
-        "wins": 8,
-        "losses": 1,
-        "place": 10
+        "wins": 12,
+        "losses": 2,
+        "place": 3
       },
       "team": [
         {
@@ -863,39 +267,51 @@
           "name": "Hotlinebling",
           "item": "Metal Coat"
         }
-      ]
+      ],
+      "top": 4
     },
     {
-      "name": "Kazuki Kanehira",
-      "paste": "https://pokepast.es/4dd37f6b0a005324",
+      "name": "Jamie Boyt",
+      "paste": "https://pokepast.es//ee913488e2d96dab",
       "swiss": {
-        "wins": 7,
+        "wins": 12,
         "losses": 2,
-        "place": 11
+        "place": 4
       },
       "team": [
         {
-          "species": "Farigiraf",
-          "ability": "Armor Tail",
-          "teraType": "Fairy",
+          "species": "Roaring Moon",
+          "ability": "Protosynthesis",
+          "teraType": "Poison",
           "moves": [
-            "Psychic",
-            "Dazzling Gleam",
-            "Helping Hand",
-            "Trick Room"
+            "Knock Off",
+            "Breaking Swipe",
+            "Tailwind",
+            "Protect"
           ],
-          "name": "Farigiraf",
-          "item": "Rocky Helmet"
+          "item": "Booster Energy"
         },
         {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
+          "species": "Ogerpon",
+          "ability": "Defiant",
+          "teraType": "Grass",
           "moves": [
+            "Ivy Cudgel",
+            "Stomping Tantrum",
+            "Swords Dance",
+            "Spiky Shield"
+          ],
+          "item": "Razor Claw"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Flare Blitz",
+            "Rock Slide",
             "Extreme Speed",
-            "Outrage",
-            "Aerial Ace",
-            "Stomping Tantrum"
+            "Tera Blast"
           ],
           "item": "Choice Band"
         },
@@ -906,60 +322,45 @@
           "moves": [
             "Surging Strikes",
             "Close Combat",
-            "U-turn",
-            "Aqua Jet"
+            "Substitute",
+            "Detect"
           ],
-          "name": "Urshifu",
-          "item": "Choice Scarf"
+          "item": "Splash Plate"
         },
         {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Grass",
+          "species": "Thundurus-Therian",
+          "ability": "Volt Absorb",
+          "teraType": "Flying",
           "moves": [
-            "Wood Hammer",
-            "Grassy Glide",
-            "Protect",
-            "Fake Out"
+            "Thunderbolt",
+            "Tera Blast",
+            "Grass Knot",
+            "Wildbolt Storm"
           ],
-          "name": "Rillaboom",
-          "item": "Miracle Seed"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Flash Cannon",
-            "Earth Power",
-            "Tera Blast"
-          ],
-          "name": "Heatran",
           "item": "Assault Vest"
         },
         {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Dark",
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Steel",
           "moves": [
-            "Icicle Crash",
-            "Crunch",
-            "Sucker Punch",
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
             "Protect"
           ],
-          "name": "Sorta ruined",
-          "item": "Focus Sash"
+          "item": "Life Orb"
         }
-      ]
+      ],
+      "top": 4
     },
     {
-      "name": "Jonathan Giron",
-      "paste": "https://pokepast.es/49927d453bf0503f",
+      "name": "Bobby Rochelle",
+      "paste": "https://pokepast.es//98aa9116e4faefd6",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 12
+        "wins": 11,
+        "losses": 3,
+        "place": 5
       },
       "team": [
         {
@@ -967,223 +368,137 @@
           "ability": "Unseen Fist",
           "teraType": "Water",
           "moves": [
-            "Aqua Jet",
-            "Detect",
+            "Surging Strikes",
             "Close Combat",
-            "Surging Strikes"
+            "Aqua Jet",
+            "U-turn"
           ],
-          "name": "Kah-rah-tay",
-          "item": "Focus Sash"
+          "name": "Bill",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Rock Slide",
+            "Extreme Speed",
+            "Flare Blitz",
+            "Tera Blast"
+          ],
+          "name": "Geiger",
+          "item": "Choice Band"
         },
         {
           "species": "Tornadus",
           "ability": "Prankster",
-          "teraType": "Dark",
-          "moves": [
-            "Scary Face",
-            "Rain Dance",
-            "Bleakwind Storm",
-            "Tailwind"
-          ],
-          "item": "Covert Cloak"
-        },
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Dragon",
-          "moves": [
-            "Rage Powder",
-            "Spore",
-            "Pollen Puff",
-            "Protect"
-          ],
-          "name": "Sir Amonguss",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Roaring Moon",
-          "ability": "Protosynthesis",
-          "teraType": "Flying",
-          "moves": [
-            "Knock Off",
-            "Dragon Dance",
-            "Acrobatics",
-            "Protect"
-          ],
-          "name": "Celeste",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Tera Blast",
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed"
-          ],
-          "name": "Nobara",
-          "item": "Choice Band"
-        },
-        {
-          "species": "Tinkaton",
-          "ability": "Mold Breaker",
-          "teraType": "Dragon",
-          "moves": [
-            "Fake Out",
-            "Knock Off",
-            "Gigaton Hammer",
-            "Play Rough"
-          ],
-          "name": "Madam Bonk",
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Eric Rios",
-      "paste": "https://pokepast.es/50c0778a72efe801",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 13
-      },
-      "team": [
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Water",
-          "moves": [
-            "Flare Blitz",
-            "Will-O-Wisp",
-            "Rock Slide",
-            "Protect"
-          ],
-          "name": "CAPITÁN",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Cresselia",
-          "ability": "Levitate",
-          "teraType": "Poison",
-          "moves": [
-            "Trick Room",
-            "Psychic",
-            "Lunar Blessing",
-            "Icy Wind"
-          ],
-          "name": "TSUBASA",
-          "item": "Mental Herb"
-        },
-        {
-          "species": "Tyranitar",
-          "ability": "Sand Stream",
-          "teraType": "Psychic",
-          "moves": [
-            "Rock Slide",
-            "Knock Off",
-            "Tera Blast",
-            "Low Kick"
-          ],
-          "name": "POKEGERARDO",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Grass",
-          "moves": [
-            "Grassy Glide",
-            "Wood Hammer",
-            "Taunt",
-            "Fake Out"
-          ],
-          "item": "Miracle Seed"
-        },
-        {
-          "species": "Kommo-o",
-          "ability": "Bulletproof",
-          "teraType": "Steel",
-          "moves": [
-            "Protect",
-            "Iron Defense",
-            "Body Press",
-            "Iron Head"
-          ],
-          "name": "OKIWILLY",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Shadow Ball",
-            "Dazzling Gleam",
-            "Mystical Fire"
-          ],
-          "item": "Choice Specs"
-        }
-      ]
-    },
-    {
-      "name": "Adrien Hurley",
-      "paste": "https://pokepast.es/a302457e72f4c20a",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 14
-      },
-      "team": [
-        {
-          "species": "Lilligant-Hisui",
-          "ability": "Chlorophyll",
           "teraType": "Ghost",
           "moves": [
-            "Solar Blade",
-            "Close Combat",
-            "Sleep Powder",
-            "After You"
+            "Bleakwind Storm",
+            "Leer",
+            "Tailwind",
+            "Taunt"
           ],
-          "item": "Focus Sash"
+          "item": "Sharp Beak"
         },
         {
-          "species": "Tatsugiri-Stretchy",
-          "ability": "Commander",
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Poison",
+          "moves": [
+            "Wild Charge",
+            "Close Combat",
+            "Ice Punch",
+            "Fake Out"
+          ],
+          "name": "André",
+          "item": "Clear Amulet"
+        },
+        {
+          "species": "Sinistcha",
+          "ability": "Heatproof",
           "teraType": "Steel",
           "moves": [
-            "Muddy Water",
-            "Draco Meteor",
-            "Dragon Pulse",
-            "Sleep Talk"
+            "Matcha Gotcha",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Rage Powder"
           ],
-          "item": "Choice Scarf"
+          "name": "Mr. Green",
+          "item": "Sitrus Berry"
         },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Lash Out",
+            "Ice Spinner",
+            "Sucker Punch"
+          ],
+          "name": "The Weasler",
+          "item": "Focus Sash"
+        }
+      ],
+      "top": 8
+    },
+    {
+      "name": "Enzo Reci",
+      "paste": "https://pokepast.es//ba6ebdbead1eadad",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 6
+      },
+      "team": [
         {
           "species": "Indeedee-F",
           "ability": "Psychic Surge",
-          "teraType": "Water",
-          "moves": [
-            "Dazzling Gleam",
-            "Follow Me",
-            "Trick Room",
-            "Skill Swap"
-          ],
-          "item": "Psychic Seed"
-        },
-        {
-          "species": "Torkoal",
-          "ability": "Drought",
           "teraType": "Fire",
           "moves": [
-            "Eruption",
-            "Heat Wave",
-            "Flamethrower",
-            "Earth Power"
+            "Follow Me",
+            "Psychic",
+            "Helping Hand",
+            "Trick Room"
           ],
-          "item": "Choice Specs"
+          "item": "Safety Goggles"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Brick Break",
+            "Swords Dance",
+            "Protect"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Ursaluna-Bloodmoon",
+          "ability": "Mind’s Eye",
+          "teraType": "Normal",
+          "moves": [
+            "Hyper Voice",
+            "Blood Moon",
+            "Earth Power",
+            "Protect"
+          ],
+          "item": "Throat Spray"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Flying",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Grass Knot",
+            "Taunt"
+          ],
+          "item": "Covert Cloak"
         },
         {
           "species": "Armarouge",
@@ -1191,49 +506,13 @@
           "teraType": "Psychic",
           "moves": [
             "Expanding Force",
-            "Heat Wave",
-            "Focus Blast",
+            "Armor Cannon",
+            "Wide Guard",
             "Trick Room"
           ],
           "item": "Life Orb"
         },
         {
-          "species": "Dondozo",
-          "ability": "Oblivious",
-          "teraType": "Flying",
-          "moves": [
-            "Wave Crash",
-            "Tera Blast",
-            "Protect",
-            "Earthquake"
-          ],
-          "item": "Rocky Helmet"
-        }
-      ]
-    },
-    {
-      "name": "Austin Forcinito",
-      "paste": "https://pokepast.es/3405eae0cb16b5b0",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 15
-      },
-      "team": [
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "name": "kidney",
-          "item": "Focus Sash"
-        },
-        {
           "species": "Flutter Mane",
           "ability": "Protosynthesis",
           "teraType": "Fairy",
@@ -1243,589 +522,24 @@
             "Shadow Ball",
             "Protect"
           ],
-          "name": "reef cake",
           "item": "Booster Energy"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "name": "freckle",
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Steel",
-          "moves": [
-            "Bleakwind Storm",
-            "Rain Dance",
-            "Tailwind",
-            "Taunt"
-          ],
-          "name": "beans XD",
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Normal",
-          "moves": [
-            "Extreme Speed",
-            "Rock Slide",
-            "Flare Blitz",
-            "Head Smash"
-          ],
-          "name": "zucchini",
-          "item": "Choice Band"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Grassy Glide",
-            "Wood Hammer",
-            "U-turn",
-            "Fake Out"
-          ],
-          "name": "mr tiramisu",
-          "item": "Assault Vest"
         }
-      ]
+      ],
+      "top": 8
     },
     {
-      "name": "Mattie Morgan",
-      "paste": "https://pokepast.es/33f0d962638ea97e",
+      "name": "Andrew Krug",
+      "paste": "https://pokepast.es//5537b5d112b597be",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 16
-      },
-      "team": [
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Perish Song"
-          ],
-          "item": "Choice Specs"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "item": "Wellspring Mask"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Electric",
-          "moves": [
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Clefairy",
-          "ability": "Friend Guard",
-          "teraType": "Grass",
-          "moves": [
-            "Life Dew",
-            "Helping Hand",
-            "Follow Me",
-            "Protect"
-          ],
-          "item": "Eviolite"
-        },
-        {
-          "species": "Kingambit",
-          "ability": "Defiant",
-          "teraType": "Dark",
-          "moves": [
-            "Kowtow Cleave",
-            "Sucker Punch",
-            "Swords Dance",
-            "Protect"
-          ],
-          "item": "Black Glasses"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        }
-      ]
-    },
-    {
-      "name": "Alexander D'Andrea",
-      "paste": "https://pokepast.es/74b5f24edec55be5",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 17
-      },
-      "team": [
-        {
-          "species": "Dondozo",
-          "ability": "Unaware",
-          "teraType": "Dragon",
-          "moves": [
-            "Earthquake",
-            "Order Up",
-            "Wave Crash",
-            "Protect"
-          ],
-          "name": "Reverb",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Glimmora",
-          "ability": "Toxic Debris",
-          "teraType": "Grass",
-          "moves": [
-            "Mortal Spin",
-            "Sludge Bomb",
-            "Power Gem",
-            "Spiky Shield"
-          ],
-          "name": "Robin",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Drain Punch",
-            "Wild Charge",
-            "Heavy Slam"
-          ],
-          "name": "Klepto",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Tatsugiri",
-          "ability": "Commander",
-          "teraType": "Steel",
-          "moves": [
-            "Draco Meteor",
-            "Muddy Water",
-            "Taunt",
-            "Protect"
-          ],
-          "name": "Rai",
-          "item": "Ability Shield"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Swords Dance",
-            "Spiky Shield"
-          ],
-          "name": "Phoenix",
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Ninetales-Alola",
-          "ability": "Snow Warning",
-          "teraType": "Ghost",
-          "moves": [
-            "Moonblast",
-            "Blizzard",
-            "Aurora Veil",
-            "Protect"
-          ],
-          "name": "Ghost",
-          "item": "Light Clay"
-        }
-      ]
-    },
-    {
-      "name": "Zachary Weed",
-      "paste": "https://pokepast.es/805f5d99d3844742",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 18
-      },
-      "team": [
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Wood Hammer",
-            "Fake Out",
-            "Grassy Glide",
-            "U-turn"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed",
-            "Tera Blast"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "name": "Broken",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Freeze-Dry",
-            "Icy Wind",
-            "Encore",
-            "Protect"
-          ],
-          "name": "Mac DeMarco",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Kingambit",
-          "ability": "Defiant",
-          "teraType": "Poison",
-          "moves": [
-            "Kowtow Cleave",
-            "Sucker Punch",
-            "Swords Dance",
-            "Protect"
-          ],
-          "item": "Black Glasses"
-        }
-      ]
-    },
-    {
-      "name": "Nate Wright",
-      "paste": "https://pokepast.es/ba29249a26290dca",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 19
-      },
-      "team": [
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "name": "zipzipcat",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Dazzling Gleam",
-            "Moonblast",
-            "Shadow Ball",
-            "Thunderbolt"
-          ],
-          "item": "Choice Specs"
-        },
-        {
-          "species": "Roaring Moon",
-          "ability": "Protosynthesis",
-          "teraType": "Flying",
-          "moves": [
-            "Acrobatics",
-            "Knock Off",
-            "Dragon Dance",
-            "Protect"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Water",
-          "moves": [
-            "Pollen Puff",
-            "Spore",
-            "Rage Powder",
-            "Protect"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Bug",
-          "moves": [
-            "Heat Wave",
-            "Earth Power",
-            "Flash Cannon",
-            "Protect"
-          ],
-          "item": "Life Orb"
-        }
-      ]
-    },
-    {
-      "name": "Jeremy Parson",
-      "paste": "https://pokepast.es/2e14859033870614",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 20
-      },
-      "team": [
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Flash Cannon",
-            "Earth Power",
-            "Tera Blast"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
-          "moves": [
-            "Extreme Speed",
-            "Stomping Tantrum",
-            "Outrage",
-            "Aerial Ace"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Grass",
-          "moves": [
-            "Fake Out",
-            "Wood Hammer",
-            "Grassy Glide",
-            "Protect"
-          ],
-          "item": "Meadow Plate"
-        },
-        {
-          "species": "Farigiraf",
-          "ability": "Armor Tail",
-          "teraType": "Fairy",
-          "moves": [
-            "Psychic",
-            "Dazzling Gleam",
-            "Trick Room",
-            "Helping Hand"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        }
-      ]
-    },
-    {
-      "name": "Nicholas Borghi",
-      "paste": "https://pokepast.es/28b2f52d88fb12e1",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 21
-      },
-      "team": [
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Protect",
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot"
-          ],
-          "name": "Captain Boom",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Icicle Crash",
-            "Sucker Punch",
-            "Haze"
-          ],
-          "name": "Twinkle Toes",
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "name": "Painted Lady",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Clefairy",
-          "ability": "Friend Guard",
-          "teraType": "Fire",
-          "moves": [
-            "Protect",
-            "Sing",
-            "Follow Me",
-            "Helping Hand"
-          ],
-          "name": "Mushi",
-          "item": "Eviolite"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Wood Hammer",
-            "U-turn",
-            "Fake Out",
-            "Grassy Glide"
-          ],
-          "name": "Melon Lord",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Spiky Shield",
-            "Ivy Cudgel",
-            "Grassy Glide",
-            "Swords Dance"
-          ],
-          "name": "Zuzu",
-          "item": "Hearthflame Mask"
-        }
-      ]
-    },
-    {
-      "name": "Luhou Shen",
-      "paste": "https://pokepast.es/67dcd83a1b690f77",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 22
+        "wins": 11,
+        "losses": 3,
+        "place": 7
       },
       "team": [
         {
           "species": "Dusclops",
           "ability": "Pressure",
-          "teraType": "Fairy",
+          "teraType": "Dark",
           "moves": [
             "Night Shade",
             "Will-O-Wisp",
@@ -1835,712 +549,28 @@
           "item": "Eviolite"
         },
         {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Fire",
-          "moves": [
-            "Drain Punch",
-            "Heavy Slam",
-            "Wild Charge",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Moltres-Galar",
-          "ability": "Berserk",
-          "teraType": "Poison",
-          "moves": [
-            "Protect",
-            "Fiery Wrath",
-            "Air Slash",
-            "Nasty Plot"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Grass",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed",
-            "Tera Blast"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Sinistcha",
-          "ability": "Hospitality",
-          "teraType": "Fairy",
-          "moves": [
-            "Matcha Gotcha",
-            "Rage Powder",
-            "Strength Sap",
-            "Trick Room"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Ursaluna-Bloodmoon",
-          "ability": "Mind’s Eye",
-          "teraType": "Normal",
-          "moves": [
-            "Protect",
-            "Blood Moon",
-            "Hyper Voice",
-            "Earth Power"
-          ],
-          "item": "Life Orb"
-        }
-      ]
-    },
-    {
-      "name": "Gavin Michaels",
-      "paste": "https://pokepast.es/cad6274eb0e41e2d",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 23
-      },
-      "team": [
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Steel",
-          "moves": [
-            "Spore",
-            "Rage Powder",
-            "Pollen Puff",
-            "Protect"
-          ],
-          "name": "The Genius",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Pelipper",
-          "ability": "Drizzle",
-          "teraType": "Flying",
-          "moves": [
-            "Hurricane",
-            "Weather Ball",
-            "Protect",
-            "Wide Guard"
-          ],
-          "name": "Grand Finals",
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Heavy Slam",
-            "Wild Charge",
-            "Drain Punch"
-          ],
-          "name": "Black Garnet",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Make It Rain",
-            "Nasty Plot",
-            "Shadow Ball",
-            "Protect"
-          ],
-          "name": "Rule Breaker",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Salamence",
-          "ability": "Intimidate",
-          "teraType": "Steel",
-          "moves": [
-            "Hurricane",
-            "Draco Meteor",
-            "Tailwind",
-            "Iron Head"
-          ],
-          "name": "Devil's Plan",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Hydro Pump",
-            "Freeze-Dry",
-            "Icy Wind",
-            "Protect"
-          ],
-          "name": "RulesofGame",
-          "item": "Booster Energy"
-        }
-      ]
-    },
-    {
-      "name": "Andrew Ding",
-      "paste": "https://pokepast.es/b974a6759ddbc4d6",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 24
-      },
-      "team": [
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Spiky Shield",
-            "Swords Dance",
-            "Grassy Glide"
-          ],
-          "name": "Dan",
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Bleakwind Storm",
-            "Taunt",
-            "Tailwind",
-            "Rain Dance"
-          ],
-          "name": "Josh",
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Fake Out",
-            "Grassy Glide",
-            "Wood Hammer",
-            "U-turn"
-          ],
-          "name": "Jesse",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Rock Slide",
-            "Tera Blast",
-            "U-turn",
-            "Stomping Tantrum"
-          ],
-          "name": "Sean",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Aqua Jet",
-            "Close Combat",
-            "Protect"
-          ],
-          "name": "Andrew",
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Moonblast",
-            "Icy Wind"
-          ],
-          "name": "Xun",
-          "item": "Choice Specs"
-        }
-      ]
-    },
-    {
-      "name": "Anders Nordstrom",
-      "paste": "https://pokepast.es/67ad2a85868b05ec",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 25
-      },
-      "team": [
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Grass",
-          "moves": [
-            "Fake Out",
-            "Drain Punch",
-            "Wild Charge",
-            "Heavy Slam"
-          ],
-          "name": "Mr Hands",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Dusclops",
-          "ability": "Pressure",
-          "teraType": "Fairy",
-          "moves": [
-            "Night Shade",
-            "Will-O-Wisp",
-            "Brick Break",
-            "Trick Room"
-          ],
-          "name": "David Guetta",
-          "item": "Eviolite"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "name": "Alan Walker",
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
-          "moves": [
-            "Wicked Blow",
-            "Sucker Punch",
-            "Close Combat",
-            "Protect"
-          ],
-          "name": "Nightcore #1",
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "name": "TheFatRat",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Ursaluna-Bloodmoon",
-          "ability": "Mind’s Eye",
-          "teraType": "Normal",
-          "moves": [
-            "Blood Moon",
-            "Hyper Voice",
-            "Earth Power",
-            "Protect"
-          ],
-          "name": "Freddy Faz",
-          "item": "Weakness Policy"
-        }
-      ]
-    },
-    {
-      "name": "Brendan Zheng",
-      "paste": "https://pokepast.es/a7648f04244a953c",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 26
-      },
-      "team": [
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Fire",
-          "moves": [
-            "U-turn",
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet"
-          ],
-          "name": "Wukong",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Ice Spinner",
-            "Sucker Punch",
-            "Sacred Sword"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Goodra-Hisui",
-          "ability": "Shell Armor",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Body Press",
-            "Heavy Slam",
-            "Shelter"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Amoonguss",
-          "ability": "Regenerator",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Spore",
-            "Rage Powder",
-            "Pollen Puff"
-          ],
-          "item": "Mental Herb"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ice",
-          "moves": [
-            "Protect",
-            "Freeze-Dry",
-            "Hydro Pump",
-            "Encore"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
-          "moves": [
-            "Extreme Speed",
-            "Aerial Ace",
-            "Stomping Tantrum",
-            "Thunder Punch"
-          ],
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Abhay Iyer",
-      "paste": "https://pokepast.es/039d2d8e7f2bff3c",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 27
-      },
-      "team": [
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Will-O-Wisp",
-            "Protect"
-          ],
-          "name": "Arcanine",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Dazzling Gleam",
-            "Icy Wind",
-            "Protect"
-          ],
-          "name": "Flutter Mane",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "name": "Ogerpon",
-          "item": "Wellspring Mask"
-        },
-        {
-          "species": "Kingambit",
-          "ability": "Defiant",
-          "teraType": "Dark",
-          "moves": [
-            "Kowtow Cleave",
-            "Sucker Punch",
-            "Swords Dance",
-            "Protect"
-          ],
-          "name": "Kingambit",
-          "item": "Black Glasses"
-        },
-        {
-          "species": "Landorus",
-          "ability": "Sheer Force",
-          "teraType": "Poison",
-          "moves": [
-            "Earth Power",
-            "Sludge Bomb",
-            "Taunt",
-            "Protect"
-          ],
-          "name": "Landorus",
-          "item": "Life Orb"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "name": "Iron Hands",
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Donghun Youm",
-      "paste": "https://pokepast.es/fd9f53baa41e1d9a",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 28
-      },
-      "team": [
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "name": "SHIVA",
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
-          "moves": [
-            "Outrage",
-            "Extreme Speed",
-            "Aerial Ace",
-            "Stomping Tantrum"
-          ],
-          "name": "BAHAMUT",
-          "item": "Choice Band"
-        },
-        {
-          "species": "Farigiraf",
-          "ability": "Armor Tail",
-          "teraType": "Fairy",
-          "moves": [
-            "Psychic",
-            "Dazzling Gleam",
-            "Trick Room",
-            "Helping Hand"
-          ],
-          "name": "ODIN",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Flash Cannon",
-            "Earth Power",
-            "Tera Blast"
-          ],
-          "name": "IFRIT",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Grass",
-          "moves": [
-            "Fake Out",
-            "Wood Hammer",
-            "Grassy Glide",
-            "Protect"
-          ],
-          "name": "TITAN",
-          "item": "Meadow Plate"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "U-turn"
-          ],
-          "name": "LEVIATHAN",
-          "item": "Choice Scarf"
-        }
-      ]
-    },
-    {
-      "name": "Jason Tang",
-      "paste": "https://pokepast.es/c185d3acabf473b5",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 29
-      },
-      "team": [
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
+          "species": "Ogerpon-Cornerstone",
+          "ability": "Sturdy",
+          "teraType": "Rock",
           "moves": [
             "Spiky Shield",
-            "Horn Leech",
             "Ivy Cudgel",
+            "Horn Leech",
             "Follow Me"
           ],
-          "item": "Wellspring Mask"
+          "item": "Cornerstone Mask"
         },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "U-turn",
-            "Rock Tomb"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Wood Hammer",
-            "Grassy Glide",
-            "U-turn"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Grass",
-          "moves": [
-            "Earth Power",
-            "Heat Wave",
-            "Flash Cannon",
-            "Protect"
-          ],
-          "item": "Life Orb"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Freeze-Dry",
-            "Hydro Pump",
-            "Protect",
-            "Icy Wind"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Fire",
-          "moves": [
-            "Fake Out",
-            "Heavy Slam",
-            "Thunder Punch",
-            "Drain Punch"
-          ],
-          "name": "Eisenhand",
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Tim Edwards",
-      "paste": "https://pokepast.es/51c26794405088c8",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 30
-      },
-      "team": [
         {
           "species": "Chi-Yu",
           "ability": "Beads of Ruin",
           "teraType": "Ghost",
           "moves": [
             "Protect",
-            "Heat Wave",
             "Dark Pulse",
-            "Snarl"
+            "Snarl",
+            "Overheat"
           ],
           "item": "Focus Sash"
-        },
-        {
-          "species": "Dusclops",
-          "ability": "Pressure",
-          "teraType": "Dark",
-          "moves": [
-            "Will-O-Wisp",
-            "Trick Room",
-            "Brick Break",
-            "Pain Split"
-          ],
-          "item": "Eviolite"
         },
         {
           "species": "Iron Hands",
@@ -2548,23 +578,23 @@
           "teraType": "Fire",
           "moves": [
             "Drain Punch",
+            "Wild Charge",
             "Heavy Slam",
-            "Volt Switch",
             "Fake Out"
           ],
           "item": "Assault Vest"
         },
         {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
           "moves": [
-            "Protect",
-            "Moonblast",
-            "Shadow Ball",
-            "Icy Wind"
+            "U-turn",
+            "Stomping Tantrum",
+            "Rock Slide",
+            "Tera Blast"
           ],
-          "item": "Booster Energy"
+          "item": "Choice Scarf"
         },
         {
           "species": "Ursaluna-Bloodmoon",
@@ -2572,200 +602,22 @@
           "teraType": "Normal",
           "moves": [
             "Protect",
-            "Hyper Voice",
-            "Blood Moon",
-            "Earth Power"
-          ],
-          "item": "Weakness Policy"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Spiky Shield",
-            "Horn Leech",
-            "Ivy Cudgel",
-            "Follow Me"
-          ],
-          "item": "Wellspring Mask"
-        }
-      ]
-    },
-    {
-      "name": "Maximilian Gorchels",
-      "paste": "https://pokepast.es/8bb991d96d7774b6",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 31
-      },
-      "team": [
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
-          "moves": [
-            "Detect",
-            "Close Combat",
-            "Wicked Blow",
-            "Sucker Punch"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Flying",
-          "moves": [
-            "Extreme Speed",
-            "Tera Blast",
-            "Stomping Tantrum",
-            "Ice Spinner"
-          ],
-          "name": "MANGO",
-          "item": "Choice Band"
-        },
-        {
-          "species": "Ursaluna",
-          "ability": "Guts",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Swords Dance",
-            "Facade",
-            "Earthquake"
-          ],
-          "item": "Flame Orb"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Grass",
-          "moves": [
-            "Protect",
-            "Taunt",
-            "Moonblast",
-            "Icy Wind"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Cresselia",
-          "ability": "Levitate",
-          "teraType": "Fire",
-          "moves": [
-            "Lunar Blessing",
-            "Trick Room",
-            "Helping Hand",
-            "Ice Beam"
-          ],
-          "item": "Mental Herb"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Fire",
-          "moves": [
-            "Wild Charge",
-            "Drain Punch",
-            "Fake Out",
-            "Heavy Slam"
-          ],
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Michael Klymchuk",
-      "paste": "https://pokepast.es/f23a0cc0789792bf",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 32
-      },
-      "team": [
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Ice Spinner",
-            "Sucker Punch",
-            "Haze",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Rock Slide",
-            "U-turn",
-            "Tera Blast"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Sinistcha",
-          "ability": "Hospitality",
-          "teraType": "Fire",
-          "moves": [
-            "Matcha Gotcha",
-            "Trick Room",
-            "Strength Sap",
-            "Rage Powder"
-          ],
-          "item": "Figy Berry"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Detect"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Flash Cannon",
             "Earth Power",
-            "Protect"
+            "Blood Moon",
+            "Hyper Voice"
           ],
           "item": "Life Orb"
         }
-      ]
+      ],
+      "top": 8
     },
     {
-      "name": "Shiliang Tang",
-      "paste": "https://pokepast.es/2685c2c39a181bcd",
+      "name": "Justin Tang",
+      "paste": "https://pokepast.es//7f565bcaee8ec9b4",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 33
+        "wins": 11,
+        "losses": 3,
+        "place": 8
       },
       "team": [
         {
@@ -2773,12 +625,52 @@
           "ability": "Intimidate",
           "teraType": "Flying",
           "moves": [
-            "Tailwind",
+            "Draco Meteor",
             "Hurricane",
             "Air Slash",
-            "Draco Meteor"
+            "Tailwind"
           ],
+          "name": "bird?",
           "item": "Choice Scarf"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Fake Out",
+            "Wild Charge",
+            "Drain Punch",
+            "Heavy Slam"
+          ],
+          "name": "Big Bro",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Nasty Plot",
+            "Make It Rain",
+            "Shadow Ball",
+            "Protect"
+          ],
+          "name": "AGENCY",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Icy Wind",
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Protect"
+          ],
+          "name": "Lil Bro",
+          "item": "Booster Energy"
         },
         {
           "species": "Amoonguss",
@@ -2787,34 +679,11 @@
           "moves": [
             "Spore",
             "Rage Powder",
-            "Protect",
-            "Pollen Puff"
-          ],
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Freeze-Dry",
-            "Icy Wind",
-            "Hydro Pump",
+            "Pollen Puff",
             "Protect"
           ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Water",
-          "moves": [
-            "Fake Out",
-            "Wild Charge",
-            "Heavy Slam",
-            "Drain Punch"
-          ],
-          "item": "Assault Vest"
+          "name": "never forget",
+          "item": "Sitrus Berry"
         },
         {
           "species": "Pelipper",
@@ -2822,535 +691,23 @@
           "teraType": "Flying",
           "moves": [
             "Hurricane",
-            "Protect",
             "Weather Ball",
-            "Wide Guard"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot",
+            "Wide Guard",
             "Protect"
           ],
-          "item": "Leftovers"
-        }
-      ]
-    },
-    {
-      "name": "Daravone Souphommanychanh",
-      "paste": "https://pokepast.es/59349a2a376858c6",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 34
-      },
-      "team": [
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Dragon",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Taunt",
-            "Rain Dance"
-          ],
-          "item": "Covert Cloak"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot",
-            "Protect"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed",
-            "Tera Blast"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Ivy Cudgel",
-            "Power Whip",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "item": "Wellspring Mask"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Grass",
-          "moves": [
-            "Wild Charge",
-            "Drain Punch",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        }
-      ]
-    },
-    {
-      "name": "Jing Zhou",
-      "paste": "https://pokepast.es/2cdd7f78ae2ef14c",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 35
-      },
-      "team": [
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Rock Slide",
-            "Extreme Speed",
-            "Tera Blast",
-            "Flare Blitz"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Protect",
-            "Shadow Ball",
-            "Make It Rain",
-            "Nasty Plot"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Spiky Shield",
-            "Ivy Cudgel",
-            "Follow Me",
-            "Horn Leech"
-          ],
-          "item": "Wellspring Mask"
-        },
-        {
-          "species": "Iron Hands",
-          "ability": "Quark Drive",
-          "teraType": "Grass",
-          "moves": [
-            "Drain Punch",
-            "Wild Charge",
-            "Heavy Slam",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "U-turn",
-            "Close Combat",
-            "Aqua Jet"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Rain Dance",
-            "Taunt"
-          ],
-          "item": "Covert Cloak"
-        }
-      ]
-    },
-    {
-      "name": "Everett Filloon",
-      "paste": "https://pokepast.es/3b0070092224d027",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 36
-      },
-      "team": [
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Fake Out",
-            "Wood Hammer",
-            "Grassy Glide",
-            "High Horsepower"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Protect",
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Detect",
-            "Aqua Jet",
-            "Surging Strikes",
-            "Close Combat"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Tailwind",
-            "Rain Dance",
-            "Taunt",
-            "Bleakwind Storm"
-          ],
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Normal",
-          "moves": [
-            "Head Smash",
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed"
-          ],
-          "name": "SEAN MOMENT!",
-          "item": "Choice Band"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Moonblast",
-            "Dazzling Gleam",
-            "Shadow Ball"
-          ],
-          "item": "Booster Energy"
-        }
-      ]
-    },
-    {
-      "name": "Takuya Hiraiwa",
-      "paste": "https://pokepast.es/7ef4f5d032bd03aa",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 37
-      },
-      "team": [
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Steel",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Sunny Day",
-            "Protect"
-          ],
-          "item": "Mental Herb"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Poison",
-          "moves": [
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "item": "Life Orb"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Grass",
-          "moves": [
-            "Wood Hammer",
-            "Grassy Glide",
-            "Fake Out",
-            "Protect"
-          ],
-          "item": "Miracle Seed"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Trick Room"
-          ],
-          "item": "Choice Specs"
-        },
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
-          "moves": [
-            "Wicked Blow",
-            "Sucker Punch",
-            "Close Combat",
-            "Detect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Heat Wave",
-            "Earth Power",
-            "Tera Blast",
-            "Protect"
-          ],
-          "item": "Shuca Berry"
-        }
-      ]
-    },
-    {
-      "name": "Zackary Thornberg",
-      "paste": "https://pokepast.es/6f74cb042587c910",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 38
-      },
-      "team": [
-        {
-          "species": "Okidogi",
-          "ability": "Guard Dog",
-          "teraType": "Water",
-          "moves": [
-            "Drain Punch",
-            "Bulk Up",
-            "Gunk Shot",
-            "Protect"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Scream Tail",
-          "ability": "Protosynthesis",
-          "teraType": "Grass",
-          "moves": [
-            "Dazzling Gleam",
-            "Encore",
-            "Disable",
-            "Protect"
-          ],
-          "name": "Emforbes",
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Talonflame",
-          "ability": "Gale Wings",
-          "teraType": "Ghost",
-          "moves": [
-            "Brave Bird",
-            "Tailwind",
-            "Protect",
-            "Will-O-Wisp"
-          ],
-          "item": "Life Orb"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Icy Wind"
-          ],
-          "name": "Gavin",
-          "item": "Choice Specs"
-        },
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
-          "moves": [
-            "Wicked Blow",
-            "Taunt",
-            "Sucker Punch",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Follow Me",
-            "Power Whip",
-            "Spiky Shield"
-          ],
-          "name": "Little Guy",
-          "item": "Hearthflame Mask"
-        }
-      ]
-    },
-    {
-      "name": "Dylan Salvanera",
-      "paste": "https://pokepast.es/ad24f4f81de8c38a",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 39
-      },
-      "team": [
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Wood Hammer",
-            "High Horsepower",
-            "U-turn",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot",
-            "Protect"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Grassy Glide",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Dragon",
-          "moves": [
-            "Bleakwind Storm",
-            "Rain Dance",
-            "Tailwind",
-            "Protect"
-          ],
+          "name": "the biggest",
           "item": "Focus Sash"
         }
-      ]
+      ],
+      "top": 8
     },
     {
       "name": "Carson Jones",
-      "paste": "https://pokepast.es/b92cc4b24d2e071c",
+      "paste": "https://pokepast.es//b92cc4b24d2e071c",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 40
+        "wins": 11,
+        "losses": 3,
+        "place": 9
       },
       "team": [
         {
@@ -3431,40 +788,311 @@
           "name": "The greatest",
           "item": "Ability Shield"
         }
-      ]
+      ],
+      "top": 16
     },
     {
-      "name": "Trista Medine",
-      "paste": "https://pokepast.es/0bf5a77284aab345",
+      "name": "Zachary Weed",
+      "paste": "https://pokepast.es//805f5d99d3844742",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 41
+        "wins": 11,
+        "losses": 3,
+        "place": 10
       },
       "team": [
         {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
           "moves": [
-            "Ice Spinner",
-            "Sucker Punch",
-            "Sacred Sword",
+            "Wood Hammer",
+            "Fake Out",
+            "Grassy Glide",
+            "U-turn"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Flare Blitz",
+            "Rock Slide",
+            "Extreme Speed",
+            "Tera Blast"
+          ],
+          "item": "Choice Band"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
             "Protect"
           ],
           "item": "Focus Sash"
         },
         {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "name": "Broken",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Freeze-Dry",
+            "Icy Wind",
+            "Encore",
+            "Protect"
+          ],
+          "name": "Mac DeMarco",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Kingambit",
+          "ability": "Defiant",
           "teraType": "Poison",
           "moves": [
-            "Surging Strikes",
-            "Poison Jab",
-            "Close Combat",
+            "Kowtow Cleave",
+            "Sucker Punch",
+            "Swords Dance",
+            "Protect"
+          ],
+          "item": "Black Glasses"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Mattie Morgan",
+      "paste": "https://pokepast.es//33f0d962638ea97e",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 11
+      },
+      "team": [
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Perish Song"
+          ],
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Follow Me",
+            "Spiky Shield"
+          ],
+          "item": "Wellspring Mask"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Electric",
+          "moves": [
+            "Wild Charge",
+            "Drain Punch",
+            "Heavy Slam",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Clefairy",
+          "ability": "Friend Guard",
+          "teraType": "Grass",
+          "moves": [
+            "Life Dew",
+            "Helping Hand",
+            "Follow Me",
+            "Protect"
+          ],
+          "item": "Eviolite"
+        },
+        {
+          "species": "Kingambit",
+          "ability": "Defiant",
+          "teraType": "Dark",
+          "moves": [
+            "Kowtow Cleave",
+            "Sucker Punch",
+            "Swords Dance",
+            "Protect"
+          ],
+          "item": "Black Glasses"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
             "U-turn"
           ],
           "item": "Choice Scarf"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Nate Wright",
+      "paste": "https://pokepast.es//ba29249a26290dca",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 12
+      },
+      "team": [
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "name": "zipzipcat",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Fake Out",
+            "Wild Charge",
+            "Drain Punch",
+            "Heavy Slam"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Dazzling Gleam",
+            "Moonblast",
+            "Shadow Ball",
+            "Thunderbolt"
+          ],
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Roaring Moon",
+          "ability": "Protosynthesis",
+          "teraType": "Flying",
+          "moves": [
+            "Acrobatics",
+            "Knock Off",
+            "Dragon Dance",
+            "Protect"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Water",
+          "moves": [
+            "Pollen Puff",
+            "Spore",
+            "Rage Powder",
+            "Protect"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Bug",
+          "moves": [
+            "Heat Wave",
+            "Earth Power",
+            "Flash Cannon",
+            "Protect"
+          ],
+          "item": "Life Orb"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Gavin Michaels",
+      "paste": "https://pokepast.es//cad6274eb0e41e2d",
+      "swiss": {
+        "wins": 11,
+        "losses": 3,
+        "place": 13
+      },
+      "team": [
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Steel",
+          "moves": [
+            "Spore",
+            "Rage Powder",
+            "Pollen Puff",
+            "Protect"
+          ],
+          "name": "The Genius",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Pelipper",
+          "ability": "Drizzle",
+          "teraType": "Flying",
+          "moves": [
+            "Hurricane",
+            "Weather Ball",
+            "Protect",
+            "Wide Guard"
+          ],
+          "name": "Grand Finals",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Fake Out",
+            "Heavy Slam",
+            "Wild Charge",
+            "Drain Punch"
+          ],
+          "name": "Black Garnet",
+          "item": "Assault Vest"
         },
         {
           "species": "Gholdengo",
@@ -3472,35 +1100,237 @@
           "teraType": "Dragon",
           "moves": [
             "Make It Rain",
+            "Nasty Plot",
             "Shadow Ball",
-            "Thunderbolt",
-            "Trick"
+            "Protect"
           ],
-          "item": "Choice Specs"
+          "name": "Rule Breaker",
+          "item": "Leftovers"
         },
         {
-          "species": "Dragonite",
-          "ability": "Inner Focus",
-          "teraType": "Normal",
+          "species": "Salamence",
+          "ability": "Intimidate",
+          "teraType": "Steel",
           "moves": [
-            "Extreme Speed",
-            "Dragon Claw",
-            "Aerial Ace",
-            "Stomping Tantrum"
+            "Hurricane",
+            "Draco Meteor",
+            "Tailwind",
+            "Iron Head"
           ],
-          "item": "Assault Vest"
+          "name": "Devil's Plan",
+          "item": "Choice Scarf"
         },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Hydro Pump",
+            "Freeze-Dry",
+            "Icy Wind",
+            "Protect"
+          ],
+          "name": "RulesofGame",
+          "item": "Booster Energy"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Grant Weldon",
+      "paste": "https://pokepast.es//265d854b50acb3e8",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 14
+      },
+      "team": [
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Sunny Day",
+            "Protect"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Water",
+          "moves": [
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Substitute",
+            "Protect"
+          ],
+          "name": "Flotte-Mèche",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Farigiraf",
+          "ability": "Armor Tail",
+          "teraType": "Fairy",
+          "moves": [
+            "Psychic",
+            "Dazzling Gleam",
+            "Trick Room",
+            "Imprison"
+          ],
+          "item": "Rocky Helmet"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Protect"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Wicked Blow",
+            "Sucker Punch",
+            "Close Combat",
+            "Iron Head"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Regidrago",
+          "ability": "Dragon's Maw",
+          "teraType": "Poison",
+          "moves": [
+            "Dragon Energy",
+            "Draco Meteor",
+            "Earth Power",
+            "Protect"
+          ],
+          "item": "Dragon Fang"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Eric Bartlett",
+      "paste": "https://pokepast.es//f4905a1bb18dcf92",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 15
+      },
+      "team": [
         {
           "species": "Ogerpon-Hearthflame",
           "ability": "Mold Breaker",
           "teraType": "Fire",
           "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
             "Spiky Shield",
-            "Taunt"
+            "Ivy Cudgel",
+            "Grassy Glide",
+            "Swords Dance"
           ],
+          "name": "WW Pluto Do",
           "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Grassy Glide",
+            "Wood Hammer",
+            "U-turn",
+            "Fake Out"
+          ],
+          "name": "FPS",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Drain Punch",
+            "Wild Charge",
+            "Heavy Slam",
+            "Fake Out"
+          ],
+          "name": "Daylight",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power"
+          ],
+          "name": "8AMCHARLOTTE",
+          "item": "Life Orb"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Freeze-Dry",
+            "Icy Wind",
+            "Hydro Pump"
+          ],
+          "name": "7969 Santa",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Rock Slide",
+            "Tera Blast",
+            "U-turn"
+          ],
+          "name": "VA Beach",
+          "item": "Choice Scarf"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Riley Factura",
+      "paste": "https://pokepast.es//f0dc156a08a4cccf",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 16
+      },
+      "team": [
+        {
+          "species": "Kingambit",
+          "ability": "Defiant",
+          "teraType": "Fairy",
+          "moves": [
+            "Sucker Punch",
+            "Tera Blast",
+            "Kowtow Cleave",
+            "Protect"
+          ],
+          "item": "Black Glasses"
         },
         {
           "species": "Amoonguss",
@@ -3513,56 +1343,90 @@
             "Rage Powder"
           ],
           "item": "Sitrus Berry"
-        }
-      ]
-    },
-    {
-      "name": "James Evans",
-      "paste": "https://pokepast.es/16720b0f90e7780c",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 42
-      },
-      "team": [
-        {
-          "species": "Clefairy",
-          "ability": "Friend Guard",
-          "teraType": "Grass",
-          "moves": [
-            "Follow Me",
-            "Heal Pulse",
-            "Encore",
-            "Protect"
-          ],
-          "name": "Kareem",
-          "item": "Eviolite"
         },
         {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Poison",
           "moves": [
-            "Hydro Pump",
-            "Freeze-Dry",
-            "Icy Wind",
-            "Protect"
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "U-turn"
           ],
-          "name": "Alfredo",
-          "item": "Booster Energy"
+          "item": "Choice Scarf"
         },
         {
           "species": "Dragonite",
           "ability": "Inner Focus",
-          "teraType": "Flying",
+          "teraType": "Normal",
           "moves": [
             "Extreme Speed",
-            "Tera Blast",
+            "Aerial Ace",
             "Stomping Tantrum",
-            "Ice Spinner"
+            "Thunder Punch"
           ],
-          "name": "Jackson",
           "item": "Assault Vest"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Ice Spinner",
+            "Sacred Sword",
+            "Protect",
+            "Sucker Punch"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Spiky Shield",
+            "Horn Leech",
+            "Follow Me"
+          ],
+          "item": "Hearthflame Mask"
+        }
+      ],
+      "top": 16
+    },
+    {
+      "name": "Daravone Souphommanychanh",
+      "paste": "https://pokepast.es//59349a2a376858c6",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 17
+      },
+      "team": [
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Dragon",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Taunt",
+            "Rain Dance"
+          ],
+          "item": "Covert Cloak"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
         },
         {
           "species": "Gholdengo",
@@ -3574,110 +1438,19 @@
             "Nasty Plot",
             "Protect"
           ],
-          "name": "Matthias",
           "item": "Leftovers"
         },
         {
           "species": "Arcanine-Hisui",
           "ability": "Intimidate",
-          "teraType": "Water",
+          "teraType": "Fairy",
           "moves": [
             "Flare Blitz",
             "Rock Slide",
-            "Howl",
-            "Will-O-Wisp"
-          ],
-          "name": "Kylie",
-          "item": "Sitrus Berry"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Poison",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "name": "Brady",
-          "item": "Life Orb"
-        }
-      ]
-    },
-    {
-      "name": "Parker Simmons",
-      "paste": "https://pokepast.es/1cce485552f20505",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 43
-      },
-      "team": [
-        {
-          "species": "Annihilape",
-          "ability": "Defiant",
-          "teraType": "Fairy",
-          "moves": [
-            "Rage Fist",
-            "Drain Punch",
-            "Protect",
-            "Bulk Up"
-          ],
-          "name": "Zaboomafool",
-          "item": "Leftovers"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn",
-            "Stomping Tantrum"
-          ],
-          "name": "Landorous",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Grass",
-          "moves": [
-            "Head Smash",
-            "Rock Slide",
             "Extreme Speed",
-            "Flare Blitz"
+            "Tera Blast"
           ],
-          "name": "Arcanine",
           "item": "Choice Band"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Drum Beating",
-            "U-turn",
-            "Fake Out",
-            "Grassy Glide"
-          ],
-          "name": "Rillaboom",
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Hydro Pump",
-            "Icy Wind",
-            "Freeze-Dry",
-            "Protect"
-          ],
-          "name": "Adam",
-          "item": "Booster Energy"
         },
         {
           "species": "Ogerpon-Wellspring",
@@ -3685,244 +1458,83 @@
           "teraType": "Water",
           "moves": [
             "Ivy Cudgel",
-            "Spiky Shield",
+            "Power Whip",
             "Follow Me",
-            "Wood Hammer"
+            "Spiky Shield"
           ],
-          "name": "Ogerpon",
           "item": "Wellspring Mask"
-        }
-      ]
-    },
-    {
-      "name": "Brian Hough",
-      "paste": "https://pokepast.es/c972a9182b4f1d60",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 44
-      },
-      "team": [
-        {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Poison",
-          "moves": [
-            "Detect",
-            "Wicked Blow",
-            "Sucker Punch",
-            "Swords Dance"
-          ],
-          "item": "Focus Sash"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Icy Wind",
-            "Shadow Ball",
-            "Moonblast"
-          ],
-          "item": "Booster Energy"
         },
         {
           "species": "Iron Hands",
           "ability": "Quark Drive",
-          "teraType": "Fire",
+          "teraType": "Grass",
           "moves": [
-            "Fake Out",
-            "Drain Punch",
             "Wild Charge",
-            "Heavy Slam"
+            "Drain Punch",
+            "Heavy Slam",
+            "Fake Out"
           ],
-          "name": "Nail",
           "item": "Assault Vest"
-        },
-        {
-          "species": "Ogerpon-Wellspring",
-          "ability": "Water Absorb",
-          "teraType": "Water",
-          "moves": [
-            "Ivy Cudgel",
-            "Spiky Shield",
-            "Horn Leech",
-            "Follow Me"
-          ],
-          "item": "Wellspring Mask"
-        },
-        {
-          "species": "Heatran",
-          "ability": "Flash Fire",
-          "teraType": "Fairy",
-          "moves": [
-            "Protect",
-            "Heat Wave",
-            "Will-O-Wisp",
-            "Earth Power"
-          ],
-          "item": "Leftovers"
         }
-      ]
+      ],
+      "top": 32
     },
     {
-      "name": "Jimmy Friedle",
-      "paste": "https://pokepast.es/ffa07c8278d37683",
+      "name": "Elijah Gardner",
+      "paste": "https://pokepast.es//64e84e3eaf2d4168",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 45
+        "wins": 10,
+        "losses": 4,
+        "place": 18
       },
       "team": [
         {
-          "species": "Urshifu",
-          "ability": "Unseen Fist",
-          "teraType": "Dark",
+          "species": "Sinistcha",
+          "ability": "Hospitality",
+          "teraType": "Poison",
           "moves": [
-            "Wicked Blow",
-            "Sucker Punch",
-            "Close Combat",
-            "Protect"
+            "Matcha Gotcha",
+            "Strength Sap",
+            "Trick Room",
+            "Rage Powder"
           ],
-          "name": "Knucle Joe",
-          "item": "Black Glasses"
+          "item": "Sitrus Berry"
         },
         {
-          "species": "Sylveon",
-          "ability": "Pixilate",
-          "teraType": "Steel",
+          "species": "Roaring Moon",
+          "ability": "Protosynthesis",
+          "teraType": "Flying",
           "moves": [
-            "Hyper Voice",
-            "Quick Attack",
-            "Tera Blast",
-            "Protect"
+            "Acrobatics",
+            "Knock Off",
+            "Protect",
+            "Tailwind"
           ],
-          "name": "Walky",
-          "item": "Fairy Feather"
-        },
-        {
-          "species": "Iron Bundle",
-          "ability": "Quark Drive",
-          "teraType": "Ghost",
-          "moves": [
-            "Freeze-Dry",
-            "Icy Wind",
-            "Hydro Pump",
-            "Protect"
-          ],
-          "name": "Pengy",
           "item": "Booster Energy"
         },
         {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Horn Leech",
-            "Spiky Shield",
-            "Follow Me"
-          ],
-          "name": "Carsoro",
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Rock Slide",
-            "Stomping Tantrum",
-            "Tera Blast",
-            "U-turn"
-          ],
-          "name": "Wayne Larva",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Taunt",
-            "U-turn"
-          ],
-          "name": "The Fast",
-          "item": "Covert Cloak"
-        }
-      ]
-    },
-    {
-      "name": "Enzo Reci",
-      "paste": "https://pokepast.es/ba6ebdbead1eadad",
-      "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 46
-      },
-      "team": [
-        {
-          "species": "Indeedee-F",
-          "ability": "Psychic Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Follow Me",
-            "Psychic",
-            "Helping Hand",
-            "Trick Room"
-          ],
-          "item": "Safety Goggles"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
+          "species": "Ninetales-Alola",
+          "ability": "Snow Warning",
           "teraType": "Water",
           "moves": [
-            "Surging Strikes",
-            "Brick Break",
-            "Swords Dance",
-            "Protect"
+            "Icy Wind",
+            "Moonblast",
+            "Protect",
+            "Aurora Veil"
           ],
-          "item": "Mystic Water"
+          "item": "Light Clay"
         },
         {
-          "species": "Ursaluna-Bloodmoon",
-          "ability": "Mind’s Eye",
-          "teraType": "Normal",
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Grass",
           "moves": [
-            "Hyper Voice",
-            "Blood Moon",
-            "Earth Power",
-            "Protect"
+            "Wild Charge",
+            "Drain Punch",
+            "Fake Out",
+            "Heavy Slam"
           ],
-          "item": "Throat Spray"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Flying",
-          "moves": [
-            "Bleakwind Storm",
-            "Tailwind",
-            "Grass Knot",
-            "Taunt"
-          ],
-          "item": "Covert Cloak"
+          "item": "Assault Vest"
         },
         {
           "species": "Armarouge",
@@ -3930,9 +1542,154 @@
           "teraType": "Psychic",
           "moves": [
             "Expanding Force",
-            "Armor Cannon",
-            "Wide Guard",
+            "Flamethrower",
+            "Protect",
             "Trick Room"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "species": "Indeedee-F",
+          "ability": "Psychic Surge",
+          "teraType": "Fairy",
+          "moves": [
+            "Dazzling Gleam",
+            "Follow Me",
+            "Helping Hand",
+            "Trick Room"
+          ],
+          "item": "Rocky Helmet"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Tim Edwards",
+      "paste": "https://pokepast.es//51c26794405088c8",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 19
+      },
+      "team": [
+        {
+          "species": "Chi-Yu",
+          "ability": "Beads of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Heat Wave",
+            "Dark Pulse",
+            "Snarl"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Dusclops",
+          "ability": "Pressure",
+          "teraType": "Dark",
+          "moves": [
+            "Will-O-Wisp",
+            "Trick Room",
+            "Brick Break",
+            "Pain Split"
+          ],
+          "item": "Eviolite"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Fire",
+          "moves": [
+            "Drain Punch",
+            "Heavy Slam",
+            "Volt Switch",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Moonblast",
+            "Shadow Ball",
+            "Icy Wind"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Ursaluna-Bloodmoon",
+          "ability": "Mind’s Eye",
+          "teraType": "Normal",
+          "moves": [
+            "Protect",
+            "Hyper Voice",
+            "Blood Moon",
+            "Earth Power"
+          ],
+          "item": "Weakness Policy"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Spiky Shield",
+            "Horn Leech",
+            "Ivy Cudgel",
+            "Follow Me"
+          ],
+          "item": "Wellspring Mask"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Zackary Thornberg",
+      "paste": "https://pokepast.es//6f74cb042587c910",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 20
+      },
+      "team": [
+        {
+          "species": "Okidogi",
+          "ability": "Guard Dog",
+          "teraType": "Water",
+          "moves": [
+            "Drain Punch",
+            "Bulk Up",
+            "Gunk Shot",
+            "Protect"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "species": "Scream Tail",
+          "ability": "Protosynthesis",
+          "teraType": "Grass",
+          "moves": [
+            "Dazzling Gleam",
+            "Encore",
+            "Disable",
+            "Protect"
+          ],
+          "name": "Emforbes",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Talonflame",
+          "ability": "Gale Wings",
+          "teraType": "Ghost",
+          "moves": [
+            "Brave Bird",
+            "Tailwind",
+            "Protect",
+            "Will-O-Wisp"
           ],
           "item": "Life Orb"
         },
@@ -3944,19 +1701,304 @@
             "Moonblast",
             "Dazzling Gleam",
             "Shadow Ball",
+            "Icy Wind"
+          ],
+          "name": "Gavin",
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Wicked Blow",
+            "Taunt",
+            "Sucker Punch",
+            "Protect"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Follow Me",
+            "Power Whip",
+            "Spiky Shield"
+          ],
+          "name": "Little Guy",
+          "item": "Hearthflame Mask"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Donghun Youm",
+      "paste": "https://pokepast.es//48e64c6eddcae279",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 21
+      },
+      "team": [
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Icicle Crash",
+            "Sucker Punch",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "name": "SHIVA",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Normal",
+          "moves": [
+            "Outrage",
+            "Extreme Speed",
+            "Aerial Ace",
+            "Stomping Tantrum"
+          ],
+          "name": "BAHAMUT",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Farigiraf",
+          "ability": "Armor Tail",
+          "teraType": "Fairy",
+          "moves": [
+            "Psychic",
+            "Dazzling Gleam",
+            "Trick Room",
+            "Helping Hand"
+          ],
+          "name": "ODIN",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Tera Blast"
+          ],
+          "name": "IFRIT",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Grass",
+          "moves": [
+            "Fake Out",
+            "Wood Hammer",
+            "Grassy Glide",
+            "Protect"
+          ],
+          "name": "TITAN",
+          "item": "Meadow Plate"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "U-turn"
+          ],
+          "name": "LEVIATHAN",
+          "item": "Choice Scarf"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Shiliang Tang",
+      "paste": "https://pokepast.es//2685c2c39a181bcd",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 22
+      },
+      "team": [
+        {
+          "species": "Salamence",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Tailwind",
+            "Hurricane",
+            "Air Slash",
+            "Draco Meteor"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Water",
+          "moves": [
+            "Spore",
+            "Rage Powder",
+            "Protect",
+            "Pollen Puff"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Freeze-Dry",
+            "Icy Wind",
+            "Hydro Pump",
             "Protect"
           ],
           "item": "Booster Energy"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Fake Out",
+            "Wild Charge",
+            "Heavy Slam",
+            "Drain Punch"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Pelipper",
+          "ability": "Drizzle",
+          "teraType": "Flying",
+          "moves": [
+            "Hurricane",
+            "Protect",
+            "Weather Ball",
+            "Wide Guard"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Protect"
+          ],
+          "item": "Leftovers"
         }
-      ]
+      ],
+      "top": 32
+    },
+    {
+      "name": "Jing Zhou",
+      "paste": "https://pokepast.es//2cdd7f78ae2ef14c",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 23
+      },
+      "team": [
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Rock Slide",
+            "Extreme Speed",
+            "Tera Blast",
+            "Flare Blitz"
+          ],
+          "item": "Choice Band"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Protect",
+            "Shadow Ball",
+            "Make It Rain",
+            "Nasty Plot"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Spiky Shield",
+            "Ivy Cudgel",
+            "Follow Me",
+            "Horn Leech"
+          ],
+          "item": "Wellspring Mask"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Grass",
+          "moves": [
+            "Drain Punch",
+            "Wild Charge",
+            "Heavy Slam",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "U-turn",
+            "Close Combat",
+            "Aqua Jet"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Rain Dance",
+            "Taunt"
+          ],
+          "item": "Covert Cloak"
+        }
+      ],
+      "top": 32
     },
     {
       "name": "marc neuman",
-      "paste": "https://pokepast.es/67b99107999de803",
+      "paste": "https://pokepast.es//67b99107999de803",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 47
+        "wins": 10,
+        "losses": 4,
+        "place": 24
       },
       "team": [
         {
@@ -4037,98 +2079,369 @@
           "name": "NYC",
           "item": "Focus Sash"
         }
-      ]
+      ],
+      "top": 32
     },
     {
-      "name": "Elijah Gardner",
-      "paste": "https://pokepast.es/64e84e3eaf2d4168",
+      "name": "Kazuki Kanehira",
+      "paste": "https://pokepast.es//4dd37f6b0a005324",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 48
+        "wins": 10,
+        "losses": 4,
+        "place": 25
       },
       "team": [
         {
-          "species": "Sinistcha",
-          "ability": "Hospitality",
-          "teraType": "Poison",
+          "species": "Farigiraf",
+          "ability": "Armor Tail",
+          "teraType": "Fairy",
           "moves": [
-            "Matcha Gotcha",
-            "Strength Sap",
-            "Trick Room",
-            "Rage Powder"
+            "Psychic",
+            "Dazzling Gleam",
+            "Helping Hand",
+            "Trick Room"
           ],
-          "item": "Sitrus Berry"
+          "name": "Farigiraf",
+          "item": "Rocky Helmet"
         },
         {
-          "species": "Roaring Moon",
-          "ability": "Protosynthesis",
-          "teraType": "Flying",
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Normal",
           "moves": [
-            "Acrobatics",
-            "Knock Off",
-            "Protect",
-            "Tailwind"
+            "Extreme Speed",
+            "Outrage",
+            "Aerial Ace",
+            "Stomping Tantrum"
           ],
-          "item": "Booster Energy"
+          "item": "Choice Band"
         },
         {
-          "species": "Ninetales-Alola",
-          "ability": "Snow Warning",
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
           "teraType": "Water",
           "moves": [
-            "Icy Wind",
-            "Moonblast",
-            "Protect",
-            "Aurora Veil"
+            "Surging Strikes",
+            "Close Combat",
+            "U-turn",
+            "Aqua Jet"
           ],
-          "item": "Light Clay"
+          "name": "Urshifu",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Grass",
+          "moves": [
+            "Wood Hammer",
+            "Grassy Glide",
+            "Protect",
+            "Fake Out"
+          ],
+          "name": "Rillaboom",
+          "item": "Miracle Seed"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Tera Blast"
+          ],
+          "name": "Heatran",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Dark",
+          "moves": [
+            "Icicle Crash",
+            "Crunch",
+            "Sucker Punch",
+            "Protect"
+          ],
+          "name": "Sorta ruined",
+          "item": "Focus Sash"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Alexander D'Andrea",
+      "paste": "https://pokepast.es//74b5f24edec55be5",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 26
+      },
+      "team": [
+        {
+          "species": "Dondozo",
+          "ability": "Unaware",
+          "teraType": "Dragon",
+          "moves": [
+            "Earthquake",
+            "Order Up",
+            "Wave Crash",
+            "Protect"
+          ],
+          "name": "Reverb",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Glimmora",
+          "ability": "Toxic Debris",
+          "teraType": "Grass",
+          "moves": [
+            "Mortal Spin",
+            "Sludge Bomb",
+            "Power Gem",
+            "Spiky Shield"
+          ],
+          "name": "Robin",
+          "item": "Sitrus Berry"
         },
         {
           "species": "Iron Hands",
           "ability": "Quark Drive",
-          "teraType": "Grass",
+          "teraType": "Water",
           "moves": [
-            "Wild Charge",
-            "Drain Punch",
             "Fake Out",
+            "Drain Punch",
+            "Wild Charge",
             "Heavy Slam"
+          ],
+          "name": "Klepto",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Tatsugiri",
+          "ability": "Commander",
+          "teraType": "Steel",
+          "moves": [
+            "Draco Meteor",
+            "Muddy Water",
+            "Taunt",
+            "Protect"
+          ],
+          "name": "Rai",
+          "item": "Ability Shield"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Swords Dance",
+            "Spiky Shield"
+          ],
+          "name": "Phoenix",
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Ninetales-Alola",
+          "ability": "Snow Warning",
+          "teraType": "Ghost",
+          "moves": [
+            "Moonblast",
+            "Blizzard",
+            "Aurora Veil",
+            "Protect"
+          ],
+          "name": "Ghost",
+          "item": "Light Clay"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Jeremy Parson",
+      "paste": "https://pokepast.es//2e14859033870614",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 27
+      },
+      "team": [
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Tera Blast"
           ],
           "item": "Assault Vest"
         },
         {
-          "species": "Armarouge",
-          "ability": "Flash Fire",
-          "teraType": "Psychic",
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Normal",
           "moves": [
-            "Expanding Force",
-            "Flamethrower",
-            "Protect",
-            "Trick Room"
+            "Extreme Speed",
+            "Stomping Tantrum",
+            "Outrage",
+            "Aerial Ace"
           ],
-          "item": "Life Orb"
+          "item": "Choice Band"
         },
         {
-          "species": "Indeedee-F",
-          "ability": "Psychic Surge",
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Grass",
+          "moves": [
+            "Fake Out",
+            "Wood Hammer",
+            "Grassy Glide",
+            "Protect"
+          ],
+          "item": "Meadow Plate"
+        },
+        {
+          "species": "Farigiraf",
+          "ability": "Armor Tail",
           "teraType": "Fairy",
           "moves": [
+            "Psychic",
             "Dazzling Gleam",
-            "Follow Me",
-            "Helping Hand",
-            "Trick Room"
+            "Trick Room",
+            "Helping Hand"
           ],
-          "item": "Rocky Helmet"
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Icicle Crash",
+            "Sucker Punch",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "item": "Focus Sash"
         }
-      ]
+      ],
+      "top": 32
+    },
+    {
+      "name": "James Evans",
+      "paste": "https://pokepast.es//16720b0f90e7780c",
+      "swiss": {
+        "wins": 10,
+        "losses": 4,
+        "place": 28
+      },
+      "team": [
+        {
+          "species": "Clefairy",
+          "ability": "Friend Guard",
+          "teraType": "Grass",
+          "moves": [
+            "Follow Me",
+            "Heal Pulse",
+            "Encore",
+            "Protect"
+          ],
+          "name": "Kareem",
+          "item": "Eviolite"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Hydro Pump",
+            "Freeze-Dry",
+            "Icy Wind",
+            "Protect"
+          ],
+          "name": "Alfredo",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Flying",
+          "moves": [
+            "Extreme Speed",
+            "Tera Blast",
+            "Stomping Tantrum",
+            "Ice Spinner"
+          ],
+          "name": "Jackson",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Protect"
+          ],
+          "name": "Matthias",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Water",
+          "moves": [
+            "Flare Blitz",
+            "Rock Slide",
+            "Howl",
+            "Will-O-Wisp"
+          ],
+          "name": "Kylie",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Poison",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "Protect"
+          ],
+          "name": "Brady",
+          "item": "Life Orb"
+        }
+      ],
+      "top": 32
     },
     {
       "name": "Montana Mott",
-      "paste": "https://pokepast.es/288322aea5ae5722",
+      "paste": "https://pokepast.es//288322aea5ae5722",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 49
+        "wins": 9,
+        "losses": 5,
+        "place": 29
       },
       "team": [
         {
@@ -4203,17 +2516,156 @@
           ],
           "item": "Rocky Helmet"
         }
-      ]
+      ],
+      "top": 32
     },
     {
-      "name": "Bobby Rochelle",
-      "paste": "https://pokepast.es/98aa9116e4faefd6",
+      "name": "Jimmy Friedle",
+      "paste": "https://pokepast.es//ffa07c8278d37683",
       "swiss": {
-        "wins": 7,
-        "losses": 2,
-        "place": 50
+        "wins": 9,
+        "losses": 5,
+        "place": 30
       },
       "team": [
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Wicked Blow",
+            "Sucker Punch",
+            "Close Combat",
+            "Protect"
+          ],
+          "name": "Knucle Joe",
+          "item": "Black Glasses"
+        },
+        {
+          "species": "Sylveon",
+          "ability": "Pixilate",
+          "teraType": "Steel",
+          "moves": [
+            "Hyper Voice",
+            "Quick Attack",
+            "Tera Blast",
+            "Protect"
+          ],
+          "name": "Walky",
+          "item": "Fairy Feather"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Freeze-Dry",
+            "Icy Wind",
+            "Hydro Pump",
+            "Protect"
+          ],
+          "name": "Pengy",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Spiky Shield",
+            "Follow Me"
+          ],
+          "name": "Carsoro",
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Rock Slide",
+            "Stomping Tantrum",
+            "Tera Blast",
+            "U-turn"
+          ],
+          "name": "Wayne Larva",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Taunt",
+            "U-turn"
+          ],
+          "name": "The Fast",
+          "item": "Covert Cloak"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Dylan Salvanera",
+      "paste": "https://pokepast.es//ad24f4f81de8c38a",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 31
+      },
+      "team": [
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Wood Hammer",
+            "High Horsepower",
+            "U-turn",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Protect"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Grassy Glide",
+            "Follow Me",
+            "Spiky Shield"
+          ],
+          "item": "Hearthflame Mask"
+        },
         {
           "species": "Urshifu-Rapid-Strike",
           "ability": "Unseen Fist",
@@ -4222,61 +2674,215 @@
             "Surging Strikes",
             "Close Combat",
             "Aqua Jet",
-            "U-turn"
+            "Protect"
           ],
-          "name": "Bill",
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Fairy",
-          "moves": [
-            "Rock Slide",
-            "Extreme Speed",
-            "Flare Blitz",
-            "Tera Blast"
-          ],
-          "name": "Geiger",
-          "item": "Choice Band"
+          "item": "Mystic Water"
         },
         {
           "species": "Tornadus",
           "ability": "Prankster",
-          "teraType": "Ghost",
+          "teraType": "Dragon",
           "moves": [
             "Bleakwind Storm",
-            "Leer",
+            "Rain Dance",
             "Tailwind",
-            "Taunt"
+            "Protect"
           ],
-          "item": "Sharp Beak"
+          "item": "Focus Sash"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Maximilian Gorchels",
+      "paste": "https://pokepast.es//8bb991d96d7774b6",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 32
+      },
+      "team": [
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Detect",
+            "Close Combat",
+            "Wicked Blow",
+            "Sucker Punch"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Flying",
+          "moves": [
+            "Extreme Speed",
+            "Tera Blast",
+            "Stomping Tantrum",
+            "Ice Spinner"
+          ],
+          "name": "MANGO",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Ursaluna",
+          "ability": "Guts",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Swords Dance",
+            "Facade",
+            "Earthquake"
+          ],
+          "item": "Flame Orb"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Grass",
+          "moves": [
+            "Protect",
+            "Taunt",
+            "Moonblast",
+            "Icy Wind"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Cresselia",
+          "ability": "Levitate",
+          "teraType": "Fire",
+          "moves": [
+            "Lunar Blessing",
+            "Trick Room",
+            "Helping Hand",
+            "Ice Beam"
+          ],
+          "item": "Mental Herb"
         },
         {
           "species": "Iron Hands",
           "ability": "Quark Drive",
-          "teraType": "Poison",
+          "teraType": "Fire",
           "moves": [
             "Wild Charge",
-            "Close Combat",
-            "Ice Punch",
-            "Fake Out"
+            "Drain Punch",
+            "Fake Out",
+            "Heavy Slam"
           ],
-          "name": "André",
-          "item": "Clear Amulet"
+          "item": "Assault Vest"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Trista Medine",
+      "paste": "https://pokepast.es//0bf5a77284aab345",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 33
+      },
+      "team": [
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Ice Spinner",
+            "Sucker Punch",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "item": "Focus Sash"
         },
         {
-          "species": "Sinistcha",
-          "ability": "Heatproof",
-          "teraType": "Steel",
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Poison",
           "moves": [
-            "Matcha Gotcha",
+            "Surging Strikes",
+            "Poison Jab",
+            "Close Combat",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Make It Rain",
             "Shadow Ball",
-            "Nasty Plot",
+            "Thunderbolt",
+            "Trick"
+          ],
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Normal",
+          "moves": [
+            "Extreme Speed",
+            "Dragon Claw",
+            "Aerial Ace",
+            "Stomping Tantrum"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Spiky Shield",
+            "Taunt"
+          ],
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Water",
+          "moves": [
+            "Spore",
+            "Pollen Puff",
+            "Grass Knot",
             "Rage Powder"
           ],
-          "name": "Mr. Green",
           "item": "Sitrus Berry"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Brendan Zheng",
+      "paste": "https://pokepast.es//a7648f04244a953c",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 34
+      },
+      "team": [
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Fire",
+          "moves": [
+            "U-turn",
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet"
+          ],
+          "name": "Wukong",
+          "item": "Choice Scarf"
         },
         {
           "species": "Chien-Pao",
@@ -4284,14 +2890,1458 @@
           "teraType": "Ghost",
           "moves": [
             "Protect",
-            "Lash Out",
             "Ice Spinner",
-            "Sucker Punch"
+            "Sucker Punch",
+            "Sacred Sword"
           ],
-          "name": "The Weasler",
           "item": "Focus Sash"
+        },
+        {
+          "species": "Goodra-Hisui",
+          "ability": "Shell Armor",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Body Press",
+            "Heavy Slam",
+            "Shelter"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Spore",
+            "Rage Powder",
+            "Pollen Puff"
+          ],
+          "item": "Mental Herb"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ice",
+          "moves": [
+            "Protect",
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Encore"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Dragonite",
+          "ability": "Inner Focus",
+          "teraType": "Normal",
+          "moves": [
+            "Extreme Speed",
+            "Aerial Ace",
+            "Stomping Tantrum",
+            "Thunder Punch"
+          ],
+          "item": "Assault Vest"
         }
-      ]
+      ],
+      "top": 64
+    },
+    {
+      "name": "Ollie Zilkha",
+      "paste": "https://pokepast.es//c1f67f52f4a5e65b",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 35
+      },
+      "team": [
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Rock Slide",
+            "Stomping Tantrum",
+            "Tera Blast",
+            "U-turn"
+          ],
+          "name": "Boi’s Night",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Baxcalibur",
+          "ability": "Ice Body",
+          "teraType": "Poison",
+          "moves": [
+            "Icicle Spear",
+            "Protect",
+            "Swords Dance",
+            "Scale Shot"
+          ],
+          "item": "Loaded Dice"
+        },
+        {
+          "species": "Ninetales-Alola",
+          "ability": "Snow Warning",
+          "teraType": "Fire",
+          "moves": [
+            "Aurora Veil",
+            "Moonblast",
+            "Icy Wind",
+            "Protect"
+          ],
+          "name": ":)",
+          "item": "Light Clay"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Magma Storm",
+            "Earth Power",
+            "Flash Cannon"
+          ],
+          "name": ":):):)",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Fake Out",
+            "Grassy Glide",
+            "Wood Hammer",
+            "U-turn"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Follow Me",
+            "Ivy Cudgel",
+            "Power Whip",
+            "Spiky Shield"
+          ],
+          "name": "Darlene",
+          "item": "Wellspring Mask"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Austin Forcinito",
+      "paste": "https://pokepast.es//3405eae0cb16b5b0",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 36
+      },
+      "team": [
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Icicle Crash",
+            "Sucker Punch",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "name": "kidney",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Protect"
+          ],
+          "name": "reef cake",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "Protect"
+          ],
+          "name": "freckle",
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Steel",
+          "moves": [
+            "Bleakwind Storm",
+            "Rain Dance",
+            "Tailwind",
+            "Taunt"
+          ],
+          "name": "beans XD",
+          "item": "Rocky Helmet"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Normal",
+          "moves": [
+            "Extreme Speed",
+            "Rock Slide",
+            "Flare Blitz",
+            "Head Smash"
+          ],
+          "name": "zucchini",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Grassy Glide",
+            "Wood Hammer",
+            "U-turn",
+            "Fake Out"
+          ],
+          "name": "mr tiramisu",
+          "item": "Assault Vest"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Michael Klymchuk",
+      "paste": "https://pokepast.es//f23a0cc0789792bf",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 37
+      },
+      "team": [
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Ice Spinner",
+            "Sucker Punch",
+            "Haze",
+            "Protect"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Rock Slide",
+            "U-turn",
+            "Tera Blast"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Sinistcha",
+          "ability": "Hospitality",
+          "teraType": "Fire",
+          "moves": [
+            "Matcha Gotcha",
+            "Trick Room",
+            "Strength Sap",
+            "Rage Powder"
+          ],
+          "item": "Figy Berry"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Wild Charge",
+            "Drain Punch",
+            "Heavy Slam",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "Detect"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Protect"
+          ],
+          "item": "Life Orb"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Eric Rios",
+      "paste": "https://pokepast.es//50c0778a72efe801",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 38
+      },
+      "team": [
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Water",
+          "moves": [
+            "Flare Blitz",
+            "Will-O-Wisp",
+            "Rock Slide",
+            "Protect"
+          ],
+          "name": "CAPITÁN",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Cresselia",
+          "ability": "Levitate",
+          "teraType": "Poison",
+          "moves": [
+            "Trick Room",
+            "Psychic",
+            "Lunar Blessing",
+            "Icy Wind"
+          ],
+          "name": "TSUBASA",
+          "item": "Mental Herb"
+        },
+        {
+          "species": "Tyranitar",
+          "ability": "Sand Stream",
+          "teraType": "Psychic",
+          "moves": [
+            "Rock Slide",
+            "Knock Off",
+            "Tera Blast",
+            "Low Kick"
+          ],
+          "name": "POKEGERARDO",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Grass",
+          "moves": [
+            "Grassy Glide",
+            "Wood Hammer",
+            "Taunt",
+            "Fake Out"
+          ],
+          "item": "Miracle Seed"
+        },
+        {
+          "species": "Kommo-o",
+          "ability": "Bulletproof",
+          "teraType": "Steel",
+          "moves": [
+            "Protect",
+            "Iron Defense",
+            "Body Press",
+            "Iron Head"
+          ],
+          "name": "OKIWILLY",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Shadow Ball",
+            "Dazzling Gleam",
+            "Mystical Fire"
+          ],
+          "item": "Choice Specs"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Andrew Ding",
+      "paste": "https://pokepast.es//b974a6759ddbc4d6",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 39
+      },
+      "team": [
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Spiky Shield",
+            "Swords Dance",
+            "Grassy Glide"
+          ],
+          "name": "Dan",
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Bleakwind Storm",
+            "Taunt",
+            "Tailwind",
+            "Rain Dance"
+          ],
+          "name": "Josh",
+          "item": "Rocky Helmet"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Fake Out",
+            "Grassy Glide",
+            "Wood Hammer",
+            "U-turn"
+          ],
+          "name": "Jesse",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Rock Slide",
+            "Tera Blast",
+            "U-turn",
+            "Stomping Tantrum"
+          ],
+          "name": "Sean",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Aqua Jet",
+            "Close Combat",
+            "Protect"
+          ],
+          "name": "Andrew",
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Moonblast",
+            "Icy Wind"
+          ],
+          "name": "Xun",
+          "item": "Choice Specs"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Jason Tang",
+      "paste": "https://pokepast.es//c185d3acabf473b5",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 40
+      },
+      "team": [
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Spiky Shield",
+            "Horn Leech",
+            "Ivy Cudgel",
+            "Follow Me"
+          ],
+          "item": "Wellspring Mask"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "U-turn",
+            "Rock Tomb"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Water",
+          "moves": [
+            "Fake Out",
+            "Wood Hammer",
+            "Grassy Glide",
+            "U-turn"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Grass",
+          "moves": [
+            "Earth Power",
+            "Heat Wave",
+            "Flash Cannon",
+            "Protect"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Freeze-Dry",
+            "Hydro Pump",
+            "Protect",
+            "Icy Wind"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Fire",
+          "moves": [
+            "Fake Out",
+            "Heavy Slam",
+            "Thunder Punch",
+            "Drain Punch"
+          ],
+          "name": "Eisenhand",
+          "item": "Assault Vest"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Luhou Shen",
+      "paste": "https://pokepast.es//67dcd83a1b690f77",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 41
+      },
+      "team": [
+        {
+          "species": "Dusclops",
+          "ability": "Pressure",
+          "teraType": "Fairy",
+          "moves": [
+            "Night Shade",
+            "Will-O-Wisp",
+            "Pain Split",
+            "Trick Room"
+          ],
+          "item": "Eviolite"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Fire",
+          "moves": [
+            "Drain Punch",
+            "Heavy Slam",
+            "Wild Charge",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Moltres-Galar",
+          "ability": "Berserk",
+          "teraType": "Poison",
+          "moves": [
+            "Protect",
+            "Fiery Wrath",
+            "Air Slash",
+            "Nasty Plot"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Grass",
+          "moves": [
+            "Flare Blitz",
+            "Rock Slide",
+            "Extreme Speed",
+            "Tera Blast"
+          ],
+          "item": "Choice Band"
+        },
+        {
+          "species": "Sinistcha",
+          "ability": "Hospitality",
+          "teraType": "Fairy",
+          "moves": [
+            "Matcha Gotcha",
+            "Rage Powder",
+            "Strength Sap",
+            "Trick Room"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Ursaluna-Bloodmoon",
+          "ability": "Mind’s Eye",
+          "teraType": "Normal",
+          "moves": [
+            "Protect",
+            "Blood Moon",
+            "Hyper Voice",
+            "Earth Power"
+          ],
+          "item": "Life Orb"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Adrien Hurley",
+      "paste": "https://pokepast.es//a302457e72f4c20a",
+      "swiss": {
+        "wins": 8,
+        "losses": 4,
+        "place": 42
+      },
+      "team": [
+        {
+          "species": "Lilligant-Hisui",
+          "ability": "Chlorophyll",
+          "teraType": "Ghost",
+          "moves": [
+            "Solar Blade",
+            "Close Combat",
+            "Sleep Powder",
+            "After You"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Tatsugiri-Stretchy",
+          "ability": "Commander",
+          "teraType": "Steel",
+          "moves": [
+            "Muddy Water",
+            "Draco Meteor",
+            "Dragon Pulse",
+            "Sleep Talk"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Indeedee-F",
+          "ability": "Psychic Surge",
+          "teraType": "Water",
+          "moves": [
+            "Dazzling Gleam",
+            "Follow Me",
+            "Trick Room",
+            "Skill Swap"
+          ],
+          "item": "Psychic Seed"
+        },
+        {
+          "species": "Torkoal",
+          "ability": "Drought",
+          "teraType": "Fire",
+          "moves": [
+            "Eruption",
+            "Heat Wave",
+            "Flamethrower",
+            "Earth Power"
+          ],
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Armarouge",
+          "ability": "Flash Fire",
+          "teraType": "Psychic",
+          "moves": [
+            "Expanding Force",
+            "Heat Wave",
+            "Focus Blast",
+            "Trick Room"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "species": "Dondozo",
+          "ability": "Oblivious",
+          "teraType": "Flying",
+          "moves": [
+            "Wave Crash",
+            "Tera Blast",
+            "Protect",
+            "Earthquake"
+          ],
+          "item": "Rocky Helmet"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Abhay Iyer",
+      "paste": "https://pokepast.es//039d2d8e7f2bff3c",
+      "swiss": {
+        "wins": 8,
+        "losses": 4,
+        "place": 43
+      },
+      "team": [
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Flare Blitz",
+            "Rock Slide",
+            "Will-O-Wisp",
+            "Protect"
+          ],
+          "name": "Arcanine",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Dazzling Gleam",
+            "Icy Wind",
+            "Protect"
+          ],
+          "name": "Flutter Mane",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Follow Me",
+            "Spiky Shield"
+          ],
+          "name": "Ogerpon",
+          "item": "Wellspring Mask"
+        },
+        {
+          "species": "Kingambit",
+          "ability": "Defiant",
+          "teraType": "Dark",
+          "moves": [
+            "Kowtow Cleave",
+            "Sucker Punch",
+            "Swords Dance",
+            "Protect"
+          ],
+          "name": "Kingambit",
+          "item": "Black Glasses"
+        },
+        {
+          "species": "Landorus",
+          "ability": "Sheer Force",
+          "teraType": "Poison",
+          "moves": [
+            "Earth Power",
+            "Sludge Bomb",
+            "Taunt",
+            "Protect"
+          ],
+          "name": "Landorus",
+          "item": "Life Orb"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Wild Charge",
+            "Drain Punch",
+            "Heavy Slam",
+            "Fake Out"
+          ],
+          "name": "Iron Hands",
+          "item": "Assault Vest"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Parker Simmons",
+      "paste": "https://pokepast.es//1cce485552f20505",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 44
+      },
+      "team": [
+        {
+          "species": "Annihilape",
+          "ability": "Defiant",
+          "teraType": "Fairy",
+          "moves": [
+            "Rage Fist",
+            "Drain Punch",
+            "Protect",
+            "Bulk Up"
+          ],
+          "name": "Zaboomafool",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn",
+            "Stomping Tantrum"
+          ],
+          "name": "Landorous",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Grass",
+          "moves": [
+            "Head Smash",
+            "Rock Slide",
+            "Extreme Speed",
+            "Flare Blitz"
+          ],
+          "name": "Arcanine",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Drum Beating",
+            "U-turn",
+            "Fake Out",
+            "Grassy Glide"
+          ],
+          "name": "Rillaboom",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Iron Bundle",
+          "ability": "Quark Drive",
+          "teraType": "Ghost",
+          "moves": [
+            "Hydro Pump",
+            "Icy Wind",
+            "Freeze-Dry",
+            "Protect"
+          ],
+          "name": "Adam",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Ivy Cudgel",
+            "Spiky Shield",
+            "Follow Me",
+            "Wood Hammer"
+          ],
+          "name": "Ogerpon",
+          "item": "Wellspring Mask"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Takuya Hiraiwa",
+      "paste": "https://pokepast.es//7ef4f5d032bd03aa",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 45
+      },
+      "team": [
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Steel",
+          "moves": [
+            "Bleakwind Storm",
+            "Tailwind",
+            "Sunny Day",
+            "Protect"
+          ],
+          "item": "Mental Herb"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Poison",
+          "moves": [
+            "Icicle Crash",
+            "Sucker Punch",
+            "Sacred Sword",
+            "Protect"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Grass",
+          "moves": [
+            "Wood Hammer",
+            "Grassy Glide",
+            "Fake Out",
+            "Protect"
+          ],
+          "item": "Miracle Seed"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Trick Room"
+          ],
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Wicked Blow",
+            "Sucker Punch",
+            "Close Combat",
+            "Detect"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Earth Power",
+            "Tera Blast",
+            "Protect"
+          ],
+          "item": "Shuca Berry"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Brian Hough",
+      "paste": "https://pokepast.es//c972a9182b4f1d60",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 46
+      },
+      "team": [
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Poison",
+          "moves": [
+            "Detect",
+            "Wicked Blow",
+            "Sucker Punch",
+            "Swords Dance"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Icy Wind",
+            "Shadow Ball",
+            "Moonblast"
+          ],
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Fire",
+          "moves": [
+            "Fake Out",
+            "Drain Punch",
+            "Wild Charge",
+            "Heavy Slam"
+          ],
+          "name": "Nail",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Ogerpon-Wellspring",
+          "ability": "Water Absorb",
+          "teraType": "Water",
+          "moves": [
+            "Ivy Cudgel",
+            "Spiky Shield",
+            "Horn Leech",
+            "Follow Me"
+          ],
+          "item": "Wellspring Mask"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Heat Wave",
+            "Will-O-Wisp",
+            "Earth Power"
+          ],
+          "item": "Leftovers"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Anders Nordstrom",
+      "paste": "https://pokepast.es//67ad2a85868b05ec",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 47
+      },
+      "team": [
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Grass",
+          "moves": [
+            "Fake Out",
+            "Drain Punch",
+            "Wild Charge",
+            "Heavy Slam"
+          ],
+          "name": "Mr Hands",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Dusclops",
+          "ability": "Pressure",
+          "teraType": "Fairy",
+          "moves": [
+            "Night Shade",
+            "Will-O-Wisp",
+            "Brick Break",
+            "Trick Room"
+          ],
+          "name": "David Guetta",
+          "item": "Eviolite"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Horn Leech",
+            "Follow Me",
+            "Spiky Shield"
+          ],
+          "name": "Alan Walker",
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Urshifu",
+          "ability": "Unseen Fist",
+          "teraType": "Dark",
+          "moves": [
+            "Wicked Blow",
+            "Sucker Punch",
+            "Close Combat",
+            "Protect"
+          ],
+          "name": "Nightcore #1",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "name": "TheFatRat",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Ursaluna-Bloodmoon",
+          "ability": "Mind’s Eye",
+          "teraType": "Normal",
+          "moves": [
+            "Blood Moon",
+            "Hyper Voice",
+            "Earth Power",
+            "Protect"
+          ],
+          "name": "Freddy Faz",
+          "item": "Weakness Policy"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Everett Filloon",
+      "paste": "https://pokepast.es//3b0070092224d027",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 48
+      },
+      "team": [
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Fake Out",
+            "Wood Hammer",
+            "Grassy Glide",
+            "High Horsepower"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Icicle Crash",
+            "Sucker Punch",
+            "Sacred Sword"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Detect",
+            "Aqua Jet",
+            "Surging Strikes",
+            "Close Combat"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Ghost",
+          "moves": [
+            "Tailwind",
+            "Rain Dance",
+            "Taunt",
+            "Bleakwind Storm"
+          ],
+          "item": "Rocky Helmet"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Normal",
+          "moves": [
+            "Head Smash",
+            "Flare Blitz",
+            "Rock Slide",
+            "Extreme Speed"
+          ],
+          "name": "SEAN MOMENT!",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Protect",
+            "Moonblast",
+            "Dazzling Gleam",
+            "Shadow Ball"
+          ],
+          "item": "Booster Energy"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Jonathan Giron",
+      "paste": "https://pokepast.es//49927d453bf0503f",
+      "swiss": {
+        "wins": 8,
+        "losses": 6,
+        "place": 49
+      },
+      "team": [
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Aqua Jet",
+            "Detect",
+            "Close Combat",
+            "Surging Strikes"
+          ],
+          "name": "Kah-rah-tay",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Dark",
+          "moves": [
+            "Scary Face",
+            "Rain Dance",
+            "Bleakwind Storm",
+            "Tailwind"
+          ],
+          "item": "Covert Cloak"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Dragon",
+          "moves": [
+            "Rage Powder",
+            "Spore",
+            "Pollen Puff",
+            "Protect"
+          ],
+          "name": "Sir Amonguss",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Roaring Moon",
+          "ability": "Protosynthesis",
+          "teraType": "Flying",
+          "moves": [
+            "Knock Off",
+            "Dragon Dance",
+            "Acrobatics",
+            "Protect"
+          ],
+          "name": "Celeste",
+          "item": "Booster Energy"
+        },
+        {
+          "species": "Arcanine-Hisui",
+          "ability": "Intimidate",
+          "teraType": "Fairy",
+          "moves": [
+            "Tera Blast",
+            "Flare Blitz",
+            "Rock Slide",
+            "Extreme Speed"
+          ],
+          "name": "Nobara",
+          "item": "Choice Band"
+        },
+        {
+          "species": "Tinkaton",
+          "ability": "Mold Breaker",
+          "teraType": "Dragon",
+          "moves": [
+            "Fake Out",
+            "Knock Off",
+            "Gigaton Hammer",
+            "Play Rough"
+          ],
+          "name": "Madam Bonk",
+          "item": "Assault Vest"
+        }
+      ],
+      "top": 64
+    },
+    {
+      "name": "Nicholas Borghi",
+      "paste": "https://pokepast.es//28b2f52d88fb12e1",
+      "swiss": {
+        "wins": 7,
+        "losses": 4,
+        "place": 50
+      },
+      "team": [
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Protect",
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot"
+          ],
+          "name": "Captain Boom",
+          "item": "Leftovers"
+        },
+        {
+          "species": "Chien-Pao",
+          "ability": "Sword of Ruin",
+          "teraType": "Ghost",
+          "moves": [
+            "Protect",
+            "Icicle Crash",
+            "Sucker Punch",
+            "Haze"
+          ],
+          "name": "Twinkle Toes",
+          "item": "Focus Sash"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "name": "Painted Lady",
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Clefairy",
+          "ability": "Friend Guard",
+          "teraType": "Fire",
+          "moves": [
+            "Protect",
+            "Sing",
+            "Follow Me",
+            "Helping Hand"
+          ],
+          "name": "Mushi",
+          "item": "Eviolite"
+        },
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Wood Hammer",
+            "U-turn",
+            "Fake Out",
+            "Grassy Glide"
+          ],
+          "name": "Melon Lord",
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Spiky Shield",
+            "Ivy Cudgel",
+            "Grassy Glide",
+            "Swords Dance"
+          ],
+          "name": "Zuzu",
+          "item": "Hearthflame Mask"
+        }
+      ],
+      "top": 64
     },
     {
       "name": "Alberto Lara",
