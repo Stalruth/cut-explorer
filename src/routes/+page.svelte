@@ -37,5 +37,8 @@
     <li>
       <a href="regional-toronto">Toronto Regional Championships</a>
     </li>
+    <li>
+      <a href="international-latin-america">Latin America International Championships</a>
+    </li>
   </ul>
 </details>
