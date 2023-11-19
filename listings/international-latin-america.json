@@ -9,6 +9,9 @@
     {
       "name": "Day 2",
       "count": 35
+    },
+    {
+      "count": 8
     }
   ],
   "players": [
@@ -93,7 +96,8 @@
           ],
           "item": "Mystic Water"
         }
-      ]
+      ],
+      "top": 1
     },
     {
       "name": "Thiago Lattanzi",
@@ -176,7 +180,8 @@
           ],
           "item": "Focus Sash"
         }
-      ]
+      ],
+      "top": 2
     },
     {
       "name": "David Rodriguez",
@@ -265,7 +270,8 @@
           "name": "YukiOnna",
           "item": "Booster Energy"
         }
-      ]
+      ],
+      "top": 4
     },
     {
       "name": "Riley Factura",
@@ -273,7 +279,7 @@
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 8
+        "place": 7
       },
       "team": [
         {
@@ -348,7 +354,8 @@
           ],
           "item": "Hearthflame Mask"
         }
-      ]
+      ],
+      "top": 4
     },
     {
       "name": "Joshua Lorcy",
@@ -604,96 +611,12 @@
       "top": 8
     },
     {
-      "name": "Yuya Tada",
-      "paste": "https://pokepast.es/a48d088fa6f03fac",
-      "swiss": {
-        "wins": 11,
-        "losses": 3,
-        "place": 7
-      },
-      "team": [
-        {
-          "species": "Arcanine-Hisui",
-          "ability": "Intimidate",
-          "teraType": "Grass",
-          "moves": [
-            "Flare Blitz",
-            "Rock Slide",
-            "Extreme Speed",
-            "Head Smash"
-          ],
-          "item": "Choice Band"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Ghost",
-          "moves": [
-            "Tailwind",
-            "Bleakwind Storm",
-            "Rain Dance",
-            "Taunt"
-          ],
-          "item": "Rocky Helmet"
-        },
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Poison",
-          "moves": [
-            "Wood Hammer",
-            "Grassy Glide",
-            "U-turn",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Flutter Mane",
-          "ability": "Protosynthesis",
-          "teraType": "Fairy",
-          "moves": [
-            "Moonblast",
-            "Dazzling Gleam",
-            "Shadow Ball",
-            "Protect"
-          ],
-          "item": "Booster Energy"
-        },
-        {
-          "species": "Chien-Pao",
-          "ability": "Sword of Ruin",
-          "teraType": "Ghost",
-          "moves": [
-            "Icicle Crash",
-            "Sucker Punch",
-            "Sacred Sword",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        }
-      ],
-      "top": 8
-    },
-    {
       "name": "Joseph Ugarte",
       "paste": "https://pokepast.es/5aa7d6d3e5b17f93",
       "swiss": {
         "wins": 11,
         "losses": 3,
-        "place": 9
+        "place": 8
       },
       "team": [
         {
@@ -775,7 +698,7 @@
           "item": "Miracle Seed"
         }
       ],
-      "top": 16
+      "top": 8
     },
     {
       "name": "Chuppa Cross",
@@ -783,7 +706,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 10
+        "place": 9
       },
       "team": [
         {
@@ -867,7 +790,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 11
+        "place": 10
       },
       "team": [
         {
@@ -957,7 +880,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 12
+        "place": 11
       },
       "team": [
         {
@@ -1041,7 +964,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 13
+        "place": 12
       },
       "team": [
         {
@@ -1131,7 +1054,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 14
+        "place": 13
       },
       "team": [
         {
@@ -1215,7 +1138,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 15
+        "place": 14
       },
       "team": [
         {
@@ -1299,7 +1222,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 16
+        "place": 15
       },
       "team": [
         {
@@ -1383,7 +1306,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 17
+        "place": 16
       },
       "team": [
         {
@@ -1465,7 +1388,7 @@
           "item": "Assault Vest"
         }
       ],
-      "top": 32
+      "top": 16
     },
     {
       "name": "Eduardo Cunha",
@@ -1473,7 +1396,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 18
+        "place": 17
       },
       "team": [
         {
@@ -1560,7 +1483,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 19
+        "place": 18
       },
       "team": [
         {
@@ -1650,7 +1573,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 20
+        "place": 19
       },
       "team": [
         {
@@ -1735,7 +1658,7 @@
       "swiss": {
         "wins": 10,
         "losses": 4,
-        "place": 21
+        "place": 20
       },
       "team": [
         {
@@ -1819,7 +1742,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 22
+        "place": 21
       },
       "team": [
         {
@@ -1903,7 +1826,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 23
+        "place": 22
       },
       "team": [
         {
@@ -1993,7 +1916,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 24
+        "place": 23
       },
       "team": [
         {
@@ -2083,7 +2006,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 25
+        "place": 24
       },
       "team": [
         {
@@ -2168,7 +2091,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 26
+        "place": 25
       },
       "team": [
         {
@@ -2252,7 +2175,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 27
+        "place": 26
       },
       "team": [
         {
@@ -2339,7 +2262,7 @@
       "swiss": {
         "wins": 9,
         "losses": 5,
-        "place": 28
+        "place": 27
       },
       "team": [
         {
@@ -2418,7 +2341,91 @@
       "top": 32
     },
     {
-      "name": "alexander canseco",
+      "name": "Dylan Salvanera",
+      "paste": "https://pokepast.es/7c60d35a1c1d48df",
+      "swiss": {
+        "wins": 9,
+        "losses": 5,
+        "place": 28
+      },
+      "team": [
+        {
+          "species": "Rillaboom",
+          "ability": "Grassy Surge",
+          "teraType": "Fire",
+          "moves": [
+            "Wood Hammer",
+            "High Horsepower",
+            "U-turn",
+            "Fake Out"
+          ],
+          "item": "Assault Vest"
+        },
+        {
+          "species": "Gholdengo",
+          "ability": "Good as Gold",
+          "teraType": "Dragon",
+          "moves": [
+            "Make It Rain",
+            "Shadow Ball",
+            "Nasty Plot",
+            "Protect"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "species": "Landorus-Therian",
+          "ability": "Intimidate",
+          "teraType": "Flying",
+          "moves": [
+            "Stomping Tantrum",
+            "Tera Blast",
+            "Rock Slide",
+            "U-turn"
+          ],
+          "item": "Choice Scarf"
+        },
+        {
+          "species": "Ogerpon-Hearthflame",
+          "ability": "Mold Breaker",
+          "teraType": "Fire",
+          "moves": [
+            "Ivy Cudgel",
+            "Grassy Glide",
+            "Follow Me",
+            "Spiky Shield"
+          ],
+          "item": "Hearthflame Mask"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "Protect"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Tornadus",
+          "ability": "Prankster",
+          "teraType": "Dragon",
+          "moves": [
+            "Bleakwind Storm",
+            "Rain Dance",
+            "Tailwind",
+            "Protect"
+          ],
+          "item": "Focus Sash"
+        }
+      ],
+      "top": 32
+    },
+    {
+      "name": "Alexander Canseco",
       "paste": "https://pokepast.es/026db7074e72e274",
       "swiss": {
         "wins": 9,
@@ -2502,96 +2509,12 @@
       "top": 32
     },
     {
-      "name": "Dylan Salvanera",
-      "paste": "https://pokepast.es/7c60d35a1c1d48df",
-      "swiss": {
-        "wins": 9,
-        "losses": 5,
-        "place": 30
-      },
-      "team": [
-        {
-          "species": "Rillaboom",
-          "ability": "Grassy Surge",
-          "teraType": "Fire",
-          "moves": [
-            "Wood Hammer",
-            "High Horsepower",
-            "U-turn",
-            "Fake Out"
-          ],
-          "item": "Assault Vest"
-        },
-        {
-          "species": "Gholdengo",
-          "ability": "Good as Gold",
-          "teraType": "Dragon",
-          "moves": [
-            "Make It Rain",
-            "Shadow Ball",
-            "Nasty Plot",
-            "Protect"
-          ],
-          "item": "Leftovers"
-        },
-        {
-          "species": "Landorus-Therian",
-          "ability": "Intimidate",
-          "teraType": "Flying",
-          "moves": [
-            "Stomping Tantrum",
-            "Tera Blast",
-            "Rock Slide",
-            "U-turn"
-          ],
-          "item": "Choice Scarf"
-        },
-        {
-          "species": "Ogerpon-Hearthflame",
-          "ability": "Mold Breaker",
-          "teraType": "Fire",
-          "moves": [
-            "Ivy Cudgel",
-            "Grassy Glide",
-            "Follow Me",
-            "Spiky Shield"
-          ],
-          "item": "Hearthflame Mask"
-        },
-        {
-          "species": "Urshifu-Rapid-Strike",
-          "ability": "Unseen Fist",
-          "teraType": "Water",
-          "moves": [
-            "Surging Strikes",
-            "Close Combat",
-            "Aqua Jet",
-            "Protect"
-          ],
-          "item": "Mystic Water"
-        },
-        {
-          "species": "Tornadus",
-          "ability": "Prankster",
-          "teraType": "Dragon",
-          "moves": [
-            "Bleakwind Storm",
-            "Rain Dance",
-            "Tailwind",
-            "Protect"
-          ],
-          "item": "Focus Sash"
-        }
-      ],
-      "top": 32
-    },
-    {
       "name": "Hanns Pizarro",
       "paste": "https://pokepast.es/6b322415275549f2",
       "swiss": {
         "wins": 8,
         "losses": 6,
-        "place": 31
+        "place": 30
       },
       "team": [
         {
@@ -2670,12 +2593,12 @@
       "top": 32
     },
     {
-      "name": "BRUNO PIONTE",
+      "name": "Bruno Pionte",
       "paste": "https://pokepast.es/bd25422497def32e",
       "swiss": {
         "wins": 8,
         "losses": 6,
-        "place": 32
+        "place": 31
       },
       "team": [
         {
@@ -2759,7 +2682,7 @@
       "swiss": {
         "wins": 8,
         "losses": 6,
-        "place": 33
+        "place": 32
       },
       "team": [
         {
@@ -2840,7 +2763,7 @@
           "item": "Assault Vest"
         }
       ],
-      "top": 64
+      "top": 32
     },
     {
       "name": "Martín Daniel Riquelme Zarza",
@@ -2848,7 +2771,7 @@
       "swiss": {
         "wins": 8,
         "losses": 6,
-        "place": 34
+        "place": 33
       },
       "team": [
         {
@@ -2934,7 +2857,7 @@
       "swiss": {
         "wins": 8,
         "losses": 6,
-        "place": 35
+        "place": 34
       },
       "team": [
         {
@@ -3020,7 +2943,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 36
+        "place": 35
       },
       "team": [
         {
@@ -3104,7 +3027,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 37
+        "place": 36
       },
       "team": [
         {
@@ -3188,7 +3111,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 38
+        "place": 37
       },
       "team": [
         {
@@ -3272,7 +3195,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 39
+        "place": 38
       },
       "team": [
         {
@@ -3356,7 +3279,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 40
+        "place": 39
       },
       "team": [
         {
@@ -3440,7 +3363,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 41
+        "place": 40
       },
       "team": [
         {
@@ -3525,7 +3448,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 42
+        "place": 41
       },
       "team": [
         {
@@ -3609,7 +3532,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 43
+        "place": 42
       },
       "team": [
         {
@@ -3699,7 +3622,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 44
+        "place": 43
       },
       "team": [
         {
@@ -3784,12 +3707,12 @@
       "top": 64
     },
     {
-      "name": "Fausto GOMEZ NIETO",
+      "name": "Fausto Gomez Nieto",
       "paste": "https://pokepast.es/f9cde0d3b78f3845",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 45
+        "place": 44
       },
       "team": [
         {
@@ -3873,7 +3796,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 46
+        "place": 45
       },
       "team": [
         {
@@ -3957,7 +3880,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 47
+        "place": 46
       },
       "team": [
         {
@@ -4047,7 +3970,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 48
+        "place": 47
       },
       "team": [
         {
@@ -4131,7 +4054,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 49
+        "place": 48
       },
       "team": [
         {
@@ -4215,7 +4138,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 50
+        "place": 49
       },
       "team": [
         {
@@ -4303,7 +4226,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 51
+        "place": 50
       },
       "team": [
         {
@@ -4387,7 +4310,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 52
+        "place": 51
       },
       "team": [
         {
@@ -4477,7 +4400,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 53
+        "place": 52
       },
       "team": [
         {
@@ -4567,7 +4490,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 54
+        "place": 53
       },
       "team": [
         {
@@ -4651,7 +4574,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 55
+        "place": 54
       },
       "team": [
         {
@@ -4741,7 +4664,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 56
+        "place": 55
       },
       "team": [
         {
@@ -4831,7 +4754,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 57
+        "place": 56
       },
       "team": [
         {
@@ -4921,7 +4844,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 58
+        "place": 57
       },
       "team": [
         {
@@ -5011,7 +4934,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 59
+        "place": 58
       },
       "team": [
         {
@@ -5097,7 +5020,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 60
+        "place": 59
       },
       "team": [
         {
@@ -5181,7 +5104,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 61
+        "place": 60
       },
       "team": [
         {
@@ -5265,7 +5188,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 62
+        "place": 61
       },
       "team": [
         {
@@ -5349,7 +5272,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 63
+        "place": 62
       },
       "team": [
         {
@@ -5433,7 +5356,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 64
+        "place": 63
       },
       "team": [
         {
@@ -5523,7 +5446,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 65
+        "place": 64
       },
       "team": [
         {
@@ -5599,7 +5522,7 @@
           "item": "Focus Sash"
         }
       ],
-      "top": 128
+      "top": 64
     },
     {
       "name": "Zackary Thornberg",
@@ -5607,7 +5530,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 66
+        "place": 65
       },
       "team": [
         {
@@ -5696,7 +5619,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 67
+        "place": 66
       },
       "team": [
         {
@@ -5780,7 +5703,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 68
+        "place": 67
       },
       "team": [
         {
@@ -5864,7 +5787,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 69
+        "place": 68
       },
       "team": [
         {
@@ -5954,7 +5877,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 70
+        "place": 69
       },
       "team": [
         {
@@ -6044,7 +5967,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 71
+        "place": 70
       },
       "team": [
         {
@@ -6134,7 +6057,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 72
+        "place": 71
       },
       "team": [
         {
@@ -6213,12 +6136,12 @@
       "top": 128
     },
     {
-      "name": "juan salerno",
+      "name": "Juan Salerno",
       "paste": "https://pokepast.es/7d5cb8301b4c0d56",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 73
+        "place": 72
       },
       "team": [
         {
@@ -6303,7 +6226,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 74
+        "place": 73
       },
       "team": [
         {
@@ -6387,7 +6310,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 75
+        "place": 74
       },
       "team": [
         {
@@ -6477,7 +6400,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 76
+        "place": 75
       },
       "team": [
         {
@@ -6567,7 +6490,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 77
+        "place": 76
       },
       "team": [
         {
@@ -6652,12 +6575,12 @@
       "top": 128
     },
     {
-      "name": "cristhian andrade",
+      "name": "Cristhian Andrade",
       "paste": "https://pokepast.es/531ad3d5661aed0e",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 78
+        "place": 77
       },
       "team": [
         {
@@ -6741,7 +6664,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 79
+        "place": 78
       },
       "team": [
         {
@@ -6825,7 +6748,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 80
+        "place": 79
       },
       "team": [
         {
@@ -6904,12 +6827,12 @@
       "top": 128
     },
     {
-      "name": "Gustavo kengo",
+      "name": "Gustavo Kengo",
       "paste": "https://pokepast.es/73f84d41d128790f",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 81
+        "place": 80
       },
       "team": [
         {
@@ -6999,7 +6922,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 82
+        "place": 81
       },
       "team": [
         {
@@ -7089,7 +7012,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 83
+        "place": 82
       },
       "team": [
         {
@@ -7175,7 +7098,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 84
+        "place": 83
       },
       "team": [
         {
@@ -7265,7 +7188,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 85
+        "place": 84
       },
       "team": [
         {
@@ -7349,7 +7272,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 86
+        "place": 85
       },
       "team": [
         {
@@ -7438,7 +7361,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 87
+        "place": 86
       },
       "team": [
         {
@@ -7522,7 +7445,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 88
+        "place": 87
       },
       "team": [
         {
@@ -7606,7 +7529,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 89
+        "place": 88
       },
       "team": [
         {
@@ -7685,12 +7608,12 @@
       "top": 128
     },
     {
-      "name": "joaquin salerno",
+      "name": "Joaquin Salerno",
       "paste": "https://pokepast.es/a9a1c2edfa300eb9",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 90
+        "place": 89
       },
       "team": [
         {
@@ -7776,7 +7699,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 91
+        "place": 90
       },
       "team": [
         {
@@ -7860,7 +7783,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 92
+        "place": 91
       },
       "team": [
         {
@@ -7949,7 +7872,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 93
+        "place": 92
       },
       "team": [
         {
@@ -8034,7 +7957,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 94
+        "place": 93
       },
       "team": [
         {
@@ -8124,7 +8047,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 95
+        "place": 94
       },
       "team": [
         {
@@ -8203,12 +8126,12 @@
       "top": 128
     },
     {
-      "name": "nicolas del campo",
+      "name": "Nicolas del Campo",
       "paste": "https://pokepast.es/03b275ddddbb595f",
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 96
+        "place": 95
       },
       "team": [
         {
@@ -8292,7 +8215,7 @@
       "swiss": {
         "wins": 6,
         "losses": 3,
-        "place": 97
+        "place": 96
       },
       "team": [
         {
@@ -8376,7 +8299,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 98
+        "place": 97
       },
       "team": [
         {
@@ -8466,7 +8389,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 99
+        "place": 98
       },
       "team": [
         {
@@ -8545,12 +8468,12 @@
       "top": 128
     },
     {
-      "name": "ruan carvalho",
+      "name": "Ruan Carvalho",
       "paste": "https://pokepast.es/92415f00b3c99d04",
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 100
+        "place": 99
       },
       "team": [
         {
@@ -8634,7 +8557,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 101
+        "place": 100
       },
       "team": [
         {
@@ -8719,7 +8642,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 102
+        "place": 101
       },
       "team": [
         {
@@ -8803,7 +8726,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 103
+        "place": 102
       },
       "team": [
         {
@@ -8887,7 +8810,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 104
+        "place": 103
       },
       "team": [
         {
@@ -8972,7 +8895,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 105
+        "place": 104
       },
       "team": [
         {
@@ -9057,11 +8980,11 @@
     },
     {
       "name": "Manuel Espíritu",
-      "paste": "https://pokepast.es/0d9b1eca23e2f105",
+      "paste": "https://pokepast.es/d8d2dc66ec965a08",
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 106
+        "place": 105
       },
       "team": [
         {
@@ -9089,7 +9012,7 @@
           "item": "Mystic Water"
         },
         {
-          "species": "Tornadus-Therian",
+          "species": "Tornadus",
           "ability": "Prankster",
           "teraType": "Ghost",
           "moves": [
@@ -9145,7 +9068,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 107
+        "place": 106
       },
       "team": [
         {
@@ -9230,7 +9153,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 108
+        "place": 107
       },
       "team": [
         {
@@ -9313,12 +9236,12 @@
       "top": 128
     },
     {
-      "name": "kyle ayala",
+      "name": "Kyle Ayala",
       "paste": "https://pokepast.es/4fcf7787890a2475",
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 109
+        "place": 108
       },
       "team": [
         {
@@ -9403,7 +9326,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 110
+        "place": 109
       },
       "team": [
         {
@@ -9493,7 +9416,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 111
+        "place": 110
       },
       "team": [
         {
@@ -9577,7 +9500,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 112
+        "place": 111
       },
       "team": [
         {
@@ -9661,7 +9584,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 113
+        "place": 112
       },
       "team": [
         {
@@ -9751,7 +9674,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 114
+        "place": 113
       },
       "team": [
         {
@@ -9841,7 +9764,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 115
+        "place": 114
       },
       "team": [
         {
@@ -9931,7 +9854,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 116
+        "place": 115
       },
       "team": [
         {
@@ -10020,7 +9943,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 117
+        "place": 116
       },
       "team": [
         {
@@ -10104,7 +10027,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 118
+        "place": 117
       },
       "team": [
         {
@@ -10189,12 +10112,12 @@
       "top": 128
     },
     {
-      "name": "Orlando CANDELARESI",
+      "name": "Orlando Candelaresi",
       "paste": "https://pokepast.es/19152271cea8cb89",
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 119
+        "place": 118
       },
       "team": [
         {
@@ -10284,7 +10207,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 120
+        "place": 119
       },
       "team": [
         {
@@ -10368,7 +10291,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 121
+        "place": 120
       },
       "team": [
         {
@@ -10458,7 +10381,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 122
+        "place": 121
       },
       "team": [
         {
@@ -10548,7 +10471,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 123
+        "place": 122
       },
       "team": [
         {
@@ -10632,7 +10555,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 124
+        "place": 123
       },
       "team": [
         {
@@ -10716,7 +10639,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 125
+        "place": 124
       },
       "team": [
         {
@@ -10800,7 +10723,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 126
+        "place": 125
       },
       "team": [
         {
@@ -10884,7 +10807,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 127
+        "place": 126
       },
       "team": [
         {
@@ -10968,7 +10891,7 @@
       "swiss": {
         "wins": 5,
         "losses": 4,
-        "place": 128
+        "place": 127
       },
       "team": [
         {
@@ -11042,6 +10965,96 @@
             "Detect"
           ],
           "item": "Mystic Water"
+        }
+      ],
+      "top": 128
+    },
+    {
+      "name": "Rogério Catel",
+      "paste": "https://pokepast.es/26728f1c17902744",
+      "swiss": {
+        "wins": 5,
+        "losses": 4,
+        "place": 128
+      },
+      "team": [
+        {
+          "species": "Flutter Mane",
+          "ability": "Protosynthesis",
+          "teraType": "Fairy",
+          "moves": [
+            "Moonblast",
+            "Dazzling Gleam",
+            "Shadow Ball",
+            "Thunderbolt"
+          ],
+          "name": "Lady Laura",
+          "item": "Choice Specs"
+        },
+        {
+          "species": "Salamence",
+          "ability": "Intimidate",
+          "teraType": "Steel",
+          "moves": [
+            "Draco Meteor",
+            "Air Slash",
+            "Tailwind",
+            "Protect"
+          ],
+          "name": "DNR",
+          "item": "Life Orb"
+        },
+        {
+          "species": "Urshifu-Rapid-Strike",
+          "ability": "Unseen Fist",
+          "teraType": "Water",
+          "moves": [
+            "Surging Strikes",
+            "Close Combat",
+            "Aqua Jet",
+            "Detect"
+          ],
+          "name": "Hugolistico",
+          "item": "Mystic Water"
+        },
+        {
+          "species": "Amoonguss",
+          "ability": "Regenerator",
+          "teraType": "Water",
+          "moves": [
+            "Rage Powder",
+            "Spore",
+            "Pollen Puff",
+            "Leaf Storm"
+          ],
+          "name": "Persephone",
+          "item": "Sitrus Berry"
+        },
+        {
+          "species": "Heatran",
+          "ability": "Flash Fire",
+          "teraType": "Fairy",
+          "moves": [
+            "Heat Wave",
+            "Flash Cannon",
+            "Earth Power",
+            "Protect"
+          ],
+          "name": "Sapo Boi",
+          "item": "Shuca Berry"
+        },
+        {
+          "species": "Iron Hands",
+          "ability": "Quark Drive",
+          "teraType": "Water",
+          "moves": [
+            "Wild Charge",
+            "Drain Punch",
+            "Volt Switch",
+            "Fake Out"
+          ],
+          "name": "Bussunda",
+          "item": "Assault Vest"
         }
       ],
       "top": 128
