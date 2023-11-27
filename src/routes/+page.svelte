@@ -40,5 +40,11 @@
     <li>
       <a href="international-latin-america">Latin America International Championships</a>
     </li>
+    <li>
+      <a href="regional-brisbane">Brisbane Regional Championships</a>
+    </li>
+    <li>
+      <a href="regional-gdansk">Gdansk Regional Championships</a>
+    </li>
   </ul>
 </details>
