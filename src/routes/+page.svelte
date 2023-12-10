@@ -46,5 +46,8 @@
     <li>
       <a href="regional-gdansk">Gdansk Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-stuttgart">Stuttgart Regional Championships</a>
+    </li>
   </ul>
 </details>

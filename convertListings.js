@@ -4,7 +4,7 @@ import { Team } from '@pkmn/sets';
 const { default: tourInfo } = await import(`./listings/${process.argv[2]}.json`, {assert: {type: 'json'}});
 
 // note to self: fix
-/*const teams = {
+const teams = {
   name: tourInfo.name,
   stages: tourInfo.stages,
   dates: tourInfo.dates,
@@ -30,14 +30,14 @@ const { default: tourInfo } = await import(`./listings/${process.argv[2]}.json`,
       team,
     };
   })),
-};*/
+};
 
-const teams = {
+/*const teams = {
   name: tourInfo.name,
   stages: tourInfo.stages,
   dates: tourInfo.dates,
   teams: tourInfo.players
-}
+}*/
 
 await writeFile(`static/data/${process.argv[2]}.json`, JSON.stringify(teams, (key, value)=>{
   if(key === "team") {
