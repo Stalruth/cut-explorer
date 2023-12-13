@@ -2,18 +2,24 @@
 import { onMount } from 'svelte';
 import {Icons} from '@pkmn/img';
 
+export let players = [];
+export let query = {};
+export let teammates = [];
 export let protocol = '';
 export let hostname = '';
 export let port = '';
-export let players = {};
-export let query = {};
 
 const domain = port ? `${hostname}:${port}` : hostname;
 let isExpanded = false;
 
 $: isExpandable = !isExpanded && players.length > 16;
 $: species = getPresentItems(query.species)[0] ?? undefined;
-$: teammates = getPresentItems(query.teammates).reverse();
+$: queryTeammates = getPresentItems(query.teammates).reverse();
+$: partners = teammates
+    .filter(el => el.count === players.length)
+    .map(el => el.name)
+    .reverse()
+    .sort((a, b) => queryTeammates.indexOf(a) - queryTeammates.indexOf(b));
 
 function expandResults(e) {
   isExpanded = true;
@@ -34,14 +40,18 @@ function getPresentItems(queryMap) {
 
 function getListingName(player) {
   let title = '';
-  if(player.top === 1) {
+  if (player.top === 1) {
     title = '1st';
   } else if (player.top === 2) {
     title = '2nd';
   } else if (player.top) {
     title = `Top ${player.top}`;
   }
-  return `${title} ${player.name} (${player.swiss.wins}-${player.swiss.losses})`;
+  let record = `${player.swiss.wins}-${player.swiss.losses}`;
+  if (player.swiss.ties) {
+    record = `${record}-${player.swiss.ties}`;
+  }
+  return `${title} ${player.name} (${record})`;
 }
 
 function getTeamDisplay(team, query) {
@@ -64,7 +74,7 @@ function getTeamDisplay(team, query) {
       return 1;
     }
 
-    return teammates.indexOf(b.species) - teammates.indexOf(a.species);
+    return partners.indexOf(b.species) - partners.indexOf(a.species);
   });
   return display;
 }
