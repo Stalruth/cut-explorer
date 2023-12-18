@@ -49,5 +49,8 @@
     <li>
       <a href="regional-stuttgart">Stuttgart Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-san-antonio">San Antonio Regional Championships</a>
+    </li>
   </ul>
 </details>
