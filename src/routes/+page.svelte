@@ -95,5 +95,5 @@
       <a href="worlds">2023 Pokémon World Championships</a>
     </li>
   </ul>
-  <p><a href="https://cut-explorer.stalruth.dev">2024 Cut Explorer</a></p>
 </details>
+<p><a href="https://cut-explorer.stalruth.dev">2024 Cut Explorer</a></p>
