@@ -3,5 +3,5 @@ export async function load({ fetch, params, url }) {
   const hostname = url.hostname;
   const port = url.port;
   const response = await fetch(`/data/${params.slug}.json`);
-  return await { protocol, hostname, port, tournament: response.json() };
+  return { protocol, hostname, port, tournament: await response.json() };
 }
