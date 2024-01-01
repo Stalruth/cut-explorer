@@ -9,8 +9,8 @@ export let data;
 
 function changeScope(e) {
   const newList = tournament.teams.slice(0, stage);
-  if(!stats.report(newList, query).players.length) {
-    if(!stats.report(newList, {species: pokemon}).players.length) {
+  if(!stats.report(newList, query, equivalents).players.length) {
+    if(!stats.report(newList, {species: pokemon}, equivalents).players.length) {
       pokemon = '';
     }
     query = {species: pokemon};
@@ -21,7 +21,7 @@ function clearScreen(e) {
   pokemon = '';
 }
 
-let { protocol, hostname, port, tournament } = data;
+let { protocol, hostname, port, tournament, equivalents } = data;
 let pokemon = '';
 let stage = tournament.teams.length;
 
@@ -35,7 +35,7 @@ $: query = {
   moves: new Map(),
   teammates: new Map()
 };
-$: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
+$: results = !pokemon ? { players: teamList } : stats.report(teamList, query, equivalents);
 </script>
 
 <svelte:head>
@@ -87,6 +87,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query);
   <ReportView
     bind:query={query}
     results={results.sets}
+    equivalents={equivalents}
   />
 {/if}
 

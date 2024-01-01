@@ -6,15 +6,39 @@ function collationSorter(a, b) {
   return 0;
 }
 
-function collate(array) {
-  const set = new Set(array);
+function collate(array, valueCategories) {
   const results = []
-  for(let item of set) {
-    results.push({
+  const valueSet = new Set(array);
+  const categorySet = new Set(array.map(el => valueCategories?.[el]));
+  const categoryMap = new Map();
+
+  for(let category of categorySet) {
+    if(!category) {
+      continue;
+    }
+    const node = {
+      name: category,
+      count: array.filter(el => valueCategories[el] === category).length,
+      children: []
+    };
+    categoryMap.set(category, node);
+    results.push(node);
+  }
+
+  for(let item of valueSet) {
+    const node = {
       name: item,
       count: array.filter(el => el === item).length,
-    })
+    };
+    const category = valueCategories?.[item];
+    if(category) {
+      categoryMap.get(category).children.push(node);
+      categoryMap.get(category).children.sort(collationSorter);
+    } else {
+      results.push(node);
+    }
   }
+
   return results.sort(collationSorter);
 }
 
@@ -35,13 +59,13 @@ function subtractCollations(a, b) {
 }
 
 function getPokemonList(data) {
-  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat());
+  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat(), {});
 }
 
-function matchSet(set, team, {species, item, ability, teraType, moves, teammates}) {
-  function matchOne(queryValues, setValue) {
+function matchSet(set, team, {species, item, ability, teraType, moves, teammates}, equivalents) {
+  function matchOne(queryValues, setValue, valueCategories) {
     for(const [key, value] of queryValues) {
-      if((setValue === key) !== value) {
+      if((setValue === key || valueCategories?.[setValue] === key) !== value) {
         return false;
       }
     }
@@ -57,16 +81,16 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
     return true;
   }
 
-  if(species && !matchOne(species, set.species)) {
+  if(species && !matchOne(species, set.species, equivalents['species']?.['values'])) {
     return false;
   }
-  if(item && !matchOne(item, set.item)) {
+  if(item && !matchOne(item, set.item, equivalents['item']?.['values'])) {
     return false;
   }
-  if(ability && !matchOne(ability, set.ability)) {
+  if(ability && !matchOne(ability, set.ability, equivalents['ability']?.['values'])) {
     return false;
   }
-  if(teraType && !matchOne(teraType, set.teraType)) {
+  if(teraType && !matchOne(teraType, set.teraType, equivalents['teraType']?.['values'])) {
     return false;
   }
   if(moves && !matchAll(moves, set.moves))
@@ -82,7 +106,7 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
   return true;
 }
 
-function query(data, parameters) {
+function query(data, parameters, equivalents) {
   const sets = [];
   const players = [];
   data.forEach(player => {
@@ -90,7 +114,7 @@ function query(data, parameters) {
       return;
     }
     const matches = player.team.filter(set => {
-      return matchSet(set, player.team, parameters);
+      return matchSet(set, player.team, parameters, equivalents);
     });
     if(matches.length) {
       sets.push(...matches);
@@ -100,13 +124,13 @@ function query(data, parameters) {
   return {sets, players};
 }
 
-function report(data, queryArgs) {
-  const result = query(data, queryArgs);
+function report(data, queryArgs, equivalents) {
+  const result = query(data, queryArgs, equivalents);
   const sets = {
     total: result.sets.length,
   };
   ['species','item','ability','teraType','moves'].forEach(field => {
-    sets[field] = collate(result.sets.map(set => set[field]).flat());
+    sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]?.['values']);
   });
 
   sets['teammates'] = subtractCollations(collate(
@@ -118,5 +142,5 @@ function report(data, queryArgs) {
   return { sets, players: result.players };
 }
 
-export { getPokemonList, query, report }
+export { getPokemonList, report }
 
