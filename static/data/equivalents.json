@@ -1,0 +1,27 @@
+{
+  "item": {
+    "categories": {
+      "Pinch Healing Berry": ["Aguav Berry", "Figy Berry", "Iapapa Berry", "Mago Berry", "Wiki Berry"],
+      "Power Item": ["Power Anklet", "Power Band", "Power Belt", "Power Bracer", "Power Lens", "Power Weight"],
+      "Flinch Chance": ["King's Rock", "Razor Fang"],
+      "Critical Hit Boost": ["Scope Lens", "Razor Claw"],
+      "Bug-Type Boost": ["Insect Plate", "Silver Powder"],
+      "Dark-Type Boost": ["Dread Plate", "Black Glasses"],
+      "Dragon-Type Boost": ["Draco Plate", "Dragon Fang"],
+      "Electric-Type Boost": ["Zap Plate", "Magnet"],
+      "Fairy-Type Boost": ["Pixie Plate", "Fairy Feather"],
+      "Fighting-Type Boost": ["Fist Plate", "Black Belt"],
+      "Fire-Type Boost": ["Flame Plate", "Charcoal"],
+      "Flying-Type Boost": ["Sky Plate", "Sharp Beak"],
+      "Ghost-Type Boost": ["Spooky Plate", "Spell Tag"],
+      "Grass-Type Boost": ["Meadow Plate", "Miracle Seed"],
+      "Ground-Type Boost": ["Earth Plate", "Soft Sand"],
+      "Ice-Type Boost": ["Icicle Plate", "Never-Melt Ice"],
+      "Poison-Type Boost": ["Toxic Plate", "Poison Barb"],
+      "Psychic-Type Boost": ["Mind Plate", "Twisted Spoon"],
+      "Rock-Type Boost": ["Stone Plate", "Hard Stone"],
+      "Steel-Type Boost": ["Iron Plate", "Metal Coat"],
+      "Water-Type Boost": ["Splash Plate", "Mystic Water"]
+    }
+  }
+}

@@ -10,6 +10,13 @@ function getCheckHandler(queryType) {
       query[queryType] = query[queryType].set(e.target.value, true);
     } else {
       query[queryType].delete(e.target.value);
+
+      const category = equivalents[queryType]?.categories?.[e.target.value];
+      if(category) {
+        for(let item of category) {
+          query[queryType].delete(item);
+        }
+      }
       query[queryType] = query[queryType];
     }
   }
@@ -17,6 +24,7 @@ function getCheckHandler(queryType) {
 
 export let query = {};
 export let results = {};
+export let equivalents = {};
 </script>
 
 <h2>{results.species[0].name}</h2>
