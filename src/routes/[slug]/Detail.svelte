@@ -31,6 +31,24 @@ $: sortedItems = items.sort((a, b) => {
         >
         {item.name} ({item.count}/{total})
       </label>
+      {#if item.children && (queryItems.includes(item.name) || item.count === total)}
+      <ul class="checklist">
+        {#each item.children as child}
+          <li>
+            <label>
+              <input
+                type="checkbox"
+                value={child.name}
+                on:change={changeHandler}
+                checked={queryItems.includes(child.name) || child.count === total}
+                disabled={!queryItems.includes(child.name) && child.count === total}
+              >
+              {child.name} ({child.count}/{total})
+            </label>
+          </li>
+        {/each}
+      </ul>
+      {/if}
     </li>
   {/each}
 </ul>
