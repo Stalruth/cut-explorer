@@ -14,11 +14,11 @@
       "count": 8
     }
   ],
-  "teams": [
+  "players": [
     {
       "name": "Oliver Eskolin",
       "swiss": {
-        "wins": 15,
+        "wins": 12,
         "losses": 2,
         "place": 1
       },
@@ -28,8 +28,8 @@
     {
       "name": "Simone Sanvito",
       "swiss": {
-        "wins": 13,
-        "losses": 4,
+        "wins": 11,
+        "losses": 3,
         "place": 3
       },
       "paste": "https://pokepast.es/83b64fe5ef05a251",
@@ -38,8 +38,8 @@
     {
       "name": "Eric Rios",
       "swiss": {
-        "wins": 13,
-        "losses": 3,
+        "wins": 12,
+        "losses": 2,
         "place": 2
       },
       "paste": "https://pokepast.es/d8cf9c6134cacbbc",
@@ -48,8 +48,8 @@
     {
       "name": "Tom Winter",
       "swiss": {
-        "wins": 12,
-        "losses": 4,
+        "wins": 11,
+        "losses": 3,
         "place": 5
       },
       "paste": "https://pokepast.es/650732c18aa98b92",
@@ -59,7 +59,7 @@
       "name": "Frederik Nielsen",
       "swiss": {
         "wins": 11,
-        "losses": 4,
+        "losses": 3,
         "place": 4
       },
       "paste": "https://pokepast.es/71767bf6360bd15f",
@@ -69,7 +69,7 @@
       "name": "Davide Carrer",
       "swiss": {
         "wins": 11,
-        "losses": 4,
+        "losses": 3,
         "place": 6
       },
       "paste": "https://pokepast.es/3a488f365ae7ffb3",
@@ -79,7 +79,7 @@
       "name": "Davide Miraglia",
       "swiss": {
         "wins": 11,
-        "losses": 4,
+        "losses": 3,
         "place": 7
       },
       "paste": "https://pokepast.es/4a1e9c5e6641f77c",
@@ -89,7 +89,7 @@
       "name": "Nils Dunlop",
       "swiss": {
         "wins": 10,
-        "losses": 5,
+        "losses": 4,
         "place": 8
       },
       "paste": "https://pokepast.es/dcdb58fbd77f3717",

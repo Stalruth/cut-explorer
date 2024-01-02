@@ -39,7 +39,7 @@ const teams = {
   teams: tourInfo.players
 }*/
 
-await writeFile(`static/data/${process.argv[2]}.json`, JSON.stringify(teams, (key, value)=>{
+await writeFile(`static/data/tournaments/${process.argv[2]}.json`, JSON.stringify(teams, (key, value)=>{
   if(key === "team") {
     return value.map(el => ({
       ...el,

@@ -10,11 +10,11 @@
       "count": 8
     }
   ],
-  "teams": [
+  "players": [
     {
       "name": "Nicholas Kan",
       "swiss": {
-        "wins": 10,
+        "wins": 7,
         "losses": 1,
         "place": 6
       },
@@ -24,8 +24,8 @@
     {
       "name": "Lewis Tan",
       "swiss": {
-        "wins": 9,
-        "losses": 2,
+        "wins": 7,
+        "losses": 1,
         "place": 4
       },
       "paste": "https://pokepast.es/dd1bd6ee429e4641",
@@ -34,8 +34,8 @@
     {
       "name": "Vivek Arunagiri",
       "swiss": {
-        "wins": 8,
-        "losses": 2,
+        "wins": 7,
+        "losses": 1,
         "place": 2
       },
       "paste": "https://pokepast.es/c8a44ff49ef09d96",
@@ -44,8 +44,8 @@
     {
       "name": "Konnar Betts",
       "swiss": {
-        "wins": 8,
-        "losses": 2,
+        "wins": 7,
+        "losses": 1,
         "place": 8
       },
       "paste": "https://pokepast.es/758cea2bf46701d1",
@@ -55,7 +55,7 @@
       "name": "Daniel walker",
       "swiss": {
         "wins": 7,
-        "losses": 2,
+        "losses": 1,
         "place": 1
       },
       "paste": "https://pokepast.es/5a87d472bcf43a25",
@@ -65,7 +65,7 @@
       "name": "Kiran Singh",
       "swiss": {
         "wins": 7,
-        "losses": 2,
+        "losses": 1,
         "place": 3
       },
       "paste": "https://pokepast.es/aace48bc29e3eae9",
@@ -75,7 +75,7 @@
       "name": "Jack Lloyd",
       "swiss": {
         "wins": 7,
-        "losses": 2,
+        "losses": 1,
         "place": 5
       },
       "paste": "https://pokepast.es/c31549258dfcce96",
@@ -85,7 +85,7 @@
       "name": "Liam Gilbert",
       "swiss": {
         "wins": 7,
-        "losses": 2,
+        "losses": 1,
         "place": 7
       },
       "paste": "https://pokepast.es/e20f2fab9025f716",
