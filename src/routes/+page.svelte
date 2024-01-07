@@ -55,7 +55,7 @@
   </ul>
 </details>
 <details open>
-  <summary>Regulation F (4-Jan to 1-May-2024)</summary>
+  <summary>Regulation F (4-Jan to 30-Apr-2024)</summary>
   <ul>
     <li>
       <a href="regional-portland">Portland Regional Championships</a>
