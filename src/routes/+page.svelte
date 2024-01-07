@@ -22,8 +22,8 @@
     </li>
   </ul>
 </details>
-<details open>
-  <summary>Regulation E (1-Oct-2023 to 2-Jan-2024)</summary>
+<details>
+  <summary>Regulation E (1-Oct-2023 to 3-Jan-2024)</summary>
   <ul>
     <li>
       <a href="regional-peoria">Peoria Regional Championships</a>
@@ -54,3 +54,12 @@
     </li>
   </ul>
 </details>
+<details open>
+  <summary>Regulation F (4-Jan to 1-May-2024)</summary>
+  <ul>
+    <li>
+      <a href="regional-portland">Portland Regional Championships</a>
+    </li>
+  </ul>
+</details>
+
