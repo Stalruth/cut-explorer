@@ -27,7 +27,7 @@ export let results = {};
 export let equivalents = {};
 </script>
 
-<h2>{results.species[0].name}</h2>
+<h2>{results?.species?.[0]?.name}</h2>
 
 <div class="report">
   <div>
