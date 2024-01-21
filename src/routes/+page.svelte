@@ -60,6 +60,9 @@
     <li>
       <a href="regional-portland">Portland Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-charlotte">Charlotte Regional Championships</a>
+    </li>
   </ul>
 </details>
 
