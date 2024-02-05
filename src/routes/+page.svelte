@@ -66,6 +66,9 @@
     <li>
       <a href="regional-liverpool">Liverpool Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-melbourne">Melbourne Regional Championships</a>
+    </li>
   </ul>
 </details>
 
