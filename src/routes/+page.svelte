@@ -72,6 +72,9 @@
     <li>
       <a href="regional-knoxville">Knoxville Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-dortmund">Dortmund Regional Championships</a>
+    </li>
   </ul>
 </details>
 
