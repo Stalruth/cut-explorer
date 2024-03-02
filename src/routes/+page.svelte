@@ -75,6 +75,9 @@
     <li>
       <a href="regional-dortmund">Dortmund Regional Championships</a>
     </li>
+    <li>
+      <a href="special-utrecht">Utrecht Special Event</a>
+    </li>
   </ul>
 </details>
 
