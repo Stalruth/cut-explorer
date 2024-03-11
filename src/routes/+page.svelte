@@ -78,6 +78,9 @@
     <li>
       <a href="special-utrecht">Utrecht Special Event</a>
     </li>
+    <li>
+      <a href="regional-goiânia">Goiânia Regional Championships</a>
+    </li>
   </ul>
 </details>
 
