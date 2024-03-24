@@ -81,6 +81,9 @@
     <li>
       <a href="regional-goiânia">Goiânia Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-vancouver">Vancouver Regional Championships</a>
+    </li>
   </ul>
 </details>
 
