@@ -87,6 +87,9 @@
     <li>
       <a href="international-europe">Europe International Championships</a>
     </li>
+    <li>
+      <a href="regional-orlando">Orlando Regional Championships</a>
+    </li>
   </ul>
 </details>
 
