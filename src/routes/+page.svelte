@@ -93,6 +93,9 @@
     <li>
       <a href="regional-orlando">Orlando Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-são-paulo">São Paulo Regional Championships</a>
+    </li>
   </ul>
 </details>
 
