@@ -74,6 +74,49 @@ function getTeamDisplay(team, query) {
       return 1;
     }
 
+    const restrictedPokemon = [
+      "Mewtwo",
+      "Ho-Oh",
+      "Lugia",
+      "Groudon",
+      "Kyogre",
+      "Rayquaza",
+      "Dialga",
+      "Dialga-Origin",
+      "Palkia",
+      "Palkia-Origin",
+      "Giratina",
+      "Giratina-Origin".
+      "Reshiram",
+      "Zekrom",
+      "Kyurem",
+      "Xerneas",
+      "Yveltal",
+      "Zygarde",
+      "Zygarde-10%",
+      "Solgaleo",
+      "Lunala",
+      "Necrozma",
+      "Necrozma-Dawn-Wings",
+      "Necrozma-Dusk-Mane",
+      "Zacian",
+      "Zamazenta",
+      "Eternatus",
+      "Calyrex",
+      "Calyrex-Ice",
+      "Calyrex-Shadow",
+      "Koraidon",
+      "Miraidon",
+      "Terapagos"
+    ];
+
+    if (restrictedPokemon.includes(a.species)) {
+      return -1;
+    }
+    if (restrictedPokemon.includes(b.species)) {
+      return 1;
+    }
+
     return partners.indexOf(b.species) - partners.indexOf(a.species);
   });
   return display;
