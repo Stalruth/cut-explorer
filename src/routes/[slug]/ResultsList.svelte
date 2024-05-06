@@ -90,6 +90,8 @@ function getTeamDisplay(team, query) {
       "Reshiram",
       "Zekrom",
       "Kyurem",
+      "Kyurem-Black",
+      "Kyurem-White",
       "Xerneas",
       "Yveltal",
       "Zygarde",
