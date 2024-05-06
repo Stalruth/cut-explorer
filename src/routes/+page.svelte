@@ -54,7 +54,7 @@
     </li>
   </ul>
 </details>
-<details open>
+<details>
   <summary>Regulation F (4-Jan to 30-Apr-2024)</summary>
   <ul>
     <li>
@@ -95,6 +95,14 @@
     </li>
     <li>
       <a href="regional-são-paulo">São Paulo Regional Championships</a>
+    </li>
+  </ul>
+</details>
+<details open>
+  <summary>Regulation G (1-May to 31-Aug-2024)</summary>
+  <ul>
+    <li>
+      <a href="regional-indianapolis">Indianapolis Regional Championships</a>
     </li>
   </ul>
 </details>

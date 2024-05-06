@@ -86,7 +86,7 @@ function getTeamDisplay(team, query) {
       "Palkia",
       "Palkia-Origin",
       "Giratina",
-      "Giratina-Origin".
+      "Giratina-Origin",
       "Reshiram",
       "Zekrom",
       "Kyurem",
