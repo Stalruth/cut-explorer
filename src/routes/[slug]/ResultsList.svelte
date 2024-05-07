@@ -2,6 +2,8 @@
 import { onMount } from 'svelte';
 import {Icons} from '@pkmn/img';
 
+import sortRestricted from '$lib/sortRestricted.js';
+
 export let players = [];
 export let query = {};
 export let teammates = [];
@@ -74,49 +76,9 @@ function getTeamDisplay(team, query) {
       return 1;
     }
 
-    const restrictedPokemon = [
-      "Mewtwo",
-      "Ho-Oh",
-      "Lugia",
-      "Groudon",
-      "Kyogre",
-      "Rayquaza",
-      "Dialga",
-      "Dialga-Origin",
-      "Palkia",
-      "Palkia-Origin",
-      "Giratina",
-      "Giratina-Origin",
-      "Reshiram",
-      "Zekrom",
-      "Kyurem",
-      "Kyurem-Black",
-      "Kyurem-White",
-      "Xerneas",
-      "Yveltal",
-      "Zygarde",
-      "Zygarde-10%",
-      "Solgaleo",
-      "Lunala",
-      "Necrozma",
-      "Necrozma-Dawn-Wings",
-      "Necrozma-Dusk-Mane",
-      "Zacian",
-      "Zamazenta",
-      "Eternatus",
-      "Calyrex",
-      "Calyrex-Ice",
-      "Calyrex-Shadow",
-      "Koraidon",
-      "Miraidon",
-      "Terapagos"
-    ];
-
-    if (restrictedPokemon.includes(a.species)) {
-      return -1;
-    }
-    if (restrictedPokemon.includes(b.species)) {
-      return 1;
+    const restricted = sortRestricted(a.species, b.species);
+    if (restricted) {
+      return restricted;
     }
 
     return partners.indexOf(b.species) - partners.indexOf(a.species);

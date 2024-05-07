@@ -1,6 +1,9 @@
 <script>
 import Detail from './Detail.svelte';
 
+import * as stats from '$lib/stats.js';
+import sortRestricted from '$lib/sortRestricted.js';
+
 function getCheckHandler(queryType) {
   return e => {
     if(!query[queryType]) {
@@ -25,6 +28,8 @@ function getCheckHandler(queryType) {
 export let query = {};
 export let results = {};
 export let equivalents = {};
+
+$: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b))
 </script>
 
 <h2>{results?.species?.[0]?.name}</h2>
@@ -74,7 +79,7 @@ export let equivalents = {};
     <Detail
       title="Teammates"
       changeHandler={getCheckHandler('teammates')}
-      items={results.teammates}
+      items={teammates}
       query={query.teammates}
       total={results.total}
     />

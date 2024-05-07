@@ -142,5 +142,5 @@ function report(data, queryArgs, equivalents) {
   return { sets, players: result.players };
 }
 
-export { getPokemonList, report }
+export { getPokemonList, report, collationSorter }
 

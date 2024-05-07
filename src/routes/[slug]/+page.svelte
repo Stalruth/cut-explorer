@@ -4,6 +4,7 @@ import ReportView from './ReportView.svelte';
 import ResultsList from './ResultsList.svelte';
 
 import * as stats from '$lib/stats.js';
+import sortRestricted from '$lib/sortRestricted.js';
 
 export let data;
 
@@ -26,7 +27,7 @@ let pokemon = '';
 let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
-$: pokemonList = stats.getPokemonList(teamList);
+$: pokemonList = stats.getPokemonList(teamList).sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b));
 $: query = {
   species: pokemon ? new Map([[pokemon, true]]) : undefined,
   teraType: new Map(),
