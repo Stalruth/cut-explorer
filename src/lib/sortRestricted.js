@@ -26,14 +26,17 @@ const restrictedPokemon = [
   "Necrozma-Dawn-Wings",
   "Necrozma-Dusk-Mane",
   "Zacian",
+  "Zacian-Crowned",
   "Zamazenta",
+  "Zamazenta-Crowned",
   "Eternatus",
   "Calyrex",
   "Calyrex-Ice",
   "Calyrex-Shadow",
   "Koraidon",
   "Miraidon",
-  "Terapagos"
+  "Terapagos",
+  "Terapagos-Terastal"
 ];
 
 function sortRestricted(a, b) {
