@@ -104,6 +104,9 @@
     <li>
       <a href="regional-indianapolis">Indianapolis Regional Championships</a>
     </li>
+    <li>
+      <a href="regional-stockholm">Stockholm Regional Championships</a>
+    </li>
   </ul>
 </details>
 
