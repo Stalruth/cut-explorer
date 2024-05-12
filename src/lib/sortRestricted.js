@@ -40,6 +40,9 @@ const restrictedPokemon = [
 ];
 
 function sortRestricted(a, b) {
+  if (restrictedPokemon.includes(a) === restrictedPokemon.includes(b)) {
+    return 0;
+  }
   if (restrictedPokemon.includes(a)) {
     return -1;
   }
