@@ -11,7 +11,7 @@ export let protocol = '';
 export let hostname = '';
 export let port = '';
 
-const domain = port ? `${hostname}:${port}` : hostname;
+const domain = 'cut-explorer.stalruth.dev';
 let isExpanded = false;
 
 $: isExpandable = !isExpanded && players.length > 16;
