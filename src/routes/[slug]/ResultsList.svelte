@@ -7,11 +7,7 @@ import sortRestricted from '$lib/sortRestricted.js';
 export let players = [];
 export let query = {};
 export let teammates = [];
-export let protocol = '';
-export let hostname = '';
-export let port = '';
 
-const domain = 'cut-explorer.stalruth.dev';
 let isExpanded = false;
 
 $: isExpandable = !isExpanded && players.length > 16;
@@ -102,7 +98,7 @@ function getTeamDisplay(team, query) {
       {#each getTeamDisplay(player.team, query) as set}
         <span
           title={set.species ?? 'No Data'}
-          style={Icons.getPokemon(set.species ?? 'No Data', {protocol: protocol, domain: domain}).style}
+          style={Icons.getPokemon(set.species ?? 'No Data', {protocol: 'https', domain: 'cut-explorer.stalruth.dev'}).style}
         >
         </span>
       {/each}

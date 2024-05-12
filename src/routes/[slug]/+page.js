@@ -1,7 +1,4 @@
 export async function load({ fetch, params, url }) {
-  const protocol = url.protocol.slice(0, -1);
-  const hostname = url.hostname;
-  const port = url.port;
   const tournament = await fetch(`/data/tournaments/${params.slug}.json`);
   const equivalents = await (await fetch('data/equivalents.json')).json();
 
@@ -13,9 +10,6 @@ export async function load({ fetch, params, url }) {
   }
 
   return {
-    protocol,
-    hostname,
-    port,
     tournament: await tournament.json(),
     equivalents: equivalents
   };

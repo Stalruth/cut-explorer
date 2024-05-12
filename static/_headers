@@ -6,3 +6,5 @@
   Cross-Origin-Embedder-Policy: unsafe-none
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
+/sprites/pokemonicons-sheet.png
+  Cross-Origin-Resource-Policy: cross-origin

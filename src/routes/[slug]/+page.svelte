@@ -22,7 +22,7 @@ function clearScreen(e) {
   pokemon = '';
 }
 
-let { protocol, hostname, port, tournament, equivalents } = data;
+let { tournament, equivalents } = data;
 let pokemon = '';
 let stage = tournament.teams.length;
 
@@ -96,7 +96,4 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   players={results.players}
   query={query}
   teammates={results?.sets?.teammates ?? []}
-  hostname={hostname}
-  protocol={protocol}
-  port={port}
 />
