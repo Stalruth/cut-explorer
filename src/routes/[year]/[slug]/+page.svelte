@@ -22,7 +22,7 @@ function clearScreen(e) {
   pokemon = '';
 }
 
-let { tournament, equivalents } = data;
+let { tournament, equivalents, year } = data;
 let pokemon = '';
 let stage = tournament.teams.length;
 
@@ -49,7 +49,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
 
 <nav>
   <div>
-    <a href="/">Index</a>
+    <a href={year === "2024" ? "/" : `/${year}`}>Index</a>
   </div>
 </nav>
 

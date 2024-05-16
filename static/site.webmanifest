@@ -1,1 +1,38 @@
-{"name":"Cut Explorer","short_name":"Cut Explorer","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name":"VGC Top Cut Explorer",
+  "short_name":"Cut Explorer",
+  "description": "Fine grained analytical tool for VGC Top Cut teams.",
+  "id": "/",
+  "start_url": "/",
+  "icons":[
+    {
+      "src":"/android-chrome-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"/android-chrome-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }
+  ],
+  "theme_color":"#9300fc",
+  "background_color":"#9300fc",
+  "display":"standalone",
+  "categories": ["games"],
+  "screenshots": [
+    {
+      "form_factor": "narrow",
+      "src": "/screenshots/narrow.png",
+      "type": "image/png",
+      "sizes": "450x900"
+    },
+    {
+      "form_factor": "wide",
+      "src": "/screenshots/wide.png",
+      "type": "image/png",
+      "sizes": "1920x1376"
+    }
+  ]
+}
+

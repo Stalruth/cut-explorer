@@ -1,6 +1,6 @@
 export async function load({ fetch, params, url }) {
-  const tournament = await fetch(`/data/tournaments/${params.slug}.json`);
-  const equivalents = await (await fetch('data/equivalents.json')).json();
+  const tournament = await fetch(`/data/tournaments/${params.year}/${params.slug}.json`);
+  const equivalents = await (await fetch('/data/equivalents.json')).json();
 
   equivalents.item.values = {};
   for(let category of Object.getOwnPropertyNames(equivalents.item.categories)) {
@@ -11,6 +11,7 @@ export async function load({ fetch, params, url }) {
 
   return {
     tournament: await tournament.json(),
-    equivalents: equivalents
+    equivalents: equivalents,
+    year: params.year,
   };
 }

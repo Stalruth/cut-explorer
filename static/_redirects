@@ -1,0 +1,37 @@
+# subdomain redirects
+https://2023.cut-explorer.stalruth.dev/* https://cut-explorer.stalruth.dev/2023/:splat 301!
+https://2024.cut-explorer.stalruth.dev/* https://cut-explorer.stalruth.dev/2024/:splat 301!
+
+# 2023 anglicised redirects
+/regional-malmo /2023/regional-malmö 301
+/2023/regional-malmo /2023/regional-malmö 301
+
+# 2024 anglicised redirects
+regional-gdansk /2024/regional-gdańsk 301 
+goiania /2024/goiânia 301
+sao-paulo /2024/são-paulo 301
+/2024/regional-gdansk /2024/regional-gdańsk 301 
+/2024/goiania /2024/goiânia 301
+/2024/sao-paulo /2024/são-paulo 301
+
+# 2023 old-new redirects
+/regional-san-diego /2023/regional-san-diego 301
+/international-oceania /2023/international-oceania 301
+/regional-bochum /2023/regional-bochum 301
+/regional-natal /2023/regional-natal 301
+/special-utrecht /2023/special-utrecht 301
+/regional-sydney /2023/regional-sydney 301
+/regional-fort-wayne /2023/regional-fort-wayne 301
+/regional-malmö /2023/regional-malmö 301
+/regional-hartford /2023/regional-hartford 301
+/regional-torino /2023/regional-torino 301
+/regional-milwaukee /2023/regional-milwaukee 301
+/regional-fresno /2023/regional-fresno 301
+/international-north-america /2023/international-north-america 301
+/worlds-day-1 /2023/worlds-day-1
+/worlds /2023/worlds
+
+# old-new redirects
+/regional-* /2024/regional-:splat 301
+/special-* /2024/regional-:splat 301
+/international-* /2024/regional-:splat 301
