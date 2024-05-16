@@ -6,6 +6,7 @@ const ASSETS = [
   '/',
   '/2023/',
   '/2024/',
+  ...build,
   ...(files.filter(path => !path.startsWith('/_')))
 ];
 
@@ -30,6 +31,7 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
+  console.log(ASSETS);
   async function pruneCaches() {
     for (const key of await caches.keys()) {
       if (key !== CACHE) await caches.delete(key);
