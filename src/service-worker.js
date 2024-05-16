@@ -12,7 +12,18 @@ const ASSETS = [
 self.addEventListener('install', e => {
   async function cacheAll() {
     const cache = await caches.open(CACHE);
-    await cache.addAll(ASSETS);
+    try {
+      await cache.addAll(ASSETS);
+    } catch (err) {
+      console.error('sw: cache.addAll');
+      for (let file of ASSETS) {
+        try {
+          await cache.add(file);
+        } catch (err2) {
+          console.warn(`sw: cache.add(${file})`);
+        }
+      }
+    }
   }
 
   e.waitUntil(cacheAll());
