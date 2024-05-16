@@ -6,7 +6,7 @@ const ASSETS = [
   '/',
   '/2023/',
   '/2024/',
-  ...(files.filter(path => path[0] !== '_'))
+  ...(files.filter(path => !path.startsWith('/_')))
 ];
 
 self.addEventListener('install', e => {
