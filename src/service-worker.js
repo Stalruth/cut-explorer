@@ -25,11 +25,11 @@ self.addEventListener('activate', e => {
     }
   }
 
-  e.awaitUntil(pruneCaches());
+  e.waitUntil(pruneCaches());
 });
 
 self.addEventListener('fetch', e => {
-  if (event.request.method !== 'GET') return;
+  if (e.request.method !== 'GET') return;
 
   async function respond() {
     const url = new URL(e.request.url);
@@ -51,12 +51,12 @@ self.addEventListener('fetch', e => {
       }
 
       if (response.status === 200) {
-        cache.put(event.request, response.clone());
+        cache.put(e.request, response.clone());
       }
 
       return response;
     } catch (err) {
-      const response = await cache.match(event.request);
+      const response = await cache.match(e.request);
 
       if (response) {
         return response;
@@ -66,6 +66,6 @@ self.addEventListener('fetch', e => {
     }
   }
 
-  event.respondWith(respond());
+  e.respondWith(respond());
 });
 
