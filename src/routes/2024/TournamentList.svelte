@@ -97,6 +97,9 @@
     <li>
       <a href="2024/regional-stockholm">Stockholm Regional Championships</a>
     </li>
+    <li>
+      <a href="2024/regional-santiago">Santiago Regional Championships</a>
+    </li>
   </ul>
 </details>
 
