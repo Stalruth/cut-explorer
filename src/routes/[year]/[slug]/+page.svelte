@@ -1,5 +1,4 @@
 <script>
-import PokemonSelector from './PokemonSelector.svelte';
 import ReportView from './ReportView.svelte';
 import ResultsList from './ResultsList.svelte';
 
@@ -57,10 +56,12 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
 
 <div class="controlbar">
   <div class="pokemon-select">
-      <PokemonSelector
-        pokemonList={pokemonList}
-        bind:pokemon={pokemon}
-    />
+      <select aria-label="Pokémon:" bind:value={pokemon}>
+        <option value="" disabled selected>Select a Pokémon</option>
+        {#each pokemonList as pokemon}
+          <option value="{pokemon.name}">{pokemon.name} ({pokemon.count})</option>
+        {/each}
+      </select>
     {#if pokemon}
       <button
         on:click={clearScreen}
