@@ -15,7 +15,7 @@ import '$lib/css/app.css';
       <dt>Team exports</dt>
       <dd><a href="https://twitter.com/VGCPastes">VGC Pastes</a></dd>
       <dt>Standings</dt>
-      <dd><a href="https://pokedata.ovh/">PokeData</a></dd>
+      <dd><a href="https://standings.stalruth.dev/">Homemade Standings</a></dd>
       <dt>Pokémon Set Parsing and Sprites</dt>
       <dd><a href="https://github.com/pkmn/ps">pkmn/ps</a></dd>
       <dd><a href="https://play.pokemonshowdown.com">Pokémon Showdown</a></dd>
@@ -23,6 +23,8 @@ import '$lib/css/app.css';
       <dd><a href="https://pokepast.es/">PokePaste</a></dd>
       <dt>Favicon</dt>
       <dd><a href="https://github.com/twitter/twemoji">Twemoji by Twitter</a></dd>
+      <dt>JavaScript Framework</dt>
+      <dd><a href="https://kit.svelte.dev">SvelteKit</a></dd>
     </dl>
   </details>
 </footer>
