@@ -16,8 +16,8 @@
       "type":"image/png"
     }
   ],
-  "theme_color":"#9300fc",
-  "background_color":"#9300fc",
+  "theme_color":"#2c004b",
+  "background_color":"#2c004b",
   "display":"standalone",
   "categories": ["games"],
   "screenshots": [
