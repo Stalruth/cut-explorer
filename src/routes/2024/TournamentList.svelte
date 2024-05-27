@@ -100,6 +100,9 @@
     <li>
       <a href="2024/regional-santiago">Santiago Regional Championships</a>
     </li>
+    <li>
+      <a href="2024/regional-los-angeles">Los Angeles Regional Championships</a>
+    </li>
   </ul>
 </details>
 
