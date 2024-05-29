@@ -103,6 +103,9 @@
     <li>
       <a href="2024/regional-los-angeles">Los Angeles Regional Championships</a>
     </li>
+    <li>
+      <a href="2024/special-lima">Lima Special Event</a>
+    </li>
   </ul>
 </details>
 

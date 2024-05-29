@@ -1,7 +1,7 @@
 import { writeFile } from 'fs/promises';
 import { Team } from '@pkmn/sets';
 
-const { default: tourInfo } = await import(`./listings/${process.argv[2]}.json`, {assert: {type: 'json'}});
+const { default: tourInfo } = await import(`./listings/${process.argv[2]}.json`, {with: {type: 'json'}});
 
 // note to self: fix
 const teams = {
