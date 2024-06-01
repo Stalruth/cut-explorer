@@ -106,6 +106,9 @@
     <li>
       <a href="2024/special-lima">Lima Special Event</a>
     </li>
+    <li>
+      <a href="2024/special-bologna">Bologna Special Event</a>
+    </li>
   </ul>
 </details>
 
