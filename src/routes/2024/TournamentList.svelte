@@ -109,6 +109,9 @@
     <li>
       <a href="2024/special-bologna">Bologna Special Event</a>
     </li>
+    <li>
+      <a href="2024/international-north-america">North America International Championships</a>
+    </li>
   </ul>
 </details>
 
