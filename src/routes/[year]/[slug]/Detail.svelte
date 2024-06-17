@@ -5,7 +5,7 @@ export let items = [];
 export let query = new Map();
 export let total = 0;
 
-$: queryItems = [...query].filter(el => el[1]).map(el => el[0]);
+$: queryItems = [...(query ?? [])].filter(el => el[1]).map(el => el[0]);
 $: sortedItems = items.sort((a, b) => {
   if(queryItems.includes(a.name) === queryItems.includes(b.name)) {
     return 0

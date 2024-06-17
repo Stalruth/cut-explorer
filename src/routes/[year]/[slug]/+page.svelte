@@ -10,10 +10,10 @@ export let data;
 function changeScope(e) {
   const newList = tournament.teams.slice(0, stage);
   if(!stats.report(newList, query, equivalents).players.length) {
-    if(!stats.report(newList, {species: pokemon}, equivalents).players.length) {
+    if(!stats.report(newList, {species: new Map([[pokemon, true]])}, equivalents).players.length) {
       pokemon = '';
     }
-    query = {species: pokemon};
+    query = {species: new Map([[pokemon, true]])};
   }
 }
 
@@ -27,14 +27,7 @@ let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
 $: pokemonList = stats.getPokemonList(teamList).sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b));
-$: query = {
-  species: pokemon ? new Map([[pokemon, true]]) : undefined,
-  teraType: new Map(),
-  ability: new Map(),
-  item: new Map(),
-  moves: new Map(),
-  teammates: new Map()
-};
+$: query = {species: pokemon ? new Map([[pokemon, true]]) : undefined};
 $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, equivalents);
 </script>
 
@@ -63,10 +56,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
         {/each}
       </select>
     {#if pokemon}
-      <button
-        on:click={clearScreen}
-        class="secondary"
-      >
+      <button on:click={clearScreen} class="secondary">
         Reset
       </button>
     {/if}
