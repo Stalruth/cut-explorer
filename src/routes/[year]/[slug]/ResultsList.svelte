@@ -1,6 +1,5 @@
 <script>
-import { onMount } from 'svelte';
-import {Icons} from '@pkmn/img';
+import { Icons } from '@pkmn/img';
 
 import sortRestricted from '$lib/sortRestricted.js';
 
@@ -11,29 +10,9 @@ export let teammates = [];
 let isExpanded = false;
 
 $: isExpandable = !isExpanded && players.length > 16;
-$: species = getPresentItems(query.species)[0] ?? undefined;
-$: queryTeammates = getPresentItems(query.teammates).reverse();
-$: partners = teammates
-    .filter(el => el.count === players.length)
-    .map(el => el.name)
-    .reverse()
-    .sort((a, b) => queryTeammates.indexOf(a) - queryTeammates.indexOf(b));
 
 function expandResults(e) {
   isExpanded = true;
-}
-
-function getPresentItems(queryMap) {
-  if (!queryMap) {
-    return [];
-  }
-  const results = [];
-  for(let [item, present] of queryMap.entries()) {
-    if (present) {
-      results.push(item);
-    }
-  }
-  return results.sort();
 }
 
 function getListingName(player) {
@@ -52,23 +31,34 @@ function getListingName(player) {
   return `${title} ${player.name} (${record})`;
 }
 
-function getTeamDisplay(team, query) {
+function getPresentItems(queryMap) {
+  return [...(queryMap?.keys() ?? [])].sort();
+}
+
+function getTeamDisplay(team) {
   const display = [{}, {}, {}, {}, {}, {}];
+  const species = getPresentItems(query.species)[0] ?? undefined;
+  const queryTeammates = getPresentItems(query.teammates);
+  const partners = teammates
+    .filter((el) => el.count === players.length)
+    .map((el) => el.name)
+    .sort((a, b) => queryTeammates.indexOf(a) - queryTeammates.indexOf(b));
+
   (team ?? []).forEach((el, i) => {
     display[i] = el;
   });
   display.sort((a,b) => {
-    if (!a.species) {
+    if (!a.species && !b.species) {
+      return 0;
+    } else if (!a.species) {
       return 1;
-    }
-    if (!b.species) {
+    } else if (!b.species) {
       return -1;
     }
 
     if (a.species === species) {
       return -1;
-    }
-    if (b.species === species) {
+    } else if (b.species === species) {
       return 1;
     }
 
@@ -95,7 +85,7 @@ function getTeamDisplay(team, query) {
       {/if}
     </p>
     <p>
-      {#each getTeamDisplay(player.team, query) as set}
+      {#each getTeamDisplay(player.team) as set}
         <span
           title={set.species ?? 'No Data'}
           style={Icons.getPokemon(set.species ?? 'No Data', {protocol: 'https', domain: 'cut-explorer.stalruth.dev'}).style}
@@ -109,3 +99,4 @@ function getTeamDisplay(team, query) {
 {#if isExpandable}
   <button on:click={expandResults} class="secondary show-all">Show all teams</button>
 {/if}
+

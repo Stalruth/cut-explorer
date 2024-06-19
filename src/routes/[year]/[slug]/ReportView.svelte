@@ -4,8 +4,12 @@ import Detail from './Detail.svelte';
 import * as stats from '$lib/stats.js';
 import sortRestricted from '$lib/sortRestricted.js';
 
+export let query = {};
+export let results = {};
+export let equivalents = {};
+
 function getCheckHandler(queryType) {
-  return e => {
+  return (e) => {
     if(!query[queryType]) {
       query[queryType] = new Map();
     }
@@ -24,10 +28,6 @@ function getCheckHandler(queryType) {
     }
   }
 }
-
-export let query = {};
-export let results = {};
-export let equivalents = {};
 
 $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b))
 </script>

@@ -11,7 +11,7 @@ export async function load({ fetch, params, url }) {
 
   return {
     tournament: await tournament.json(),
-    equivalents: equivalents,
+    equivalents,
     year: params.year,
   };
 }
