@@ -56,15 +56,15 @@ function getTeamDisplay(team) {
       return -1;
     }
 
+    const restricted = sortRestricted(a.species, b.species);
+    if (restricted) {
+      return restricted;
+    }
+
     if (a.species === species) {
       return -1;
     } else if (b.species === species) {
       return 1;
-    }
-
-    const restricted = sortRestricted(a.species, b.species);
-    if (restricted) {
-      return restricted;
     }
 
     return partners.indexOf(b.species) - partners.indexOf(a.species);
