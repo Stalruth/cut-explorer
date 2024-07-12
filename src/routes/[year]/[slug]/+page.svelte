@@ -88,3 +88,22 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   query={query}
   teammates={results?.sets?.teammates ?? []}
 />
+
+<style>
+.controlbar select {
+  display: inline-block;
+}
+
+.controlbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pokemon-select {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+</style>

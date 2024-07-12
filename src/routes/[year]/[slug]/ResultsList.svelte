@@ -100,3 +100,31 @@ function getTeamDisplay(team) {
   <button on:click={expandResults} class="secondary show-all">Show all teams</button>
 {/if}
 
+<style>
+.teamlist {
+  display: grid;
+  justify-content: space-around;
+}
+
+.teamlist > p {
+  margin: 0;
+  width: fit-content;
+  text-align: center;
+  justify-self: center;
+}
+
+button.show-all {
+  margin: 0 auto;
+  display: block;
+}
+
+@media(min-width: 45rem) {
+  .teamlist {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .teamlist > p {
+    justify-self: start;
+  }
+}
+</style>

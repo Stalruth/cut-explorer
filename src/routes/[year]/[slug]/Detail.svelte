@@ -52,3 +52,14 @@ $: sortedItems = items.sort((a, b) => {
     </li>
   {/each}
 </ul>
+
+<style>
+ul.checklist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li ul.checklist {
+  padding-left: 1.5rem;
+}
+</style>
