@@ -4,6 +4,7 @@ import ResultsList from './ResultsList.svelte';
 
 import * as stats from '$lib/stats.js';
 import sortRestricted from '$lib/sortRestricted.js';
+import { onClickBack } from '$lib/layers.js';
 
 export let data;
 
@@ -41,7 +42,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
 
 <nav>
   <div>
-    <a href={year === "2024" ? "/" : `/${year}`}>Index</a>
+    <a href={year === "2024" ? "/" : `/${year}`} on:click={onClickBack}>Index</a>
   </div>
 </nav>
 

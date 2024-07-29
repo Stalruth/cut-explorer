@@ -1,5 +1,6 @@
 <script>
 import TournamentList from './TournamentList.svelte';
+import { onClickBack } from '$lib/layers.js';
 </script>
 
 <svelte:head>
@@ -12,7 +13,7 @@ import TournamentList from './TournamentList.svelte';
 
 <nav>
   <div>
-    <a href="/">Index</a>
+    <a href="/" on:click={onClickBack}>Index</a>
   </div>
 </nav>
 

@@ -1,6 +1,11 @@
 <script>
 import 'mvp.css';
+import { beforeNavigate } from '$app/navigation';
+
 import '$lib/css/app.css';
+import { onBeforeNavigate } from '$lib/layers.js';
+
+beforeNavigate(onBeforeNavigate);
 </script>
 
 <main>

@@ -1,5 +1,6 @@
 <script>
 import getOrdinal from '$lib/getOrdinal.js';
+import { onClickBack } from '$lib/layers.js';
 
 export let data;
 
@@ -16,7 +17,7 @@ let { year, tourId, tourName, player } = data;
 
 <nav>
   <div>
-    <a href={`/${year}/${tourId}`}>{tourName}</a>
+    <a href={`/${year}/${tourId}`} on:click={onClickBack}>{tourName}</a>
   </div>
 </nav>
 
