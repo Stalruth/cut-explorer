@@ -20,6 +20,7 @@ let { year, tourId, tourName, player } = data;
   </div>
 </nav>
 
+{#if player}
 <h1>{player.name}'s {getOrdinal(player.top, true)} Team</h1>
 
 {#each player.team as set}
@@ -36,6 +37,15 @@ let { year, tourId, tourName, player } = data;
     {/each}
   </p>
 {/each}
+{:else}
+<h1>Unknown Team</h1>
+
+<p>The link you followed was outdated or mistyped - the link above should get you back to a tournament page.</p>
+
+<p>If you got here through just clicking around in the site then something went really weird. Please reach out to the developer (<a href="https://x.com/Stalruth">@Stalruth</a> on Twitter) and let him know what you did to get here!</p>
+
+<p>Thanks for enjoying the Top Cut Explorer, and thanks in advance for helping make it better for everyone.</p>
+{/if}
 
 <style>
 </style>

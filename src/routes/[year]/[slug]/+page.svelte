@@ -32,9 +32,9 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
 </script>
 
 <svelte:head>
-  <title>Top Cut Explorer: {tournament.name}</title>
-  <meta property="og:title" content="Top Cut Explorer: {tournament.name}" />
-  <meta property="og:url" content="https://cut-explorer.stalruth.dev/" />
+  <title>{tournament.name} - Top Cut Explorer</title>
+  <meta property="og:title" content="{tournament.name} - Top Cut Explorer" />
+  <meta property="og:url" content="https://cut-explorer.stalruth.dev/{year}/{tourId}" />
   <meta property="og:description" content="Fine grained analytical tool for the {tournament.name} Top Cut teams." />
   <meta name="description" content="Fine grained analytical tool for the {tournament.name} Top Cut teams." />
 </svelte:head>
