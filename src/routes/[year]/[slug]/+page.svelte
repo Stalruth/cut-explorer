@@ -21,7 +21,7 @@ function clearScreen(e) {
   pokemon = '';
 }
 
-let { tournament, equivalents, year } = data;
+let { tournament, equivalents, tourId, year } = data;
 let pokemon = '';
 let stage = tournament.teams.length;
 
@@ -87,6 +87,8 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   players={results.players}
   query={query}
   teammates={results?.sets?.teammates ?? []}
+  tourId={tourId}
+  year={year}
 />
 
 <style>

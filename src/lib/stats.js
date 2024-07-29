@@ -6,10 +6,10 @@ function collationSorter(a, b) {
   return 0;
 }
 
-function collate(array, valueCategories) {
+function collate(array, equivalents) {
   const results = []
   const valueSet = new Set(array);
-  const categorySet = new Set(array.map(el => valueCategories?.[el]));
+  const categorySet = new Set(array.map(el => equivalents?.values?.[el]));
   const categoryMap = new Map();
 
   for(let category of categorySet) {
@@ -18,7 +18,7 @@ function collate(array, valueCategories) {
     }
     const node = {
       name: category,
-      count: array.filter(el => valueCategories[el] === category).length,
+      count: array.filter(el => equivalents?.values?.[el] === category).length,
       children: []
     };
     categoryMap.set(category, node);
@@ -27,10 +27,10 @@ function collate(array, valueCategories) {
 
   for(let item of valueSet) {
     const node = {
-      name: item,
+      name: equivalents?.substitutes?.[item] ?? item,
       count: array.filter(el => el === item).length,
     };
-    const category = valueCategories?.[item];
+    const category = equivalents?.values?.[item];
     if(category) {
       categoryMap.get(category).children.push(node);
       categoryMap.get(category).children.sort(collationSorter);
@@ -130,7 +130,7 @@ function report(data, queryArgs, equivalents) {
     total: result.sets.length,
   };
   ['species','item','ability','teraType','moves'].forEach(field => {
-    sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]?.['values']);
+    sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]);
   });
 
   sets['teammates'] = subtractCollations(collate(

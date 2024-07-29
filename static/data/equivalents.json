@@ -23,5 +23,11 @@
       "Steel-Type Boost": ["Iron Plate", "Metal Coat"],
       "Water-Type Boost": ["Splash Plate", "Mystic Water"]
     }
+  },
+  "ability": {
+    "substitutes": {
+      "As One (Glastrier)": "As One",
+      "As One (Spectrier)": "As One"
+    }
   }
 }
