@@ -7,8 +7,8 @@ let { year, tourId, tourName, player } = data;
 </script>
 
 <svelte:head>
-  <title>Top Cut Explorer: {tourName}</title>
-  <meta property="og:title" content="Top Cut Explorer: {tourName}" />
+  <title>{player.name}'s {getOrdinal(player.top, true)} {tourName} Team - Top Cut Explorer</title>
+  <meta property="og:title" content="{player.name}'s {getOrdinal(player.top, true)} {tourName} Team - Top Cut Explorer" />
   <meta property="og:url" content="https://cut-explorer.stalruth.dev/" />
   <meta property="og:description" content="Fine grained analytical tool for the {tourName} Top Cut teams." />
   <meta name="description" content="Fine grained analytical tool for the {tourName} Top Cut teams." />
