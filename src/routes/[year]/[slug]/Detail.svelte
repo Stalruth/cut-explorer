@@ -5,16 +5,21 @@ export let items = [];
 export let query = new Map();
 export let total = 0;
 
-$: queryItems = [...(query ?? [])].filter(el => el[1]).map(el => el[0]);
 $: sortedItems = items.sort((a, b) => {
-  if(queryItems.includes(a.name) === queryItems.includes(b.name)) {
-    return 0
-  }
-  if(queryItems.includes(a.name)) {
-    return -1;
-  }
-  return 1;
+  // I LOVE TYPE COERCION (true is 1 false is 0)
+  return (query.get(a.name) ?? 2) - (query.get(b.name) ?? 2);
 });
+
+function getValueByQuery(item) {
+  const value = query.get(item.name);
+  if(value === true || item.count === total) {
+    return 'Y';
+  }
+  if(value === false) {
+    return 'N';
+  }
+  return '-';
+}
 </script>
 
 <h3>{title}</h3>
@@ -22,27 +27,33 @@ $: sortedItems = items.sort((a, b) => {
   {#each sortedItems as item (item.name)}
     <li>
       <label>
-        <input
-          type="checkbox"
-          value={item.name}
+        <select
+          name={item.name}
+          value={getValueByQuery(item)}
           on:change={changeHandler}
-          checked={queryItems.includes(item.name) || item.count === total}
-          disabled={!queryItems.includes(item.name) && item.count === total}
+          disabled={query.get(item.name) !== true && item.count === total}
         >
+          <option value="-">-</option>
+          <option value="Y">Include</option>
+          <option value="N">Exclude</option>
+        </select>
         {item.name} ({item.count}/{total})
       </label>
-      {#if item.children && (queryItems.includes(item.name) || item.count === total)}
+      {#if item.children && (query.get(item.name) !== true || item.count === total)}
       <ul class="checklist">
         {#each item.children as child}
           <li>
             <label>
-              <input
-                type="checkbox"
-                value={child.name}
+              <select
+                name={child.name}
+                value={getValueByQuery(child)}
                 on:change={changeHandler}
-                checked={queryItems.includes(child.name) || child.count === total}
-                disabled={!queryItems.includes(child.name) && child.count === total}
+                disabled={query.get(child.name) !== true && child.count === total}
               >
+                <option value="-">-</option>
+                <option value="Y">Include</option>
+                <option value="N">Exclude</option>
+              </select>
               {child.name} ({child.count}/{total})
             </label>
           </li>
@@ -62,4 +73,9 @@ ul.checklist {
 li ul.checklist {
   padding-left: 1.5rem;
 }
+
+ul select {
+  display: inline-block;
+}
+
 </style>
