@@ -56,7 +56,7 @@ select {
 }
 
 select:disabled {
-  border-color: var(--disabled-color);
+  border-color: var(--color-disabled);
 }
 
 @media(prefers-color-scheme: dark) {
