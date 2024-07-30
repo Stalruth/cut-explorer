@@ -4,10 +4,16 @@ function onBeforeNavigate(navigation) {
   if(!navigation.to) {
     return;
   }
-  if(navigation.to.url.pathname === layers[layers.length - 1]) {
+
+  const srcPath = navigation.from.url.pathname;
+  const dstPath = navigation.to.url.pathname;
+
+  const goingBack = dstPath === layers[layers.length - 1];
+  const goingUp = srcPath.startsWith(dstPath)
+  if(goingBack && goingUp) {
     layers.pop();
   } else {
-    layers.push(navigation.from.url.pathname);
+    layers.push(srcPath);
   }
 }
 
