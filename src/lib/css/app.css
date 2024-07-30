@@ -3,6 +3,7 @@
   --color-accent: #9211ee4f;
   --color-bg-secondary: #555;
   --color-text-secondary: #fff;
+  --color-disabled: #00000077;
   font-size: 1.125rem;
 }
 
@@ -54,6 +55,10 @@ select {
   color: var(--color-text);
 }
 
+select:disabled {
+  border-color: var(--disabled-color);
+}
+
 @media(prefers-color-scheme: dark) {
   :root {
     --color-accent: #9300fc4f;
@@ -66,6 +71,7 @@ select {
     --color-table: #0097fc;
     --color-text: #f7f7f7;
     --color-text-secondary: #333;
+    --color-disabled: #f7f7f744;
   }
 }
 

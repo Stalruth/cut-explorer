@@ -6,11 +6,17 @@ function collationSorter(a, b) {
   return 0;
 }
 
-function collate(array, equivalents) {
+function collate(array, queryArgs, equivalents) {
   const results = []
   const valueSet = new Set(array);
   const categorySet = new Set(array.map(el => equivalents?.values?.[el]));
   const categoryMap = new Map();
+
+  for(let item of queryArgs) {
+    if(item[1] === false) {
+      valueSet.add(item[0]);
+    }
+  }
 
   for(let category of categorySet) {
     if(!category) {
@@ -42,7 +48,7 @@ function collate(array, equivalents) {
   return results.sort(collationSorter);
 }
 
-function subtractCollations(a, b) {
+function subtractCollations(a, b, queryArgs) {
   const result = new Map();
   for(const item of a) {
     result.set(item.name, item.count);
@@ -52,14 +58,16 @@ function subtractCollations(a, b) {
     if(newCount) {
       result.set(item.name, newCount);
     } else {
-      result.delete(item.name);
+      if(queryArgs.get(item.name) === undefined) {
+        result.delete(item.name);
+      }
     }
   }
   return [...result].map(([k, v]) => ({"name": k, "count": v})).sort(collationSorter);
 }
 
 function getPokemonList(data) {
-  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat(), {});
+  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat(), new Map(), {});
 }
 
 function matchSet(set, team, {species, item, ability, teraType, moves, teammates}, equivalents) {
@@ -125,19 +133,20 @@ function query(data, parameters, equivalents) {
 
 function report(data, queryArgs, equivalents) {
   const result = query(data, queryArgs, equivalents);
+  console.log('report', result, queryArgs);
   const sets = {
     total: result.sets.length,
   };
   ['species','item','ability','teraType','moves'].forEach(field => {
-    sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]);
+    sets[field] = collate(result.sets.map(set => set[field]).flat(), queryArgs[field] ?? new Map(), equivalents[field]);
   });
 
   sets['teammates'] = subtractCollations(collate(
     result.players
     .map(player =>
       player.team.map(mon => mon.species)
-    ).flat()
-  ), sets['species']);
+    ).flat(),
+  queryArgs['teammates'] ?? new Map()), sets['species'], queryArgs['teammates'] ?? new Map());
   return { sets, players: result.players };
 }
 

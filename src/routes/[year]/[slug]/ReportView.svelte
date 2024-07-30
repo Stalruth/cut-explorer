@@ -13,12 +13,12 @@ function getCheckHandler(queryType) {
     if(!query[queryType]) {
       query[queryType] = new Map();
     }
-    if(e.target.checked) {
-      query[queryType] = query[queryType].set(e.target.value, true);
+    if(['Y', 'N'].includes(e.target.value)) {
+      query[queryType] = query[queryType].set(e.target.name, e.target.value === 'Y');
     } else {
-      query[queryType].delete(e.target.value);
+      query[queryType].delete(e.target.name);
 
-      const category = equivalents[queryType]?.categories?.[e.target.value];
+      const category = equivalents[queryType]?.categories?.[e.target.name];
       if(category) {
         for(let item of category) {
           query[queryType].delete(item);
@@ -40,7 +40,7 @@ $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name
       title="Tera Types"
       changeHandler={getCheckHandler('teraType')}
       items={results.teraType}
-      query={query.teraType}
+      query={query.teraType ?? new Map()}
       total={results.total}
     />
   </div>
@@ -50,7 +50,7 @@ $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name
       title="Abilities"
       changeHandler={getCheckHandler('ability')}
       items={results.ability}
-      query={query.ability}
+      query={query.ability ?? new Map()}
       total={results.total}
     />
   </div>
@@ -60,7 +60,7 @@ $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name
       title="Items"
       changeHandler={getCheckHandler('item')}
       items={results.item}
-      query={query.item}
+      query={query.item ?? new Map()}
       total={results.total}
     />
   </div>
@@ -70,7 +70,7 @@ $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name
       title="Moves"
       changeHandler={getCheckHandler('moves')}
       items={results.moves}
-      query={query.moves}
+      query={query.moves ?? new Map()}
       total={results.total}
     />
   </div>
@@ -80,7 +80,7 @@ $: teammates = results.teammates.toSorted((a,b) => sortRestricted(a.name, b.name
       title="Teammates"
       changeHandler={getCheckHandler('teammates')}
       items={teammates}
-      query={query.teammates}
+      query={query.teammates ?? new Map()}
       total={results.total}
     />
   </div>
