@@ -112,6 +112,9 @@
     <li>
       <a href="2024/international-north-america">North America International Championships</a>
     </li>
+    <li>
+      <a href="2024/worlds">2024 Pokémon World Championships</a>
+    </li>
   </ul>
 </details>
 
