@@ -29,13 +29,12 @@ function getValueByQuery(item) {
       <label>
         <select
           name={item.name}
-          value={getValueByQuery(item)}
           on:change={changeHandler}
-          disabled={query.get(item.name) !== true && item.count === total}
+          disabled={query.get(item.name) === undefined && item.count === total}
         >
-          <option value="-">-</option>
-          <option value="Y">Include</option>
-          <option value="N">Exclude</option>
+          <option value="-" selected={getValueByQuery(item) === '-'}>-</option>
+          <option value="Y" selected={getValueByQuery(item) === 'Y'}>Include</option>
+          <option value="N" selected={getValueByQuery(item) === 'N'}>Exclude</option>
         </select>
         {item.name} ({item.count}/{total})
       </label>

@@ -133,7 +133,6 @@ function query(data, parameters, equivalents) {
 
 function report(data, queryArgs, equivalents) {
   const result = query(data, queryArgs, equivalents);
-  console.log('report', result, queryArgs);
   const sets = {
     total: result.sets.length,
   };
