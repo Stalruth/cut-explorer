@@ -39,26 +39,26 @@ function getValueByQuery(item) {
         </select>
         {item.name} ({item.count}/{total})
       </label>
-      {#if item.children && (query.get(item.name) !== true || item.count === total)}
-      <ul class="checklist">
-        {#each item.children as child}
-          <li>
-            <label>
-              <select
-                name={child.name}
-                value={getValueByQuery(child)}
-                on:change={changeHandler}
-                disabled={query.get(child.name) !== true && child.count === total}
-              >
-                <option value="-">-</option>
-                <option value="Y">Include</option>
-                <option value="N">Exclude</option>
-              </select>
-              {child.name} ({child.count}/{total})
-            </label>
-          </li>
-        {/each}
-      </ul>
+      {#if item.children && (query.get(item.name) === true || item.count === total)}
+        <ul class="checklist">
+          {#each item.children as child}
+            <li>
+              <label>
+                <select
+                  name={child.name}
+                  value={getValueByQuery(child)}
+                  on:change={changeHandler}
+                  disabled={query.get(child.name) !== true && child.count === total}
+                >
+                  <option value="-">-</option>
+                  <option value="Y">Include</option>
+                  <option value="N">Exclude</option>
+                </select>
+                {child.name} ({child.count}/{total})
+              </label>
+            </li>
+          {/each}
+        </ul>
       {/if}
     </li>
   {/each}
