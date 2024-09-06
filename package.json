@@ -9,15 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@pkmn/sets": "^5.1.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "vite": "^5.0.0"
   },
   "dependencies": {
-    "@pkmn/img": "^0.2.30",
-    "@sveltejs/adapter-netlify": "^4.3.1",
-    "@sveltejs/kit": "^2.5.18",
+    "@pkmn/img": "^0.2.32",
+    "@sveltejs/adapter-netlify": "^4.3.3",
+    "@sveltejs/kit": "^2.5.26",
     "mvp.css": "^1.15.0",
-    "svelte": "^4.2.18"
+    "svelte": "^4.2.19"
   }
 }
