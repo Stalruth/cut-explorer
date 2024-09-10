@@ -72,9 +72,9 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
     return true;
   }
 
-  function matchAll(queryValues, setValues) {
+  function matchAll(queryValues, setValues, valueCategories) {
     for(const [key, value] of queryValues) {
-      if(setValues.includes(key) !== value) {
+      if((setValues.includes(key) || !!setValues.filter(el => valueCategories?.[el] === key).length) !== value) {
         return false;
       }
     }
@@ -93,8 +93,7 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
   if(teraType && !matchOne(teraType, set.teraType, equivalents['teraType']?.['values'])) {
     return false;
   }
-  if(moves && !matchAll(moves, set.moves))
-  {
+  if(moves && !matchAll(moves, set.moves, equivalents['moves']?.['values'])) {
     return false;
   }
   const setTeammates = team.filter(el => el !== set).map(el => el.species);
@@ -125,6 +124,7 @@ function query(data, parameters, equivalents) {
 }
 
 function report(data, queryArgs, equivalents) {
+  console.log(equivalents);
   const result = query(data, queryArgs, equivalents);
   const sets = {
     total: result.sets.length,

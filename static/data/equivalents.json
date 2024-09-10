@@ -29,5 +29,10 @@
       "As One (Glastrier)": "As One",
       "As One (Spectrier)": "As One"
     }
+  },
+  "moves": {
+    "categories": {
+      "Protect Moves": ["Protect", "Detect"]
+    }
   }
 }
