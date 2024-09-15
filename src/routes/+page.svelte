@@ -1,5 +1,5 @@
 <script>
-import TournamentList from './2024/TournamentList.svelte';
+import TournamentList from './2025/TournamentList.svelte';
 </script>
 
 <svelte:head>
@@ -13,6 +13,9 @@ import TournamentList from './2024/TournamentList.svelte';
 <h1>VGC Top Cut Explorer</h1>
 <p>
   <a href="/2023">2023 Top Cut Explorer</a>
+</p>
+<p>
+  <a href="/2024">2024 Top Cut Explorer</a>
 </p>
 <TournamentList />
 
