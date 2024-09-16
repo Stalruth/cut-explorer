@@ -17,13 +17,6 @@ self.addEventListener('install', e => {
       await cache.addAll(ASSETS);
     } catch (err) {
       console.error('sw: cache.addAll');
-      for (let file of ASSETS) {
-        try {
-          await cache.add(file);
-        } catch (err2) {
-          console.warn(`sw: cache.add(${file})`);
-        }
-      }
     }
   }
 
@@ -31,7 +24,6 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  console.log(ASSETS);
   async function pruneCaches() {
     for (const key of await caches.keys()) {
       if (key !== CACHE) await caches.delete(key);
@@ -48,7 +40,7 @@ self.addEventListener('fetch', e => {
     const url = new URL(e.request.url);
     const cache = await caches.open(CACHE);
 
-    if (files.includes(url.pathname)) {
+    if (ASSETS.includes(url.pathname)) {
       const response = await cache.match(url.pathname);
 
       if (response) {
