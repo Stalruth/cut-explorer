@@ -42,7 +42,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
 
 <nav>
   <div>
-    <a href={year === "2024" ? "/" : `/${year}`} on:click={onClickBack}>Index</a>
+    <a href={year === "2025" ? "/" : `/${year}`} on:click={onClickBack}>Index</a>
   </div>
 </nav>
 
