@@ -4,6 +4,9 @@
     <li>
       <a href="2025/regional-baltimore">Baltimore Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-dortmund">Dortmund Regional Championships</a>
+    </li>
   </ul>
 </details>
 
