@@ -11,7 +11,7 @@
       <a href="2025/regional-joinville">Joinville Regional Championships</a>
     </li>
     <li>
-      <a href="2025/regional-joinville">Louisville Regional Championships</a>
+      <a href="2025/regional-louisville">Louisville Regional Championships</a>
     </li>
   </ul>
 </details>
