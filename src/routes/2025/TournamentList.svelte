@@ -13,6 +13,9 @@
     <li>
       <a href="2025/regional-louisville">Louisville Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-lille">Lille Regional Championships</a>
+    </li>
   </ul>
 </details>
 
