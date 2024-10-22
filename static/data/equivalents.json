@@ -22,6 +22,9 @@
       "Rock-Type Boost": ["Stone Plate", "Hard Stone"],
       "Steel-Type Boost": ["Iron Plate", "Metal Coat"],
       "Water-Type Boost": ["Splash Plate", "Mystic Water"]
+    },
+    "substitutes": {
+      "": "No Item"
     }
   },
   "ability": {
