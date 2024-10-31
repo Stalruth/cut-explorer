@@ -29,7 +29,7 @@ $: sortedItems = items.sort((a, b) => {
           checked={queryItems.includes(item.name) || item.count === total}
           disabled={!queryItems.includes(item.name) && item.count === total}
         >
-        {item.name} ({item.count}/{total})
+        {item.displayName ?? item.name} ({item.count}/{total})
       </label>
       {#if item.children && (queryItems.includes(item.name) || item.count === total)}
       <ul class="checklist">
@@ -43,7 +43,7 @@ $: sortedItems = items.sort((a, b) => {
                 checked={queryItems.includes(child.name) || child.count === total}
                 disabled={!queryItems.includes(child.name) && child.count === total}
               >
-              {child.name} ({child.count}/{total})
+              {child.displayName ?? child.name} ({child.count}/{total})
             </label>
           </li>
         {/each}

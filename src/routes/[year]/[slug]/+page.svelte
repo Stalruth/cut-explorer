@@ -27,7 +27,7 @@ let pokemon = '';
 let stage = tournament.teams.length;
 
 $: teamList = tournament.teams.slice(0, stage);
-$: pokemonList = stats.getPokemonList(teamList).sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b));
+$: pokemonList = stats.getPokemonList(teamList, equivalents['species']).sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b));
 $: query = {species: pokemon ? new Map([[pokemon, true]]) : undefined};
 $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, equivalents);
 </script>
@@ -53,7 +53,12 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
       <select aria-label="Pokémon:" bind:value={pokemon}>
         <option value="" disabled selected>Select a Pokémon</option>
         {#each pokemonList as pokemon}
-          <option value="{pokemon.name}">{pokemon.name} ({pokemon.count})</option>
+          <option value="{pokemon.name}">{pokemon.displayName ?? pokemon.name} ({pokemon.count})</option>
+          {#if pokemon.children}
+            {#each pokemon.children as child}
+              <option value="{child.name}">{child.displayName ?? child.name} ({child.count})</option>
+            {/each}
+          {/if}
         {/each}
       </select>
     {#if pokemon}
@@ -90,6 +95,7 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   teammates={results?.sets?.teammates ?? []}
   tourId={tourId}
   year={year}
+  categories={equivalents['species']?.['values']}
 />
 
 <style>

@@ -11,6 +11,7 @@ export let query = {};
 export let teammates = [];
 export let year = '';
 export let tourId = '';
+export let categories = {};
 
 let isExpanded = false;
 
@@ -29,7 +30,13 @@ function getListingName(player) {
 }
 
 function getPresentItems(queryMap) {
-  return [...(queryMap?.keys() ?? [])].sort();
+  const results = [];
+  queryMap?.forEach((v, k) => {
+    if(v) {
+      results.push(k);
+    }
+  });
+  return results.sort();
 }
 
 function getTeamDisplay(team) {
@@ -58,13 +65,14 @@ function getTeamDisplay(team) {
       return restricted;
     }
 
-    if (a.species === species) {
+    console.log(categories, query.species);
+    if (a.species === species || categories?.[a.species] === species) {
       return -1;
-    } else if (b.species === species) {
+    } else if (b.species === species || categories?.[b.species] === species) {
       return 1;
     }
 
-    return partners.indexOf(b.species) - partners.indexOf(a.species);
+    return partners.findIndex(el => el === b.species || el === categories?.[b.species]) - partners.findIndex(el => el === a.species || el === categories?.[a.species]);
   });
   return display;
 }

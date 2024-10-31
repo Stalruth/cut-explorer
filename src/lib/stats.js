@@ -6,40 +6,16 @@ function collationSorter(a, b) {
   return 0;
 }
 
-function collate(array, equivalents) {
-  const results = []
-  const valueSet = new Set(array);
-  const categorySet = new Set(array.map(el => equivalents?.values?.[el]));
-  const categoryMap = new Map();
+function collate(array) {
+  const results = [];
+  const valueMap = new Map(array.map(el => [el, 0]));
 
-  for(let category of categorySet) {
-    if(!category) {
-      continue;
-    }
-    const node = {
-      name: category,
-      count: array.filter(el => equivalents?.values?.[el] === category).length,
-      children: []
-    };
-    categoryMap.set(category, node);
-    results.push(node);
+  for(let item of array) {
+    valueMap.set(item, valueMap.get(item) + 1)
   }
 
-  for(let item of valueSet) {
-    const node = {
-      name: equivalents?.substitutes?.[item] ?? item,
-      count: array.filter(el => el === item).length,
-    };
-    const category = equivalents?.values?.[item];
-    if(category) {
-      categoryMap.get(category).children.push(node);
-      categoryMap.get(category).children.sort(collationSorter);
-    } else {
-      results.push(node);
-    }
-  }
-
-  return results.sort(collationSorter);
+  const result = [...valueMap].map(el => ({name: el[0], count: el[1]})).sort(collationSorter);
+  return result;
 }
 
 function subtractCollations(a, b) {
@@ -58,8 +34,36 @@ function subtractCollations(a, b) {
   return [...result].map(([k, v]) => ({"name": k, "count": v})).sort(collationSorter);
 }
 
-function getPokemonList(data) {
-  return collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat(), {});
+function applyEquivalents(collation, equivalents) {
+  const results = [];
+  const categories = new Map();
+
+  for(let item of collation) {
+    const subName = equivalents?.substitutes?.[item.name];
+    if(subName) {
+      item.displayName = subName;
+    }
+
+    const catName = equivalents?.values?.[item.name];
+    if(catName) {
+      const category = categories.get(catName) ?? {name: catName, count: 0, children: []};
+      category.children.push(item);
+      category.count += item.count;
+      categories.set(catName, category);
+    } else {
+      results.push(item);
+    }
+  }
+
+  for(let category of categories.values()) {
+    category.children.sort(collationSorter);
+    results.push(category);
+  }
+  return results.sort(collationSorter);
+}
+
+function getPokemonList(data, equivalents) {
+  return applyEquivalents(collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat()), equivalents);
 }
 
 function matchSet(set, team, {species, item, ability, teraType, moves, teammates}, equivalents) {
@@ -97,7 +101,7 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
     return false;
   }
   const setTeammates = team.filter(el => el !== set).map(el => el.species);
-  if(teammates && !matchAll(teammates, setTeammates))
+  if(teammates && !matchAll(teammates, setTeammates, equivalents['teammates']?.['values']))
   {
     return false;
   }
@@ -128,6 +132,7 @@ function report(data, queryArgs, equivalents) {
   const sets = {
     total: result.sets.length,
   };
+
   ['species','item','ability','teraType','moves'].forEach(field => {
     sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]);
   });
@@ -138,6 +143,11 @@ function report(data, queryArgs, equivalents) {
       player.team.map(mon => mon.species)
     ).flat()
   ), sets['species']);
+
+  ['species','item','ability','teraType','moves','teammates'].forEach(field => {
+    sets[field] = applyEquivalents(sets[field], equivalents[field]);
+  });
+
   return { sets, players: result.players };
 }
 
