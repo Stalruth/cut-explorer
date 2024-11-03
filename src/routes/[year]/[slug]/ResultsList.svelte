@@ -65,7 +65,6 @@ function getTeamDisplay(team) {
       return restricted;
     }
 
-    console.log(categories, query.species);
     if (a.species === species || categories?.[a.species] === species) {
       return -1;
     } else if (b.species === species || categories?.[b.species] === species) {
