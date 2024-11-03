@@ -16,6 +16,9 @@
     <li>
       <a href="2025/regional-lille">Lille Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-gdańsk">Gdańsk Regional Championships</a>
+    </li>
   </ul>
 </details>
 
