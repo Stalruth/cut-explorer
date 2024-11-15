@@ -19,6 +19,9 @@
     <li>
       <a href="2025/regional-gdańsk">Gdańsk Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/international-latin-america">Latin America International Championships</a>
+    </li>
   </ul>
 </details>
 
