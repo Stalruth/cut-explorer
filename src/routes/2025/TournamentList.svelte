@@ -22,6 +22,9 @@
     <li>
       <a href="2025/international-latin-america">Latin America International Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-sacramento">Sacramento Regional Championships</a>
+    </li>
   </ul>
 </details>
 
