@@ -28,6 +28,9 @@
     <li>
       <a href="2025/regional-stuttgart">Stuttgart Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-perth">Perth Regional Championships</a>
+    </li>
   </ul>
 </details>
 
