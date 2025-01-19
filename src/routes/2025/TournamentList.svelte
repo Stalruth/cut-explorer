@@ -1,5 +1,5 @@
-<details open>
-  <summary>Regulation H (01-Sep-2024 to 5-Jan-2025)</summary>
+<details>
+  <summary>Regulation H (01-Sep-2024 to 05-Jan-2025)</summary>
   <ul>
     <li>
       <a href="2025/regional-baltimore">Baltimore Regional Championships</a>
@@ -33,6 +33,17 @@
     </li>
     <li>
       <a href="2025/regional-toronto">Toronto Regional Championships</a>
+    </li>
+  </ul>
+</details>
+<details open>
+  <summary>Regulation G (06-Jan to 30-Apr-2025)</summary>
+  <ul>
+    <li>
+      <a href="2025/regional-birmingham">Birmingham Regional Championships</a>
+    </li>
+    <li>
+      <a href="2025/regional-rio-de-janeiro">Rio de Janeiro Regional Championships</a>
     </li>
   </ul>
 </details>
