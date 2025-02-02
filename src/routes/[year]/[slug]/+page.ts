@@ -1,6 +1,12 @@
-export async function load({ fetch, params, url }) {
-  const tournament = await fetch(`/data/tournaments/${params.year}/${params.slug}.json`);
-  const equivalents = await (await fetch('/data/equivalents.json')).json();
+import type { PageLoad } from './$types';
+
+export const load: Pageload = async ({ fetch, params }) => {
+  const tournament = await (
+    await fetch(`/data/tournaments/${params.year}/${params.slug}.json`)
+  ).json();
+  const equivalents = await (
+    await fetch('/data/equivalents.json')
+  ).json();
 
   for(let i of ['item', 'moves', 'species']) {
     equivalents[i].values = {};
@@ -13,9 +19,10 @@ export async function load({ fetch, params, url }) {
   equivalents['teammates'] = equivalents['species'];
 
   return {
-    tournament: await tournament.json(),
+    tournament,
     equivalents,
     tourId: params.slug,
-    year: params.year,
-  };
-}
+    year: params.year
+  }
+};
+

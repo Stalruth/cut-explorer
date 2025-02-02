@@ -1,11 +1,24 @@
 <script>
 import 'mvp.css';
+
+import { onMount } from 'svelte';
 import { beforeNavigate } from '$app/navigation';
+
+import { pwaInfo } from 'virtual:pwa-info';
 
 import '$lib/css/app.css';
 import { onBeforeNavigate } from '$lib/layers.js';
 
 beforeNavigate(onBeforeNavigate);
+
+onMount(async () => {
+  if (pwaInfo) {
+    const { registerSW } = await import('virtual:pwa-register');
+    registerSW({
+      immediate: true,
+    });
+  }
+});
 </script>
 
 <main>

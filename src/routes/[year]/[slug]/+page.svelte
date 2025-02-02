@@ -1,79 +1,187 @@
-<script>
-import ReportView from './ReportView.svelte';
-import ResultsList from './ResultsList.svelte';
+<script lang="ts">
+import type { PageProps } from './$types';
 
+import { SvelteMap } from 'svelte/reactivity';
+
+import { Icons } from '@pkmn/img';
+
+import getOrdinal from '$lib/getOrdinal.js';
 import * as stats from '$lib/stats.js';
 import sortRestricted from '$lib/sortRestricted.js';
 import { onClickBack } from '$lib/layers.js';
 
-export let data;
+import Detail from './Detail.svelte';
+import TeamDialog from './TeamDialog.svelte';
+
+let { data }: PageProps = $props();
+
+let species = $state('');
+let teraTypeQuery = $state(new SvelteMap());
+let itemQuery = $state(new SvelteMap());
+let abilityQuery = $state(new SvelteMap());
+let moveQuery = $state(new SvelteMap());
+let teammatesQuery = $state(new SvelteMap());
+let stage = $state(data.tournament.teams.length);
+let isExpanded = $state(false);
+let dialogTitle = $state('');
+let dialogTeam = $state([]);
+let dialog = $state();
+
+let teamList = $derived(data.tournament.teams.slice(0, stage));
+let pokemonList = $derived(stats.getPokemonList(teamList, data.equivalents['species'])
+    .sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
+let query = $derived({
+    species: species ? new Map([[species, true]]) : undefined,
+    teraType: teraTypeQuery,
+    ability: abilityQuery,
+    moves: moveQuery,
+    teammates: teammatesQuery,
+    item: itemQuery
+});
+let results = $derived(!species ? { players: teamList } : stats.report(teamList, query, data.equivalents));
+let isExpandable = $derived(!isExpanded & results.players.length > 16);
+
+function clearPartialQuery() {
+  teraTypeQuery.clear();
+  itemQuery.clear();
+  abilityQuery.clear();
+  moveQuery.clear();
+  teammatesQuery.clear();
+}
 
 function changeScope(e) {
-  const newList = tournament.teams.slice(0, stage);
-  if(!stats.report(newList, query, equivalents).players.length) {
-    if(!stats.report(newList, {species: new Map([[pokemon, true]])}, equivalents).players.length) {
-      pokemon = '';
+  const newList = data.tournament.teams.slice(0, stage);
+  if(!stats.report(newList, query, data.equivalents).players.length) {
+    clearPartialQuery();
+    if(!stats.report(newList, {species: new Map([[species, true]])}, data.equivalents).players.length) {
+      species = '';
     }
-    query = {species: new Map([[pokemon, true]])};
   }
 }
 
-function clearScreen(e) {
-  pokemon = '';
+function clearQuery() {
+  species = '';
+  clearPartialQuery();
 }
 
-let { tournament, equivalents, tourId, year } = data;
-let pokemon = '';
-let stage = tournament.teams.length;
+function getListingName(player) {
+  let record = `${player.swiss.wins}-${player.swiss.losses}`;
+  if (player.swiss.ties) {
+    record = `${record}-${player.swiss.ties}`;
+  }
+  return `${getOrdinal(player.top, false)} ${player.name} (${record})`;
+}
 
-$: teamList = tournament.teams.slice(0, stage);
-$: pokemonList = stats.getPokemonList(teamList, equivalents['species']).sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b));
-$: query = {species: pokemon ? new Map([[pokemon, true]]) : undefined};
-$: results = !pokemon ? { players: teamList } : stats.report(teamList, query, equivalents);
+function getPresentItems(queryMap) {
+  const results = [];
+  queryMap?.forEach((v, k) => {
+    if(v) {
+      results.push(k);
+    }
+  });
+  return results;
+}
+
+function getTeamDisplay(team) {
+  const categories = data.equivalents['species']?.['values'];
+  const queryTeammates = getPresentItems(query.teammates);
+  const result = team.toSorted((a, b) => {
+    const restricted = sortRestricted(a.species, b.species);
+    if (restricted) {
+      return restricted;
+    }
+
+    if (a.species === species ||
+        data.categories?.[a.species] === species) {
+      return -1;
+    } else if (b.species === species ||
+        data.categories?.[b.species] === species) {
+      return 1;
+    }
+
+    return (
+      queryTeammates.findIndex(el =>
+        el === b.species || el === categories?.[b.species]
+      ) - queryTeammates.findIndex(el =>
+        el === a.species || el === categories?.[a.species]
+      )
+    );
+  });
+
+  while (result.length < 6) {
+    result.push({});
+  }
+
+  return result;
+}
+
+function expandTeams() {
+  isExpanded = true;
+}
+
+function getPasteClickHandler(name, team) {
+  return (e) => {
+    if(!navigator.onLine) {
+      e.preventDefault();
+      dialogTitle = `${name}'s Team`;
+      dialogTeam = team;
+      dialog.showModal();
+    }
+  }
+}
 </script>
 
 <svelte:head>
-  <title>{tournament.name} - Top Cut Explorer</title>
-  <meta property="og:title" content="{tournament.name} - Top Cut Explorer" />
-  <meta property="og:url" content="https://cut-explorer.stalruth.dev/{year}/{tourId}" />
-  <meta property="og:description" content="Fine grained analytical tool for the {tournament.name} Top Cut teams." />
-  <meta name="description" content="Fine grained analytical tool for the {tournament.name} Top Cut teams." />
+  <title>{data.tournament.name} - Top Cut Explorer</title>
+  <meta property="og:title" content="{data.tournament.name} - Top Cut Explorer" />
+  <meta property="og:url" content="https://cut-explorer.stalruth.dev/{data.year}/{data.tourId}" />
+  <meta property="og:description" content="Fine grained analytical tool for the {data.tournament.name} Top Cut teams." />
+  <meta name="description" content="Fine grained analytical tool for the {data.tournament.name} Top Cut teams." />
 </svelte:head>
 
 <nav>
   <div>
-    <a href={year === "2025" ? "/" : `/${year}`} on:click={onClickBack}>Index</a>
+    <a href={data.year === "2025" ? "/" : `/${data.year}`} onclick={onClickBack}>Index</a>
   </div>
 </nav>
 
-<h1>{tournament.name} Top Cut Explorer</h1>
+<h1>{data.tournament.name} Top Cut Explorer</h1>
 
 <div class="controlbar">
   <div class="pokemon-select">
-      <select aria-label="Pokémon:" bind:value={pokemon}>
-        <option value="" disabled selected>Select a Pokémon</option>
-        {#each pokemonList as pokemon}
-          <option value="{pokemon.name}">{pokemon.displayName ?? pokemon.name} ({pokemon.count})</option>
-          {#if pokemon.children}
-            {#each pokemon.children as child}
-              <option value="{child.name}">{child.displayName ?? child.name} ({child.count})</option>
-            {/each}
-          {/if}
-        {/each}
-      </select>
-    {#if pokemon}
-      <button on:click={clearScreen} class="secondary">
+    <select aria-label="Pokémon: " bind:value={species} onchange={clearPartialQuery}>
+      <option value="" disabled selected>Select a Pokémon</option>
+      {#each pokemonList as entry}
+        <option value="{entry.name}">
+          {entry.displayName ?? entry.name} ({entry.count})
+        </option>
+        {#if entry.children}
+          {#each entry.children as child}
+            <option value="{child.name}">
+              {child.displayName ?? child.name} ({child.count})
+            </option>
+          {/each}
+        {/if}
+      {/each}
+    </select>
+    {#if species}
+      <button onclick={clearQuery} class="secondary">
         Reset
       </button>
     {/if}
   </div>
-  {#if tournament.stages}
+  {#if data.tournament.stages}
     <div>
       <label>
         Filter:
-        <select bind:value={stage} on:change={changeScope}>
-          {#each tournament.stages as stage}
-            <option value={stage.count ?? tournament.teams.length}>{stage.name ? `${stage.name} (${stage.count || tournament.teams.length} teams)` : `Top ${stage.count ?? tournament.teams.length}`}</option>
+        <select bind:value={stage} onchange={changeScope}>
+          {#each data.tournament.stages as stage}
+            <option value={stage.count ?? data.tournament.teams.length}>
+              {stage.name ?
+                `${stage.name} (${stage.count || data.tournament.teams.length} teams)` :
+                `Top ${stage.count || data.tournament.teams.length}`
+              }
+            </option>
           {/each}
         </select>
       </label>
@@ -81,22 +189,103 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   {/if}
 </div>
 
-{#if pokemon}
-  <ReportView
-    bind:query={query}
-    results={results.sets}
-    equivalents={equivalents}
-  />
+{#if species}
+  <h2>
+    {species}
+  </h2>
+
+  <div class="report">
+
+    <div>
+      <Detail
+        title="Tera Typea"
+        items={results.sets.teraType}
+        bind:query={teraTypeQuery}
+        total={results.sets.total}
+        equivalents={data.equivalents.teraTypes}
+      />
+    </div>
+
+    <div>
+      <Detail
+        title="Abilities"
+        items={results.sets.ability}
+        bind:query={abilityQuery}
+        total={results.sets.total}
+        equivalents={data.equivalents.ability}
+      />
+    </div>
+
+    <div>
+      <Detail
+        title="Items"
+        items={results.sets.item}
+        bind:query={itemQuery}
+        total={results.sets.total}
+        equivalents={data.equivalents.item}
+      />
+    </div>
+
+    <div>
+      <Detail
+        title="Moves"
+        items={results.sets.moves}
+        bind:query={moveQuery}
+        total={results.sets.total}
+        equivalents={data.equivalents.moves}
+      />
+    </div>
+
+    <div>
+      <Detail
+        title="Teammates"
+        items={results.sets.teammates}
+        bind:query={teammatesQuery}
+        total={results.sets.total}
+        equivalents={data.equivalents.teammates}
+      />
+    </div>
+
+  </div>
 {/if}
 
-<ResultsList
-  players={results.players}
-  query={query}
-  teammates={results?.sets?.teammates ?? []}
-  tourId={tourId}
-  year={year}
-  categories={equivalents['species']?.['values']}
-/>
+<h2>Teams</h2>
+
+<div class="teamlist">
+  {#each results.players.slice(0, isExpanded ? undefined : 16) as player (player.swiss.place)}
+    <p>
+      {#if player.paste}
+        <a href={`https://pokepast.es/${player.paste}`} onclick={getPasteClickHandler(player.name, player.team)}>
+          {getListingName(player)}
+        </a>
+      {:else}
+        <b>
+          {getListingName(player)}
+        </b>
+      {/if}
+    </p>
+    <p>
+      {#each getTeamDisplay(player.team ?? []) as set}
+        <span
+          title={set.species ?? 'No Data'}
+          style={Icons.getPokemon(set.species ?? 'No Data', {
+            protocol: 'https',
+            domain: 'cut-explorer.stalruth.dev',
+          }).style}
+        >
+        </span>
+      {/each}
+    </p>
+  {/each}
+</div>
+
+{#if isExpandable}
+  <button onclick={expandTeams} class="secondary show-all">
+    Show all teams
+  </button>
+{/if}
+
+<TeamDialog bind:dialog title={dialogTitle} team={dialogTeam} />
 
 <style>
 .controlbar select {
@@ -115,4 +304,45 @@ $: results = !pokemon ? { players: teamList } : stats.report(teamList, query, eq
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.report {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.report > div {
+  flex-grow: 1;
+  flex-basis: 30%;
+  min-width: max-content;
+}
+
+.teamlist {
+  display: grid;
+  justify-content: space-around;
+}
+
+.teamlist > p {
+  margin: 0;
+  width: fit-content;
+  text-align: center;
+  justify-self: center;
+}
+
+button.show-all {
+  margin: 0 auto;
+  display: block;
+}
+
+@media(min-width: 45rem) {
+  .teamlist {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .teamlist > p {
+    justify-self: start;
+  }
+}
+
 </style>
