@@ -39,6 +39,7 @@ let query = $derived({
     item: itemQuery
 });
 let results = $derived(!species ? { players: teamList } : stats.report(teamList, query, data.equivalents));
+let sortedTeammates = $derived(results.sets?.teammates?.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let isExpandable = $derived(!isExpanded & results.players.length > 16);
 
 function clearPartialQuery() {
@@ -239,7 +240,7 @@ function getPasteClickHandler(name, team) {
     <div>
       <Detail
         title="Teammates"
-        items={results.sets.teammates}
+        items={sortedTeammates}
         bind:query={teammatesQuery}
         total={results.sets.total}
         equivalents={data.equivalents.teammates}
