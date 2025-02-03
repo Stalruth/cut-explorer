@@ -17,7 +17,7 @@ function editQuery(e) {
   } else {
     query.delete(e.target.value);
 
-    const category = equivalents.categories?.[e.target.value];
+    const category = equivalents?.categories?.[e.target.value];
     if(category) {
       for(let item of category) {
         query.delete(item);
