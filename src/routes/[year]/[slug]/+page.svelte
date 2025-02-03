@@ -199,7 +199,7 @@ function getPasteClickHandler(name, team) {
 
     <div>
       <Detail
-        title="Tera Typea"
+        title="Tera Types"
         items={results.sets.teraType}
         bind:query={teraTypeQuery}
         total={results.sets.total}
