@@ -116,6 +116,14 @@ function getTeamDisplay(team) {
   return result;
 }
 
+function getPosition(set) {
+  const spriteInfo = Icons.getPokemon(set.species ?? 'No Data', {
+    protocol: 'https',
+    domain: 'cut-explorer.stalruth.dev',
+  });
+  return `${spriteInfo.left}px ${spriteInfo.top}px`;
+}
+
 function expandTeams() {
   isExpanded = true;
 }
@@ -269,10 +277,8 @@ function getPasteClickHandler(name, team) {
       {#each getTeamDisplay(player.team ?? []) as set}
         <span
           title={set.species ?? 'No Data'}
-          style={Icons.getPokemon(set.species ?? 'No Data', {
-            protocol: 'https',
-            domain: 'cut-explorer.stalruth.dev',
-          }).style}
+          class="pokemon-icon"
+          style={`background-position: ${getPosition(set)}`}
         >
         </span>
       {/each}
@@ -329,6 +335,13 @@ function getPasteClickHandler(name, team) {
   width: fit-content;
   text-align: center;
   justify-self: center;
+}
+
+.pokemon-icon {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background: transparent url('/sprites/pokemonicons-sheet.png') no-repeat;
 }
 
 button.show-all {
