@@ -41,6 +41,10 @@ let query = $derived({
 let results = $derived(!species ? { players: teamList } : stats.report(teamList, query, data.equivalents));
 let sortedTeammates = $derived(results.sets?.teammates?.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let isExpandable = $derived(!isExpanded & results.players.length > 16);
+let priorityPokemon = $derived([
+    ...(results?.sets?.teammates?.filter(el => el.count === results.sets.total)?.map(el => el.name) ?? []),
+    ...getPresentItems(query.teammates)
+]);
 
 function clearPartialQuery() {
   teraTypeQuery.clear();
@@ -85,7 +89,6 @@ function getPresentItems(queryMap) {
 
 function getTeamDisplay(team) {
   const categories = data.equivalents['species']?.['values'];
-  const queryTeammates = getPresentItems(query.teammates);
   const result = team.toSorted((a, b) => {
     const restricted = sortRestricted(a.species, b.species);
     if (restricted) {
@@ -101,9 +104,9 @@ function getTeamDisplay(team) {
     }
 
     return (
-      queryTeammates.findIndex(el =>
+      priorityPokemon.findIndex(el =>
         el === b.species || el === categories?.[b.species]
-      ) - queryTeammates.findIndex(el =>
+      ) - priorityPokemon.findIndex(el =>
         el === a.species || el === categories?.[a.species]
       )
     );
