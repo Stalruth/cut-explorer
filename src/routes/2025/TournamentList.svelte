@@ -48,6 +48,9 @@
     <li>
       <a href="2025/regional-san-antonio">San Antonio Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-médina">Médina Regional Championships</a>
+    </li>
   </ul>
 </details>
 
