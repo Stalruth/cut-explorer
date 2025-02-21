@@ -51,6 +51,9 @@
     <li>
       <a href="2025/regional-mérida">Mérida Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/international-europe">Europe International Championships</a>
+    </li>
   </ul>
 </details>
 
