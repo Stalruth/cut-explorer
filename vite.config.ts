@@ -6,6 +6,10 @@ import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 export default defineConfig({
   plugins: [
     sveltekit(),
-    SvelteKitPWA(),
+    SvelteKitPWA({
+      kit: {
+        base: '/'
+      }
+    }),
   ]
 });
