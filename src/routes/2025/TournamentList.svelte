@@ -54,6 +54,9 @@
     <li>
       <a href="2025/international-europe">Europe International Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-vancouver">Vancouver Regional Championships</a>
+    </li>
   </ul>
 </details>
 
