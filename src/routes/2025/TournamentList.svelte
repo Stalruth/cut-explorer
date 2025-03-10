@@ -57,6 +57,9 @@
     <li>
       <a href="2025/regional-vancouver">Vancouver Regional Championships</a>
     </li>
+    <li>
+      <a href="2025/regional-fortaleza">Fortaleza Regional Championships</a>
+    </li>
   </ul>
 </details>
 
