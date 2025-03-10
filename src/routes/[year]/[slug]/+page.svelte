@@ -345,6 +345,7 @@ function getPasteClickHandler(name, team) {
   width: 40px;
   height: 30px;
   background: transparent url('/sprites/pokemonicons-sheet.png') no-repeat;
+  image-rendering: pixelated;
 }
 
 button.show-all {
