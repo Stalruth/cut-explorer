@@ -4,7 +4,6 @@ export const load: Pageload = async ({ fetch, params }) => {
   const years = await (
     await fetch('/data/tournaments/years.json')
   ).json();
-  console.log(years,`/data/tournaments/${years[years.length - 1]}/tournaments.json`);
   const tourInfo = await (
     await fetch(`/data/tournaments/${years[years.length - 1]}/tournaments.json`)
   ).json();
