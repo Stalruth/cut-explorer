@@ -1,9 +1,9 @@
 import { build, files, version } from '$service-worker';
 import { pageCache, imageCache, staticResourceCache } from 'workbox-recipes';
 
-pageCache({warmCache: ['/', ...build.filter(el => el.includes('2025'))]});
+pageCache({warmCache: ['/']});
 
-const warmCache = files.filter(el => el.endsWith('css') || el.endsWith('js') || el.endsWith('webmanifest') || (el.endsWith('json') && (!el.includes('202') || el.includes('2025'))));
+const warmCache = [...build, ...files].filter(el => el.endsWith('css') || el.endsWith('js') || (el.endsWith('json') && (!el.includes('202') || el.includes('2025'))));
 const matchCallback = ({ request }) => ['style', 'script', 'worker'].includes(request.destination) || !request.destination;
 staticResourceCache({
   warmCache,
