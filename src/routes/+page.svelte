@@ -1,5 +1,9 @@
-<script>
-import TournamentList from './2025/TournamentList.svelte';
+<script lang="ts">
+import type { PageProps } from './$types';
+
+import TournamentList from './[year]/TournamentList.svelte';
+
+let { data }: PageProps = $props();
 </script>
 
 <svelte:head>
@@ -11,11 +15,13 @@ import TournamentList from './2025/TournamentList.svelte';
 </svelte:head>
 
 <h1>VGC Top Cut Explorer</h1>
-<p>
-  <a href="/2023">2023 Top Cut Explorer</a>
-</p>
-<p>
-  <a href="/2024">2024 Top Cut Explorer</a>
-</p>
-<TournamentList />
+{#each data.years as year, i}
+  {#if i != data.years.length - 1}
+    <p>
+      <a href="/{year}">{year} Top Cut Explorer</a>
+    </p>
+  {/if}
+{/each}
+
+<TournamentList year="2025" tourInfo={data.tourInfo} />
 
