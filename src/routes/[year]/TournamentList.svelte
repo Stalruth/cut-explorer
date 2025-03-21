@@ -2,7 +2,6 @@
 let { tourInfo, year } = $props();
 
 function formatDates(start, end) {
-  console.log(start, end)
   const startYear = start.year != end.year ? `-${start.year}` : '';
   const startDay = `${start.day}`.padStart(2, '0');
   const endDay = `${end.day}`.padStart(2, '0');
