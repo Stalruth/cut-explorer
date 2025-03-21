@@ -96,17 +96,17 @@ function getTeamDisplay(team) {
     }
 
     if (a.species === species ||
-        data.categories?.[a.species] === species) {
+        categories?.[a.species] === species) {
       return -1;
     } else if (b.species === species ||
-        data.categories?.[b.species] === species) {
+        categories?.[b.species] === species) {
       return 1;
     }
 
     return (
-      priorityPokemon.findIndex(el =>
+      priorityPokemon.findLastIndex(el =>
         el === b.species || el === categories?.[b.species]
-      ) - priorityPokemon.findIndex(el =>
+      ) - priorityPokemon.findLastIndex(el =>
         el === a.species || el === categories?.[a.species]
       )
     );
