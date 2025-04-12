@@ -14,7 +14,7 @@ imageCache({warmCache: files.filter(el => el.endsWith('png'))});
 
 self.addEventListener('activate', e => {
   // prune old caches
-    async function pruneCaches() {
+  async function pruneCaches() {
     for (const key of await caches.keys()) {
       if (!['pages', 'static-resources', 'images'].includes(key)) await caches.delete(key);
     }
