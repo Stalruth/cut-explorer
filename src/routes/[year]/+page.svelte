@@ -23,5 +23,5 @@ let { data }: PageProps = $props();
 
 <h1>{ data.year } VGC Top Cut Explorer</h1>
 
-<TournamentList tourInfo={data.tourInfo} year={data.year} />
+<TournamentList tourInfo={data.tourInfo.formats} year={data.year} />
 

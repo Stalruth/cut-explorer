@@ -1,16 +1,17 @@
 import type { PageLoad } from './$types';
 
 export const load: Pageload = async ({ fetch, params }) => {
-  const years = await (
-    await fetch('/data/tournaments/years.json')
-  ).json();
-  const tourInfo = await (
-    await fetch(`/data/tournaments/${years[years.length - 1]}/tournaments.json`)
-  ).json();
+  const [
+    yearsResponse,
+    tourInfoResponse
+  ] = await Promise.all([
+    fetch('https://api.cut-explorer.stalruth.dev/tournaments/years.json'),
+    fetch(`https://api.cut-explorer.stalruth.dev/tournaments/current-year.json`)
+  ]);
 
   return {
-    tourInfo,
-    years
+    tourInfo: await tourInfoResponse.json(),
+    years: await yearsResponse.json()
   }
 };
 

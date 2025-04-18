@@ -23,5 +23,5 @@ let { data }: PageProps = $props();
   {/if}
 {/each}
 
-<TournamentList year="2025" tourInfo={data.tourInfo} />
+<TournamentList year={data.tourInfo.season} tourInfo={data.tourInfo.formats} />
 

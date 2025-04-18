@@ -1,12 +1,16 @@
 import type { PageLoad } from './$types';
 
 export const load: Pageload = async ({ fetch, params }) => {
-  const tournament = await (
-    await fetch(`/data/tournaments/${params.year}/${params.slug}.json`)
-  ).json();
-  const equivalents = await (
-    await fetch('/data/equivalents.json')
-  ).json();
+  const [
+    tournamentResponse,
+    equivalentsResponse
+  ] = await Promise.all([
+    fetch(`https://api.cut-explorer.stalruth.dev/tournaments/${params.year}/${params.slug}.json`),
+    fetch('https://api.cut-explorer.stalruth.dev/equivalents.json')
+  ]);
+
+  const tournament = await tournamentResponse.json();
+  const equivalents = await equivalentsResponse.json();
 
   for(let i of ['item', 'moves', 'species']) {
     equivalents[i].values = {};
