@@ -278,12 +278,15 @@ function getPasteClickHandler(name, team) {
     </p>
     <p>
       {#each getTeamDisplay(player.team ?? []) as set}
-        <span
+        <img
+          src="/sprites/pokemonicons-sheet.png"
+          alt={set.species ?? 'No Data'}
           title={set.species ?? 'No Data'}
           class="pokemon-icon"
-          style={`background-position: ${getPosition(set)}`}
+          style={`object-position: ${getPosition(set)}`}
+          width="40"
+          height="30"
         >
-        </span>
       {/each}
     </p>
   {/each}
@@ -341,11 +344,7 @@ function getPasteClickHandler(name, team) {
 }
 
 .pokemon-icon {
-  display: inline-block;
-  width: 40px;
-  height: 30px;
-  background: transparent url('/sprites/pokemonicons-sheet.png') no-repeat;
-  image-rendering: pixelated;
+  object-fit: none;
 }
 
 button.show-all {
