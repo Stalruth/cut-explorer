@@ -12,7 +12,7 @@ import { onClickHardBack } from '$lib/layers.js';
 
 <nav>
   <div>
-    <a href="/" onclick={onClickHardBack}>Index</a>
+    <a href="/" onclick={onClickHardBack}>Back</a>
   </div>
 </nav>
 

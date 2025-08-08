@@ -25,5 +25,12 @@ function onClickBack(e) {
   }
 }
 
-export { onBeforeNavigate, onClickBack }
+function onClickHardBack(e) {
+  if (layers[layers.length - 1]) {
+    e.preventDefault();
+    history.back();
+  }
+}
+
+export { onBeforeNavigate, onClickBack, onClickHardBack }
 
