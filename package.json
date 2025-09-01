@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@pkmn/img": "^0.2.34",
-    "@sveltejs/adapter-netlify": "^4.4.1",
+    "@sveltejs/adapter-static": "^3.0.9",
     "mvp.css": "^1.17.0"
   }
 }

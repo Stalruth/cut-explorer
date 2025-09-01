@@ -17,7 +17,7 @@ staticResourceCache({
   warmCache: srCachedFiles
 });
 
-const pageCachedFiles = ['/', `${API_SERVER}/tournaments/current-year.json`];
+const pageCachedFiles = [`${API_SERVER}/`, `${API_SERVER}/200.html`, `${API_SERVER}/tournaments/current-year.json`];
 pageCache({
   cacheName: 'latest',
   matchCallback: ({request}) => pageCachedFiles.includes((new URL(request.url)).pathname) || pageCachedFiles.includes(request.url),
