@@ -22,6 +22,7 @@ function formatDates(start, end) {
           </a>
         </li>
       {/each}
+    </ul>
   </details>
 {/each}
 
