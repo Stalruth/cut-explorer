@@ -8,7 +8,8 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: '200.html'
+      fallback: '200.html',
+      pages: process.env.OUT_DIR
     }),
     version: {
       name: child_process.execSync('git rev-parse HEAD').toString().trim()
