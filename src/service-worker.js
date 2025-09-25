@@ -1,61 +1,34 @@
 import { build, files, version } from '$service-worker';
-import { pageCache, staticResourceCache } from 'workbox-recipes';
-import { StaleWhileRevalidate } from 'workbox-strategies/StaleWhileRevalidate.js';
-import { CacheableResponsePlugin } from 'workbox-cacheable-response/CacheableResponsePlugin.js';
+
+import { offlineFallback, warmStrategyCache } from 'workbox-recipes';
+import { registerRoute } from 'workbox-routing';
+import { CacheFirst, NetworkFirst, NetworkOnly } from 'workbox-strategies';
 
 const API_SERVER = 'https://api.cut-explorer.stalruth.dev';
 
-staticResourceCache({
-  cacheName: 'api-cache',
-  matchCallback: ({request}) => request.url.startsWith(API_SERVER) && !request.url.endsWith('/tournaments/current-year.json'),
+const pageMatch = ({request}) => request.destination === 'document';
+registerRoute(pageMatch, new NetworkOnly());
+offlineFallback(); // uses cache 'workbox-offline-fallbacks'
+
+const dataMatch = ({url}) => url.origin === API_SERVER;
+const dataStrategy = new NetworkFirst({
+  cacheName: 'data',
+  networkTimeoutSeconds: 1
 });
+registerRoute(dataMatch, dataStrategy);
 
-const srCachedFiles = [...build, ...files];
-staticResourceCache({
-  cacheName: `static-resources-${version}`,
-  matchCallback: ({request}) => srCachedFiles.includes((new URL(request.url)).pathname),
-  warmCache: srCachedFiles
+const appMatch = ({url, request}) => url.origin === location.origin && request.destination !== 'document';
+const appStrategy = new CacheFirst({
+  cacheName: `app-${version}`
 });
-
-const pageCachedFiles = [`${API_SERVER}/`, `${API_SERVER}/200.html`, `${API_SERVER}/tournaments/current-year.json`];
-pageCache({
-  cacheName: 'latest',
-  matchCallback: ({request}) => pageCachedFiles.includes((new URL(request.url)).pathname) || pageCachedFiles.includes(request.url),
-  warmCache: pageCachedFiles
-});
-
-self.addEventListener('install', e => {
-  async function preloadCache() {
-    const currentYearResponse = await fetch(`${API_SERVER}/tournaments/current-year.json`);
-    const currentYear = await currentYearResponse.json();
-
-    const season = currentYear.season;
-    const tours = currentYear
-      .formats[currentYear.formats.length - 1]
-      .tournaments
-      .map(el => `tournaments/${season}/${el.id}.json`);
-
-    const strategy = new StaleWhileRevalidate({
-      cacheName: 'api-cache',
-      plugins: [new CacheableResponsePlugin({statuses: [0, 200]})]
-    });
-
-    Promise.all([
-      'equivalents.json',
-      'tournaments/years.json',
-      ...tours
-    ].map(el => `${API_SERVER}/${el}`)
-      .map(el => strategy.handleAll({event: e, request: new Request(el)})));
-  }
-
-  e.waitUntil(preloadCache());
-});
+warmStrategyCache({'urls': [...build, ...files], 'strategy': appStrategy});
+registerRoute(appMatch, appStrategy);
 
 self.addEventListener('activate', e => {
   // prune old caches
   async function pruneCaches() {
     for (const key of await caches.keys()) {
-      if (!['latest', `static-resources-${version}`, 'api-cache'].includes(key)) await caches.delete(key);
+      if (!['workbox-offline-fallbacks', `app-${version}`, 'data'].includes(key)) await caches.delete(key);
     }
   }
 

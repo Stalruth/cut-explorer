@@ -8,7 +8,7 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: '200.html',
+      fallback: 'offline.html',
       pages: process.env.OUT_DIR
     }),
     version: {

@@ -1,9 +1,18 @@
 <script lang="ts">
+import { onMount } from 'svelte';
+import { online } from 'svelte/reactivity/window';
 import type { PageProps } from './$types';
 
 import TournamentList from './[year]/TournamentList.svelte';
 
 let { data }: PageProps = $props();
+
+let cachedTours = $state([]);
+
+onMount(async () => {
+  const cache = await caches.open('data');
+  cachedTours = (await cache.keys()).map(el => new URL(el.url).pathname);
+});
 </script>
 
 <svelte:head>
@@ -18,7 +27,11 @@ let { data }: PageProps = $props();
 {#each data.years as year, i}
   {#if i != data.years.length - 1}
     <p>
-      <a href="/{year}">{year} Top Cut Explorer</a>
+      {#if online.current || online.current === undefined || cachedTours.includes(`/tournaments/${year}/tournaments.json`)}
+        <a href="/{year}">{year} Top Cut Explorer</a>
+      {:else}
+        <b>{year} Top Cut Explorer</b>
+      {/if}
     </p>
   {/if}
 {/each}
