@@ -13,7 +13,7 @@ offlineFallback(); // uses cache 'workbox-offline-fallbacks'
 const dataMatch = ({url}) => url.origin === API_SERVER;
 const dataStrategy = new NetworkFirst({
   cacheName: 'data',
-  networkTimeoutSeconds: 1
+  networkTimeoutSeconds: 2
 });
 registerRoute(dataMatch, dataStrategy);
 
