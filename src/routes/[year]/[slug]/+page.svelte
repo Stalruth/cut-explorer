@@ -30,6 +30,9 @@ let dialog = $state();
 let teamList = $derived(data.tournament.teams.slice(0, stage));
 let pokemonList = $derived(stats.getPokemonList(teamList, data.equivalents['species'])
     .sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
+let speciesQuery = $derived({
+    species: species ? new Map([[species, true]]) : undefined,
+});
 let query = $derived({
     species: species ? new Map([[species, true]]) : undefined,
     teraType: teraTypeQuery,
@@ -38,6 +41,7 @@ let query = $derived({
     teammates: teammatesQuery,
     item: itemQuery
 });
+let speciesResults = $derived(stats.report(teamList, speciesQuery, data.equivalents));
 let results = $derived(!species ? { players: teamList } : stats.report(teamList, query, data.equivalents));
 let sortedTeammates = $derived(results.sets?.teammates?.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let isExpandable = $derived(!isExpanded & results.players.length > 16);
@@ -212,6 +216,7 @@ function getPasteClickHandler(name, team) {
       <Detail
         title="Tera Types"
         items={results.sets.teraType}
+        allItems={speciesResults.sets.teraType}
         bind:query={teraTypeQuery}
         total={results.sets.total}
         equivalents={data.equivalents.teraTypes}
@@ -222,6 +227,7 @@ function getPasteClickHandler(name, team) {
       <Detail
         title="Abilities"
         items={results.sets.ability}
+        allItems={speciesResults.sets.ability}
         bind:query={abilityQuery}
         total={results.sets.total}
         equivalents={data.equivalents.ability}
@@ -232,6 +238,7 @@ function getPasteClickHandler(name, team) {
       <Detail
         title="Items"
         items={results.sets.item}
+        allItems={speciesResults.sets.item}
         bind:query={itemQuery}
         total={results.sets.total}
         equivalents={data.equivalents.item}
@@ -242,6 +249,7 @@ function getPasteClickHandler(name, team) {
       <Detail
         title="Moves"
         items={results.sets.moves}
+        allItems={speciesResults.sets.moves}
         bind:query={moveQuery}
         total={results.sets.total}
         equivalents={data.equivalents.moves}
@@ -252,6 +260,7 @@ function getPasteClickHandler(name, team) {
       <Detail
         title="Teammates"
         items={sortedTeammates}
+        allItems={speciesResults.sets.teammates}
         bind:query={teammatesQuery}
         total={results.sets.total}
         equivalents={data.equivalents.teammates}

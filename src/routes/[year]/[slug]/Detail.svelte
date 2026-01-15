@@ -1,5 +1,5 @@
 <script lang="ts">
-let {title, items, query=$bindable(), total, equivalents} = $props();
+let {title, items, allItems, query=$bindable(), total, equivalents} = $props();
 
 const sortedItems = $derived(items.toSorted((a, b) => {
   const values = {
