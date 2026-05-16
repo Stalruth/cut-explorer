@@ -275,8 +275,8 @@ function getPasteClickHandler(name, team) {
 <div class="teamlist">
   {#each results.players.slice(0, isExpanded ? undefined : 16) as player (player.swiss.place)}
     <p>
-      {#if player.paste}
-        <a href={`https://pokepast.es/${player.paste}`} onclick={getPasteClickHandler(player.name, player.team)}>
+      {#if player.id}
+        <a href={`https://pastes.cut-explorer.stalruth.dev/${player.id}`} onclick={getPasteClickHandler(player.name, player.team)}>
           {getListingName(player)}
         </a>
       {:else}
