@@ -12,7 +12,7 @@ offlineFallback(); // uses cache 'workbox-offline-fallbacks'
 
 const dataMatch = ({url}) => url.origin === API_SERVER;
 const dataStrategy = new NetworkFirst({
-  cacheName: 'data',
+  cacheName: 'data-2026-05',
   networkTimeoutSeconds: 2
 });
 registerRoute(dataMatch, dataStrategy);
@@ -28,7 +28,7 @@ self.addEventListener('activate', e => {
   // prune old caches
   async function pruneCaches() {
     for (const key of await caches.keys()) {
-      if (!['workbox-offline-fallbacks', `app-${version}`, 'data'].includes(key)) await caches.delete(key);
+      if (!['workbox-offline-fallbacks', `app-${version}`, 'data-2026-05'].includes(key)) await caches.delete(key);
     }
   }
 
