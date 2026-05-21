@@ -12,6 +12,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
+    "@sveltejs/adapter-node": "^5.5.4",
     "@sveltejs/kit": "^2.49.5",
     "@sveltejs/vite-plugin-svelte": "^6.2.4",
     "svelte": "^5.46.4",
@@ -23,8 +24,7 @@
     "workbox-strategies": "^7.3.0"
   },
   "dependencies": {
-    "@pkmn/img": "^0.2.40",
-    "@sveltejs/adapter-static": "^3.0.10",
+    "@pkmn/img": "^0.3.3",
     "mvp.css": "^1.17.0"
   }
 }
