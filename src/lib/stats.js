@@ -66,7 +66,7 @@ function getPokemonList(data, equivalents) {
   return applyEquivalents(collate(data.map(({ team }) => (team ?? []).map(set => set.species)).flat()), equivalents);
 }
 
-function matchSet(set, team, {species, item, ability, teraType, moves, teammates}, equivalents) {
+function matchSet(set, team, {species, item, ability, nature, teraType, moves, teammates}, equivalents) {
   function matchOne(queryValues, setValue, valueCategories) {
     for(const [key, value] of queryValues) {
       if((setValue === key || valueCategories?.[setValue] === key) !== value) {
@@ -85,6 +85,8 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
     return true;
   }
 
+  console.log({species, nature, teraType})
+
   if(species && !matchOne(species, set.species, equivalents['species']?.['values'])) {
     return false;
   }
@@ -95,6 +97,9 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
     return false;
   }
   if(teraType && !matchOne(teraType, set.teraType, equivalents['teraType']?.['values'])) {
+    return false;
+  }
+  if(nature && !matchOne(nature, set.nature, equivalents['nature']?.['values'])) {
     return false;
   }
   if(moves && !matchAll(moves, set.moves, equivalents['moves']?.['values'])) {
@@ -110,6 +115,7 @@ function matchSet(set, team, {species, item, ability, teraType, moves, teammates
 }
 
 function query(data, parameters, equivalents) {
+  console.log(parameters);
   const sets = [];
   const players = [];
   data.forEach(player => {
@@ -127,13 +133,13 @@ function query(data, parameters, equivalents) {
   return {sets, players};
 }
 
-function report(data, queryArgs, equivalents) {
+function report(data, fields, queryArgs, equivalents) {
   const result = query(data, queryArgs, equivalents);
   const sets = {
     total: result.sets.length,
   };
 
-  ['species','item','ability','teraType','moves'].forEach(field => {
+  fields.forEach(field => {
     sets[field] = collate(result.sets.map(set => set[field]).flat(), equivalents[field]);
   });
 
@@ -144,7 +150,7 @@ function report(data, queryArgs, equivalents) {
     ).flat()
   ), sets['species']);
 
-  ['species','item','ability','teraType','moves','teammates'].forEach(field => {
+  [...fields, 'teammates'].forEach(field => {
     sets[field] = applyEquivalents(sets[field], equivalents[field]);
   });
 
