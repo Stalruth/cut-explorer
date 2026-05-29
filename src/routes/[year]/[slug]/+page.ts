@@ -12,7 +12,7 @@ export const load: Pageload = async ({ fetch, params }) => {
   const tournament = await tournamentResponse.json();
   const equivalents = await equivalentsResponse.json();
 
-  for(let i of ['item', 'moves', 'species']) {
+  for(let i of ['item', 'moves', 'species', 'nature']) {
     equivalents[i].values = {};
     for(let category of Object.getOwnPropertyNames(equivalents[i].categories)) {
       for(let value of equivalents[i].categories[category]) {

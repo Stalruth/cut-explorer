@@ -16,16 +16,21 @@ import TeamDialog from './TeamDialog.svelte';
 let { data }: PageProps = $props();
 
 let species = $state('');
-let teraTypeQuery = $state(new SvelteMap());
-let itemQuery = $state(new SvelteMap());
-let abilityQuery = $state(new SvelteMap());
-let moveQuery = $state(new SvelteMap());
-let teammatesQuery = $state(new SvelteMap());
 let stage = $state(data.tournament.teams.length);
 let isExpanded = $state(false);
 let dialogTitle = $state('');
 let dialogTeam = $state([]);
 let dialog = $state();
+let subQuery = $state({
+  teammates: new SvelteMap()
+});
+
+for (let field of data.tournament.fields) {
+  if(field == 'species') {
+    continue;
+  }
+  subQuery[field] = new SvelteMap();
+}
 
 let teamList = $derived(data.tournament.teams.slice(0, stage));
 let pokemonList = $derived(stats.getPokemonList(teamList, data.equivalents['species'])
@@ -35,14 +40,10 @@ let speciesQuery = $derived({
 });
 let query = $derived({
     species: species ? new Map([[species, true]]) : undefined,
-    teraType: teraTypeQuery,
-    ability: abilityQuery,
-    moves: moveQuery,
-    teammates: teammatesQuery,
-    item: itemQuery
+    ...subQuery
 });
-let speciesResults = $derived(stats.report(teamList, speciesQuery, data.equivalents));
-let results = $derived(!species ? { players: teamList } : stats.report(teamList, query, data.equivalents));
+let speciesResults = $derived(stats.report(teamList, data.tournament.fields, speciesQuery, data.equivalents));
+let results = $derived(!species ? { players: teamList } : stats.report(teamList, data.tournament.fields, query, data.equivalents));
 let sortedTeammates = $derived(results.sets?.teammates?.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let isExpandable = $derived(!isExpanded & results.players.length > 16);
 let priorityPokemon = $derived([
@@ -51,18 +52,20 @@ let priorityPokemon = $derived([
 ]);
 
 function clearPartialQuery() {
-  teraTypeQuery.clear();
-  itemQuery.clear();
-  abilityQuery.clear();
-  moveQuery.clear();
-  teammatesQuery.clear();
+  for (let field of data.tournament.fields) {
+    if(field == 'species') {
+      continue;
+    }
+    subQuery[field].clear();
+  }
+  subQuery.teammates.clear();
 }
 
 function changeScope(e) {
   const newList = data.tournament.teams.slice(0, stage);
-  if(!stats.report(newList, query, data.equivalents).players.length) {
+  if(!stats.report(newList, data.tournament.fields, query, data.equivalents).players.length) {
     clearPartialQuery();
-    if(!stats.report(newList, {species: new Map([[species, true]])}, data.equivalents).players.length) {
+    if(!stats.report(newList, data.tournament.fields, {species: new Map([[species, true]])}, data.equivalents).players.length) {
       species = '';
     }
   }
@@ -212,23 +215,38 @@ function getPasteClickHandler(name, team) {
 
   <div class="report">
 
-    <div>
-      <Detail
-        title="Tera Types"
-        items={results.sets.teraType}
-        allItems={speciesResults.sets.teraType}
-        bind:query={teraTypeQuery}
-        total={results.sets.total}
-        equivalents={data.equivalents.teraTypes}
-      />
-    </div>
+    {#if data.tournament.fields.includes('teraType')}
+      <div>
+        <Detail
+          title="Tera Types"
+          items={results.sets.teraType}
+          allItems={speciesResults.sets.teraType}
+          bind:query={subQuery.teraType}
+          total={results.sets.total}
+          equivalents={data.equivalents.teraType}
+        />
+      </div>
+    {/if}
+
+    {#if data.tournament.fields.includes('nature')}
+      <div>
+        <Detail
+          title="Tera Types"
+          items={results.sets.nature}
+          allItems={speciesResults.sets.nature}
+          bind:query={subQuery.nature}
+          total={results.sets.total}
+          equivalents={data.equivalents.nature}
+        />
+      </div>
+    {/if}
 
     <div>
       <Detail
         title="Abilities"
         items={results.sets.ability}
         allItems={speciesResults.sets.ability}
-        bind:query={abilityQuery}
+        bind:query={subQuery.ability}
         total={results.sets.total}
         equivalents={data.equivalents.ability}
       />
@@ -239,7 +257,7 @@ function getPasteClickHandler(name, team) {
         title="Items"
         items={results.sets.item}
         allItems={speciesResults.sets.item}
-        bind:query={itemQuery}
+        bind:query={subQuery.item}
         total={results.sets.total}
         equivalents={data.equivalents.item}
       />
@@ -250,7 +268,7 @@ function getPasteClickHandler(name, team) {
         title="Moves"
         items={results.sets.moves}
         allItems={speciesResults.sets.moves}
-        bind:query={moveQuery}
+        bind:query={subQuery.moves}
         total={results.sets.total}
         equivalents={data.equivalents.moves}
       />
@@ -261,7 +279,7 @@ function getPasteClickHandler(name, team) {
         title="Teammates"
         items={sortedTeammates}
         allItems={speciesResults.sets.teammates}
-        bind:query={teammatesQuery}
+        bind:query={subQuery.teammates}
         total={results.sets.total}
         equivalents={data.equivalents.teammates}
       />
