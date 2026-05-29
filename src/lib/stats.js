@@ -85,8 +85,6 @@ function matchSet(set, team, {species, item, ability, nature, teraType, moves, t
     return true;
   }
 
-  console.log({species, nature, teraType})
-
   if(species && !matchOne(species, set.species, equivalents['species']?.['values'])) {
     return false;
   }
@@ -115,7 +113,6 @@ function matchSet(set, team, {species, item, ability, nature, teraType, moves, t
 }
 
 function query(data, parameters, equivalents) {
-  console.log(parameters);
   const sets = [];
   const players = [];
   data.forEach(player => {
