@@ -16,7 +16,7 @@ import TeamDialog from './TeamDialog.svelte';
 let { data }: PageProps = $props();
 
 let species = $state('');
-let stage = $state(data.tournament.teams.length);
+let stage = $state((() => data.tournament.teams.length)());
 let isExpanded = $state(false);
 let dialogTitle = $state('');
 let dialogTeam = $state([]);
@@ -25,7 +25,7 @@ let subQuery = $state({
   teammates: new SvelteMap()
 });
 
-for (let field of data.tournament.fields) {
+for (let field of (() => data.tournament.fields)()) {
   if(field == 'species') {
     continue;
   }
