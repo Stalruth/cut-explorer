@@ -7,6 +7,7 @@ import { Icons } from '@pkmn/img';
 
 import getOrdinal from '$lib/getOrdinal.js';
 import * as stats from '$lib/stats.js';
+import sortMega from '$lib/sortMega.js';
 import sortRestricted from '$lib/sortRestricted.js';
 import { onClickBack } from '$lib/layers.js';
 
@@ -110,13 +111,17 @@ function getTeamDisplay(team) {
       return 1;
     }
 
-    return (
-      priorityPokemon.findLastIndex(el =>
-        el === b.species || el === categories?.[b.species]
-      ) - priorityPokemon.findLastIndex(el =>
-        el === a.species || el === categories?.[a.species]
-      )
-    );
+    const priorityIndexA = priorityPokemon.findLastIndex(el => el === a.species || el === categories?.[a.species]);
+    const priorityIndexB = priorityPokemon.findLastIndex(el => el === b.species || el === categories?.[b.species]);
+    if (priorityIndexB - priorityIndexA) {
+      return priorityIndexB - priorityIndexA;
+    }
+
+
+    const mega = sortMega(a.species, b.species);
+    if (mega) {
+      return mega;
+    }
   });
 
   while (result.length < 6) {
@@ -130,6 +135,7 @@ function getPosition(set) {
   const spriteInfo = Icons.getPokemon(set.species ?? 'No Data', {
     protocol: 'https',
     domain: 'cut-explorer.stalruth.dev',
+    side: 'p2'
   });
   return `${spriteInfo.left}px ${spriteInfo.top}px`;
 }
