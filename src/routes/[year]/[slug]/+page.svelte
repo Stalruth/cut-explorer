@@ -231,7 +231,7 @@ function getPasteClickHandler(name, team) {
     {#if data.tournament.fields.includes('nature')}
       <div>
         <Detail
-          title="Tera Types"
+          title="Natures"
           items={results.sets.nature}
           allItems={speciesResults.sets.nature}
           bind:query={subQuery.nature}
