@@ -306,7 +306,7 @@ function getPasteClickHandler(name, team) {
     <p>
       {#each getTeamDisplay(player.team ?? []) as set}
         <img
-          src="/sprites/pokemonicons-sheet.png"
+          src="/sprites/pokemonicons-sheet.png?v22"
           alt={set.species ?? 'No Data'}
           title={set.species ?? 'No Data'}
           class="pokemon-icon"
