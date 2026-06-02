@@ -132,6 +132,27 @@ function getTeamDisplay(team) {
 }
 
 function getPosition(set) {
+  if (set.species == 'Chimecho-Mega') {
+    return '-160px -3570px';
+  }
+  if (set.species == 'Golurk-Mega') {
+    return '-440px -3570px';
+  }
+  if (set.species == 'Meowstic-M-Mega') {
+    return '0px -3600px';
+  }
+  if (set.species == 'Meowstic-F-Mega') {
+    return '0px -3600px';
+  }
+  if (set.species == 'Crabominable-Mega') {
+    return '-40px -3600px';
+  }
+  if (set.species == 'Scovillain-Mega') {
+    return '-240px -3600px';
+  }
+  if (set.species == 'Glimmora-Mega') {
+    return '-280px -3600px';
+  }
   const spriteInfo = Icons.getPokemon(set.species ?? 'No Data', {
     protocol: 'https',
     domain: 'cut-explorer.stalruth.dev',
