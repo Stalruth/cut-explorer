@@ -23,7 +23,7 @@
     "workbox-strategies": "^7.3.0"
   },
   "dependencies": {
-    "@pkmn/img": "^0.3.3",
+    "@pkmn/img": "^0.3.4",
     "@sveltejs/adapter-static": "^3.0.10",
     "mvp.css": "^1.17.0"
   }
