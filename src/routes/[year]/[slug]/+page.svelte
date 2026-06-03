@@ -378,6 +378,7 @@ function getPasteClickHandler(name, team) {
 
 .pokemon-icon {
   object-fit: none;
+  image-rendering: pixelated;
 }
 
 button.show-all {
