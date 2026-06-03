@@ -2,17 +2,26 @@
 import 'mvp.css';
 
 import { onMount } from 'svelte';
-import { beforeNavigate } from '$app/navigation';
+import { beforeNavigate, afterNavigate } from '$app/navigation';
 import { page } from '$app/state';
+
+import Loading from './Loading.svelte';
 
 import '$lib/css/app.css';
 import { onBeforeNavigate } from '$lib/layers.js';
 
+let isLoading = $state(false);
+
 beforeNavigate(onBeforeNavigate);
+beforeNavigate(() => {isLoading = true});
+afterNavigate(() => {isLoading = false});
 </script>
 
+{#if isLoading}
+  <Loading />
+{/if}
 <main>
-<slot></slot>
+  <slot></slot>
 </main>
 <footer>
   <p>
@@ -27,3 +36,4 @@ beforeNavigate(onBeforeNavigate);
     {/if}
   </p>
 </footer>
+
