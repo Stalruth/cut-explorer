@@ -23,18 +23,18 @@ import { onClickHardBack } from '$lib/layers.js';
   <dd><a href="https://stalruth.dev">Stuart Rutherford</a> (<a href="https://github.com/Stalruth/cut-explorer/">GitHub</a>)</dd>
   <dt>Data source</dt>
   <dd><a href="https://rk9.gg">RK9 Labs</a></dd>
-  <dt>Team exports</dt>
-  <dd><a href="https://twitter.com/VGCPastes">VGC Pastes</a></dd>
   <dt>Standings</dt>
-  <dd><a href="https://standings.stalruth.dev/">Homemade Standings</a></dd>
-  <dt>Pokémon Set Parsing and Sprites</dt>
+  <dd><a href="https://pokedata.ovh/standingsVGC/">Pokedata VG Homemade Standings</a></dd>
+  <dd><a href="https://standings.reportworm.com/">Reportworm Standings</a></dd>
+  <dd><a href="https://www.nimbasacitypost.com">Nimbasa City Post</a></dd>
+  <dt>Pokémon Sprites</dt>
   <dd><a href="https://github.com/pkmn/ps">pkmn/ps</a></dd>
   <dd><a href="https://play.pokemonshowdown.com">Pokémon Showdown</a></dd>
-  <dt>Teamlist Hosting</dt>
-  <dd><a href="https://pokepast.es/">PokePaste</a></dd>
   <dt>Favicon</dt>
-  <dd><a href="https://github.com/twitter/twemoji">Twemoji by Twitter</a></dd>
+  <dd><a href="https://github.com/twitter/twemoji">Twemoji</a></dd>
   <dt>JavaScript Framework</dt>
   <dd><a href="https://kit.svelte.dev">SvelteKit</a></dd>
+  <dt>Loading Animation</dt>
+  <dd>Adapted from <a href="https://github.com/nzbin/three-dots">Three Dots</a></dd>
 </dl>
 
