@@ -10,6 +10,8 @@ import Loading from './Loading.svelte';
 import '$lib/css/app.css';
 import { onBeforeNavigate } from '$lib/layers.js';
 
+let { children } = $props();
+
 let isLoading = $state(false);
 
 beforeNavigate(onBeforeNavigate);
@@ -21,7 +23,7 @@ afterNavigate(() => {isLoading = false});
   <Loading />
 {/if}
 <main>
-  <slot></slot>
+  {@render children?.()}
 </main>
 <footer>
   <p>
