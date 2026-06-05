@@ -15,7 +15,12 @@ let { children } = $props();
 let isLoading = $state(false);
 
 beforeNavigate(onBeforeNavigate);
-beforeNavigate(() => {isLoading = true});
+beforeNavigate((navigation) => {
+  const isLeaving = navigation.to.route?.id === null;
+  if (!isLeaving) {
+    isLoading = true;
+  }
+});
 afterNavigate(() => {isLoading = false});
 </script>
 
