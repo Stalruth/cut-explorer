@@ -10,6 +10,7 @@ import * as stats from '$lib/stats.js';
 import sortMega from '$lib/sortMega.js';
 import sortRestricted from '$lib/sortRestricted.js';
 import { onClickBack } from '$lib/layers.js';
+import { startLoading, stopLoading } from '$lib/loadingState.svelte.js';
 
 import Detail from './Detail.svelte';
 import TeamDialog from './TeamDialog.svelte';
