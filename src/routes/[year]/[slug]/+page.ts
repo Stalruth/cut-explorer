@@ -1,3 +1,4 @@
+import { PUBLIC_API_URL } from '$env/static/public';
 import type { PageLoad } from './$types';
 
 export const load: Pageload = async ({ fetch, params }) => {
@@ -5,8 +6,8 @@ export const load: Pageload = async ({ fetch, params }) => {
     tournamentResponse,
     equivalentsResponse
   ] = await Promise.all([
-    fetch(`https://api.cut-explorer.stalruth.dev/tournaments/${params.year}/${params.slug}.json`),
-    fetch('https://api.cut-explorer.stalruth.dev/equivalents.json')
+    fetch(`${PUBLIC_API_URL}/tournaments/${params.year}/${params.slug}.json`),
+    fetch(`https://api.cut-explorer.stalruth.dev/equivalents.json`)
   ]);
 
   const tournament = await tournamentResponse.json();

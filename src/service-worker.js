@@ -1,16 +1,15 @@
+import { PUBLIC_API_URL } from '$env/static/public';
 import { build, files, version } from '$service-worker';
 
 import { offlineFallback, warmStrategyCache } from 'workbox-recipes';
 import { registerRoute } from 'workbox-routing';
 import { CacheFirst, NetworkFirst, NetworkOnly } from 'workbox-strategies';
 
-const API_SERVER = 'https://api.cut-explorer.stalruth.dev';
-
 const pageMatch = ({request}) => request.destination === 'document';
 registerRoute(pageMatch, new NetworkOnly());
 offlineFallback(); // uses cache 'workbox-offline-fallbacks'
 
-const dataMatch = ({url}) => url.origin === API_SERVER;
+const dataMatch = ({url}) => url.origin === PUBLIC_API_URL;
 const dataCache = 'data-2026-06-03';
 const dataStrategy = new NetworkFirst({
   cacheName: dataCache,

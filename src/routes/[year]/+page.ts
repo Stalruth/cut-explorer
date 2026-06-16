@@ -1,8 +1,9 @@
+import { PUBLIC_API_URL } from '$env/static/public';
 import type { PageLoad } from './$types';
 
 export const load: Pageload = async ({ fetch, params }) => {
   const tourInfo = await (
-    await fetch(`https://api.cut-explorer.stalruth.dev/tournaments/${params.year}/tournaments.json`)
+    await fetch(`${PUBLIC_API_URL}/tournaments/${params.year}/tournaments.json`)
   ).json();
 
   return {
