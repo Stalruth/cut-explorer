@@ -6,13 +6,6 @@ import type { PageProps } from './$types';
 import TournamentList from './[year]/TournamentList.svelte';
 
 let { data }: PageProps = $props();
-
-let cachedTours = $state([]);
-
-onMount(async () => {
-  const cache = await caches.open('data');
-  cachedTours = (await cache.keys()).map(el => new URL(el.url).pathname);
-});
 </script>
 
 <svelte:head>
