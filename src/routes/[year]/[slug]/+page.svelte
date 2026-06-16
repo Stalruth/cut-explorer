@@ -1,4 +1,5 @@
 <script lang="ts">
+import { PUBLIC_API_URL } from '$env/static/public';
 import type { PageProps } from './$types';
 
 import { SvelteMap } from 'svelte/reactivity';
@@ -18,7 +19,8 @@ import TeamDialog from './TeamDialog.svelte';
 let { data }: PageProps = $props();
 
 let species = $state('');
-let stage = $state((() => data.tournament.teams.length)());
+let teams = $state((() => data.tournament.teams)());
+let stage = $state((() => teams.length)());
 let isExpanded = $state(false);
 let dialogTitle = $state('');
 let dialogTeam = $state([]);
@@ -34,7 +36,7 @@ for (let field of (() => data.tournament.fields)()) {
   subQuery[field] = new SvelteMap();
 }
 
-let teamList = $derived(data.tournament.teams.slice(0, stage));
+let teamList = $derived(teams.slice(0, stage));
 let pokemonList = $derived(stats.getPokemonList(teamList, data.equivalents['species'])
     .sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let speciesQuery = $derived({
@@ -63,14 +65,26 @@ function clearPartialQuery() {
   subQuery.teammates.clear();
 }
 
-function changeScope(e) {
-  const newList = data.tournament.teams.slice(0, stage);
+async function changeScope(e) {
+  startLoading();
+  let newList = [];
+  if(stage > teams.length) {
+    const newTeamsResponse = await fetch(`${PUBLIC_API_URL}/tournaments/${data.year}/${data.tourId}.rest.json`);
+    const newTeams = await newTeamsResponse.json();
+    newList = teams.concat(newTeams);
+  } else {
+    newList = teams.slice(0, stage);
+  }
   if(!stats.report(newList, data.tournament.fields, query, data.equivalents).players.length) {
     clearPartialQuery();
     if(!stats.report(newList, data.tournament.fields, {species: new Map([[species, true]])}, data.equivalents).players.length) {
       species = '';
     }
   }
+  if(newList.length > teams.length) {
+    teams = newList;
+  }
+  stopLoading();
 }
 
 function clearQuery() {
@@ -202,10 +216,10 @@ function getPasteClickHandler(name, team) {
         Filter:
         <select bind:value={stage} onchange={changeScope}>
           {#each data.tournament.stages as stage}
-            <option value={stage.count ?? data.tournament.teams.length}>
+            <option value={stage.count ?? teams.length}>
               {stage.name ?
-                `${stage.name} (${stage.count || data.tournament.teams.length} teams)` :
-                `Top ${stage.count || data.tournament.teams.length}`
+                `${stage.name} (${stage.count || teams.length} teams)` :
+                `Top ${stage.count || teams.length}`
               }
             </option>
           {/each}
