@@ -13,7 +13,7 @@ let { children } = $props();
 
 beforeNavigate(onBeforeNavigate);
 beforeNavigate((navigation) => {
-  const isLeaving = navigation.to.route?.id === null;
+  const isLeaving = navigation.to?.route?.id === null;
   if (!isLeaving) {
     startLoading();
   }
