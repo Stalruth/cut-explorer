@@ -2,7 +2,9 @@
 import { PUBLIC_API_URL } from '$env/static/public';
 import type { PageProps } from './$types';
 
+import { onMount } from 'svelte';
 import { SvelteMap } from 'svelte/reactivity';
+import { online } from 'svelte/reactivity/window';
 
 import { Icons } from '@pkmn/img';
 
@@ -18,6 +20,8 @@ import TeamDialog from './TeamDialog.svelte';
 
 let { data }: PageProps = $props();
 
+const restTeamsUrl = (() => {`${PUBLIC_API_URL}/tournaments/${data.year}/${data.tourId}.rest.json`})();
+
 let species = $state('');
 let teams = $state((() => data.tournament.teams)());
 let stage = $state((() => teams.length)());
@@ -25,6 +29,7 @@ let isExpanded = $state(false);
 let dialogTitle = $state('');
 let dialogTeam = $state([]);
 let dialog = $state();
+let isRestLoaded = $state(false);
 let subQuery = $state({
   teammates: new SvelteMap()
 });
@@ -55,6 +60,10 @@ let priorityPokemon = $derived([
     ...getPresentItems(query.teammates)
 ]);
 
+onMount(async () => {
+  isRestLoaded = (await caches.match(restTeamsUrl)) !== undefined;
+});
+
 function clearPartialQuery() {
   for (let field of data.tournament.fields) {
     if(field == 'species') {
@@ -69,7 +78,8 @@ async function changeScope(e) {
   startLoading();
   let newList = [];
   if(stage > teams.length) {
-    const newTeamsResponse = await fetch(`${PUBLIC_API_URL}/tournaments/${data.year}/${data.tourId}.rest.json`);
+    // TODO: handle network error
+    const newTeamsResponse = await fetch(restTeamsUrl);
     const newTeams = await newTeamsResponse.json();
     newList = teams.concat(newTeams);
   } else {
@@ -216,7 +226,7 @@ function getPasteClickHandler(name, team) {
         Filter:
         <select bind:value={stage} onchange={changeScope}>
           {#each data.tournament.stages as stage}
-            <option value={stage.count ?? teams.length}>
+            <option value={stage.count ?? teams.length} disabled={!isRestLoaded && !online && (stage.count ?? 0) > teams.length }>
               {stage.name ?
                 `${stage.name} (${stage.count || teams.length} teams)` :
                 `Top ${stage.count || teams.length}`
