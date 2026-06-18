@@ -20,7 +20,7 @@ import TeamDialog from './TeamDialog.svelte';
 
 let { data }: PageProps = $props();
 
-const restTeamsUrl = (() => {`${PUBLIC_API_URL}/tournaments/${data.year}/${data.tourId}.rest.json`})();
+const restTeamsUrl = (() => `${PUBLIC_API_URL}/tournaments/${data.year}/${data.tourId}.rest.json`)();
 
 let species = $state('');
 let teams = $state((() => data.tournament.teams)());
