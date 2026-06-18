@@ -10,7 +10,7 @@ registerRoute(pageMatch, new NetworkOnly());
 offlineFallback(); // uses cache 'workbox-offline-fallbacks'
 
 const dataMatch = ({url}) => url.origin === PUBLIC_API_URL;
-const dataCache = 'data-2026-06-03';
+const dataCache = 'data-2026-06-04';
 const dataStrategy = new NetworkFirst({
   cacheName: dataCache,
   networkTimeoutSeconds: 2
