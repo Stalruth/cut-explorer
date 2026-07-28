@@ -20,7 +20,7 @@ const config = {
         'form-action': ['self'],
         'frame-ancestors': ['self'],
         'img-src': ['self', 'data'],
-        'script-src': ['self'],
+        'script-src': ['self', 'unsafe-inline'],
         'style-src': ['self', 'unsafe-inline'],
       },
       mode: 'hash'
