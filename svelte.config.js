@@ -11,6 +11,9 @@ const config = {
       fallback: 'offline.html',
       pages: process.env.OUT_DIR
     }),
+    csp: {
+      mode: 'auto'
+    },
     version: {
       name: child_process.execSync('git rev-parse HEAD').toString().trim()
     }
