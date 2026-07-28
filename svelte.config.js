@@ -23,7 +23,7 @@ const config = {
         'script-src': ['self'],
         'style-src': ['self', 'unsafe-inline'],
       },
-      mode: 'auto'
+      mode: 'hash'
     },
     version: {
       name: child_process.execSync('git rev-parse HEAD').toString().trim()
