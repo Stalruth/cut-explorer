@@ -14,7 +14,7 @@ const config = {
     csp: {
       directives: {
         'base-uri': ['self'],
-        'connect-src': ['self'],
+        'connect-src': ['self', 'https://api.cut-explorer.stalruth.dev'],
         'default-src': ['self'],
         'font-src': ['self'],
         'form-action': ['self'],
