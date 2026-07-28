@@ -19,10 +19,10 @@ const config = {
         'font-src': ['self'],
         'form-action': ['self'],
         'frame-ancestors': ['self'],
+        'img-src': ['self', 'data'],
         'script-src': ['self'],
-        'style-src': ['self'],
-        'unsafe-inline': ['img-src', 'self', 'data'],
-      }
+        'style-src': ['self', 'unsafe-inline'],
+      },
       mode: 'auto'
     },
     version: {
