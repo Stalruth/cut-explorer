@@ -6,10 +6,12 @@ let { tourInfo, year } = $props();
 let cachedTours = $state([]);
 
 function formatDates(start, end) {
+  const months = {1: 'Jan', 2: 'Feb', 3: 'Mar', 4: 'Apr', 5: 'May', 6: 'Jun',
+              7: 'Jul', 8: 'Aug', 9: 'Sep', 10: 'Oct', 11: 'Nov', 12: 'Dec'};
   const startYear = start.year != end.year ? `-${start.year}` : '';
   const startDay = `${start.day}`.padStart(2, '0');
   const endDay = `${end.day}`.padStart(2, '0');
-  return `${startDay}-${start.month}${startYear} to ${endDay}-${end.month}-${end.year}`;
+  return `${startDay}-${months[start.month]}${startYear} to ${endDay}-${months[end.month]}-${end.year}`;
 }
 
 onMount(async () => {
