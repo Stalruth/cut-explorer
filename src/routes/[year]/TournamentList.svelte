@@ -11,7 +11,7 @@ function formatDates(start, end) {
   const startYear = start.year != end.year ? `-${start.year}` : '';
   const startDay = `${start.day}`.padStart(2, '0');
   const endDay = `${end.day}`.padStart(2, '0');
-  return `${startDay}-${months[start.month]}${startYear} to ${endDay}-${months[end.month]}-${end.year}`;
+  return `${startDay}-${months[start.month] ?? start.month}${startYear} to ${endDay}-${months[end.month] ?? end.month}-${end.year}`;
 }
 
 onMount(async () => {
