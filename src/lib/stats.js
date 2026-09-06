@@ -56,8 +56,12 @@ function applyEquivalents(collation, equivalents) {
   }
 
   for(let category of categories.values()) {
-    category.children.sort(collationSorter);
-    results.push(category);
+    if(category.children.length > 1) {
+      category.children.sort(collationSorter);
+      results.push(category);
+    } else {
+      results.push(category.children[0]);
+    }
   }
   return results.sort(collationSorter);
 }
