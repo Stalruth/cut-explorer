@@ -191,7 +191,7 @@ function getPasteClickHandler(name, team) {
 
 <nav>
   <div>
-    <a href={data.year === "2026" ? "/" : `/${data.year}`} onclick={onClickBack}>Index</a>
+    <a href={data.year === "2027" ? "/" : `/${data.year}`} onclick={onClickBack}>Index</a>
   </div>
 </nav>
 
