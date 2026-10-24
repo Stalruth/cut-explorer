@@ -13,6 +13,8 @@ let { children } = $props();
 
 beforeNavigate(onBeforeNavigate);
 beforeNavigate((navigation) => {
+  if (navigation.shallow && navigation.type === 'goto') return;
+
   const isLeaving = navigation.to?.route?.id === null;
   if (!isLeaving) {
     startLoading();
