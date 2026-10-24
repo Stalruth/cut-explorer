@@ -1,5 +1,8 @@
 import { PUBLIC_API_URL } from '$app/env/public';
 import { build, files, version } from '$service-worker';
+import { version } from '$app/env';
+import { immutable, assets } from '$app/manifest';
+import { resolve } from '$app/paths';
 
 import { offlineFallback, warmStrategyCache } from 'workbox-recipes';
 import { registerRoute } from 'workbox-routing';
@@ -21,7 +24,10 @@ const appMatch = ({url, request}) => url.origin === location.origin && request.d
 const appStrategy = new CacheFirst({
   cacheName: `app-${version}`
 });
-warmStrategyCache({'urls': [...build, ...files], 'strategy': appStrategy});
+warmStrategyCache({'urls': [
+  ...immutable.map((a) => resolve(a.path)),
+  ...files.map((a) => resolve(a.path))
+], 'strategy': appStrategy});
 registerRoute(appMatch, appStrategy);
 
 self.addEventListener('activate', (e) => {
