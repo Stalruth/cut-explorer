@@ -1,5 +1,5 @@
 <script lang="ts">
-import { PUBLIC_API_URL } from '$env/static/public';
+import { PUBLIC_API_URL } from '$app/env/public';
 import type { PageProps } from './$types';
 
 import { onMount } from 'svelte';
@@ -45,23 +45,23 @@ let teamList = $derived(teams.slice(0, stage));
 let pokemonList = $derived(stats.getPokemonList(teamList, data.equivalents['species'])
     .sort((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let speciesQuery = $derived({
-    species: species ? new Map([[species, true]]) : undefined,
+  species: species ? new Map([[species, true]]) : undefined,
 });
 let query = $derived({
-    species: species ? new Map([[species, true]]) : undefined,
-    ...subQuery
+  species: species ? new Map([[species, true]]) : undefined,
+  ...subQuery
 });
 let speciesResults = $derived(stats.report(teamList, data.tournament.fields, speciesQuery, data.equivalents));
 let results = $derived(!species ? { players: teamList } : stats.report(teamList, data.tournament.fields, query, data.equivalents));
 let sortedTeammates = $derived(results.sets?.teammates?.toSorted((a,b) => sortRestricted(a.name, b.name) || stats.collationSorter(a,b)));
 let isExpandable = $derived(!isExpanded & results.players.length > 16);
 let priorityPokemon = $derived([
-    ...(results?.sets?.teammates?.filter(el => el.count === results.sets.total)?.map(el => el.name) ?? []),
+    ...results?.sets?.teammates?.filter((el) => el.count === results.sets.total)?.map((el) => el.name) ?? [],
     ...getPresentItems(query.teammates)
 ]);
 
 onMount(async () => {
-  isRestLoaded = (await caches.match(restTeamsUrl)) !== undefined;
+  isRestLoaded = await caches.match(restTeamsUrl) !== undefined;
 });
 
 function clearPartialQuery() {
@@ -136,8 +136,8 @@ function getTeamDisplay(team) {
       return 1;
     }
 
-    const priorityIndexA = priorityPokemon.findLastIndex(el => el === a.species || el === categories?.[a.species]);
-    const priorityIndexB = priorityPokemon.findLastIndex(el => el === b.species || el === categories?.[b.species]);
+    const priorityIndexA = priorityPokemon.findLastIndex((el) => el === a.species || el === categories?.[a.species]);
+    const priorityIndexB = priorityPokemon.findLastIndex((el) => el === b.species || el === categories?.[b.species]);
     if (priorityIndexB - priorityIndexA) {
       return priorityIndexB - priorityIndexA;
     }
@@ -177,7 +177,7 @@ function getPasteClickHandler(name, team) {
       dialogTeam = team;
       dialog.showModal();
     }
-  }
+  };
 }
 </script>
 
@@ -202,14 +202,10 @@ function getPasteClickHandler(name, team) {
     <select aria-label="Pokémon: " bind:value={species} onchange={clearPartialQuery}>
       <option value="" disabled selected>Select a Pokémon</option>
       {#each pokemonList as entry}
-        <option value="{entry.name}">
-          {entry.displayName ?? entry.name} ({entry.count})
-        </option>
+        <option value={entry.name}>{entry.displayName ?? entry.name} ({entry.count})</option>
         {#if entry.children}
           {#each entry.children as child}
-            <option value="{child.name}">
-              {child.displayName ?? child.name} ({child.count})
-            </option>
+            <option value={child.name}>{child.displayName ?? child.name} ({child.count})</option>
           {/each}
         {/if}
       {/each}
@@ -344,7 +340,7 @@ function getPasteClickHandler(name, team) {
           style={`object-position: ${getPosition(set)}`}
           width="40"
           height="30"
-        >
+        />
       {/each}
     </p>
   {/each}

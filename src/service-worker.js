@@ -1,4 +1,4 @@
-import { PUBLIC_API_URL } from '$env/static/public';
+import { PUBLIC_API_URL } from '$app/env/public';
 import { build, files, version } from '$service-worker';
 
 import { offlineFallback, warmStrategyCache } from 'workbox-recipes';
@@ -24,7 +24,7 @@ const appStrategy = new CacheFirst({
 warmStrategyCache({'urls': [...build, ...files], 'strategy': appStrategy});
 registerRoute(appMatch, appStrategy);
 
-self.addEventListener('activate', e => {
+self.addEventListener('activate', (e) => {
   // prune old caches
   async function pruneCaches() {
     for (const key of await caches.keys()) {

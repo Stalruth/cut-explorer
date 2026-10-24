@@ -1,4 +1,4 @@
-import { PUBLIC_API_URL } from '$env/static/public';
+import { PUBLIC_API_URL } from '$app/env/public';
 import type { PageLoad } from './$types';
 
 export const load: Pageload = async ({ fetch, params }) => {
