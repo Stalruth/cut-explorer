@@ -26,5 +26,9 @@
   "dependencies": {
     "@pkmn/img": "^0.3.4",
     "mvp.css": "^1.17.0"
+  },
+  "imports": {
+    "#lib": "./src/lib/index.js",
+    "#lib/*": "./src/lib/*"
   }
 }

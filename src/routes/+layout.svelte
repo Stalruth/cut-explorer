@@ -5,9 +5,9 @@ import { onMount } from 'svelte';
 import { beforeNavigate, afterNavigate } from '$app/navigation';
 import { page } from '$app/state';
 
-import '$lib/css/app.css';
-import { onBeforeNavigate } from '$lib/layers.js';
-import { getLoading, startLoading, stopLoading } from '$lib/loadingState.svelte.js';
+import '#lib/css/app.css';
+import { onBeforeNavigate } from '#lib/layers.js';
+import { getLoading, startLoading, stopLoading } from '#lib/loadingState.svelte.js';
 
 let { children } = $props();
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-import { onClickHardBack } from '$lib/layers.js';
+import { onClickHardBack } from '#lib/layers.js';
 </script>
 
 <svelte:head>

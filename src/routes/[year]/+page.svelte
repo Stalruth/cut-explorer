@@ -2,7 +2,7 @@
 import type { PageProps } from './$types';
 
 import TournamentList from './TournamentList.svelte';
-import { onClickBack } from '$lib/layers.js';
+import { onClickBack } from '#lib/layers.js';
 
 let { data }: PageProps = $props();
 </script>
