@@ -1,5 +1,4 @@
 import { PUBLIC_API_URL } from '$app/env/public';
-import { build, files, version } from '$service-worker';
 import { version } from '$app/env';
 import { immutable, assets } from '$app/manifest';
 import { resolve } from '$app/paths';
